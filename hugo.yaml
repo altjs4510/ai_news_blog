@@ -1,0 +1,61 @@
+baseURL: https://altjs4510.github.io/ai_news_blog/
+title: AI News Digest
+languageCode: ko
+defaultContentLanguage: ko
+
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Posts
+      pageRef: /posts
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: RSS
+      url: "/index.xml"
+      weight: 4
+    - name: GitHub
+      url: "https://github.com/altjs4510/ai_news_blog"
+      weight: 5
+      params:
+        icon: github
+
+params:
+  description: "매주 월요일 자동 발행되는 AI 동향 큐레이션 — Anthropic·OpenAI·Google·DeepMind 공식 블로그, Reddit, Hacker News, Product Hunt, TechCrunch AI, arxiv, HuggingFace Papers, GitHub Trending"
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  page:
+    width: normal
+
+  theme:
+    default: system
+    displayToggle: true
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: true
+
+  editURL:
+    enable: false
