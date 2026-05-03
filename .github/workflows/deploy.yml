@@ -86,7 +86,7 @@ jobs:
         id: postmeta
         run: |
           msg=$(git log -1 --pretty=%s)
-          date=$(echo "$msg" | grep -oE '[0-9]{8}' | head -1)
+          date=$(echo "$msg" | grep -oE '[0-9]{8}' | head -1 || true)
           echo "date=$date" >> "$GITHUB_OUTPUT"
           echo "msg=$msg" >> "$GITHUB_OUTPUT"
 
