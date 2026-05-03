@@ -1,15 +1,7 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "2026-05-04 AI 동향 요약"
+date: 2026-05-04
 ---
-
-{{< callout emoji="🗞" >}}
-**매주 월요일 자동 발행** — 지난 7일치 AI 동향을 공식 블로그·커뮤니티·뉴스·학술·오픈소스에서 수집해, Anthropic Claude로 통합 인사이트를 만든 뒤 자동으로 발행합니다.
-{{< /callout >}}
-
-**수집 소스** — Anthropic·OpenAI·Google·DeepMind 공식 블로그, Reddit (AI 서브레딧), Hacker News, Product Hunt, TechCrunch AI, arxiv (cs.AI/cs.CL), HuggingFace Papers, GitHub Trending. ([자세히](about/))
-
-## 📰 가장 최근: [2026-05-04]({{< relref "posts/20260504" >}})
 
 {{< callout emoji="📌" >}}
 **TL;DR** — 자료 없음 — 이번 호 수집 결과가 비어 있어 인사이트 생성 불가
@@ -31,4 +23,6 @@ toc: false
 
 ---
 
-📚 [발행 아카이브 전체 보기](posts/) · 🛰 [RSS 구독](index.xml)
+---
+
+📂 [원본 수집 데이터 펼쳐보기](raw)
