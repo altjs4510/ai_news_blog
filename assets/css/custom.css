@@ -126,6 +126,31 @@ body {
 }
 
 /* ============================
+   가로 폭 — 양옆 여백 축소
+   hugo.yaml(page.width: wide)이 외곽 컨테이너를 늘리고,
+   여기서 본문 prose의 자체 max-width(기본 65ch≈720px) 제한을 풀어
+   실제 본문이 컨테이너 폭만큼 늘어나도록 한다.
+   ============================ */
+main, .hextra-main, [class*="hextra-main"] {
+  max-width: 100% !important;
+}
+
+article, .content,
+.hextra-prose, [class*="hextra-prose"],
+.prose, [class*="prose"] {
+  max-width: none !important;
+}
+
+/* 모바일/소형 화면은 그대로 */
+@media (max-width: 768px) {
+  article, .content,
+  .hextra-prose, [class*="hextra-prose"],
+  .prose, [class*="prose"] {
+    max-width: 100% !important;
+  }
+}
+
+/* ============================
    Article / content
    ============================ */
 article, .content {

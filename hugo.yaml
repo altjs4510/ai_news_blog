@@ -47,7 +47,7 @@ params:
     displayLogo: false
 
   page:
-    width: normal
+    width: wide
 
   theme:
     default: system
