@@ -1,132 +1,448 @@
-/* 한글 친화 폰트 — Pretendard */
+/* ============================================================
+   AI News Digest — Apple-flavored refinement
+   - SF Pro stack with Pretendard fallback for Korean
+   - systemBlue accent, soft off-white surfaces
+   - Frosted-glass navbar, hairline dividers, soft elevation
+   ============================================================ */
+
+/* 한글 친화 폰트 — Pretendard (SF Pro 미지원 OS에서도 비슷한 인상) */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
 
 /* ============================
-   하늘색 파스텔 액센트 팔레트
-   primary: sky blue (hue ~205)
+   Tokens
    ============================ */
 :root {
-  --primary-hue: 205deg;
-  --primary-saturation: 75%;
-  --primary-lightness: 58%;
+  /* Apple systemBlue 계열 액센트 */
+  --primary-hue: 211deg;
 
-  --sky-50:  hsl(205, 100%, 95%);
-  --sky-100: hsl(205,  95%, 90%);
-  --sky-200: hsl(205,  90%, 82%);
-  --sky-300: hsl(205,  80%, 70%);
-  --sky-400: hsl(205,  78%, 58%);
-  --sky-500: hsl(205,  82%, 48%);
-  --sky-700: hsl(205,  60%, 32%);
-  --sky-900: hsl(205,  55%, 22%);
+  --sky-50:  hsl(211, 100%, 96%);
+  --sky-100: hsl(211, 100%, 93%);
+  --sky-200: hsl(211,  96%, 86%);
+  --sky-300: hsl(211,  90%, 72%);
+  --sky-400: hsl(211, 100%, 60%);
+  --sky-500: hsl(211, 100%, 50%);  /* #007AFF */
+  --sky-700: hsl(211,  78%, 38%);
+  --sky-900: hsl(211,  62%, 22%);
 
-  --primary-color: var(--sky-400);
+  --primary-color: var(--sky-500);
+
+  /* 표면 / 배경 — apple.com 스타일 off-white */
+  --surface-page: #fbfbfd;
+  --surface-card: #ffffff;
+  --surface-muted: #f5f5f7;
+  --surface-code: #f5f5f7;
+
+  --hairline: rgba(0, 0, 0, 0.08);
+  --hairline-strong: rgba(0, 0, 0, 0.14);
+
+  --text-primary: #1d1d1f;
+  --text-secondary: #515154;
+  --text-tertiary: #6e6e73;
+
+  /* Apple-style elevation */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 18px 48px rgba(0, 0, 0, 0.10), 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 980px;
+
+  --motion-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+  --motion-base: 240ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dark {
-  --primary-hue: 205deg;
-  --primary-saturation: 70%;
-  --primary-lightness: 75%;
-  --primary-color: hsl(205, 80%, 78%);
+  --sky-50:  hsla(211, 80%, 70%, 0.10);
+  --sky-100: hsla(211, 80%, 65%, 0.16);
+  --sky-200: hsla(211, 85%, 60%, 0.26);
+  --sky-300: hsl(211, 90%, 70%);
+  --sky-400: hsl(211, 100%, 72%);
+  --sky-500: hsl(211, 100%, 68%);
+  --sky-700: hsl(211, 70%, 60%);
+  --sky-900: hsl(211, 30%, 92%);
+
+  --primary-color: hsl(211, 100%, 70%);
+
+  --surface-page: #000000;
+  --surface-card: #1c1c1e;
+  --surface-muted: #1c1c1e;
+  --surface-code: #1c1c1e;
+
+  --hairline: rgba(255, 255, 255, 0.10);
+  --hairline-strong: rgba(255, 255, 255, 0.18);
+
+  --text-primary: #f5f5f7;
+  --text-secondary: #a1a1a6;
+  --text-tertiary: #86868b;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.40);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.50);
+  --shadow-lg: 0 18px 48px rgba(0, 0, 0, 0.60);
 }
 
 /* ============================
-   Typography
+   Typography & base
    ============================ */
 html {
-  font-family: 'Pretendard', 'Inter', -apple-system, BlinkMacSystemFont,
+  font-family:
+    -apple-system, BlinkMacSystemFont,
+    'SF Pro Text', 'SF Pro Display',
+    'Pretendard', 'Inter',
     'Segoe UI', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'ss01' 1;
 }
 
+body {
+  background-color: var(--surface-page);
+  color: var(--text-primary);
+}
+
+::selection {
+  background: hsla(211, 100%, 50%, 0.22);
+  color: inherit;
+}
+
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.18);
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  border-radius: 999px;
+}
+.dark ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.22); background-clip: padding-box; }
+::-webkit-scrollbar-thumb:hover { background-color: rgba(0, 0, 0, 0.32); }
+.dark ::-webkit-scrollbar-thumb:hover { background-color: rgba(255, 255, 255, 0.36); }
+
+:focus-visible {
+  outline: 2px solid var(--sky-500);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ============================
+   Article / content
+   ============================ */
 article, .content {
-  line-height: 1.75;
-  letter-spacing: -0.01em;
+  line-height: 1.7;
+  letter-spacing: -0.011em;
+  font-size: 1.0125rem;
+  color: var(--text-primary);
 }
 
 article p, .content p {
-  margin-bottom: 1.1em;
+  margin-bottom: 1.15em;
+  color: var(--text-primary);
 }
 
-article h1, article h2, article h3 {
-  letter-spacing: -0.02em;
+article h1, article h2, article h3, article h4,
+.content h1, .content h2, .content h3, .content h4 {
   font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.022em;
 }
 
-/* 본문 강조어 — 색상은 본문과 동일, 굵기로만 강조 */
-article strong, .content strong {
-  font-weight: 700;
+article h1, .content h1 {
+  font-size: clamp(2rem, 1.4rem + 2vw, 2.85rem);
+  line-height: 1.08;
+  letter-spacing: -0.034em;
+  margin-top: 0.4em;
+  margin-bottom: 0.6em;
 }
 
-/* 인용 링크 */
-article a {
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
+article h2, .content h2 {
+  font-size: clamp(1.5rem, 1.15rem + 1vw, 1.9rem);
+  line-height: 1.18;
+  letter-spacing: -0.028em;
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+  padding-top: 0.2em;
 }
 
-/* code inline */
-code:not(pre code) {
-  font-size: 0.92em;
-  padding: 0.15em 0.4em;
-  border-radius: 4px;
-  background-color: var(--sky-50);
-  color: hsl(205, 70%, 35%);
+article h3, .content h3 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: -0.022em;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
 }
 
-.dark code:not(pre code) {
-  background-color: hsla(205, 50%, 30%, 0.35);
-  color: hsl(205, 80%, 85%);
+article h4, .content h4 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-top: 1.4em;
+  margin-bottom: 0.4em;
+  color: var(--text-secondary);
+}
+
+article strong, .content strong { font-weight: 600; }
+
+article ul, article ol, .content ul, .content ol { line-height: 1.65; }
+article li, .content li { margin-bottom: 0.35em; }
+article li::marker { color: var(--text-tertiary); }
+
+article blockquote, .content blockquote {
+  border-left: 3px solid var(--sky-500);
+  background: var(--surface-muted);
+  margin: 1.4em 0;
+  padding: 0.9em 1.2em;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  color: var(--text-secondary);
+  font-style: normal;
+}
+
+article hr, .content hr {
+  border: 0;
+  height: 1px;
+  background: var(--hairline);
+  margin: 2.4em 0;
+}
+
+article img, .content img {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
 }
 
 /* ============================
-   Hextra callout — 하늘색 파스텔, outline 제거
+   Links
+   ============================ */
+article a, .content a {
+  color: var(--sky-500);
+  text-decoration: none;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  border-bottom: 1px solid transparent;
+  transition: color var(--motion-fast), border-color var(--motion-fast);
+}
+article a:hover, .content a:hover {
+  color: var(--sky-700);
+  border-bottom-color: currentColor;
+}
+.dark article a:hover, .dark .content a:hover { color: var(--sky-300); }
+
+/* ============================
+   Inline code & code blocks
+   ============================ */
+code:not(pre code) {
+  font-family: 'SF Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, 'JetBrains Mono', monospace;
+  font-size: 0.88em;
+  padding: 0.16em 0.45em;
+  border-radius: 6px;
+  background-color: var(--surface-code);
+  color: var(--text-primary);
+  border: 1px solid var(--hairline);
+}
+.dark code:not(pre code) {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-color: var(--hairline);
+}
+
+pre, pre[class*="language-"] {
+  background: var(--surface-code) !important;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md) !important;
+  padding: 1.1em 1.25em !important;
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}
+pre code {
+  font-family: 'SF Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, 'JetBrains Mono', monospace;
+  font-size: 0.88em;
+  line-height: 1.65;
+}
+
+/* ============================
+   Tables — Apple System table look
+   ============================ */
+article table, .content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.5em 0;
+  background: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  font-size: 0.95em;
+}
+article table thead, .content table thead {
+  background: var(--surface-muted);
+}
+article table th, .content table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: -0.005em;
+  padding: 0.75em 1em;
+  border-bottom: 1px solid var(--hairline);
+  font-size: 0.92em;
+}
+article table td, .content table td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: top;
+}
+article table tr:last-child td, .content table tr:last-child td { border-bottom: 0; }
+article table tbody tr, .content table tbody tr { transition: background-color var(--motion-fast); }
+article table tbody tr:hover, .content table tbody tr:hover { background: var(--surface-muted); }
+
+/* ============================
+   Navbar — frosted glass
+   ============================ */
+body > header,
+header.hextra-nav,
+header[class*="hx:sticky"],
+nav[class*="hx:sticky"] {
+  background-color: rgba(251, 251, 253, 0.72) !important;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--hairline) !important;
+  box-shadow: none !important;
+}
+.dark body > header,
+.dark header.hextra-nav,
+.dark header[class*="hx:sticky"],
+.dark nav[class*="hx:sticky"] {
+  background-color: rgba(0, 0, 0, 0.66) !important;
+  border-bottom-color: var(--hairline) !important;
+}
+
+/* 사이드바 / TOC 도 동일 톤 */
+aside, .sidebar, [class*="sidebar"] { border-color: var(--hairline) !important; }
+
+/* ============================
+   Hextra callout — 부드러운 카드 + 컬러 점
    ============================ */
 .hextra-callout,
 .hx\:callout,
 [class*="callout"] {
-  background-color: var(--sky-100) !important;
-  border-color: transparent !important;
-  border-width: 0 !important;
-  color: var(--sky-900) !important;
-  border-radius: 8px !important;
+  background-color: var(--surface-card) !important;
+  border: 1px solid var(--hairline) !important;
+  color: var(--text-primary) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-sm);
+  padding: 1em 1.15em !important;
 }
 
 .dark .hextra-callout,
 .dark .hx\:callout,
 .dark [class*="callout"] {
-  background-color: hsla(205, 65%, 35%, 0.32) !important;
-  border-color: transparent !important;
-  border-width: 0 !important;
-  color: hsl(205, 25%, 94%) !important;
+  background-color: var(--surface-card) !important;
+  border-color: var(--hairline) !important;
+  color: var(--text-primary) !important;
 }
 
-/* primary tailwind 클래스 강제 override */
+/* primary tailwind 클래스 강제 override (홈 등에서 sky tone 유지) */
 .hx\:bg-primary-50,    .bg-primary-50    { background-color: var(--sky-50)  !important; }
 .hx\:bg-primary-100,   .bg-primary-100   { background-color: var(--sky-100) !important; }
 .hx\:bg-primary-200,   .bg-primary-200   { background-color: var(--sky-200) !important; }
 .hx\:bg-primary-400,   .bg-primary-400   { background-color: var(--sky-400) !important; }
 .hx\:bg-primary-500,   .bg-primary-500   { background-color: var(--sky-500) !important; }
 .hx\:text-primary-500, .text-primary-500 { color: var(--sky-500) !important; }
-.hx\:text-primary-600, .text-primary-600 { color: hsl(205, 75%, 45%) !important; }
-.hx\:border-primary-500, .border-primary-500 { border-color: var(--sky-400) !important; }
+.hx\:text-primary-600, .text-primary-600 { color: var(--sky-700) !important; }
+.hx\:border-primary-500, .border-primary-500 { border-color: var(--sky-500) !important; }
 
-/* ============================
-   Hextra default callout (green tone) → sky pastel + outline 제거
-   ============================ */
-.hx\:bg-green-100   { background-color: var(--sky-100) !important; }
-.hx\:bg-green-200   { background-color: var(--sky-200) !important; }
-.hx\:text-green-900 { color: var(--sky-900) !important; }
-.hx\:text-green-800 { color: var(--sky-700) !important; }
-.hx\:text-green-700 { color: var(--sky-700) !important; }
-
-/* outline/테두리 제거 */
+/* Hextra 기본 callout(green tone) → 카드 톤 */
+.hx\:bg-green-100,
+.hx\:bg-green-200 {
+  background-color: var(--surface-card) !important;
+}
+.hx\:text-green-900,
+.hx\:text-green-800,
+.hx\:text-green-700 {
+  color: var(--text-primary) !important;
+}
 .hx\:border-green-200,
 .hx\:border-green-300,
 .hx\:border-green-100 {
-  border-color: transparent !important;
+  border-color: var(--hairline) !important;
+}
+.hx\:dark\:bg-green-900\/30 { background-color: var(--surface-card) !important; }
+.hx\:dark\:text-green-200,
+.hx\:dark\:text-green-300 { color: var(--text-primary) !important; }
+.hx\:dark\:border-green-200\/30 { border-color: var(--hairline) !important; }
+
+/* ============================
+   Cards — post listing / preview
+   ============================ */
+.hextra-cards a,
+.hextra-card,
+[class*="hextra-card"],
+.hx\:card,
+[class*="hx:card"] {
+  background: var(--surface-card) !important;
+  border: 1px solid var(--hairline) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--motion-base), box-shadow var(--motion-base), border-color var(--motion-fast) !important;
+}
+.hextra-cards a:hover,
+.hextra-card:hover,
+[class*="hextra-card"]:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--hairline-strong) !important;
 }
 
-.hx\:dark\:bg-green-900\/30   { background-color: hsla(205, 65%, 35%, 0.32) !important; }
-.hx\:dark\:text-green-200     { color: hsl(205, 25%, 94%) !important; }
-.hx\:dark\:text-green-300     { color: hsl(205, 30%, 88%) !important; }
-.hx\:dark\:border-green-200\/30 { border-color: transparent !important; }
+/* 본문 안의 anchor 카드(예: 아카이브 그리드) — round + hover lift */
+.content > ul > li > a,
+.content > ol > li > a {
+  transition: color var(--motion-fast);
+}
+
+/* ============================
+   Buttons & menu pills
+   ============================ */
+button, .button, [role="button"] {
+  border-radius: var(--radius-pill);
+  transition: background-color var(--motion-fast), transform var(--motion-fast);
+}
+
+/* 검색 입력 — 캡슐형 */
+input[type="search"], input[type="text"].search-input, [role="searchbox"] {
+  border-radius: var(--radius-pill) !important;
+  background: var(--surface-muted) !important;
+  border: 1px solid var(--hairline) !important;
+  padding: 0.5em 1em !important;
+  transition: border-color var(--motion-fast), background-color var(--motion-fast);
+}
+input[type="search"]:focus, [role="searchbox"]:focus {
+  background: var(--surface-card) !important;
+  border-color: var(--sky-500) !important;
+  outline: none;
+}
+
+/* 키워드/태그 — 인라인 코드를 칩처럼 */
+.content p code:not(pre code) {
+  background: var(--sky-50);
+  color: var(--sky-700);
+  border-color: transparent;
+  border-radius: var(--radius-pill);
+  padding: 0.18em 0.7em;
+}
+.dark .content p code:not(pre code) {
+  background: var(--sky-100);
+  color: var(--sky-300);
+}
+
+/* ============================
+   Footer
+   ============================ */
+footer {
+  border-top: 1px solid var(--hairline) !important;
+  color: var(--text-tertiary);
+}
+
+/* ============================
+   Smooth motion (전역)
+   ============================ */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+  a, button { transition: color var(--motion-fast), background-color var(--motion-fast), border-color var(--motion-fast); }
+}
