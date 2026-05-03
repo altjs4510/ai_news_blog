@@ -9,17 +9,17 @@ AI 동향을 자동 수집·요약해 매주 발행하는 블로그입니다.
 ## 가장 최근 발행: [2026-05-03](posts/20260503/)
 
 > [!tldr] TL;DR
-> OpenAI, 한 주 만에 AWS·Microsoft·FedRAMP 동시 공략 — AI가 인프라 플레이어로 진화
+> Claude Code 기업 도입 폭발·멀티에이전트 오케스트레이션 표준화·AI 보안 사고 현실화
 
 > [!example] 🎯 이번 호 PoC/공부 추천
-> **[How to build production Agents (by a staff software engineer) - Part 1](https://www.reddit.com/r/AI_Agents/comments/1sy1kas/how_to_build_production_agents_by_a_staff/)**
+> **[An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony)**
 >
-> **왜 주목** — 스태프 엔지니어가 실전 경험을 바탕으로 에러 처리·모니터링·재시도 로직 등 프로덕션 에이전트의 핵심 배관 작업을 구체적으로 정리한 가이드로, MCP·Skills 패턴 등 현재 가장 유망한 에이전트 아키텍처 표준을 다룬다.
+> **왜 주목** — OpenAI가 공개한 Symphony는 여러 AI 에이전트 간 협업을 표준화하는 오픈소스 오케스트레이션 스펙으로, 멀티에이전트 파이프라인 설계의 사실상 기준이 될 가능성이 높다.
 >
-> **어떻게 접목** — ai_news_agent의 수집·요약 파이프라인에 재시도 로직과 에러 핸들링을 보강하고, MCP 기반 도구 패키징 방식을 적용해 각 수집 소스(Reddit, GitHub, 공식 블로그)를 독립적인 Skills로 모듈화하는 데 직접 참고할 수 있다.
+> **어떻게 접목** — ai_news_agent의 수집→번역→요약→발행 단계를 각각 독립 에이전트로 분리하고 Symphony 스펙을 적용해 단계 간 핸드오프와 오류 복구 로직을 표준화하면, 파이프라인 확장성과 유지보수성을 크게 높일 수 있다.
 
 > [!info] 이번 호 키워드
-> `OpenAI 엔터프라이즈 확장` · `Claude Code 생태계` · `MCP 표준화` · `프로덕션 에이전트` · `AI 인프라 경쟁`
+> `Claude Code 확산` · `멀티에이전트 오케스트레이션` · `AI 보안 사고` · `엔터프라이즈 AI 인프라` · `MCP 스킬 패턴`
 
 ---
 
