@@ -12,21 +12,21 @@ toc: false
 ## 📰 가장 최근: [2026-05-03]({{< relref "posts/20260503" >}})
 
 {{< callout emoji="📌" >}}
-**TL;DR** — OpenAI·Anthropic은 인프라·엔터프라이즈로, 개발자는 Skills 표준으로 수렴
+**TL;DR** — OpenAI 멀티클라우드 풀스택 장악과 Claude Code 스킬 생태계의 폭발적 제도화
 {{< /callout >}}
 
 {{< callout emoji="🎯" >}}
 **이번 호 PoC / 공부 추천**
 
-**[forrestchang/andrej-karpathy-skills — Karpathy의 LLM 코딩 관찰을 담은 CLAUDE.md](https://github.com/forrestchang/andrej-karpathy-skills)**
+**[forrestchang/andrej-karpathy-skills — Claude Code 동작을 개선하는 단일 CLAUDE.md](https://github.com/forrestchang/andrej-karpathy-skills)**
 
-**왜 주목** — Claude Code의 동작 품질을 끌어올리는 단일 CLAUDE.md 규칙 모음으로, 한 주에 2만 별이 붙은 사실상의 커뮤니티 베스트프랙티스입니다. Skills 표준이 MCP 다음 단계로 자리잡는 흐름을 가장 가볍게 학습할 수 있는 자료입니다.
+**왜 주목** — Karpathy의 LLM 코딩 함정 관찰을 단일 CLAUDE.md로 정리해 한 주 만에 10만 별을 돌파했습니다. '스킬'이 새로운 배포 단위로 자리잡는 흐름을 가장 압축적으로 보여주는 사례입니다.
 
-**어떻게 접목** — ai_news_agent 저장소 루트에 CLAUDE.md를 배치해 수집·요약·발행 파이프라인 코드 수정 시 Claude Code의 컨텍스트 누수와 과잉 리팩터링을 억제하고, 요약 프롬프트(Sonnet 4.6) 작성 가이드라인에도 Karpathy식 LLM 함정 회피 규칙을 반영해 품질 일관성을 확보할 수 있습니다.
+**어떻게 접목** — ai_news_agent의 요약·번역 프롬프트를 스킬(CLAUDE.md) 형태로 모듈화해 Claude Sonnet/Haiku 호출 시 일관된 코딩·요약 규약을 주입하면, 프롬프트 드리프트와 환각을 줄이고 파이프라인 단계별 품질을 표준화할 수 있습니다.
 {{< /callout >}}
 
 {{< callout emoji="🏷" >}}
-**이번 호 키워드** — `AI 인프라 확장` · `Claude Skills` · `코딩 에이전트` · `엔터프라이즈 보안` · `에이전트 오케스트레이션`
+**이번 호 키워드** — `멀티클라우드 인프라` · `Claude Code 스킬` · `에이전트 오케스트레이션` · `AI 공급망 보안` · `코딩 에이전트 제도화`
 {{< /callout >}}
 
 ---
