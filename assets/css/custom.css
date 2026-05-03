@@ -51,14 +51,9 @@ article h1, article h2, article h3 {
   font-weight: 700;
 }
 
-/* 본문 강조어 — 하늘색이지만 너무 튀지 않게 */
+/* 본문 강조어 — 색상은 본문과 동일, 굵기로만 강조 */
 article strong, .content strong {
   font-weight: 700;
-  color: hsl(205, 70%, 45%);
-}
-
-.dark article strong, .dark .content strong {
-  color: hsl(205, 80%, 80%);
 }
 
 /* 인용 링크 */
@@ -104,7 +99,7 @@ code:not(pre code) {
   color: hsl(205, 30%, 92%) !important;
 }
 
-/* primary tailwind 클래스 강제 override (네온/형광 차단) */
+/* primary tailwind 클래스 강제 override */
 .hx\:bg-primary-50,    .bg-primary-50    { background-color: var(--sky-50)  !important; }
 .hx\:bg-primary-100,   .bg-primary-100   { background-color: var(--sky-100) !important; }
 .hx\:bg-primary-200,   .bg-primary-200   { background-color: var(--sky-200) !important; }
@@ -113,3 +108,20 @@ code:not(pre code) {
 .hx\:text-primary-500, .text-primary-500 { color: var(--sky-500) !important; }
 .hx\:text-primary-600, .text-primary-600 { color: hsl(205, 75%, 45%) !important; }
 .hx\:border-primary-500, .border-primary-500 { border-color: var(--sky-400) !important; }
+
+/* ============================
+   Hextra default callout 색상 = 초록.
+   사용자 요청: 네온 초록 박스 차단 → sky blue pastel로 통일.
+   ============================ */
+.hx\:bg-green-100  { background-color: var(--sky-50)  !important; }
+.hx\:bg-green-200  { background-color: var(--sky-100) !important; }
+.hx\:text-green-900 { color: hsl(205, 30%, 22%) !important; }
+.hx\:text-green-800 { color: hsl(205, 35%, 28%) !important; }
+.hx\:text-green-700 { color: hsl(205, 40%, 35%) !important; }
+.hx\:border-green-200 { border-color: var(--sky-200) !important; }
+.hx\:border-green-300 { border-color: var(--sky-300) !important; }
+
+.hx\:dark\:bg-green-900\/30   { background-color: hsla(205, 50%, 25%, 0.30) !important; }
+.hx\:dark\:text-green-200     { color: hsl(205, 30%, 92%) !important; }
+.hx\:dark\:text-green-300     { color: hsl(205, 35%, 88%) !important; }
+.hx\:dark\:border-green-200\/30 { border-color: hsla(205, 60%, 50%, 0.45) !important; }
