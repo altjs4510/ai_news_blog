@@ -3,18 +3,23 @@ title: "2026-05-03 AI 동향 요약"
 date: 2026-05-03
 ---
 
-> [!tldr] TL;DR
-> OpenAI·Anthropic 인프라 확장과 Claude Skills 표준이 에이전트 시장을 재편
+{{< callout emoji="📌" >}}
+**TL;DR** — OpenAI·Anthropic은 인프라·엔터프라이즈로, 개발자는 Skills 표준으로 수렴
+{{< /callout >}}
 
-> [!example] 🎯 이번 호 PoC/공부 추천
-> **[forrestchang/andrej-karpathy-skills — Karpathy의 LLM 코딩 관찰을 정리한 CLAUDE.md](https://github.com/forrestchang/andrej-karpathy-skills)**
->
-> **왜 주목** — 단일 CLAUDE.md 파일로 Claude Code의 코딩 품질을 끌어올리는 검증된 프롬프트 패턴 모음으로, 한 주에 2만 개 별을 받으며 Skills 표준의 실전 레퍼런스로 자리잡았습니다.
->
-> **어떻게 접목** — ai_news_agent의 Sonnet 4.6 요약 단계와 Haiku 4.5 번역 단계에 이 패턴을 적용해 환각·과잉 추론을 줄이고, 수집기 코드 자체를 Claude Code로 유지보수할 때 CLAUDE.md를 프로젝트 루트에 배치해 일관된 코드 품질을 확보할 수 있습니다.
+{{< callout emoji="🎯" >}}
+**이번 호 PoC / 공부 추천**
 
-> [!info] 이번 호 키워드
-> `Claude Skills 표준` · `엔터프라이즈 인프라 확장` · `코딩 에이전트 채택` · `AI 보안 사고` · `에이전트 오케스트레이션`
+**[forrestchang/andrej-karpathy-skills — Karpathy의 LLM 코딩 관찰을 담은 CLAUDE.md](https://github.com/forrestchang/andrej-karpathy-skills)**
+
+**왜 주목** — Claude Code의 동작 품질을 끌어올리는 단일 CLAUDE.md 규칙 모음으로, 한 주에 2만 별이 붙은 사실상의 커뮤니티 베스트프랙티스입니다. Skills 표준이 MCP 다음 단계로 자리잡는 흐름을 가장 가볍게 학습할 수 있는 자료입니다.
+
+**어떻게 접목** — ai_news_agent 저장소 루트에 CLAUDE.md를 배치해 수집·요약·발행 파이프라인 코드 수정 시 Claude Code의 컨텍스트 누수와 과잉 리팩터링을 억제하고, 요약 프롬프트(Sonnet 4.6) 작성 가이드라인에도 Karpathy식 LLM 함정 회피 규칙을 반영해 품질 일관성을 확보할 수 있습니다.
+{{< /callout >}}
+
+{{< callout emoji="🏷" >}}
+**이번 호 키워드** — `AI 인프라 확장` · `Claude Skills` · `코딩 에이전트` · `엔터프라이즈 보안` · `에이전트 오케스트레이션`
+{{< /callout >}}
 
 ---
 
