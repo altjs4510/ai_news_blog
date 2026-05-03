@@ -10,12 +10,14 @@
   --primary-saturation: 75%;
   --primary-lightness: 58%;
 
-  --sky-50:  hsl(205, 90%, 97%);
-  --sky-100: hsl(205, 85%, 93%);
-  --sky-200: hsl(205, 80%, 85%);
-  --sky-300: hsl(205, 75%, 73%);
-  --sky-400: hsl(205, 75%, 62%);
-  --sky-500: hsl(205, 80%, 52%);
+  --sky-50:  hsl(205, 100%, 95%);
+  --sky-100: hsl(205,  95%, 90%);
+  --sky-200: hsl(205,  90%, 82%);
+  --sky-300: hsl(205,  80%, 70%);
+  --sky-400: hsl(205,  78%, 58%);
+  --sky-500: hsl(205,  82%, 48%);
+  --sky-700: hsl(205,  60%, 32%);
+  --sky-900: hsl(205,  55%, 22%);
 
   --primary-color: var(--sky-400);
 }
@@ -77,26 +79,25 @@ code:not(pre code) {
 }
 
 /* ============================
-   Hextra callout — 하늘색 파스텔 통일
-   기본/info/note/example 모두 sky tone
-   네온 그린/노랑 박스 차단
+   Hextra callout — 하늘색 파스텔, outline 제거
    ============================ */
 .hextra-callout,
 .hx\:callout,
 [class*="callout"] {
-  background-color: var(--sky-50) !important;
-  border-color: var(--sky-200) !important;
-  border-left-color: var(--sky-400) !important;
-  color: hsl(205, 30%, 22%) !important;
+  background-color: var(--sky-100) !important;
+  border-color: transparent !important;
+  border-width: 0 !important;
+  color: var(--sky-900) !important;
+  border-radius: 8px !important;
 }
 
 .dark .hextra-callout,
 .dark .hx\:callout,
 .dark [class*="callout"] {
-  background-color: hsla(205, 50%, 25%, 0.30) !important;
-  border-color: hsla(205, 60%, 50%, 0.45) !important;
-  border-left-color: hsl(205, 70%, 65%) !important;
-  color: hsl(205, 30%, 92%) !important;
+  background-color: hsla(205, 65%, 35%, 0.32) !important;
+  border-color: transparent !important;
+  border-width: 0 !important;
+  color: hsl(205, 25%, 94%) !important;
 }
 
 /* primary tailwind 클래스 강제 override */
@@ -110,18 +111,22 @@ code:not(pre code) {
 .hx\:border-primary-500, .border-primary-500 { border-color: var(--sky-400) !important; }
 
 /* ============================
-   Hextra default callout 색상 = 초록.
-   사용자 요청: 네온 초록 박스 차단 → sky blue pastel로 통일.
+   Hextra default callout (green tone) → sky pastel + outline 제거
    ============================ */
-.hx\:bg-green-100  { background-color: var(--sky-50)  !important; }
-.hx\:bg-green-200  { background-color: var(--sky-100) !important; }
-.hx\:text-green-900 { color: hsl(205, 30%, 22%) !important; }
-.hx\:text-green-800 { color: hsl(205, 35%, 28%) !important; }
-.hx\:text-green-700 { color: hsl(205, 40%, 35%) !important; }
-.hx\:border-green-200 { border-color: var(--sky-200) !important; }
-.hx\:border-green-300 { border-color: var(--sky-300) !important; }
+.hx\:bg-green-100   { background-color: var(--sky-100) !important; }
+.hx\:bg-green-200   { background-color: var(--sky-200) !important; }
+.hx\:text-green-900 { color: var(--sky-900) !important; }
+.hx\:text-green-800 { color: var(--sky-700) !important; }
+.hx\:text-green-700 { color: var(--sky-700) !important; }
 
-.hx\:dark\:bg-green-900\/30   { background-color: hsla(205, 50%, 25%, 0.30) !important; }
-.hx\:dark\:text-green-200     { color: hsl(205, 30%, 92%) !important; }
-.hx\:dark\:text-green-300     { color: hsl(205, 35%, 88%) !important; }
-.hx\:dark\:border-green-200\/30 { border-color: hsla(205, 60%, 50%, 0.45) !important; }
+/* outline/테두리 제거 */
+.hx\:border-green-200,
+.hx\:border-green-300,
+.hx\:border-green-100 {
+  border-color: transparent !important;
+}
+
+.hx\:dark\:bg-green-900\/30   { background-color: hsla(205, 65%, 35%, 0.32) !important; }
+.hx\:dark\:text-green-200     { color: hsl(205, 25%, 94%) !important; }
+.hx\:dark\:text-green-300     { color: hsl(205, 30%, 88%) !important; }
+.hx\:dark\:border-green-200\/30 { border-color: transparent !important; }
