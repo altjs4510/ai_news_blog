@@ -9,17 +9,17 @@ AI 동향을 자동 수집·요약해 매주 발행하는 블로그입니다.
 ## 가장 최근 발행: [2026-05-03](posts/20260503/)
 
 > [!tldr] TL;DR
-> OpenAI·Anthropic 인프라 확장과 Claude Skills 표준이 에이전트 시장을 재편
+> 에이전트 인프라 상용화와 Skills·MCP 표준 경쟁, 그리고 AI 안전 시험대
 
 > [!example] 🎯 이번 호 PoC/공부 추천
-> **[forrestchang/andrej-karpathy-skills — Karpathy의 LLM 코딩 관찰을 정리한 CLAUDE.md](https://github.com/forrestchang/andrej-karpathy-skills)**
+> **[forrestchang/andrej-karpathy-skills — 단일 CLAUDE.md로 LLM 코딩 함정 회피](https://github.com/forrestchang/andrej-karpathy-skills)**
 >
-> **왜 주목** — 단일 CLAUDE.md 파일로 Claude Code의 코딩 품질을 끌어올리는 검증된 프롬프트 패턴 모음으로, 한 주에 2만 개 별을 받으며 Skills 표준의 실전 레퍼런스로 자리잡았습니다.
+> **왜 주목** — Karpathy의 LLM 코딩 함정 관찰을 단일 CLAUDE.md 파일로 정제한 Skills 사례로, 한 주 2만 stars를 받으며 차세대 에이전트 컨텍스트 표준의 실전 레퍼런스가 되었습니다.
 >
-> **어떻게 접목** — ai_news_agent의 Sonnet 4.6 요약 단계와 Haiku 4.5 번역 단계에 이 패턴을 적용해 환각·과잉 추론을 줄이고, 수집기 코드 자체를 Claude Code로 유지보수할 때 CLAUDE.md를 프로젝트 루트에 배치해 일관된 코드 품질을 확보할 수 있습니다.
+> **어떻게 접목** — ai_news_agent의 Sonnet 4.6 요약·Haiku 4.5 번역 프롬프트를 CLAUDE.md 형식의 Skills로 재구성해 환각·과잉 요약 패턴을 차단하고, 수집기·발행기별로 별도 Skills 파일을 두어 컨텍스트 윈도우를 절약하면서 품질을 표준화할 수 있습니다.
 
 > [!info] 이번 호 키워드
-> `Claude Skills 표준` · `엔터프라이즈 인프라 확장` · `코딩 에이전트 채택` · `AI 보안 사고` · `에이전트 오케스트레이션`
+> `에이전트 인프라` · `Claude Skills` · `MCP 오케스트레이션` · `AI 공급망 보안` · `코딩 에이전트 도입`
 
 ---
 
