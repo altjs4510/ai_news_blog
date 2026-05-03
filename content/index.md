@@ -9,17 +9,17 @@ AI 동향을 자동 수집·요약해 매주 발행하는 블로그입니다.
 ## 가장 최근 발행: [2026-05-03](posts/20260503/)
 
 > [!tldr] TL;DR
-> Claude Code 기업 도입 폭발·멀티에이전트 오케스트레이션 표준화·AI 보안 사고 현실화
+> OpenAI·Anthropic 인프라 확장과 Claude Skills 표준이 에이전트 시장을 재편
 
 > [!example] 🎯 이번 호 PoC/공부 추천
-> **[An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony)**
+> **[forrestchang/andrej-karpathy-skills — Karpathy의 LLM 코딩 관찰을 정리한 CLAUDE.md](https://github.com/forrestchang/andrej-karpathy-skills)**
 >
-> **왜 주목** — OpenAI가 공개한 Symphony는 여러 AI 에이전트 간 협업을 표준화하는 오픈소스 오케스트레이션 스펙으로, 멀티에이전트 파이프라인 설계의 사실상 기준이 될 가능성이 높다.
+> **왜 주목** — 단일 CLAUDE.md 파일로 Claude Code의 코딩 품질을 끌어올리는 검증된 프롬프트 패턴 모음으로, 한 주에 2만 개 별을 받으며 Skills 표준의 실전 레퍼런스로 자리잡았습니다.
 >
-> **어떻게 접목** — ai_news_agent의 수집→번역→요약→발행 단계를 각각 독립 에이전트로 분리하고 Symphony 스펙을 적용해 단계 간 핸드오프와 오류 복구 로직을 표준화하면, 파이프라인 확장성과 유지보수성을 크게 높일 수 있다.
+> **어떻게 접목** — ai_news_agent의 Sonnet 4.6 요약 단계와 Haiku 4.5 번역 단계에 이 패턴을 적용해 환각·과잉 추론을 줄이고, 수집기 코드 자체를 Claude Code로 유지보수할 때 CLAUDE.md를 프로젝트 루트에 배치해 일관된 코드 품질을 확보할 수 있습니다.
 
 > [!info] 이번 호 키워드
-> `Claude Code 확산` · `멀티에이전트 오케스트레이션` · `AI 보안 사고` · `엔터프라이즈 AI 인프라` · `MCP 스킬 패턴`
+> `Claude Skills 표준` · `엔터프라이즈 인프라 확장` · `코딩 에이전트 채택` · `AI 보안 사고` · `에이전트 오케스트레이션`
 
 ---
 
