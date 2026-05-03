@@ -2,21 +2,29 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
 
 /* ============================
-   모던 바이올렛 액센트 팔레트
-   primary hue 270 (violet)
+   하늘색 파스텔 액센트 팔레트
+   primary: sky blue (hue ~205)
    ============================ */
 :root {
-  --primary-hue: 270deg;
+  --primary-hue: 205deg;
   --primary-saturation: 75%;
-  --primary-lightness: 55%;
-  --primary-color: hsl(270, 76%, 53%);  /* violet-600 */
+  --primary-lightness: 58%;
+
+  --sky-50:  hsl(205, 90%, 97%);
+  --sky-100: hsl(205, 85%, 93%);
+  --sky-200: hsl(205, 80%, 85%);
+  --sky-300: hsl(205, 75%, 73%);
+  --sky-400: hsl(205, 75%, 62%);
+  --sky-500: hsl(205, 80%, 52%);
+
+  --primary-color: var(--sky-400);
 }
 
 .dark {
-  --primary-hue: 270deg;
-  --primary-saturation: 65%;
-  --primary-lightness: 70%;
-  --primary-color: hsl(263, 90%, 76%);  /* violet-400 */
+  --primary-hue: 205deg;
+  --primary-saturation: 70%;
+  --primary-lightness: 75%;
+  --primary-color: hsl(205, 80%, 78%);
 }
 
 /* ============================
@@ -43,25 +51,65 @@ article h1, article h2, article h3 {
   font-weight: 700;
 }
 
-/* 본문 강조어 색감 강화 */
+/* 본문 강조어 — 하늘색이지만 너무 튀지 않게 */
 article strong, .content strong {
   font-weight: 700;
-  color: var(--primary-color);
+  color: hsl(205, 70%, 45%);
 }
 
 .dark article strong, .dark .content strong {
-  color: hsl(263, 90%, 80%);
+  color: hsl(205, 80%, 80%);
 }
 
-/* 인용 링크 underline 톤 다운 */
+/* 인용 링크 */
 article a {
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
 }
 
-/* code inline 미세 조정 */
+/* code inline */
 code:not(pre code) {
   font-size: 0.92em;
   padding: 0.15em 0.4em;
   border-radius: 4px;
+  background-color: var(--sky-50);
+  color: hsl(205, 70%, 35%);
 }
+
+.dark code:not(pre code) {
+  background-color: hsla(205, 50%, 30%, 0.35);
+  color: hsl(205, 80%, 85%);
+}
+
+/* ============================
+   Hextra callout — 하늘색 파스텔 통일
+   기본/info/note/example 모두 sky tone
+   네온 그린/노랑 박스 차단
+   ============================ */
+.hextra-callout,
+.hx\:callout,
+[class*="callout"] {
+  background-color: var(--sky-50) !important;
+  border-color: var(--sky-200) !important;
+  border-left-color: var(--sky-400) !important;
+  color: hsl(205, 30%, 22%) !important;
+}
+
+.dark .hextra-callout,
+.dark .hx\:callout,
+.dark [class*="callout"] {
+  background-color: hsla(205, 50%, 25%, 0.30) !important;
+  border-color: hsla(205, 60%, 50%, 0.45) !important;
+  border-left-color: hsl(205, 70%, 65%) !important;
+  color: hsl(205, 30%, 92%) !important;
+}
+
+/* primary tailwind 클래스 강제 override (네온/형광 차단) */
+.hx\:bg-primary-50,    .bg-primary-50    { background-color: var(--sky-50)  !important; }
+.hx\:bg-primary-100,   .bg-primary-100   { background-color: var(--sky-100) !important; }
+.hx\:bg-primary-200,   .bg-primary-200   { background-color: var(--sky-200) !important; }
+.hx\:bg-primary-400,   .bg-primary-400   { background-color: var(--sky-400) !important; }
+.hx\:bg-primary-500,   .bg-primary-500   { background-color: var(--sky-500) !important; }
+.hx\:text-primary-500, .text-primary-500 { color: var(--sky-500) !important; }
+.hx\:text-primary-600, .text-primary-600 { color: hsl(205, 75%, 45%) !important; }
+.hx\:border-primary-500, .border-primary-500 { border-color: var(--sky-400) !important; }
