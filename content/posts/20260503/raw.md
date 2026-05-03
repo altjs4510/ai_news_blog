@@ -5,7 +5,7 @@ date: 2026-05-03
 
 수집된 원본 데이터를 한곳에 모았습니다. 요약은 [메인 페이지](.)에서 보실 수 있습니다.
 
-## AI 공식 블로그 (Anthropic / OpenAI / Google)
+## AI 공식 블로그 (Anthropic / OpenAI / Google / DeepMind)
 
 | 출처 | 제목 | 링크 | 작성일 |
 |------|------|------|--------|
@@ -42,6 +42,76 @@ date: 2026-05-03
 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration | TypeScript | 5,465 stars this week | 34,967 |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |  | 20,079 stars this week | 107,467 |
 | [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | 🚀 AI 全自动短视频引擎 \| AI Fully Automated Short Video Engine | Python | 2,315 stars this week | 9,380 |
+
+---
+
+## Hacker News · Product Hunt · TechCrunch AI
+
+| 출처 | 제목 | 링크 | 작성일 |
+|------|------|------|--------|
+| Hacker News | AI should elevate your thinking, not replace it | [링크](https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/) | 2026-04-26T20:03:12Z |
+| Hacker News | An AI agent deleted our production database. The agent's confession is below | [링크](https://twitter.com/lifeof_jer/status/2048103471019434248) | 2026-04-26T16:27:29Z |
+| Hacker News | The Zig project's rationale for their anti-AI contribution policy | [링크](https://simonwillison.net/2026/Apr/30/zig-anti-ai/) | 2026-04-30T02:15:47Z |
+| Hacker News | 4TB of voice samples just stolen from 40k AI contractors at Mercor | [링크](https://app.oravys.com/blog/mercor-breach-2026) | 2026-04-27T09:57:10Z |
+| Hacker News | Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library | [링크](https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/) | 2026-04-30T16:09:26Z |
+| Hacker News | AI uses less water than the public thinks | [링크](https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/) | 2026-05-01T17:18:58Z |
+| Hacker News | China blocks Meta's acquisition of AI startup Manus | [링크](https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html) | 2026-04-27T11:43:59Z |
+| Hacker News | Uber torches 2026 AI budget on Claude Code in four months | [링크](https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/) | 2026-05-01T16:08:53Z |
+| Hacker News | VibeVoice: Open-source frontier voice AI | [링크](https://github.com/microsoft/VibeVoice) | 2026-04-28T11:56:04Z |
+| Hacker News | AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights | [링크](https://arxiv.org/abs/2509.00462) | 2026-05-02T15:28:13Z |
+| Hacker News | Google and Pentagon reportedly agree on deal for 'any lawful' use of AI | [링크](https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal) | 2026-04-28T15:49:22Z |
+| Hacker News | Claude.ai unavailable and elevated errors on the API | [링크](https://status.claude.com/incidents/9l93x2ht4s5w) | 2026-04-28T18:01:21Z |
+| Product Hunt (AI) | PandaProbe | [링크](https://www.producthunt.com/products/pandaprobe) | 2026-04-29T09:53:50-07:00 |
+| Product Hunt (AI) | Cloud Computer by Manus | [링크](https://www.producthunt.com/products/manus) | 2026-04-30T08:50:18-07:00 |
+| Product Hunt (AI) | Filect | [링크](https://www.producthunt.com/products/filect) | 2026-04-26T14:57:34-07:00 |
+| Product Hunt (AI) | Feather | [링크](https://www.producthunt.com/products/feather-18) | 2026-04-29T17:13:24-07:00 |
+| Product Hunt (AI) | nudge | [링크](https://www.producthunt.com/products/nudge-26) | 2026-04-30T02:59:09-07:00 |
+| Product Hunt (AI) | Marx Finance | [링크](https://www.producthunt.com/products/marx-finance) | 2026-04-30T02:41:02-07:00 |
+| Product Hunt (AI) | Buda | [링크](https://www.producthunt.com/products/buda-2) | 2026-04-27T16:18:01-07:00 |
+| Product Hunt (AI) | Montage | [링크](https://www.producthunt.com/products/montage-3) | 2026-04-30T08:50:23-07:00 |
+| Product Hunt (AI) | ElevenMusic | [링크](https://www.producthunt.com/products/elevenmusic) | 2026-04-29T07:42:03-07:00 |
+| Product Hunt (AI) | Crin AI | [링크](https://www.producthunt.com/products/crin-ai) | 2026-04-29T09:51:44-07:00 |
+| Product Hunt (AI) | Hera Launch | [링크](https://www.producthunt.com/products/hera-6) | 2026-04-27T02:33:59-07:00 |
+| Product Hunt (AI) | SuperMind | [링크](https://www.producthunt.com/products/supermind-2) | 2026-04-29T22:03:57-07:00 |
+| TechCrunch AI | AI-generated actors and scripts are now ineligible for Oscars | [링크](https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/) | 2026-05-02T21:54:58+00:00 |
+| TechCrunch AI | The best AI dictation apps, tested and ranked | [링크](https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/) | 2026-05-02T16:00:00+00:00 |
+| TechCrunch AI | Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell | [링크](https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/) | 2026-05-01T23:06:50+00:00 |
+| TechCrunch AI | Meta buys robotics startup to bolster its humanoid AI ambitions | [링크](https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/) | 2026-05-01T22:13:27+00:00 |
+| TechCrunch AI | Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you. | [링크](https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/) | 2026-05-01T17:44:29+00:00 |
+| TechCrunch AI | Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks | [링크](https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/) | 2026-05-01T16:02:36+00:00 |
+| TechCrunch AI | Musk v. Altman is just getting started | [링크](https://techcrunch.com/video/musk-v-altman-is-just-getting-started/) | 2026-05-01T14:00:00+00:00 |
+| TechCrunch AI | ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet | [링크](https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/) | 2026-05-01T02:00:00+00:00 |
+| TechCrunch AI | Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks | [링크](https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/) | 2026-04-30T23:07:56+00:00 |
+| TechCrunch AI | Apple was surprised by AI-driven demand for Macs | [링크](https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/) | 2026-04-30T22:12:52+00:00 |
+| TechCrunch AI | Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter | [링크](https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/) | 2026-04-30T20:14:47+00:00 |
+| TechCrunch AI | After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too | [링크](https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/) | 2026-04-30T19:27:41+00:00 |
+
+---
+
+## arxiv · HuggingFace Papers (학술/연구)
+
+| 출처 | 제목 | 링크 | 작성일 |
+|------|------|------|--------|
+| arxiv (cs.AI/cs.CL) | Computing Equilibrium beyond Unilateral Deviation | [링크](http://arxiv.org/abs/2604.28186v1) | 2026-04-30T17:59:07+00:00 |
+| arxiv (cs.AI/cs.CL) | Exploration Hacking: Can LLMs Learn to Resist RL Training? | [링크](http://arxiv.org/abs/2604.28182v1) | 2026-04-30T17:58:39+00:00 |
+| arxiv (cs.AI/cs.CL) | Synthetic Computers at Scale for Long-Horizon Productivity Simulation | [링크](http://arxiv.org/abs/2604.28181v1) | 2026-04-30T17:58:02+00:00 |
+| arxiv (cs.AI/cs.CL) | LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis | [링크](http://arxiv.org/abs/2604.28178v1) | 2026-04-30T17:57:12+00:00 |
+| arxiv (cs.AI/cs.CL) | PhyCo: Learning Controllable Physical Priors for Generative Motion | [링크](http://arxiv.org/abs/2604.28169v1) | 2026-04-30T17:53:03+00:00 |
+| arxiv (cs.AI/cs.CL) | Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists | [링크](http://arxiv.org/abs/2604.28158v1) | 2026-04-30T17:44:55+00:00 |
+| arxiv (cs.AI/cs.CL) | FlexiTac: A Low-Cost, Open-Source, Scalable Tactile Sensing Solution for Robotic Systems | [링크](http://arxiv.org/abs/2604.28156v1) | 2026-04-30T17:43:07+00:00 |
+| arxiv (cs.AI/cs.CL) | On the Proper Treatment of Units in Surprisal Theory | [링크](http://arxiv.org/abs/2604.28147v1) | 2026-04-30T17:33:58+00:00 |
+| arxiv (cs.AI/cs.CL) | Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows | [링크](http://arxiv.org/abs/2604.28139v1) | 2026-04-30T17:23:19+00:00 |
+| arxiv (cs.AI/cs.CL) | Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes | [링크](http://arxiv.org/abs/2604.28138v1) | 2026-04-30T17:20:19+00:00 |
+| HuggingFace Papers | Heterogeneous Scientific Foundation Model Collaboration | [링크](https://huggingface.co/papers/2604.27351) |  |
+| HuggingFace Papers | Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling | [링크](https://huggingface.co/papers/2604.28185) |  |
+| HuggingFace Papers | Co-Evolving Policy Distillation | [링크](https://huggingface.co/papers/2604.27083) |  |
+| HuggingFace Papers | ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control | [링크](https://huggingface.co/papers/2604.27711) |  |
+| HuggingFace Papers | Efficient Training on Multiple Consumer GPUs with RoundPipe | [링크](https://huggingface.co/papers/2604.27085) |  |
+| HuggingFace Papers | Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists | [링크](https://huggingface.co/papers/2604.28158) |  |
+| HuggingFace Papers | Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows | [링크](https://huggingface.co/papers/2604.28139) |  |
+| HuggingFace Papers | Leveraging Verifier-Based Reinforcement Learning in Image Editing | [링크](https://huggingface.co/papers/2604.27505) |  |
+| HuggingFace Papers | Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling | [링크](https://huggingface.co/papers/2604.27039) |  |
+| HuggingFace Papers | Representation Fréchet Loss for Visual Generation | [링크](https://huggingface.co/papers/2604.28190) |  |
 
 ---
 
