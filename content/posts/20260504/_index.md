@@ -9,10 +9,6 @@ tags: ["MCP 커넥터", "Claude Skills", "에이전트 인프라", "코딩 에�
   <h1 class="ai-post-title">에이전트가 전문 도구 안으로 — Claude 창작 커넥터·Codex 스킬·MCP 생태계가 동시 폭발</h1>
 </header>
 
-{{< callout emoji="📌" >}}
-에이전트가 전문 도구 안으로 — Claude 창작 커넥터·Codex 스킬·MCP 생태계가 동시 폭발
-{{< /callout >}}
-
 {{< callout emoji="🎯" >}}
 **[forrestchang/andrej-karpathy-skills (CLAUDE.md for Claude Code)](https://github.com/forrestchang/andrej-karpathy-skills)**
 
