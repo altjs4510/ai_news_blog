@@ -23,21 +23,27 @@ menu:
     - name: Posts
       pageRef: /posts
       weight: 1
+    - name: Tags
+      pageRef: /tags
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Search
       weight: 3
+    - name: Search
+      weight: 4
       params:
         type: search
     - name: RSS
       url: "/index.xml"
-      weight: 4
+      weight: 5
     - name: GitHub
       url: "https://github.com/altjs4510/ai_news_blog"
-      weight: 5
+      weight: 6
       params:
         icon: github
+
+taxonomies:
+  tag: tags
 
 params:
   description: "매주 월요일 자동 발행되는 AI 동향 큐레이션 — Anthropic·OpenAI·Google·DeepMind 공식 블로그, Reddit, Hacker News, Product Hunt, TechCrunch AI, arxiv, HuggingFace Papers, GitHub Trending"
