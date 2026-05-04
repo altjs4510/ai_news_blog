@@ -1608,3 +1608,58 @@ main:has(> .content > .ai-knowledge-sidebar):has(> div.hx\:mb-10) .ai-knowledge-
     grid-column: 1 !important;
   }
 }
+
+/* ============================================================
+   관련 학습 (link_related.py 자동 생성 블록)
+   knowledge 상세 페이지 말미에 삽입되는 related notes aside
+   ============================================================ */
+
+.ai-related-links {
+  margin-top: 2.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  background: var(--surface-raised);
+  font-size: 0.85rem;
+}
+
+.ai-related-links .ai-eyebrow {
+  margin-bottom: 0.75em !important;
+}
+
+.ai-related-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.ai-related-links ul a {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  color: var(--text-primary);
+  text-decoration: none;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--hairline);
+  transition: color 0.15s;
+}
+.ai-related-links ul li:last-child a {
+  border-bottom: none;
+}
+.ai-related-links ul a:hover { color: var(--accent); }
+
+.ai-related-links .kdate {
+  flex-shrink: 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.ai-related-links .ktitle {
+  color: inherit;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
