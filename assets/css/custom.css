@@ -1023,3 +1023,112 @@ button[data-mobile-menu] {
 
 /* 사이드바가 가지던 grid column 자리 — wrapper가 grid면 1열로 */
 .hx\:flex.hx\:flex-1 > main { width: 100% !important; }
+
+/* ============================================================
+   Blog list pages (/posts/, /knowledge/, /tags/<tag>/) — 카드 그리드
+   Hextra blog 레이아웃 기본 출력:
+     <main>
+       <h1>섹션 제목</h1>            ← 숨김 (navbar에 이미 있음)
+       <div class=content><p>인트로</p></div>  ← 숨김
+       <div class="hx:mb-10">         ← 카드로 변환
+         <h3><a>제목</a></h3>
+         <p>발췌</p>
+         <p><a>더보기 →</a></p>
+         <p>날짜</p>
+       </div>
+   ============================================================ */
+
+/* 섹션 list 페이지 판별 — 카드 div가 있을 때만 h1/intro 숨김 (post detail은 보존) */
+main:has(> div.hx\:mb-10) > h1:first-of-type,
+main:has(> div.hx\:mb-10) > div.content {
+  display: none !important;
+}
+
+/* 카드 컨테이너 */
+main > div.hx\:mb-10 {
+  background: var(--surface-card) !important;
+  border: 1px solid var(--hairline) !important;
+  border-radius: var(--radius-md) !important;
+  padding: 1.5rem 1.7rem 1.3rem !important;
+  margin: 0 0 1rem 0 !important;
+  box-shadow: var(--shadow-sm) !important;
+  transition:
+    transform var(--motion-base),
+    box-shadow var(--motion-base),
+    border-color var(--motion-fast) !important;
+}
+main > div.hx\:mb-10:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md) !important;
+  border-color: var(--hairline-strong) !important;
+}
+
+/* 카드 제목 (h3) */
+main > div.hx\:mb-10 > h3 {
+  font-size: clamp(1.2rem, 1rem + 0.4vw, 1.45rem) !important;
+  letter-spacing: -0.022em !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  margin: 0 0 0.55em 0 !important;
+}
+main > div.hx\:mb-10 > h3 a {
+  color: var(--text-primary) !important;
+  border-bottom: 0 !important;
+  transition: color var(--motion-fast);
+}
+main > div.hx\:mb-10:hover > h3 a {
+  color: var(--sky-500) !important;
+}
+
+/* 발췌 (첫 p) */
+main > div.hx\:mb-10 > p:nth-of-type(1) {
+  color: var(--text-secondary) !important;
+  font-size: 0.96rem !important;
+  line-height: 1.6 !important;
+  letter-spacing: -0.005em !important;
+  margin: 0 0 0.6em 0 !important;
+  /* 너무 길면 3줄에서 컷 */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  opacity: 1 !important;
+}
+
+/* 더보기 링크 */
+main > div.hx\:mb-10 > p:nth-of-type(2) {
+  font-size: 0.9rem !important;
+  margin: 0 0 0.7em 0 !important;
+  opacity: 1 !important;
+}
+main > div.hx\:mb-10 > p:nth-of-type(2) a {
+  color: var(--sky-500) !important;
+  font-weight: 500 !important;
+  border-bottom: 0 !important;
+}
+main > div.hx\:mb-10 > p:nth-of-type(2) a:hover {
+  color: var(--sky-700) !important;
+}
+
+/* 날짜 (마지막 p) */
+main > div.hx\:mb-10 > p:last-of-type {
+  font-size: 0.82rem !important;
+  color: var(--text-tertiary) !important;
+  letter-spacing: 0.01em !important;
+  margin: 0 !important;
+}
+
+/* 카드 그리드 부모 — 좀 좁게 가운데 정렬 */
+main:has(> div.hx\:mb-10) {
+  max-width: 880px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 2.5rem !important;
+}
+
+/* 모바일 — 패딩 축소 */
+@media (max-width: 640px) {
+  main > div.hx\:mb-10 {
+    padding: 1.2rem 1.3rem 1rem !important;
+  }
+}
