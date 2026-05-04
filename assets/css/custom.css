@@ -535,6 +535,14 @@ footer {
   margin: 0 0 2.2em 0 !important;
 }
 
+/* CTA 행 — primary + secondary가 가로로 정렬, 모바일은 세로 */
+.ai-cta-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.7rem !important;
+  align-items: center !important;
+}
+
 /* CTA 버튼 — pill, hover 시 살짝 둥실 */
 .ai-cta {
   display: inline-flex !important;
@@ -559,6 +567,29 @@ footer {
   background: hsl(211, 100%, 45%) !important;
   border-bottom: 0 !important;
 }
+/* Secondary CTA — 학습 브리프 버튼. 톤 다운된 outline 스타일. */
+.ai-cta.ai-cta-secondary {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--hairline-strong) !important;
+  box-shadow: none !important;
+}
+.ai-cta.ai-cta-secondary:hover {
+  background: var(--surface-card) !important;
+  color: var(--sky-500) !important;
+  border-color: var(--sky-500) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+.dark .ai-cta.ai-cta-secondary {
+  color: var(--text-primary) !important;
+  border-color: var(--hairline-strong) !important;
+}
+.dark .ai-cta.ai-cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: var(--sky-300) !important;
+  border-color: var(--sky-300) !important;
+}
+
 .dark .ai-cta {
   background: var(--sky-400) !important;
   color: #0a1220 !important;
