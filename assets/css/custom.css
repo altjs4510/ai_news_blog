@@ -1132,3 +1132,188 @@ main:has(> div.hx\:mb-10) {
     padding: 1.2rem 1.3rem 1rem !important;
   }
 }
+
+/* ============================================================
+   Detail page hero (post + knowledge) — 홈 hero와 같은 톤
+   publisher가 본문 상단에 .ai-post-hero header를 직접 주입한다.
+   Hextra가 frontmatter title로 자동 생성하는 main > h1은 숨김.
+   ============================================================ */
+.ai-post-hero {
+  max-width: 760px !important;
+  margin: 3rem auto 2.2rem !important;
+  padding: 0 0 1.6rem 0 !important;
+  border-bottom: 1px solid var(--hairline) !important;
+}
+.ai-post-hero .ai-eyebrow {
+  margin-bottom: 0.6em !important;
+}
+.ai-post-hero .ai-back {
+  color: var(--sky-500) !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  letter-spacing: 0.16em !important;
+  transition: color var(--motion-fast);
+}
+.ai-post-hero .ai-back:hover {
+  color: var(--sky-700) !important;
+}
+.ai-post-title {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard', 'Inter', sans-serif !important;
+  font-size: clamp(1.9rem, 1.3rem + 2.2vw, 2.95rem) !important;
+  line-height: 1.12 !important;
+  letter-spacing: -0.028em !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  word-break: keep-all !important;
+  overflow-wrap: break-word !important;
+  margin: 0.45em 0 0 0 !important;
+}
+
+/* Hextra가 frontmatter title로 자동 만든 main > h1 숨김 — 우리 hero가 대체.
+   :has()로 hero 또는 카드 그리드가 있을 때만. About/일반 페이지는 그대로 보존. */
+main:has(.ai-post-hero) > h1:first-of-type,
+main:has(> div.hx\:mb-10) > h1:first-of-type {
+  display: none !important;
+}
+
+/* Detail 본문 — 좁은 reading column + 큰 본문 폰트 */
+main:has(.ai-post-hero) > .content {
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+main:has(.ai-post-hero) > .content,
+main:has(.ai-post-hero) > .content p,
+main:has(.ai-post-hero) > .content li {
+  font-size: 1.05rem !important;
+  line-height: 1.78 !important;
+  letter-spacing: -0.005em !important;
+}
+main:has(.ai-post-hero) > .content h1 {
+  font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.1rem) !important;
+  letter-spacing: -0.026em !important;
+  margin-top: 2.4em !important;
+  padding-top: 1.4em !important;
+  border-top: 1px solid var(--hairline) !important;
+  font-weight: 700 !important;
+}
+main:has(.ai-post-hero) > .content h2 {
+  font-size: clamp(1.35rem, 1.1rem + 0.6vw, 1.6rem) !important;
+  letter-spacing: -0.022em !important;
+  margin-top: 2em !important;
+  padding-top: 0 !important;
+  border-top: 0 !important;
+}
+
+/* 첫 callout(📌 TL;DR 위치)은 hero 바로 다음이라 위 마진 줄임 */
+main:has(.ai-post-hero) > .content > div[class*="callout"]:first-of-type,
+main:has(.ai-post-hero) > .content > div[class*="overflow-x-auto"]:first-of-type {
+  margin-top: 0 !important;
+}
+
+/* ============================================================
+   Listing cards v2 — 에디토리얼 (날짜 eyebrow → 큰 제목 → 발췌)
+   카드 박스 제거하고 hairline-separated row로
+   ============================================================ */
+main > div.hx\:mb-10 {
+  display: flex !important;
+  flex-direction: column !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--hairline) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 2.2rem 0 1.9rem 0 !important;
+  margin: 0 !important;
+  transition: none !important;
+}
+main > div.hx\:mb-10:last-of-type {
+  border-bottom: 0 !important;
+}
+main > div.hx\:mb-10:hover {
+  transform: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-color: var(--hairline) !important;
+}
+main > div.hx\:mb-10:hover > h3 a {
+  color: var(--sky-500) !important;
+}
+
+/* 날짜 — 카드 안 마지막 p였는데 order로 맨 위로 (eyebrow 톤) */
+main > div.hx\:mb-10 > p:last-of-type {
+  order: -1 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.18em !important;
+  font-size: 0.74rem !important;
+  font-weight: 600 !important;
+  color: var(--sky-500) !important;
+  margin: 0 0 0.5em 0 !important;
+  opacity: 1 !important;
+}
+
+/* 제목 — 크고 진한 잉크 */
+main > div.hx\:mb-10 > h3 {
+  order: 0 !important;
+  font-size: clamp(1.45rem, 1.1rem + 1vw, 1.95rem) !important;
+  letter-spacing: -0.026em !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+  margin: 0 0 0.55em 0 !important;
+  word-break: keep-all !important;
+  overflow-wrap: break-word !important;
+}
+main > div.hx\:mb-10 > h3 a {
+  color: var(--text-primary) !important;
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+  transition: color var(--motion-fast);
+}
+
+/* 발췌 */
+main > div.hx\:mb-10 > p:nth-of-type(1) {
+  order: 1 !important;
+  color: var(--text-secondary) !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+  letter-spacing: -0.005em !important;
+  margin: 0 0 0.85em 0 !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  opacity: 1 !important;
+}
+
+/* "더보기 →" */
+main > div.hx\:mb-10 > p:nth-of-type(2) {
+  order: 2 !important;
+  font-size: 0.9rem !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+}
+main > div.hx\:mb-10 > p:nth-of-type(2) a {
+  color: var(--sky-500) !important;
+  font-weight: 500 !important;
+  border-bottom: 0 !important;
+}
+main > div.hx\:mb-10 > p:nth-of-type(2) a:hover {
+  color: var(--sky-700) !important;
+}
+
+/* Section listing wrapper — 좁은 컬럼 가운데 정렬 */
+main:has(> div.hx\:mb-10) {
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-top: 3.5rem !important;
+  padding-bottom: 4rem !important;
+}
+
+/* 모바일 */
+@media (max-width: 640px) {
+  .ai-post-hero { margin-top: 1.8rem !important; }
+  main > div.hx\:mb-10 {
+    padding: 1.6rem 0 1.4rem !important;
+  }
+}
