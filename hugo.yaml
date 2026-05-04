@@ -34,7 +34,7 @@ menu:
       params:
         type: search
     - name: RSS
-      url: "/index.xml"
+      url: "/posts/index.xml"
       weight: 5
     - name: GitHub
       url: "https://github.com/altjs4510/ai_news_blog"
@@ -47,6 +47,11 @@ taxonomies:
 
 params:
   description: "매주 월요일 자동 발행되는 AI 동향 큐레이션 — Anthropic·OpenAI·Google·DeepMind 공식 블로그, Reddit, Hacker News, Product Hunt, TechCrunch AI, arxiv, HuggingFace Papers, GitHub Trending"
+
+  # 홈/태그/저자 등 listing 페이지의 'recent posts' 집합으로 사용할 섹션.
+  # 미설정 시 Hugo가 자동 추정하지만 single-section 사이트에서는 명시 권장.
+  mainSections:
+    - posts
 
   navbar:
     displayTitle: true
