@@ -774,3 +774,153 @@ footer {
   .ai-spotlight { padding: 1.5rem 1.4rem !important; }
   .ai-cta { width: 100% !important; justify-content: center !important; }
 }
+
+/* ============================================================
+   Hextra 기본 chrome — 모노크롬+앰버 톤으로 통일
+   (footer / sidebar / 태그·어바웃 페이지 표면)
+   ============================================================ */
+
+/* ── Hextra 기본 footer ── */
+/* Tailwind 클래스 hx:bg-gray-100 / hx:dark:bg-neutral-900 가 적용된
+   하단 footer를 페이지 배경과 같은 톤으로 묻히게. */
+.hextra-footer,
+footer.hextra-footer,
+.hx\:bg-gray-100.hextra-footer {
+  background-color: var(--surface-page) !important;
+  color: var(--text-tertiary) !important;
+  border-top: 1px solid var(--hairline) !important;
+}
+.hextra-footer hr {
+  border-color: var(--hairline) !important;
+}
+.hextra-footer a {
+  color: var(--text-secondary) !important;
+  border-bottom: 0 !important;
+}
+.hextra-footer a:hover {
+  color: var(--sky-500) !important;
+}
+.hextra-theme-toggle {
+  color: var(--text-secondary) !important;
+  background: transparent !important;
+}
+.hextra-theme-toggle:hover {
+  background: var(--surface-muted) !important;
+  color: var(--text-primary) !important;
+}
+.dark .hextra-footer {
+  background-color: var(--surface-page) !important;
+}
+
+/* ── Posts 좌측 사이드바 — 문서 테마 톤 → 미니멀 텍스트 리스트 ── */
+.hextra-sidebar-container {
+  /* 폭은 그대로 두되 시각 무게를 가볍게 */
+  border-right: 1px solid var(--hairline) !important;
+  background: transparent !important;
+}
+
+.hextra-sidebar-item a,
+.hextra-sidebar-item button,
+.hextra-sidebar-item span[role="button"] {
+  /* 박스/배경 제거, 폰트만 살림 */
+  background: transparent !important;
+  color: var(--text-secondary) !important;
+  font-weight: 500 !important;
+  border-radius: 0 !important;
+  padding: 0.45em 0.5em !important;
+  border-left: 2px solid transparent !important;
+  transition: color var(--motion-fast), border-color var(--motion-fast), background-color var(--motion-fast) !important;
+}
+
+.hextra-sidebar-item a:hover,
+.hextra-sidebar-item button:hover {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+}
+
+/* active 항목 — 앰버 액센트 좌측 헤어라인 + 잉크 텍스트 (배경 X) */
+.hextra-sidebar-active-item,
+.hextra-sidebar-active-item:where(a, button) {
+  background: transparent !important;
+  color: var(--text-primary) !important;
+  font-weight: 600 !important;
+  border-left: 2px solid var(--sky-500) !important;
+  padding-left: calc(0.5em + 0px) !important;
+}
+.dark .hextra-sidebar-active-item {
+  color: var(--text-primary) !important;
+  border-left-color: var(--sky-300) !important;
+}
+
+/* 사이드바 collapsible 화살표 — 잉크 톤 */
+.hextra-sidebar-collapsible-button {
+  color: var(--text-tertiary) !important;
+}
+.hextra-sidebar-collapsible-button:hover {
+  color: var(--text-primary) !important;
+}
+
+/* sidebar 안의 nested level 들여쓰기 hairline */
+.hextra-sidebar-children {
+  border-left: 1px solid var(--hairline) !important;
+}
+
+/* 모바일 사이드바 트레이도 톤 일치 */
+@media (max-width: 768px) {
+  .hextra-sidebar-container {
+    background: var(--surface-page) !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid var(--hairline) !important;
+  }
+}
+
+/* ── /tags · /about 등 일반 페이지 — home과 톤 맞춤 ── */
+/* Hextra 기본 main page도 페이지 배경 통일 */
+main, article, .hextra-main {
+  background: var(--surface-page) !important;
+}
+
+/* taxonomy(/tags/) 인덱스의 큰 헤더 */
+main h1, article h1 {
+  color: var(--text-primary) !important;
+  letter-spacing: -0.022em !important;
+  font-weight: 700 !important;
+}
+
+/* taxonomy term 페이지(/tags/<tag>/)의 포스트 목록 — 카드처럼 hover lift */
+main ul li a,
+article ul li a {
+  border-bottom: 0 !important;
+}
+
+/* About 본문도 prose 폭 풀리도록 (이미 max-width: none 적용 중이지만 강조) */
+.hextra-content,
+article.hextra-content {
+  max-width: none !important;
+}
+
+/* TOC(우측) 글자도 무게 줄여 톤 통일 */
+.hextra-toc a {
+  color: var(--text-tertiary) !important;
+  font-weight: 400 !important;
+}
+.hextra-toc a:hover {
+  color: var(--text-primary) !important;
+}
+.hextra-toc a.hx\:font-semibold,
+.hextra-toc a[aria-current="true"] {
+  color: var(--sky-500) !important;
+  font-weight: 500 !important;
+}
+
+/* 코어 회색 박스 클래스(hx:bg-gray-50 등) 잔재 제거 */
+.hx\:bg-gray-50,
+.hx\:bg-gray-100,
+.hx\:bg-neutral-50,
+.hx\:bg-neutral-100 {
+  background-color: var(--surface-muted) !important;
+}
+.dark .hx\:dark\:bg-neutral-800,
+.dark .hx\:dark\:bg-neutral-900 {
+  background-color: var(--surface-card) !important;
+}
