@@ -1,8 +1,13 @@
 ---
-title: "2026-05-04 AI 동향 요약"
+title: "에이전트가 전문 도구 안으로 — Claude 창작 커넥터·Codex 스킬·MCP 생태계가 동시 폭발"
 date: 2026-05-04
 tags: ["MCP 커넥터", "Claude Skills", "에이전트 인프라", "코딩 에이전트", "추론 변곡점"]
 ---
+
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-04 · 주간 요약</p>
+  <h1 class="ai-post-title">에이전트가 전문 도구 안으로 — Claude 창작 커넥터·Codex 스킬·MCP 생태계가 동시 폭발</h1>
+</header>
 
 {{< callout emoji="📌" >}}
 에이전트가 전문 도구 안으로 — Claude 창작 커넥터·Codex 스킬·MCP 생태계가 동시 폭발
