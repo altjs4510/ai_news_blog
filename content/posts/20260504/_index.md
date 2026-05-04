@@ -32,7 +32,7 @@ tags: ["MCP 커넥터", "Claude Skills", "에이전트 인프라", "코딩 에�
 ---
 
 {{< callout emoji="📚" >}}
-**오늘의 학습 — Spotlight 자료 한 건을 한국어로 정리** → [학습 브리프 열기](study)
+**오늘의 학습 — Spotlight 자료를 한국어로 정리한 학습 노트** → [지식 섹션에서 열기]({{< relref "knowledge/20260504" >}})
 {{< /callout >}}
 
 ---

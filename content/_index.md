@@ -12,7 +12,7 @@ toc: false
       <span class="ai-cta-label">최신 호 전체 보기</span>
       <span class="ai-cta-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="ai-cta ai-cta-secondary" href="posts/20260504/study/">
+    <a class="ai-cta ai-cta-secondary" href="knowledge/20260504/">
       <span class="ai-cta-label">📚 오늘의 학습</span>
       <span class="ai-cta-arrow" aria-hidden="true">→</span>
     </a>
@@ -25,20 +25,6 @@ toc: false
   <p class="ai-spotlight-why">Karpathy의 LLM 코딩 함정 관찰을 단일 CLAUDE.md 스킬 파일로 정제한 저장소로, Claude Code plugin/skill/hook 결을 정면으로 건드립니다. 주간 1.8만 별이 보여주듯 '에이전트 행동 규약을 파일 한 장으로 주입'하는 패턴이 사실상 표준화되는 흐름입니다.</p>
   <p class="ai-spotlight-app"><span class="ai-spotlight-app-label">접목 →</span> DCSAI의 `dcs-ai-plugin`(Claude Code plugins · skills/hooks)과 `ff-claude-manager` 자동 배포 파이프라인에 사내용 CLAUDE.md 스킬 셋의 베이스라인으로 채택할 수 있고, agent loop의 시스템 프롬프트·HITL 가드레일 규칙을 이 포맷으로 표준화하면 plugin 자동 업데이트와 자연스럽게 맞물립니다.</p>
 </aside>
-
-<section class="ai-additional">
-  <p class="ai-eyebrow">ALSO WORTH READING · 꼭 읽어보세요</p>
-  <div class="ai-pick-list">
-  <article class="ai-pick">
-  <a class="ai-pick-title" href="https://www.anthropic.com/news/claude-for-creative-work" target="_blank" rel="noopener">Anthropic — Claude for Creative Work (9개 MCP 커넥터 동시 출시)<span class="ai-pick-arrow">↗</span></a>
-  <p class="ai-pick-summary">Adobe·Blender·Fusion·Ableton 등 전문 도구를 MCP 커넥터로 묶어 Claude를 '도구 안의 지능 계층'으로 배치한 사례입니다. Team Agent의 dcsai KG MCP 직연결 전략과 DCSAI MCP host 구현에 있어, 도메인 도구별 커넥터를 어떤 단위로 쪼개고 OAuth·세션을 어떻게 설계할지 참고할 수 있는 실전 레퍼런스입니다.</p>
-</article>
-  <article class="ai-pick">
-  <a class="ai-pick-title" href="https://www.latent.space/p/ainews-agents-for-everything-else" target="_blank" rel="noopener">Latent Space — Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work<span class="ai-pick-arrow">↗</span></a>
-  <p class="ai-pick-summary">OpenAI Codex(지식노동)와 Anthropic Claude(창작)로 갈라지는 에이전트 시장 분리를 정리한 분석입니다. Team Agent의 `discovery-core-agent`/`platform-core-agent` 계층 설계와 agent autonomy(A0~A4)·decision levels(D0~D5) 정책을 어느 진영의 패턴에 맞춰 가져올지 판단할 때 좋은 참고가 됩니다.</p>
-</article>
-  </div>
-</section>
 
 <nav class="ai-chips"><a class="ai-chip" href="tags/MCP 커넥터/">#MCP 커넥터</a><a class="ai-chip" href="tags/Claude Skills/">#Claude Skills</a><a class="ai-chip" href="tags/에이전트 인프라/">#에이전트 인프라</a><a class="ai-chip" href="tags/코딩 에이전트/">#코딩 에이전트</a><a class="ai-chip" href="tags/추론 변곡점/">#추론 변곡점</a></nav>
 
@@ -187,5 +173,5 @@ Zig은 PR 리뷰의 본질이 **코드가 아니라 미래의 기여자를 키�
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <p class="ai-source-list">Anthropic · OpenAI · Google · DeepMind · Simon Willison · Latent Space · LangChain · LlamaIndex · AutoGen · CrewAI · Cursor · Cline · Aider · Karpathy · Lilian Weng · Hamel Husain · TLDR AI · The Rundown · AlphaSignal · Ben's Bites · The Batch · Reddit · Hacker News · Product Hunt · TechCrunch AI · arxiv · HuggingFace Papers · GitHub Trending · Bluesky</p>
-  <p class="ai-home-links"><a href="posts/">📚 발행 아카이브</a><span class="ai-dot">·</span><a href="tags/">🏷 태그</a><span class="ai-dot">·</span><a href="posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="about/">📓 소개</a></p>
+  <p class="ai-home-links"><a href="posts/">📰 주간 요약</a><span class="ai-dot">·</span><a href="knowledge/">📚 학습 노트</a><span class="ai-dot">·</span><a href="tags/">🏷 태그</a><span class="ai-dot">·</span><a href="posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="about/">📓 소개</a></p>
 </footer>
