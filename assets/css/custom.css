@@ -924,3 +924,77 @@ article.hextra-content {
 .dark .hx\:dark\:bg-neutral-900 {
   background-color: var(--surface-card) !important;
 }
+
+/* ============================================================
+   Additional picks — "꼭 읽어보세요" 보조 카드 (최대 2개)
+   spotlight보다 한 단계 가벼운 톤. 인라인 카드 두 개가 가로로.
+   ============================================================ */
+.ai-additional {
+  max-width: 880px !important;
+  margin: 0 auto 2.4rem auto !important;
+}
+
+.ai-additional .ai-eyebrow.ai-additional > .ai-eyebrow,
+.ai-additional > .ai-eyebrow {
+  margin-bottom: 0.9em !important;
+}
+
+.ai-pick-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.9rem;
+}
+
+.ai-pick {
+  background: var(--surface-card) !important;
+  border: 1px solid var(--hairline) !important;
+  border-radius: var(--radius-md) !important;
+  padding: 1.1rem 1.2rem 1rem !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--motion-base), box-shadow var(--motion-base), border-color var(--motion-fast) !important;
+}
+.ai-pick:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--hairline-strong) !important;
+}
+
+.ai-pick-title {
+  display: inline-flex !important;
+  align-items: baseline !important;
+  gap: 0.25em !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard', sans-serif !important;
+  font-size: 1.02rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.014em !important;
+  line-height: 1.3 !important;
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  margin: 0 0 0.55em 0 !important;
+  transition: color var(--motion-fast) !important;
+}
+.ai-pick-title:hover { color: var(--sky-500) !important; }
+
+.ai-pick-arrow {
+  font-size: 0.85em;
+  color: var(--text-tertiary);
+  transition: transform var(--motion-fast), color var(--motion-fast);
+}
+.ai-pick-title:hover .ai-pick-arrow {
+  color: var(--sky-500);
+  transform: translate(2px, -2px);
+}
+
+.ai-pick-summary {
+  color: var(--text-secondary) !important;
+  font-size: 0.92rem !important;
+  line-height: 1.55 !important;
+  letter-spacing: -0.005em !important;
+  margin: 0 !important;
+}
+
+/* 모바일 — 한 컬럼 */
+@media (max-width: 640px) {
+  .ai-pick-list { grid-template-columns: 1fr !important; }
+}
