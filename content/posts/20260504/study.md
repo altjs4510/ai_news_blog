@@ -1,106 +1,119 @@
 ---
-title: "📚 오늘의 학습 — ComposioHQ/awesome-codex-skills"
+title: "📚 오늘의 학습 — ruflo — Claude 멀티에이전트 오케스트레이션 플랫폼"
 date: 2026-05-04
 ---
 
-> 원문: [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)
+> 원문: [ruflo — Claude 멀티에이전트 오케스트레이션 플랫폼](https://github.com/ruvnet/ruflo)
 
 ## 📌 학습 정리
 
 ### 1. 한 줄 정의
-**Codex CLI/API**용 실전 스킬을 카테고리별로 모은 큐레이션 저장소로, `SKILL.md` 메타데이터 기반의 모듈식 명령 번들을 `$CODEX_HOME/skills`에 설치해 자연어 트리거로 작동시키는 표준 패턴을 제시한다.
+
+**Ruflo**(구 Claude Flow)는 **Claude Code**에 swarm 코디네이션·자가학습 메모리·zero-trust 페더레이션을 얹어 100+ 전문 에이전트를 머신·팀·신뢰 경계 너머로 협업시키는 **멀티에이전트 오케스트레이션 플랫폼**이다.
 
 ### 2. 왜 지금 중요한가
-- **`SKILL.md` = 새로운 dotfiles** 흐름이 Anthropic Claude Code뿐 아니라 **Codex(OpenAI) 진영**에도 그대로 자리잡고 있음을 보여준다(name/description frontmatter + 본문 progressive disclosure 구조).
-- **Progressive disclosure**: Codex는 메타데이터만 먼저 읽고 트리거 시점에 본문을 로드해 컨텍스트를 가볍게 유지 — 멀티 스킬 환경에서 토큰 예산 관리의 사실상 표준이 되고 있다.
-- **MCP 통합이 스킬 레벨로 내려옴**: `mcp-builder`, `helium-mcp`, `paperjsx`(@paperjsx/mcp-server), `codex-sms-verification`(VirtualSMS MCP) 등 스킬이 곧 MCP 서버 래퍼로 출시되는 패턴.
-- **Composio CLI**를 통한 1000+ 앱 액션 연결(`connect/`, `connect-apps/`, `pr-review-ci-fix/`, `datadog-logs/`)이 “텍스트 생성 너머 실제 행동” 레이어로 자리잡았다.
-- **거버넌스/품질 게이트 스킬**이 본격화: `Bernstein`(병렬 Codex 에이전트 + git worktree 격리 + 품질 게이트), `Vibe-Skills`(요구 동결 → 계획 승인 → 검증 evidence 단계), `AuraKit`(46 modes, 23 sub-agents, 6-layer OWASP, 10 lifecycle hooks) — HITL·감사 가능성을 스킬 단에서 강제하는 흐름.
+
+- **Claude Code 네이티브 플러그인 마켓플레이스**(32개) + **MCP 서버**로 직통합되는 구조라, "Claude Code를 평소처럼 쓰면 hooks가 알아서 라우팅·학습·코디네이션"이라는 **invisible orchestration** 패턴을 구현했다.
+- **Queen-led 계층 + Raft/Byzantine/Gossip 합의**로 swarm topology를 다루는 방식은 단일 agent loop 시대를 넘어 **multi-agent consensus**가 실전에 들어왔다는 신호.
+- **SONA neural patterns + ReasoningBank + trajectory learning**으로 "세션 단위 정적 행동"에서 "**과거 trajectory에서 학습하는 self-optimizing 에이전트**"로 이동.
+- **Agent Federation**(mTLS + ed25519 + PII 14타입 파이프라인 + 행동 기반 trust score `0.4×success + 0.2×uptime + 0.2×threat + 0.2×integrity`)는 **에이전트판 Slack/B2B 신원 프로토콜**의 초기 형태.
+- **GOAP A\* 플래너**(`goal.ruv.io`)로 자연어 목표 → preconditions/actions/state-space 탐색 → MCP 툴 콜로 dispatch하는 **plain-English → executable plan** 패러다임 제시.
 
 ### 3. 핵심 개념
+
 | 용어 | 정의 | 비고/관련 키워드 |
 |---|---|---|
-| **Codex Skill** | `SKILL.md`(name+description frontmatter)와 본문 instruction을 담은 폴더 단위 명령 번들 | Claude Code의 skills과 동형 구조 |
-| **`$CODEX_HOME/skills`** | 스킬 설치 루트 디렉터리(기본 `~/.codex/skills`) | 재시작 시 메타데이터 재로드 |
-| **Progressive disclosure** | 메타데이터 → 본문 → `references/` 순으로 필요시점에만 로드 | context 예산 보호 |
-| **Skill layout** | `SKILL.md` + `scripts/` + `references/` + `assets/` | README/changelog는 두지 말 것 |
-| **Skill Installer** | `install-skill-from-github.py --repo … --path … --name …` 스크립트 | GitHub 경로에서 직접 설치 |
-| **Composio CLI 연결** | 1000+ 앱(Slack, GitHub, Notion 등)에 대한 실 액션 어댑터 | `connect/`, `connect-apps/` |
-| **Bernstein** | Codex CLI 어댑터를 가진 멀티 에이전트 오케스트레이터, **격리된 git worktree**에서 병렬 실행 + 품질 게이트 | 멀티 에이전트 안전 실행 |
-| **Vibe-Skills** | 340+ 스킬을 **requirement freeze → plan approval → execution → verification evidence → cross-session memory**로 라우팅 | governed skill harness |
-| **AuraKit** | 46 modes / 23 sub-agents / 6-layer OWASP / 10 lifecycle hooks / ~55% 토큰 절감 | `npx @smorky85/aurakit` |
-| **Emdash Skills** | 14 카테고리 자율 제품화 OS, Codex 네이티브 `.agents/skills/` 지원, 18 agents | CF Workers + Hono + Angular + D1 + Stripe 레퍼런스 |
-| **Skill 트리거 메커니즘** | 사용자 자연어 요청과 `description` frontmatter의 의미적 매칭으로 자동 발화, 또는 이름 직접 호명 | description은 "언제 트리거할지"를 exhaustive하게 |
+| **Swarm Coordination** | 다수 에이전트를 hierarchical/mesh/adaptive topology로 조율, 합의 알고리즘 적용 | Queen-led, Raft, Byzantine, Gossip |
+| **SONA** | 자가학습 neural pattern 시스템, trajectory에서 패턴 추출 | ReasoningBank, MicroLoRA |
+| **AgentDB + HNSW** | 벡터 메모리, 브루트포스 대비 150×~12,500× 빠른 검색 | sub-ms retrieval |
+| **27 Hooks** | Claude Code 동작에 자동 끼어들어 라우팅·학습·코디네이션 트리거 | invisible orchestration |
+| **MCP 통합** | `claude mcp add ruflo`로 MCP 서버 등록, ~210 툴 노출 | 5 server groups: Core/Intelligence/Agents/Memory/DevTools |
+| **Agent Federation** | 머신·조직 경계 넘은 zero-trust 에이전트 협업 채널 | mTLS, ed25519 challenge-response, PII gate |
+| **Trust Scoring** | `0.4×success + 0.2×uptime + 0.2×threat + 0.2×integrity`, 업그레이드는 점진·다운그레이드는 즉시 | HIPAA/SOC2/GDPR 감사 모드 |
+| **PII Pipeline** | 14타입 탐지 + BLOCK/REDACT/HASH/PASS per-trust-level 정책 | adaptive calibration |
+| **GOAP A\* Planner** | 자연어 목표 → precondition/effect 그래프 → A\* 최단경로 → MCP 툴 dispatch | replanning on state change |
+| **ruvLLM** | 로컬 자가학습 LLM 레이어, MicroLoRA 어댑터로 라우팅 | `ruvnet/RuVector/examples/ruvLLM` |
+| **Background Workers** | 12개 자동 트리거 워커(audit, optimize, testgaps 등) | loop-workers 플러그인 |
+| **Plugin Marketplace** | 32개 native Claude Code 플러그인 + 21개 npm 플러그인 | core/swarm/autopilot/federation 등 |
 
 ### 4. 작동 원리 / 구조
 
+원문 다이어그램을 그대로 정리하면:
+
 ```mermaid
-flowchart LR
-    U[사용자 자연어 요청] --> CDX[Codex CLI/API]
-    CDX -->|시작 시 1회| META[모든 SKILL.md frontmatter<br/>name + description 로드]
-    CDX -->|매 요청| MATCH{description 매칭?}
-    MATCH -->|Yes| LOAD[SKILL.md 본문 로드]
-    LOAD --> REF[필요 시 references/ 추가 로드]
-    LOAD --> RUN[scripts/ 실행 또는 지시 수행]
-    RUN --> ACT[Composio/MCP 등<br/>외부 액션]
-    MATCH -->|No| CDX
+flowchart TD
+    U[User] --> CC[Claude Code / CLI]
+    CC --> ORC[Orchestration Layer<br/>MCP Server · Router · 27 Hooks]
+    ORC --> SW[Swarm Coordination<br/>Queen · Topology · Consensus]
+    SW --> AG[100+ Specialized Agents<br/>coder · tester · reviewer · architect · security]
+    AG --> MEM[Memory & Learning<br/>AgentDB · HNSW · SONA · ReasoningBank]
+    MEM --> LLM[LLM Providers<br/>Claude · GPT · Gemini · Cohere · Ollama]
+    MEM -.Learning Loop.-> SW
 ```
 
-핵심은 **두 단계 로딩**이다. 시작 시점에는 메타데이터만 인덱싱하고, 실제 트리거가 발생한 스킬에 한해 본문과 `references/`, `scripts/`를 호출 시점에 가져온다. 이로 인해 `description` 작성 품질이 트리거 정확도를 결정한다(원문: "Keep the description exhaustive about when to trigger; keep the body focused on execution steps").
+핵심은 **Router가 task를 swarm에 분배** → **swarm이 agent를 spawn** → **결과/trajectory가 Memory에 적재** → **Learning Loop가 다음 라우팅 정확도(89%)를 끌어올린다**는 폐쇄 루프.
+
+페더레이션은 별도 레이어:
+
+```
+Your Agent → [PII strip] → [ed25519 sign] → [encrypted channel]
+                                                    ↓
+Their Agent ← [block prompt injection] ← [verify identity]
+            (양쪽 audit trail · trust 점진 상승 · 위반 시 즉시 강등)
+```
 
 ### 5. 실제 사용법 / 예시
 
-설치(권장):
+**Claude Code 플러그인 설치 (권장)**
 ```
-git clone https://github.com/ComposioHQ/awesome-codex-skills.git
-cd awesome-codex-skills
-python skill-installer/scripts/install-skill-from-github.py --repo ComposioHQ/awesome-codex-skills --path meeting-notes-and-actions
-```
-
-외부 저장소에서 직접 설치(예: brooks-lint):
-```
-python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo hyhmrright/brooks-lint --path skills/brooks-lint --name brooks-lint
+/plugin marketplace add ruvnet/ruflo
+/plugin install ruflo-core@ruflo
+/plugin install ruflo-swarm@ruflo
+/plugin install ruflo-autopilot@ruflo
+/plugin install ruflo-federation@ruflo
 ```
 
-수동 설치:
+**CLI / MCP 등록**
 ```
-# 폴더를 $CODEX_HOME/skills/ 로 복사 후 Codex 재시작
-ls ~/.codex/skills
-head ~/.codex/skills/<skill>/SKILL.md
-```
-
-스킬 폴더 레이아웃:
-```
-skill-name/
-├── SKILL.md          # Required: instructions + YAML frontmatter
-├── scripts/          # Optional: helper scripts for deterministic steps
-├── references/       # Optional: long-form docs loaded only when needed
-└── assets/           # Optional: templates or files used in outputs
+curl -fsSL https://cdn.jsdelivr.net/gh/ruvnet/ruflo@main/scripts/install.sh | bash
+# 또는
+npx ruflo@latest init --wizard
+npm install -g ruflo@latest
+# Claude Code에 MCP 서버로 연결
+claude mcp add ruflo -- npx -y @claude-flow/cli@latest
 ```
 
-`SKILL.md` 템플릿:
+**Federation — 두 팀이 고객 데이터 공유 없이 사기 신호만 교환**
 ```
----
-name: my-skill-name
-description: What the skill does and when Codex should use it.
----
-# My Skill Name
-Clear instructions and steps for Codex to execute the task.
+# Team A: 페더레이션 초기화 + 키페어 생성
+npx claude-flow@latest federation init
+
+# Team A: Team B 엔드포인트 join
+npx claude-flow@latest federation join wss://team-b.example.com:8443
+
+# Team A: task 전송 — PII는 떠나기 전에 자동 제거
+npx claude-flow@latest federation send --to team-b --type task-request \
+  --message "Analyze transaction patterns for account anomalies"
+
+# Trust/세션 상태 확인
+npx claude-flow@latest federation status
 ```
 
 ### 6. 사용자 프로젝트 접목
 
-- **DCSAI `dcs-ai-plugin`(Claude Code plugin) ↔ Codex 양립 fork**: `commands/agents/skills/hooks` 디렉터리 중 **`skills/`** 하위에 본 저장소의 `SKILL.md` frontmatter 컨벤션(name + "언제 트리거할지" exhaustive description + `references/`/`scripts/` 분리)을 사내 표준으로 채택. `ff-claude-manager`(Tauri 2)에는 본 저장소의 **`install-skill-from-github.py`** 패턴을 차용해 "사내 fork repo + path + name" 3-필드 입력으로 동기화하는 자동 업데이트 정책을 추가하면 좋다.
-- **DCSAI agent loop · MCP host에 `mcp-builder`/Bernstein 패턴 이식**: 자체 구현한 **MCP host server**의 신규 서버 등록·검증 워크플로를 `mcp-builder`의 evaluation harness 형태로 스킬화하고, **HITL 분기**는 `Vibe-Skills`의 *requirement freeze → plan approval → execution → verification evidence* 5단계를 그대로 차용해 Anthropic SDK agent loop의 사람 승인 지점을 명시화. 멀티 작업 병렬 처리는 `Bernstein`의 **격리 git worktree + 품질 게이트** 모델이 그대로 매핑된다.
-- **Team Agent `discovery-core-agent` 실행 환경 표준화**: 브랜드별 **`brand.yaml`** 주입 단계를 스킬 한 개(`brand-context-loader` 류)로 표준화하고, `notion-spec-to-implementation`/`notion-knowledge-capture` 패턴을 참고해 **dcsai KG MCP** 결과를 구조화 산출물로 변환하는 스킬을 만들면 `platform-core-agent`와 `discovery-core-agent` 양 계층에서 재사용 가능. **Activity Log/Observer L1~L4 피드백 루프**는 `Vibe-Skills`의 cross-session memory + verification evidence 개념과 직결되므로, 각 스킬의 산출물에 evidence id를 강제 첨부하는 frontmatter 확장을 사내 컨벤션으로 정의.
-- **Quest 3계층(전체·파티·플레이어)에 스킬 스코프 매핑**: 전체 Quest = `platform-core-agent` 공용 스킬, 파티 Quest = 브랜드(`discovery-core-agent`) 전용 스킬(`brand.yaml` 의존), 플레이어 Quest = 개인 워크스페이스 스킬로 3-tier 디렉터리 분리. **FSD/server-only** 원칙상 스킬 실행 결과를 클라이언트로 흘릴 때 `paperjsx` 스타일(JSON → PPTX/DOCX/XLSX/PDF, 로컬 MCP, no API key) 산출 변환을 server-only 액션으로 채택하면 안전.
+- **DCSAI / MCP host server**: 현재 자체 구현 중인 MCP 호스트에 **Ruflo MCP 서버**(`claude mcp add ruflo`)를 게스트 툴 그룹으로 노출시키고, **27 Hooks 패턴**을 참조해 DCSAI의 **agent loop**가 task 시작/종료 시점에 자동으로 메모리 적재·라우팅 결정을 갈아끼우는 **invisible orchestration 레이어**를 추가. **HITL 분기**는 Ruflo의 federation **trust score 다운그레이드 정책**을 차용해 "신뢰 점수 낮은 외부 에이전트 출력 = HITL 강제"로 모델링.
+- **DCSAI / dcs-ai-plugin (Claude Code) + ff-claude-manager (Tauri)**: Ruflo가 **Claude Code 마켓플레이스 플러그인** 32종을 어떻게 모듈로 쪼갰는지(`ruflo-core`, `ruflo-swarm`, `ruflo-rag-memory`, `ruflo-knowledge-graph`)가 곧 dcs-ai-plugin의 분할 레퍼런스. Tauri 매니저에는 Ruflo의 **Goal Planner UI**(자연어 → action tree → live agent dashboard)를 참고해 **사내 task → agent 트리 시각화 패널**을 추가.
+- **Team Agent / platform-core-agent ↔ discovery-core-agent**: Ruflo의 **Queen-led hierarchy + Router** 구조가 정확히 platform-core(상위 큐)↔discovery-core(브랜드별 워커) 매핑. **Quest 3계층(전체·파티·플레이어)** 분배 로직은 **GOAP A\* 플래너**의 precondition/effect 분해 → 의존 그래프 병렬 dispatch 방식을 가져와 "Quest → 파티 액션 노드 → 플레이어 툴 콜"로 환원하면 자연스럽다.
+- **Team Agent / Activity Log·Observer (L1~L4 피드백 루프)**: Ruflo의 **AgentDB + HNSW + SONA + ReasoningBank Learning Loop**가 L1 자동 피드백의 직접 레퍼런스. Activity Log를 **trajectory store**로 재정의하고, Observer는 **behavioral trust score 공식**(`0.4×success + 0.2×uptime + 0.2×threat + 0.2×integrity`)을 브랜드별 에이전트 평가 지표로 차용. **brand.yaml**은 Ruflo의 per-trust-level **PII policy(BLOCK/REDACT/HASH/PASS)** 패턴을 따라 "브랜드별 데이터 노출 정책"을 선언형으로 분리.
+- **Team Agent / 크로스 브랜드 협업**: 향후 F&F 브랜드 간 또는 외부 파트너(에이전시·물류) 에이전트 협업 시 **Agent Federation**(mTLS + ed25519 + PII 14타입 파이프라인 + HIPAA/SOC2/GDPR 감사 모드)을 그대로 참조 — KG MCP 직연결 구조에 trust boundary를 얹는 자연스러운 확장 경로.
 
 ### 7. 더 파고들 거리
-- [Bernstein](https://github.com/ComposioHQ/awesome-codex-skills) — 멀티 에이전트 오케스트레이터 + Codex CLI 어댑터(원문에 외부 URL 미명시, 저장소 README 참조)
-- [brooks-lint (hyhmrright/brooks-lint)](https://github.com/hyhmrright/brooks-lint) — 6대 엔지니어링 고전 기반 AI 코드 리뷰
-- [codebase-recon (yujiachen-y/codebase-recon-skill)](https://github.com/yujiachen-y/codebase-recon-skill) — git history 기반 hotspot/bug-magnet 분석
-- AuraKit — `npx @smorky85/aurakit` (6-layer OWASP, 10 lifecycle hooks)
-- [ComposioHQ/awesome-codex-skills 본 저장소](https://github.com/ComposioHQ/awesome-codex-skills) — `mcp-builder/`, `Vibe-Skills`, `Emdash Skills`, `paperjsx/` 등 카테고리별 스킬 원본
+
+- [User Guide (전체 문서)](https://github.com/ruvnet/ruflo) — Quick Start, Core Features, Intelligence & Learning, Swarm & Coordination, Security, Configuration
+- [flo.ruv.io](https://flo.ruv.io/) — Web UI 호스팅 데모, 6개 frontier 모델 + 병렬 MCP 툴 콜
+- [goal.ruv.io](https://goal.ruv.io/) · [goal.ruv.io/agents](https://goal.ruv.io/agents) — GOAP A\* 플래너 + 라이브 agent 대시보드
+- ruvLLM 소스: `ruvnet/RuVector/examples/ruvLLM` (원문 언급, 직접 URL 미제공)
+- 원문 인용 이슈: **ADR-033**(Web UI 아키텍처), **issue #1689**(Web UI 로드맵), **issue #1669**(Federation 아키텍처·trust 모델·구현 로드맵) — 모두 `ruvnet/ruflo` GitHub 저장소 내
 
 ---
 
@@ -108,260 +121,360 @@ Clear instructions and steps for Codex to execute the task.
 
 > 의역 최소화한 전체 번역입니다. 큰 흐름은 위 정리에서 잡고, 정확한 워딩이 필요할 땐 이 섹션에서 정독하세요.
 
-# Awesome Codex Skills
+# Ruflo
+## Claude Code를 위한 멀티에이전트 AI 오케스트레이션
 
-Codex CLI와 API 전반에 걸쳐 워크플로우를 자동화하기 위한 실용적인 Codex 스킬 큐레이션 목록입니다.
-
-텍스트 생성 이상의 기능을 하는 스킬을 원하시나요?
-Codex는 이메일 전송, 이슈 생성, Slack 포스팅, 그리고 1000개 이상의 앱에서 작업을 수행할 수 있습니다.
-자세히 보기 →
+머신, 팀, 신뢰 경계를 가로질러 100개 이상의 특화 AI 에이전트를 오케스트레이션하세요. Ruflo는 Claude Code에 조율된 스웜(swarm), 자가 학습 메모리, 연합 통신(federated comms), 그리고 엔터프라이즈 보안을 추가합니다 — 에이전트들이 단순히 실행되는 것이 아니라, 협업합니다.
 
 ---
 
-## 빠른 시작: Codex에 스킬 추가하기
+## Ruflo를 사용하는 이유?
 
-### 스킬 설치 도구로 설치 (권장)
+Claude Flow가 이제 Ruflo가 되었습니다 — Rust, 플로우 상태(flow states), 그리고 필연적으로 느껴지는 것들을 만드는 것을 사랑하는 rUv가 명명했습니다. "Ru"는 Ruv에서 왔고, "flo"는 flow(흐름)를 의미합니다. 내부적으로는 Rust로 작성된 WASM 커널이 정책 엔진, 임베딩, 그리고 증명 시스템(proof system)을 구동합니다.
+
+---
+
+## Ruflo가 하는 일
+
+`init` 하나로 Claude Code에 신경계가 생깁니다: 에이전트들은 스스로 스웜을 구성하고, 모든 태스크에서 학습하고, 세션을 넘어 기억하며 — 연합(federation)을 통해 — 데이터를 유출하지 않으면서 다른 머신의 에이전트들과 안전하게 통신합니다. 여러분은 계속 코드를 작성하면 됩니다. Ruflo가 조율을 담당합니다.
+
+### 자가 학습 / 자가 최적화 에이전트 아키텍처
+
+```
+User --> Ruflo (CLI/MCP) --> Router --> Swarm --> Agents --> Memory --> LLM Providers
+                          ^                           |
+                          +---- Learning Loop <-------+
+```
+
+---
+
+## Ruflo가 처음이신가요?
+
+314개의 MCP 툴이나 26개의 CLI 명령어를 배울 필요가 없습니다. `init` 후에는 Claude Code를 평소처럼 사용하기만 하면 됩니다 — 훅(hooks) 시스템이 자동으로 태스크를 라우팅하고, 성공적인 패턴에서 학습하며, 백그라운드에서 에이전트들을 조율합니다.
+
+---
+
+## 빠른 시작
+
+### Claude Code 플러그인 (권장)
+
+Ruflo를 네이티브 Claude Code 플러그인으로 설치하세요 — 스킬, 명령어, 에이전트, MCP 툴을 직접 추가합니다:
 
 ```bash
-git clone https://github.com/ComposioHQ/awesome-codex-skills.git
-cd awesome-codex-skills
+# 마켓플레이스 추가
+/plugin marketplace add ruvnet/ruflo
 
-# $CODEX_HOME/skills (기본값: ~/.codex/skills)에 하나 이상의 스킬 설치
-python skill-installer/scripts/install-skill-from-github.py --repo ComposioHQ/awesome-codex-skills --path meeting-notes-and-actions
+# 코어 + 필요한 플러그인 설치
+/plugin install ruflo-core@ruflo
+/plugin install ruflo-swarm@ruflo
+/plugin install ruflo-autopilot@ruflo
+/plugin install ruflo-federation@ruflo
 ```
 
-설치 도구는 스킬을 가져와 `$CODEX_HOME/skills/<skill-name>`에 배치합니다. 새 스킬을 적용하려면 Codex를 재시작하세요.
+---
 
-### 수동 설치
+## 전체 32개 플러그인
 
-원하는 스킬 폴더(예: `./spreadsheet-formula-helper`)를 `$CODEX_HOME/skills/` (기본값: `~/.codex/skills/`)에 복사합니다.
+### 코어 & 오케스트레이션
 
-Codex를 재시작하면 새 메타데이터가 로드됩니다.
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-core | 기반 — 서버, 헬스 체크, 플러그인 디스커버리 |
+| ruflo-swarm | 여러 에이전트를 팀으로 조율 |
+| ruflo-autopilot | 에이전트가 루프 내에서 자율적으로 실행되도록 허용 |
+| ruflo-loop-workers | 타이머로 백그라운드 태스크 스케줄링 |
+| ruflo-workflows | 재사용 가능한 멀티스텝 태스크 템플릿 |
+| ruflo-federation | 다른 머신의 에이전트들이 안전하게 협업 |
 
-다음 세션에서 작업을 설명하거나 스킬 이름을 언급하면, Codex가 `description` 프론트매터를 기반으로 일치하는 스킬을 트리거합니다.
+### 메모리 & 지식
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-agentdb | 에이전트 메모리용 빠른 벡터 데이터베이스 |
+| ruflo-rag-memory | 스마트 검색 — 하이브리드 검색, 그래프 홉, 다양성 랭킹 |
+| ruflo-rvf | 세션 간 에이전트 메모리 저장 및 복원 |
+| ruflo-ruvector | ruvector — GPU 가속 검색, Graph RAG, 103개 툴 |
+| ruflo-knowledge-graph | 엔티티 관계 맵 구축 및 탐색 |
+
+### 지능 & 학습
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-intelligence | 에이전트가 과거 성공에서 학습하며 더 똑똑해짐 |
+| ruflo-daa | 동적 에이전트 행동 및 인지 패턴 |
+| ruflo-ruvllm | 스마트 라우팅으로 로컬 LLM (Ollama 등) 실행 |
+| ruflo-goals | 큰 목표를 계획으로 분해하고 진행 상황 추적 |
+
+### 코드 품질 & 테스팅
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-testgen | 누락된 테스트 발견 및 자동 생성 |
+| ruflo-browser | Playwright로 브라우저 테스팅 자동화 |
+| ruflo-jujutsu | git diff 분석, 위험도 점수, 리뷰어 제안 |
+| ruflo-docs | 문서 자동 생성 및 유지 관리 |
+
+### 보안 & 컴플라이언스
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-security-audit | 취약점 및 CVE 스캔 |
+| ruflo-aidefence | 프롬프트 인젝션 차단, PII 감지, 안전 스캐닝 |
+
+### 아키텍처 & 방법론
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-adr | 살아있는 기록으로 아키텍처 결정 추적 |
+| ruflo-ddd | 도메인 주도 설계 스캐폴딩 — 컨텍스트, 애그리게이트, 이벤트 |
+| ruflo-sparc | 품질 게이트를 포함한 가이드 5단계 개발 방법론 |
+
+### DevOps & 관찰 가능성
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-migrations | 데이터베이스 스키마 변경 안전하게 관리 |
+| ruflo-observability | 구조화된 로그, 트레이스, 메트릭을 한 곳에서 |
+| ruflo-cost-tracker | 토큰 사용량 추적, 예산 설정, 비용 알림 수신 |
+
+### 확장성
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-wasm | 샌드박스 WebAssembly 에이전트 실행 |
+| ruflo-plugin-creator | 나만의 플러그인 스캐폴딩, 검증 및 게시 |
+
+### 도메인 특화
+
+| 플러그인 | 기능 |
+|---|---|
+| ruflo-iot-cognitum | IoT 디바이스 관리 — 신뢰 점수, 이상 감지, 플릿 |
+| ruflo-neural-trader | neural-trader — 4개 에이전트, 백테스팅, 112개 이상 툴을 갖춘 AI 트레이딩 |
+| ruflo-market-data | 시장 데이터 수집, OHLCV 벡터화, 패턴 감지 |
 
 ---
 
-## 목차
+## CLI 설치
 
-- **Bernstein** — 멀티 에이전트 오케스트레이터(Codex CLI 어댑터 포함). 품질 게이트와 함께 격리된 git 워크트리에서 병렬 Codex 에이전트를 실행합니다.
-- [Codex 스킬이란?](#codex-스킬이란)
-- [스킬](#스킬)
-  - [개발 및 코드 도구](#개발-및-코드-도구)
-  - [생산성 및 협업](#생산성-및-협업)
-  - [커뮤니케이션 및 글쓰기](#커뮤니케이션-및-글쓰기)
-  - [데이터 및 분석](#데이터-및-분석)
-  - [메타 및 유틸리티](#메타-및-유틸리티)
-- [Codex에서 스킬 사용하기](#codex에서-스킬-사용하기)
-- [스킬 만들기](#스킬-만들기)
-- [기여하기](#기여하기)
-- [커뮤니티 참여](#커뮤니티-참여)
+```bash
+# 원라인 설치
+curl -fsSL https://cdn.jsdelivr.net/gh/ruvnet/ruflo@main/scripts/install.sh | bash
 
----
+# 또는 npx 경유
+npx ruflo@latest init --wizard
 
-## Codex 스킬이란?
-
-Codex 스킬은 Codex에게 원하는 방식으로 작업을 수행하는 방법을 알려주는 모듈식 명령 번들입니다. 각 스킬은 메타데이터(이름 + 설명)와 단계별 안내를 포함하는 `SKILL.md`가 있는 자체 폴더에 위치합니다. Codex는 메타데이터를 읽어 스킬을 트리거할 시기를 결정하고, 스킬이 실행된 후에만 본문을 로드하여 컨텍스트를 간결하게 유지합니다.
-
----
-
-## 스킬
-
-### 개발 및 코드 도구
-
-- **brooks-lint** — 6권의 고전 엔지니어링 도서를 기반으로 한 AI 코드 리뷰 — 도서 인용, 심각도 레이블, 4가지 분석 모드(PR 리뷰, 아키텍처 감사, 기술 부채, 테스트 품질)를 포함한 코드 품질 저하 위험 진단. 설치:
-  ```bash
-  python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo hyhmrright/brooks-lint --path skills/brooks-lint --name brooks-lint
-  ```
-
-- **codebase-migrate/** — 대규모 코드베이스 마이그레이션 및 다중 파일 리팩터링을 검토 가능한 배치로 CI 검증과 함께 실행합니다.
-
-- **codebase-recon** — 코드를 읽기 전에 git 히스토리를 분석하여 코드베이스를 파악 — 자동 스케일 분석을 통해 핫스팟, 버그 유발 지점, 버스 팩터, 모멘텀, 고위험 파일(핫스팟 ∩ 버그 유발 지점)을 표시합니다. 설치:
-  ```bash
-  python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo yujiachen-y/codebase-recon-skill --path skills/codebase-recon --name codebase-recon
-  ```
-
-- **create-plan/** — 코딩 작업을 위한 간결한 실행 계획을 빠르게 초안 작성합니다.
-
-- **deploy-pipeline/** — Stripe → Supabase → Vercel 엔드투엔드 릴리스 파이프라인(검증 및 롤백 포함).
-
-- **Emdash Skills** — 14개 카테고리의 자율적 제품 구축 OS: CF Workers + Hono + Angular + D1 + Stripe. 간단한 한 줄 프롬프트로 94개의 참조 문서, 18개의 에이전트, Codex 네이티브 `.agents/skills/` 지원을 갖춘 SaaS를 배포합니다.
-
-- **gh-address-comments/** — 현재 브랜치의 열린 GitHub PR에 대한 리뷰 또는 이슈 코멘트를 `gh`를 사용하여 처리합니다.
-
-- **gh-fix-ci/** — 실패한 GitHub Actions 검사를 검사하고, 실패를 요약하며, 수정 사항을 제안합니다.
-
-- **mcp-builder/** — 모범 사례와 평가 하네스를 사용하여 MCP 서버를 빌드하고 평가합니다.
-
-- **pr-review-ci-fix/** — Composio CLI를 통한 자동화된 GitHub/GitLab PR 리뷰 및 CI 자동 수정 루프.
-
-- **sentry-triage/** — 스택 프레임을 로컬 소스에 매핑하여 Sentry 이슈를 진단 — 복사-붙여넣기 없이.
-
-- **webapp-testing/** — 타깃 웹 앱 테스트를 실행하고 결과를 요약합니다.
-
-- **AuraKit** — 올인원 스킬 프레임워크: 46개 모드, 23개 서브 에이전트, 6계층 OWASP 보안, 10개 라이프사이클 훅, ~55% 토큰 절감. 설치:
-  ```bash
-  npx @smorky85/aurakit
-  ```
-
-- **Vibe-Skills** — 단계적이고 테스트 중심의 작업을 위한 거버넌스 기반 Codex 스킬 하네스: 340개 이상의 스킬을 요구사항 동결, 계획 승인, 실행, 검증 증거, 세션 간 메모리를 통해 라우팅합니다.
-
----
-
-### 생산성 및 협업
-
-- **connect/** — Composio CLI를 통해 Codex를 1000개 이상의 앱(Slack, GitHub, Notion 등)에 연결하여 실제 작업을 수행합니다.
-
-- **connect-apps/** — Claude를 위한 Composio CLI 연결을 구성하고 셸에서 앱 워크플로우를 시작합니다.
-
-- **issue-triage/** — Linear 또는 Jira 백로그를 분류하고 터미널에서 버그 스윕을 실행합니다.
-
-- **linear/** — Linear에서 이슈, 프로젝트, 팀 워크플로우를 관리합니다.
-
-- **meeting-insights-analyzer/** — 회의 전사본에서 주제, 위험 요소, 후속 조치를 분석합니다.
-
-- **meeting-notes-and-actions/** — 회의 전사본을 결정 사항과 담당자 태그가 붙은 액션 아이템이 포함된 요약본으로 변환합니다.
-
-- **internal-comms/** — 내부 공지, 업데이트, 이해관계자 메시지를 작성합니다.
-
-- **invoice-organizer/** — 추적 및 보고를 위해 인보이스 데이터를 정규화하고 추출합니다.
-
-- **notion-knowledge-capture/** — 채팅 또는 메모를 적절한 링크가 포함된 구조화된 Notion 페이지로 변환합니다.
-
-- **notion-meeting-intelligence/** — Notion 컨텍스트와 Codex 리서치를 활용하여 회의 자료를 준비합니다.
-
-- **notion-research-documentation/** — 여러 Notion 소스를 인용이 포함된 브리핑, 비교, 또는 보고서로 종합합니다.
-
-- **notion-spec-to-implementation/** — Notion 스펙을 구현 계획, 작업, 진행 추적으로 변환합니다.
-
-- **support-ticket-triage/** — 카테고리, 우선순위, 다음 조치, 초안 답변과 함께 고객 지원 티켓을 분류합니다.
-
-- **file-organizer/** — 워크스페이스를 깔끔하게 유지하기 위해 파일을 정리, 이름 변경, 정돈합니다.
-
-- **paperjsx/** — 구조화된 JSON에서 PPTX 프레젠테이션, DOCX 문서, XLSX 스프레드시트, PDF 인보이스/보고서/차트를 생성합니다. `@paperjsx/mcp-server`를 통해 로컬에서 실행 — API 키 불필요, 네트워크 호출 없음.
-
-- **skill-share/** — 팀원 간에 스킬과 재사용 가능한 명령을 공유합니다.
-
----
-
-### 커뮤니케이션 및 글쓰기
-
-- **codex-sms-verification** — 외부 저장소: VirtualSMS MCP를 통한 AI 에이전트용 실제 SIM SMS 검증. 145개 이상 국가, 2000개 이상 서비스, 호스팅(mcp.virtualsms.io)과 로컬 stdio 전송 방식 모두 지원.
-
-- **email-draft-polish/** — 적절한 톤과 대상에 맞게 이메일을 초안 작성, 재작성, 또는 압축합니다.
-
-- **changelog-generator/** — 커밋 또는 요약으로부터 명확한 체인지로그를 생성합니다.
-
-- **content-research-writer/** — 출처 인용과 함께 콘텐츠를 리서치하고 초안을 작성합니다.
-
-- **novel-writing** — 외부 저장소: 소설 기획, 챕터 초안 작성, 장면 이어쓰기, 수정을 위한 공개 Codex 스킬.
-
-- **tailored-resume-generator/** — 정량적 성과와 함께 이력서를 직무 설명에 맞게 조정합니다.
-
-- **unslop** — 외부 저장소: 텍스트에서 AI 글쓰기 패턴(삼중 구문, 대시 남용, 헤징 중첩, 아첨식 도입부)을 제거하는 CLI 및 MCP 서버. Codex, Claude Code, Gemini CLI, Cursor와 함께 작동. 5단계 강도 및 린트 전용 감사 모드 지원.
-
----
-
-### 데이터 및 분석
-
-- **spreadsheet-formula-helper/** — 스프레드시트 수식, 피벗, 배열 수식을 작성하고 디버깅합니다.
-
-- **competitive-ads-extractor/** — 경쟁사 광고를 분석하고 구조화된 인사이트를 추출합니다.
-
-- **datadog-logs/** — Composio CLI를 통해 셸에서 Datadog 로그를 필터링하며, JSON 친화적 출력 및 다이제스트 워크플로우를 제공합니다.
-
-- **developer-growth-analysis/** — Codex 채팅 히스토리를 분석하여 코딩 패턴과 학습 격차를 파악합니다.
-
-- **lead-research-assistant/** — 리드를 리서치하고 기업 정보 데이터로 레코드를 보강합니다.
-
-- **domain-name-brainstormer/** — 기준과 확인을 포함하여 사용 가능한 도메인 이름을 브레인스토밍합니다.
-
-- **raffle-winner-picker/** — 감사 친화적인 로그와 함께 무작위로 당첨자를 선택합니다.
-
-- **langsmith-fetch/** — 분석을 위해 LangSmith 프로젝트/테스트 데이터를 가져옵니다.
-
-- **helium-mcp/** — MCP를 통해 편향 점수와 함께 실시간 뉴스를 검색하고, 실시간 시장 데이터, ML 옵션 가격 책정, 균형 잡힌 뉴스 종합을 제공합니다.
-
----
-
-### 메타 및 유틸리티
-
-- **brand-guidelines/** — OpenAI/Codex 브랜드 색상과 타이포그래피를 아티팩트에 적용합니다.
-
-- **agent-deep-links/** — Codex, Cursor, VS Code용 딥 링크를 빌드하고 검증하며, Slack 안전 형식 및 대체 안내를 제공합니다.
-
-- **canvas-design/** — 구조화된 캔버스 레이아웃과 디자인 아티팩트를 생성합니다.
-
-- **image-enhancer/** — 구성 가능한 프리셋으로 이미지를 업스케일하고 개선합니다.
-
-- **slack-gif-creator/** — 캡션과 스타일링이 포함된 Slack용 GIF를 생성합니다.
-
-- **theme-factory/** — 재사용 가능한 테마 토큰과 팔레트를 생성합니다.
-
-- **video-downloader/** — 오프라인 리뷰를 위해 동영상을 다운로드하고 준비합니다.
-
-- **template-skill/** — 새 스킬 빌드를 위한 스타터 템플릿.
-
-- **skill-installer/** — 큐레이션 목록 또는 GitHub 경로에서 스킬을 설치하는 헬퍼 스크립트.
-
-- **skill-creator/** — 프로그레시브 디스클로저를 활용하여 효과적인 Codex 스킬을 빌드하기 위한 안내.
-
----
-
-## Codex에서 스킬 사용하기
-
-스킬은 `$CODEX_HOME/skills` (기본값: `~/.codex/skills`)에 위치합니다. 각 하위 폴더에는 `name`과 `description` 프론트매터가 포함된 `SKILL.md`가 필요합니다.
-
-스킬을 설치하거나 업데이트한 후, Codex를 재시작하면 메타데이터가 다시 로드됩니다.
-
-세션에서 작업을 자연스럽게 설명하면 Codex가 설명과 요청이 일치하는 스킬을 자동으로 트리거합니다. 특정 스킬을 고려하게 하려면 스킬 이름을 직접 언급할 수도 있습니다.
-
-설치를 확인하려면 설치된 스킬을 나열하고(`ls ~/.codex/skills`) 메타데이터를 검사하세요(`head ~/.codex/skills/<skill>/SKILL.md`).
-
----
-
-## 스킬 만들기
-
-**스킬 구조:**
-
-```
-skill-name/
-├── SKILL.md          # 필수: 명령 + YAML 프론트매터
-├── scripts/          # 선택: 결정론적 단계를 위한 헬퍼 스크립트
-├── references/       # 선택: 필요할 때만 로드하는 장문의 문서
-└── assets/           # 선택: 출력에 사용되는 템플릿 또는 파일
+# 또는 전역 설치
+npm install -g ruflo@latest
 ```
 
-**기본 SKILL.md 템플릿:**
+## MCP 서버
 
-```yaml
----
-name: my-skill-name
-description: 스킬이 하는 일과 Codex가 언제 사용해야 하는지.
----
-
-# My Skill Name
-
-Codex가 작업을 수행하기 위한 명확한 명령과 단계.
+```bash
+# Claude Code에 Ruflo를 MCP 서버로 추가
+claude mcp add ruflo -- npx -y @claude-flow/cli@latest
 ```
 
-**모범 사례:**
+---
 
-- `description`은 트리거 시점에 대해 충분히 상세하게 작성하고, 본문은 실행 단계에 집중하세요.
-- 프로그레시브 디스클로저를 활용하세요: 상세한 참조 자료는 `references/`에 넣고, 필요할 때만 `SKILL.md`에서 언급하세요.
-- 반복 가능하거나 결정론적인 작업을 위해 스크립트를 포함하고, Codex가 언제 실행해야 하는지 명시하세요.
-- 컨텍스트를 간결하게 유지하기 위해 스킬 폴더 내에 불필요한 문서(README, 체인지로그)를 추가하지 마세요.
+## 제공되는 기능
+
+| | 기능 | 설명 |
+|---|---|---|
+| 🤖 | 100개 이상의 에이전트 | 코딩, 테스팅, 보안, 문서화, 아키텍처 전문 에이전트 |
+| 📡 | 통신 레이어 | 제로 트러스트 연합 — 머신/조직 간 에이전트가 발견, 인증, 작업 교환을 안전하게 수행 |
+| 🐝 | 스웜 조율 | 합의(consensus)를 갖춘 계층형, 메시, 적응형 토폴로지 |
+| 🧠 | 자가 학습 | SONA 신경 패턴, ReasoningBank, 트라젝토리 학습 |
+| 💾 | 벡터 메모리 | HNSW 인덱싱된 AgentDB (150배~12,500배 더 빠른 검색) |
+| ⚡ | 백그라운드 워커 | 자동 트리거되는 12개 워커 (audit, optimize, testgaps 등) |
+| 🧩 | 플러그인 마켓플레이스 | 32개 네이티브 Claude Code 플러그인 + 21개 npm 플러그인 |
+| 🔌 | 멀티 프로바이더 | Claude, GPT, Gemini, Cohere, Ollama와 스마트 라우팅 |
+| 🛡️ | 보안 | AIDefence, 입력 검증, CVE 치료, 경로 탐색 방지 |
+| 🌐 | 에이전트 연합 | 제로 트러스트 보안으로 크로스 인스톨레이션 에이전트 협업 |
+| 💬 | Web UI 베타 | flo.ruv.io에서 멀티모델 채팅, 병렬 MCP 툴 호출, 브라우저 내 WASM 툴 갤러리 |
+| 🎯 | RuFlo 리서치 | goal.ruv.io의 GOAP A* 플래너 — 일반 영어 목표 → 실행 가능한 에이전트 계획, `/agents`의 실시간 에이전트 대시보드 |
 
 ---
 
-## 기여하기
+## Web UI (베타) — 셀프 호스팅 가능, 호스팅 데모: flo.ruv.io
 
-PR을 환영합니다. 실용적이고 재사용 가능한 스킬을 추가하고, 설명을 정확하게 작성하며, 필요한 스크립트나 참조 자료를 포함하세요. 새 스킬을 추가할 때는 `description`이 Codex가 언제 트리거해야 하는지를 명확히 명시하는지 확인하고, 메타데이터가 컨텍스트 제한 내에 맞는지 테스트하세요.
+RuFlo의 웹 UI는 내장된 Model Context Protocol (MCP) 툴 호출 기능을 갖춘 멀티모델 AI 채팅입니다.
+
+Qwen, Claude, Gemini, 또는 OpenAI와 대화하는 동안 RuFlo가 CLI에서 사용하는 것과 동일한 MCP 툴들을 — 에이전트 오케스트레이션, 영구 메모리, 스웜 조율, 코드 리뷰, GitHub 작업 — 채팅에서 직접 호출합니다. 설치 불필요, 시도해 보는 데 API 키도 필요 없습니다.
+
+| | 기능 | 중요한 이유 |
+|---|---|---|
+| 🧠 | 로컬 또는 원격 어떤 모델이든 | 기본 제공 6개 큐레이션 프론티어 모델 — Qwen 3.6 Max (기본값), Claude Sonnet 4.6, Claude Haiku 4.5, Gemini 2.5 Pro, Gemini 2.5 Flash, OpenAI — OpenRouter 경유. 나만의 모델 추가: OpenAI 호환 엔드포인트 (vLLM, Ollama, LM Studio, Together, Groq, 셀프 호스팅) 모두 가능. |
+| 🦾 | ruvLLM 자가 학습 AI | `ruvLLM` 네이티브 지원 (위치: `ruvnet/RuVector/examples/ruvLLM`) — RuFlo의 자가 개선 로컬 모델 레이어. MicroLoRA 어댑터로 라우팅하고, SONA를 통해 트라젝토리에서 학습하며, 머신에 머뭅니다. 클라우드 모델과 페어링하거나 완전 오프라인으로 실행. |
+| 🛠️ | ~210개 툴, 바로 호출 가능 | 5개 서버 그룹 (Core, Intelligence, Agents, Memory, DevTools) + 브라우저에서 완전히 실행되는 18개 툴 갤러리 — 오프라인에서도 작동. |
+| 🔌 | 나만의 MCP 서버 연결 | 채팅 입력의 `MCP (n)` 버튼 → `Add Server`를 클릭하고 아무 MCP 엔드포인트 (HTTP, SSE, 또는 stdio)를 붙여넣으세요. 툴들이 동일한 병렬 실행 플로우에서 RuFlo 네이티브 툴들과 합류합니다. `localhost:3000`의 로컬 MCP 서버를 실행하면 바로 작동합니다. |
+| ⚡ | 툴 병렬 실행 | 하나의 모델 응답이 4~6개 이상의 툴을 동시에 실행할 수 있습니다. UI는 `Step 1 — 2 tools completed` 배지가 붙은 카드로 표시되어 무엇이 실행되었는지 정확히 확인할 수 있습니다. |
+| 💾 | 지속되는 메모리 | `"내가 좋아하는 색은 인디고야"`라고 말하고 몇 주 후에 물어봐도 — RuFlo가 기억합니다. AgentDB + HNSW 벡터 검색 (무차별 대입보다 ≥150배 빠름) 기반. |
+| 📘 | 내장 기능 투어 | 사이드바의 물음표 아이콘 클릭 — "RuFlo Capabilities" 모달이 열려 전체 툴 목록, 모델 강점, 아키텍처, 키보드 단축키가 표시됩니다. |
+| 🏠 | 셀프 호스팅 가능 | Web UI는 Docker (`ruflo/src/ruvocal/Dockerfile`)로 임베디드 Mongo와 함께 제공됩니다. 나만의 Cloud Run / Fly / Kubernetes / docker-compose에 배포하세요. 호스팅된 `flo.ruv.io` 데모는 하나의 옵션이며, 직접 실행하는 것도 완전히 지원됩니다. |
+| 🚀 | 설치 없이 바로 시도 | 호스팅 URL 열기, 모델 선택, 질문 입력. 온보딩의 전부입니다. |
+
+- **호스팅 데모 시도:** https://flo.ruv.io/ — 계정 없음, API 키 없음.
+- **직접 실행:** 소스는 `ruflo/src/ruvocal/`에 있으며, 멀티스테이지 Dockerfile (`INCLUDE_DB=true`는 MongoDB 포함 빌드)과 Google Cloud Run용 `cloudbuild.yaml`이 제공됩니다. 아키텍처는 ADR-033, 로드맵은 issue #1689를 참조하세요.
 
 ---
 
-## 커뮤니티 참여
+## 목표 플래너 UI — goal.ruv.io의 자율 에이전트
 
-- **Discord 참여** — Codex 스킬을 개발하는 다른 개발자들과 채팅하세요.
-- **X에서 팔로우** — 새로운 스킬과 기능에 대한 업데이트를 받으세요.
-- **문의:** support@composio.dev
+고수준 목표를 실행 가능한 에이전트 계획으로 전환하세요.
+
+`goal.ruv.io`는 RuFlo의 호스팅된 GOAP (Goal-Oriented Action Planning) 프론트엔드입니다 — 일반 영어로 결과를 설명하면 RuFlo가 이를 전제조건, 액션, 상태 공간을 통한 A* 경로로 분해하고, `/agents`의 실제 에이전트들에게 작업을 디스패치합니다.
+
+| | 기능 | 중요한 이유 |
+|---|---|---|
+| 🎯 | 일반 영어 목표 | `"테스트와 PR과 함께 auth 리팩토링 완료하기"` 입력 — RuFlo가 성공 기준, 제약 조건, 암묵적 전제조건을 추출합니다. JSON 불필요, DSL 불필요. |
+| 🧭 | GOAP A* 플래너 | 소프트웨어 작업에 포팅된 클래식 게임 AI 플래닝: 가장 짧은 실행 가능 경로를 찾기 위해 전제조건/효과를 가진 액션을 통해 상태 공간 탐색. 상태가 변하면 즉시 재계획. |
+| 🤖 | 실시간 에이전트 대시보드 | `goal.ruv.io/agents`에서 모든 생성된 에이전트 — 역할, 현재 단계, 메모리 네임스페이스, 토큰 예산, 상태 — 를 확인합니다. 클릭해서 트라젝토리 검사, 폭주한 워커 종료, 또는 재할당. |
+| 🌳 | 시각적 계획 트리 | 목표는 진행 상황, 차단된 분기, 롤백이 강조된 접을 수 있는 액션 트리로 렌더링됩니다. 에이전트가 왜 그 경로를 선택했는지 *정확히* 확인 — 불투명한 chain-of-thought 없음. |
+| ♻️ | 적응형 재계획 | 액션이 실패하거나 새로운 정보가 도착하면, 플래너가 처음부터 재시작하는 대신 현재 상태에서 A*를 재실행합니다. 실패가 학습이 되고, 루프가 되지 않습니다. |
+| 🧠 | 공유 메모리 + SONA | 계획, 트라젝토리, 결과가 AgentDB로 흘러들어갑니다. 미래의 계획은 HNSW를 통해 과거 솔루션을 검색합니다 — 플래너는 실행할수록 더 똑똑해집니다. |
+| 🔗 | MCP 툴과 연결 | 모든 액션 노드는 툴 호출에 매핑됩니다 (RuFlo의 ~210개 MCP 툴, 커스텀 서버, 또는 셸). 플래너는 의존성 그래프가 허용하는 경우 병렬로 스케줄링합니다. |
+| 🚀 | 설치 없이 바로 시도 | `goal.ruv.io` 열기, 목표 설명, 실행 지켜보기. 소스는 `v3/goal_ui/`에 있습니다 — Vite + Supabase, 셀프 호스팅 가능. |
+
+- **시도:** https://goal.ruv.io/ (목표) · https://goal.ruv.io/agents (실시간 에이전트)
+- **직접 실행:** `goal` 브랜치 클론 후 `cd v3/goal_ui && npm install && npm run dev`
+
+---
+
+## 에이전트 연합 — 에이전트들을 위한 Slack
+
+```
+Your Agent --> [ 비밀 제거 ] --> [ 메시지 서명 ] --> [ 암호화된 채널 ]
+                 이메일, SSN,       발신자 증명          전송 중 아무도
+                 키 제거됨          위조 거부              읽지 못함
+                                                                |
+                                                                v
+Their Agent <-- [ 공격 차단 ] <-- [ 신원 확인 ] <--------------+
+                 프롬프트            위조 거부
+                 인젝션 차단
+
+                          양측에 감사 추적.
+                  신뢰는 시간이 지남에 따라 쌓입니다. 나쁜 행동 = 즉시 강등.
+```
+
+Slack이 팀에게 채널을 제공했듯이, 연합은 에이전트들에게 동일한 것을 제공합니다 — **신뢰 경계를 넘어선 공유 작업공간** — 서로 다른 머신, 조직, 클라우드 리전의 에이전트들이 서로를 발견하고, 신원을 증명하며, 태스크를 협업할 수 있습니다.
+
+차이점: 일부 채널은 신뢰할 수 있고, 일부는 그렇지 않습니다.
+
+`@claude-flow/plugin-agent-federation`이 이를 자동으로 처리합니다. 에이전트들이 연합에 참여하고, mTLS + ed25519로 검증을 받으며, 작업 교환을 시작합니다 — 노드를 떠나기 전에 PII가 제거되고, 모든 메시지가 감사 가능합니다. 신뢰할 수 없는 에이전트들도 낮은 권한으로 참여할 수 있습니다: 이들은 디스커버리 정보를 볼 수 있지만, 메모리는 볼 수 없습니다. 신뢰성을 증명할수록 신뢰가 업그레이드됩니다. 잘못된 행동을 하면 즉시 강등됩니다 — 루프에 사람이 필요 없습니다.
+
+핸드셰이크를 구성하거나 인증서를 관리할 필요가 없습니다. `federation init`, `federation join`을 실행하면 에이전트들이 통신을 시작합니다. 프로토콜이 신원을 처리하고, PII 파이프라인이 데이터 안전을 처리하며, 감사 추적이 컴플라이언스를 처리합니다.
+
+### 연합 기능
+
+| | 기능 | 작동 방식 |
+|---|---|---|
+| 🔒 | 제로 트러스트 연합 | 원격 에이전트는 신뢰할 수 없는 상태로 시작됩니다. mTLS + ed25519 챌린지-응답으로 신원 증명. API 키 없음, 공유 비밀 없음. |
+| 🛡️ | PII 게이팅 데이터 플로우 | 14가지 유형 감지 파이프라인이 모든 아웃바운드 메시지를 스캔. 신뢰 수준별 정책: BLOCK, REDACT, HASH, 또는 PASS. 적응형 캘리브레이션으로 거짓 양성 감소. |
+| 📊 | 행동 신뢰 점수 | 공식 (`0.4×success + 0.2×uptime + 0.2×threat + 0.2×integrity`)으로 피어를 지속적으로 평가. 업그레이드는 히스토리 필요; 강등은 즉각적. |
+| 📋 | 내장 컴플라이언스 | HIPAA, SOC2, GDPR 감사 추적을 컴플라이언스 모드로. 모든 연합 이벤트는 HNSW로 검색 가능한 구조화된 기록을 생성. |
+| 🤝 | 9개 MCP 툴 + 10개 CLI 명령어 | 전체 라이프사이클: `federation_init`, `federation_send`, `federation_trust`, `federation_audit` 등. |
+
+### 예시: 두 팀이 고객 데이터를 공유하지 않고 사기 신호 공유
+
+```bash
+# Team A: 연합 초기화 및 키페어 생성
+npx claude-flow@latest federation init
+
+# Team A: Team B의 연합 엔드포인트에 참여
+npx claude-flow@latest federation join wss://team-b.example.com:8443
+
+# Team A: 태스크 전송 — PII는 떠나기 전에 자동으로 제거됨
+npx claude-flow@latest federation send --to team-b --type task-request \
+  --message "Analyze transaction patterns for account anomalies"
+
+# Team A: 피어 신뢰 수준 및 세션 상태 확인
+npx claude-flow@latest federation status
+```
+
+전체 아키텍처, 신뢰 모델, 구현 로드맵은 issue #1669를 참조하세요.
+
+```bash
+# Claude Code 플러그인
+/plugin install ruflo-federation@ruflo
+
+# 또는 CLI 경유
+npx claude-flow@latest plugins install @claude-flow/plugin-agent-federation
+```
+
+---
+
+## Claude Code: Ruflo 없이 vs 있을 때
+
+| 기능 | Claude Code 단독 | + Ruflo |
+|---|---|---|
+| 에이전트 협업 | 격리됨, 공유 컨텍스트 없음 | 공유 메모리와 합의를 가진 스웜 |
+| 조율 | 수동 오케스트레이션 | 퀸 주도 계층 구조 (Raft, Byzantine, Gossip) |
+| 메모리 | 세션 전용 | 밀리초 이하 검색의 HNSW 벡터 메모리 |
+| 학습 | 정적 행동 | 패턴 매칭을 통한 SONA 자가 학습 |
+| 태스크 라우팅 | 사용자가 결정 | 지능형 라우팅 (89% 정확도) |
+| 백그라운드 워커 | 없음 | 자동 트리거되는 12개 워커 |
+| LLM 프로바이더 | Anthropic 전용 | 페일오버를 갖춘 5개 프로바이더 |
+| 보안 | 표준 | AIDefence를 갖춘 CVE 강화 |
+
+---
+
+## 아키텍처 개요
+
+```
+User --> Claude Code / CLI
+          |
+          v
+    오케스트레이션 레이어
+    (MCP Server, Router, 27 Hooks)
+          |
+          v
+    스웜 조율
+    (Queen, Topology, Consensus)
+          |
+          v
+    100개 이상의 특화 에이전트
+    (coder, tester, reviewer, architect, security...)
+          |
+          v
+    메모리 & 학습
+    (AgentDB, HNSW, SONA, ReasoningBank)
+          |
+          v
+    LLM 프로바이더
+    (Claude, GPT, Gemini, Cohere, Ollama)
+```
+
+---
+
+## 문서
+
+아키텍처, 구성, CLI 레퍼런스, API 사용법, 플러그인 개발, 고급 주제를 포함한 전체 문서:
+
+**사용자 가이드** — 완전한 레퍼런스 문서
+
+| 섹션 | 주제 |
+|---|---|
+| 빠른 시작 | 설치, 사전 요구사항, 설치 프로필 |
+| 코어 기능 | MCP 툴, 에이전트, 메모리, 신경 학습 |
+| 지능 & 학습 | 훅, 워커, SONA, 모델 라우팅 |
+| 스웜 & 조율 | 토폴로지, 합의, 하이브 마인드 |
+| 보안 | AIDefence, CVE 치료, 검증 |
+| 에코시스템 | RuVector, agentic-flow, Flow Nexus |
+| 구성 | 환경 변수, 구성 스키마 |
+| 플러그인 마켓플레이스 | 플러그인 탐색 및 설치 |
+
+---
+
+## 지원
+
+| 리소스 | 링크 |
+|---|---|
+| 문서 | 사용자 가이드 |
+| 이슈 & 버그 | GitHub Issues |
+| 엔터프라이즈 | ruv.io |
+| 커뮤니티 | Agentics Foundation Discord |
+
+---
+
+Cognitum.one 기반  
+라이선스: MIT — RuvNet
