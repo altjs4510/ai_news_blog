@@ -1373,3 +1373,178 @@ main:has(> div.hx\:mb-10) {
   background: rgba(28, 22, 14, 0.18);
   color: rgba(20, 17, 13, 0.92) !important;
 }
+
+/* ============================================================
+   Knowledge detail — 좌측 카테고리 사이드바 + 우측 article
+   publisher가 본문을 .ai-knowledge-shell로 감싸 emit한다.
+   .content max-width 760 제약은 knowledge에선 풀어 1100px까지 확장.
+   ============================================================ */
+
+/* knowledge 상세에서는 .content 폭을 넓혀 사이드바 자리 확보 */
+main:has(.ai-knowledge-shell) > .content {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ai-knowledge-shell {
+  display: grid !important;
+  grid-template-columns: 220px 1fr !important;
+  gap: 3rem !important;
+  align-items: start !important;
+  margin: 1rem 0 !important;
+}
+
+.ai-knowledge-article {
+  min-width: 0;     /* grid item이 컨텐츠 너비로 안 늘어나도록 */
+  max-width: 760px;
+}
+
+/* ── 사이드바 ── */
+.ai-knowledge-sidebar {
+  position: sticky;
+  top: 5rem;
+  align-self: start;
+  font-size: 0.85rem;
+  padding-right: 0.4rem;
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+}
+.ai-knowledge-sidebar::-webkit-scrollbar { width: 6px; }
+
+.ai-knowledge-sidebar .ai-eyebrow {
+  margin-bottom: 1em !important;
+}
+
+.ai-cat-tree {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-cat {
+  border-bottom: 1px solid var(--hairline);
+  padding: 0.4em 0;
+}
+.ai-cat:last-child {
+  border-bottom: 0;
+}
+
+.ai-cat summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.3em 0;
+  font-weight: 500;
+  color: var(--text-primary);
+  user-select: none;
+  transition: color var(--motion-fast);
+}
+.ai-cat summary::-webkit-details-marker { display: none; }
+.ai-cat summary::before {
+  content: "›";
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 1;
+  color: var(--text-tertiary);
+  transition: transform var(--motion-fast);
+  flex-shrink: 0;
+}
+.ai-cat[open] > summary::before { transform: rotate(90deg); }
+.ai-cat summary:hover { color: var(--sky-500); }
+.ai-cat summary:hover::before { color: var(--sky-500); }
+
+.catname {
+  flex: 1;
+  font-size: 0.88rem;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.catcount {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  padding: 0.1em 0.5em;
+  border-radius: var(--radius-pill);
+  background: var(--surface-muted);
+  flex-shrink: 0;
+}
+.dark .catcount {
+  background: rgba(245, 240, 230, 0.06);
+}
+
+/* 카테고리 안 글 목록 */
+.ai-cat ul {
+  list-style: none;
+  margin: 0.4em 0 0.3em 0.5em;
+  padding: 0 0 0 0.7em;
+  border-left: 1px solid var(--hairline);
+}
+.ai-cat ul li {
+  margin: 0;
+  padding: 0;
+}
+.ai-cat ul a {
+  display: block;
+  padding: 0.4em 0.5em;
+  margin-left: -0.7em;
+  padding-left: 0.7em;
+  color: var(--text-secondary) !important;
+  border-bottom: 0 !important;
+  border-left: 2px solid transparent;
+  text-decoration: none !important;
+  transition: color var(--motion-fast), border-color var(--motion-fast);
+}
+.ai-cat ul a:hover {
+  color: var(--text-primary) !important;
+}
+.ai-cat ul a.current {
+  color: var(--sky-500) !important;
+  font-weight: 600;
+  border-left-color: var(--sky-500);
+}
+.kdate {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.15em;
+  font-weight: 600;
+}
+.ai-cat ul a.current .kdate { color: var(--sky-500) !important; }
+.ktitle {
+  display: block;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+/* article 안의 hero 위치 보정 — shell 내부일 때 상단 여백 */
+.ai-knowledge-shell .ai-post-hero {
+  margin-top: 0 !important;
+  max-width: none !important;
+}
+
+/* 모바일 — 사이드바 위로 올림, 너비 풀폭 */
+@media (max-width: 900px) {
+  main:has(.ai-knowledge-shell) > .content {
+    max-width: 760px !important;
+  }
+  .ai-knowledge-shell {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  .ai-knowledge-sidebar {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--hairline);
+    margin-bottom: 1.5rem;
+  }
+  .ai-knowledge-article {
+    max-width: none;
+  }
+}
