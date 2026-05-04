@@ -1,6 +1,10 @@
 ---
-title: "Knowledge"
+title: "학습 노트 (Knowledge)"
+type: blog
+cascade:
+  type: blog
+  toc: false
+toc: false
 ---
 
-매주 spotlight로 뽑힌 자료를 깊이 정리한 학습 브리프 모음.
-발행 아카이브와 별도로, 주제별로 누적되는 지식 섹션입니다.
+매주 spotlight 자료 1편을 한국어로 정리한 학습 브리프 누적 아카이브.
