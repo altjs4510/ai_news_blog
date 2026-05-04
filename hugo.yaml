@@ -23,22 +23,25 @@ menu:
     - name: Posts
       pageRef: /posts
       weight: 1
+    - name: Knowledge
+      pageRef: /knowledge
+      weight: 2
     - name: Tags
       pageRef: /tags
-      weight: 2
+      weight: 3
     - name: About
       pageRef: /about
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: RSS
       url: "/posts/index.xml"
-      weight: 5
+      weight: 6
     - name: GitHub
       url: "https://github.com/altjs4510/ai_news_blog"
-      weight: 6
+      weight: 7
       params:
         icon: github
 
@@ -49,9 +52,10 @@ params:
   description: "매주 월요일 자동 발행되는 AI 동향 큐레이션 — Anthropic·OpenAI·Google·DeepMind 공식 블로그, Reddit, Hacker News, Product Hunt, TechCrunch AI, arxiv, HuggingFace Papers, GitHub Trending"
 
   # 홈/태그/저자 등 listing 페이지의 'recent posts' 집합으로 사용할 섹션.
-  # 미설정 시 Hugo가 자동 추정하지만 single-section 사이트에서는 명시 권장.
+  # posts(주간 요약) + knowledge(학습 노트) 둘 다 메인 섹션으로 인정.
   mainSections:
     - posts
+    - knowledge
 
   navbar:
     displayTitle: true
