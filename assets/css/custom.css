@@ -998,3 +998,28 @@ article.hextra-content {
 @media (max-width: 640px) {
   .ai-pick-list { grid-template-columns: 1fr !important; }
 }
+
+/* ============================================================
+   Hide Hextra docs sidebar globally
+   navbar(Posts/Knowledge/Tags/About) + 우측 TOC + footer 링크로
+   네비게이션은 충분. 좌측 docs 트리는 docs theme 잔재라 제거.
+   ============================================================ */
+.hextra-sidebar-container {
+  display: none !important;
+}
+
+/* sidebar 자리(64rem) 회수 — main을 풀폭으로 */
+main, .hextra-main, [class*="hextra-main"] {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+/* 모바일 사이드바 토글 버튼도 숨김 */
+.hextra-mobile-menu-button,
+[aria-label*="sidebar" i],
+button[data-mobile-menu] {
+  display: none !important;
+}
+
+/* 사이드바가 가지던 grid column 자리 — wrapper가 grid면 1열로 */
+.hx\:flex.hx\:flex-1 > main { width: 100% !important; }
