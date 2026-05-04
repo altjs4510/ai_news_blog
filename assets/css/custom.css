@@ -1038,9 +1038,12 @@ button[data-mobile-menu] {
        </div>
    ============================================================ */
 
-/* 섹션 list 페이지 판별 — 카드 div가 있을 때만 h1/intro 숨김 (post detail은 보존) */
-main:has(> div.hx\:mb-10) > h1:first-of-type,
-main:has(> div.hx\:mb-10) > div.content {
+/* 섹션 list 페이지 판별 — 카드 div가 있을 때 auto h1과 인트로 <p>만 숨김.
+   .content 자체는 살려둬서 그 안의 ai-knowledge-intro 같은 커스텀 섹션이 렌더되도록. */
+main:has(> div.hx\:mb-10) > h1:first-of-type {
+  display: none !important;
+}
+main:has(> div.hx\:mb-10) > div.content > p {
   display: none !important;
 }
 
@@ -1316,4 +1319,57 @@ main:has(> div.hx\:mb-10) {
   main > div.hx\:mb-10 {
     padding: 1.6rem 0 1.4rem !important;
   }
+}
+
+/* ============================================================
+   /knowledge/ 인덱스 상단 카테고리 칩 strip
+   사이드바 대신 에디토리얼 톤의 가로 칩 그리드로 카테고리 탐색.
+   각 칩은 /tags/<태그>/로 라우트되어 학습 노트 + 주간 요약 둘 다 묶음.
+   ============================================================ */
+.ai-knowledge-intro {
+  max-width: 760px !important;
+  margin: 1.8rem auto 2.4rem !important;
+  padding: 1.4rem 0 0 0 !important;
+}
+
+.ai-knowledge-intro .ai-eyebrow {
+  margin: 0 0 0.9em 0 !important;
+}
+
+.ai-knowledge-chips {
+  margin: 0 !important;
+  gap: 0.45em !important;
+}
+
+.ai-knowledge-chips .ai-chip {
+  font-size: 0.85rem !important;
+  padding: 0.4em 0.85em 0.4em 0.95em !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.3em !important;
+}
+
+.ai-chip-count {
+  display: inline-block;
+  font-size: 0.78em;
+  font-weight: 500 !important;
+  margin-left: 0.18em;
+  padding: 0 0.35em;
+  border-radius: var(--radius-pill);
+  background: rgba(28, 22, 14, 0.06);
+  color: var(--text-tertiary) !important;
+  line-height: 1.6;
+}
+
+.ai-knowledge-chips .ai-chip:hover .ai-chip-count {
+  background: rgba(255, 255, 255, 0.20);
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+.dark .ai-chip-count {
+  background: rgba(245, 240, 230, 0.08);
+}
+.dark .ai-knowledge-chips .ai-chip:hover .ai-chip-count {
+  background: rgba(28, 22, 14, 0.18);
+  color: rgba(20, 17, 13, 0.92) !important;
 }
