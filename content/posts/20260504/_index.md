@@ -5,34 +5,30 @@ tags: ["MCP 커넥터", "Claude Skills", "에이전트 인프라", "코딩 에�
 ---
 
 {{< callout emoji="📌" >}}
-**TL;DR** — 에이전트가 전문 도구 안으로 — Claude 창작 커넥터·Codex 스킬·MCP 생태계가 동시 폭발
+에이전트가 전문 도구 안으로 — Claude 창작 커넥터·Codex 스킬·MCP 생태계가 동시 폭발
 {{< /callout >}}
 
 {{< callout emoji="🎯" >}}
-**이번 호 PoC / 공부 추천**
-
 **[forrestchang/andrej-karpathy-skills (CLAUDE.md for Claude Code)](https://github.com/forrestchang/andrej-karpathy-skills)**
 
-**왜 주목** — Karpathy의 LLM 코딩 함정 관찰을 단일 CLAUDE.md 스킬 파일로 정제한 저장소로, Claude Code plugin/skill/hook 결을 정면으로 건드립니다. 주간 1.8만 별이 보여주듯 '에이전트 행동 규약을 파일 한 장으로 주입'하는 패턴이 사실상 표준화되는 흐름입니다.
+Karpathy의 LLM 코딩 함정 관찰을 단일 CLAUDE.md 스킬 파일로 정제한 저장소로, Claude Code plugin/skill/hook 결을 정면으로 건드립니다. 주간 1.8만 별이 보여주듯 '에이전트 행동 규약을 파일 한 장으로 주입'하는 패턴이 사실상 표준화되는 흐름입니다.
 
-**어떻게 접목** — DCSAI의 `dcs-ai-plugin`(Claude Code plugins · skills/hooks)과 `ff-claude-manager` 자동 배포 파이프라인에 사내용 CLAUDE.md 스킬 셋의 베이스라인으로 채택할 수 있고, agent loop의 시스템 프롬프트·HITL 가드레일 규칙을 이 포맷으로 표준화하면 plugin 자동 업데이트와 자연스럽게 맞물립니다.
+**접목 →** DCSAI의 `dcs-ai-plugin`(Claude Code plugins · skills/hooks)과 `ff-claude-manager` 자동 배포 파이프라인에 사내용 CLAUDE.md 스킬 셋의 베이스라인으로 채택할 수 있고, agent loop의 시스템 프롬프트·HITL 가드레일 규칙을 이 포맷으로 표준화하면 plugin 자동 업데이트와 자연스럽게 맞물립니다.
 {{< /callout >}}
 
 {{< callout emoji="📖" >}}
-**꼭 읽어보세요 — 함께 보면 좋은 자료**
-
 - **[Anthropic — Claude for Creative Work (9개 MCP 커넥터 동시 출시)](https://www.anthropic.com/news/claude-for-creative-work)** — Adobe·Blender·Fusion·Ableton 등 전문 도구를 MCP 커넥터로 묶어 Claude를 '도구 안의 지능 계층'으로 배치한 사례입니다. Team Agent의 dcsai KG MCP 직연결 전략과 DCSAI MCP host 구현에 있어, 도메인 도구별 커넥터를 어떤 단위로 쪼개고 OAuth·세션을 어떻게 설계할지 참고할 수 있는 실전 레퍼런스입니다.
 - **[Latent Space — Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work](https://www.latent.space/p/ainews-agents-for-everything-else)** — OpenAI Codex(지식노동)와 Anthropic Claude(창작)로 갈라지는 에이전트 시장 분리를 정리한 분석입니다. Team Agent의 `discovery-core-agent`/`platform-core-agent` 계층 설계와 agent autonomy(A0~A4)·decision levels(D0~D5) 정책을 어느 진영의 패턴에 맞춰 가져올지 판단할 때 좋은 참고가 됩니다.
 {{< /callout >}}
 
 {{< callout emoji="🏷" >}}
-**이번 호 키워드** — `MCP 커넥터` · `Claude Skills` · `에이전트 인프라` · `코딩 에이전트` · `추론 변곡점`
+`MCP 커넥터` · `Claude Skills` · `에이전트 인프라` · `코딩 에이전트` · `추론 변곡점`
 {{< /callout >}}
 
 ---
 
 {{< callout emoji="📚" >}}
-**오늘의 학습 — Spotlight 자료를 한국어로 정리한 학습 노트** → [지식 섹션에서 열기]({{< relref "knowledge/20260504" >}})
+[학습 노트 열기 →]({{< relref "knowledge/20260504" >}})
 {{< /callout >}}
 
 ---

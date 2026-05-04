@@ -26,6 +26,20 @@ toc: false
   <p class="ai-spotlight-app"><span class="ai-spotlight-app-label">접목 →</span> DCSAI의 `dcs-ai-plugin`(Claude Code plugins · skills/hooks)과 `ff-claude-manager` 자동 배포 파이프라인에 사내용 CLAUDE.md 스킬 셋의 베이스라인으로 채택할 수 있고, agent loop의 시스템 프롬프트·HITL 가드레일 규칙을 이 포맷으로 표준화하면 plugin 자동 업데이트와 자연스럽게 맞물립니다.</p>
 </aside>
 
+<section class="ai-additional">
+  <p class="ai-eyebrow">ALSO WORTH READING · 꼭 읽어보세요</p>
+  <div class="ai-pick-list">
+  <article class="ai-pick">
+  <a class="ai-pick-title" href="https://www.anthropic.com/news/claude-for-creative-work" target="_blank" rel="noopener">Anthropic — Claude for Creative Work (9개 MCP 커넥터 동시 출시)<span class="ai-pick-arrow">↗</span></a>
+  <p class="ai-pick-summary">Adobe·Blender·Fusion·Ableton 등 전문 도구를 MCP 커넥터로 묶어 Claude를 '도구 안의 지능 계층'으로 배치한 사례입니다. Team Agent의 dcsai KG MCP 직연결 전략과 DCSAI MCP host 구현에 있어, 도메인 도구별 커넥터를 어떤 단위로 쪼개고 OAuth·세션을 어떻게 설계할지 참고할 수 있는 실전 레퍼런스입니다.</p>
+</article>
+  <article class="ai-pick">
+  <a class="ai-pick-title" href="https://www.latent.space/p/ainews-agents-for-everything-else" target="_blank" rel="noopener">Latent Space — Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work<span class="ai-pick-arrow">↗</span></a>
+  <p class="ai-pick-summary">OpenAI Codex(지식노동)와 Anthropic Claude(창작)로 갈라지는 에이전트 시장 분리를 정리한 분석입니다. Team Agent의 `discovery-core-agent`/`platform-core-agent` 계층 설계와 agent autonomy(A0~A4)·decision levels(D0~D5) 정책을 어느 진영의 패턴에 맞춰 가져올지 판단할 때 좋은 참고가 됩니다.</p>
+</article>
+  </div>
+</section>
+
 <nav class="ai-chips"><a class="ai-chip" href="tags/MCP 커넥터/">#MCP 커넥터</a><a class="ai-chip" href="tags/Claude Skills/">#Claude Skills</a><a class="ai-chip" href="tags/에이전트 인프라/">#에이전트 인프라</a><a class="ai-chip" href="tags/코딩 에이전트/">#코딩 에이전트</a><a class="ai-chip" href="tags/추론 변곡점/">#추론 변곡점</a></nav>
 
 <section class="ai-home-body">
