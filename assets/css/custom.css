@@ -471,3 +471,269 @@ footer {
   html { scroll-behavior: smooth; }
   a, button { transition: color var(--motion-fast), background-color var(--motion-fast), border-color var(--motion-fast); }
 }
+
+/* ============================================================
+   AI Home — Apple-style hero + spotlight
+   publisher가 _index.md에 raw HTML로 .ai-home-hero 등 박는다.
+   prose container 안에서도 살아남도록 모든 prose 자식 스타일을
+   덮어쓴다.
+   ============================================================ */
+
+/* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭 + 가운데 정렬 */
+.ai-home-hero,
+.ai-spotlight,
+.ai-chips,
+.ai-home-body,
+.ai-home-footer {
+  max-width: 880px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 작은 eyebrow — 위 카테고리 라벨 */
+.ai-eyebrow {
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+  color: var(--sky-500) !important;
+  margin: 0 0 0.7em 0 !important;
+}
+
+.dark .ai-eyebrow { color: var(--sky-300) !important; }
+
+/* ─── Hero ──────────────────────────────────────────── */
+.ai-home-hero {
+  padding: 4.5rem 0 3rem 0 !important;
+  text-align: left !important;
+}
+
+.ai-home-hero .ai-headline {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display',
+               'Pretendard', 'Inter', sans-serif !important;
+  font-size: clamp(2.4rem, 1.6rem + 3.5vw, 4.2rem) !important;
+  line-height: 1.04 !important;
+  letter-spacing: -0.038em !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  margin: 0 0 0.85em 0 !important;
+  /* Apple 스타일 — 약한 그라데이션 텍스트 */
+  background: linear-gradient(180deg,
+    var(--text-primary) 0%,
+    var(--text-primary) 60%,
+    color-mix(in oklab, var(--text-primary) 80%, var(--sky-500)) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.ai-home-hero .ai-meta {
+  color: var(--text-tertiary) !important;
+  font-size: 0.95rem !important;
+  letter-spacing: -0.005em !important;
+  margin: 0 0 2.2em 0 !important;
+}
+
+/* CTA 버튼 — pill, hover 시 살짝 둥실 */
+.ai-cta {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.55em !important;
+  background: var(--sky-500) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 1.02rem !important;
+  letter-spacing: -0.011em !important;
+  padding: 0.85em 1.55em !important;
+  border-radius: var(--radius-pill) !important;
+  border: 0 !important;
+  text-decoration: none !important;
+  box-shadow: 0 6px 20px hsla(211, 100%, 50%, 0.22) !important;
+  transition: transform var(--motion-base), box-shadow var(--motion-base), background-color var(--motion-fast) !important;
+}
+.ai-cta:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 28px hsla(211, 100%, 50%, 0.32) !important;
+  color: #ffffff !important;
+  background: hsl(211, 100%, 45%) !important;
+  border-bottom: 0 !important;
+}
+.dark .ai-cta {
+  background: var(--sky-400) !important;
+  color: #0a1220 !important;
+  box-shadow: 0 6px 22px hsla(211, 100%, 60%, 0.28) !important;
+}
+.dark .ai-cta:hover { background: var(--sky-300) !important; }
+
+.ai-cta-arrow {
+  display: inline-block;
+  transition: transform var(--motion-fast);
+}
+.ai-cta:hover .ai-cta-arrow { transform: translateX(3px); }
+
+/* ─── Spotlight 카드 ──────────────────────────────────── */
+.ai-spotlight {
+  position: relative;
+  background: linear-gradient(135deg,
+    var(--surface-card) 0%,
+    color-mix(in oklab, var(--surface-card) 80%, var(--sky-100)) 100%
+  ) !important;
+  border: 1px solid var(--hairline) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 2rem 2.2rem 1.8rem !important;
+  margin: 0 auto 2.4rem auto !important;
+  box-shadow: var(--shadow-md) !important;
+  overflow: hidden;
+}
+.dark .ai-spotlight {
+  background: linear-gradient(135deg,
+    #1c1c1e 0%,
+    color-mix(in oklab, #1c1c1e 75%, hsl(211, 90%, 22%)) 100%
+  ) !important;
+}
+
+.ai-spotlight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--sky-500), var(--sky-300));
+}
+
+.ai-spotlight-title {
+  display: inline-flex !important;
+  align-items: baseline !important;
+  gap: 0.3em !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard', sans-serif !important;
+  font-size: clamp(1.35rem, 1.1rem + 0.6vw, 1.65rem) !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.022em !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  margin: 0.1em 0 0.7em 0 !important;
+  transition: color var(--motion-fast) !important;
+}
+.ai-spotlight-title:hover { color: var(--sky-500) !important; }
+.ai-spotlight-arrow {
+  font-size: 0.85em;
+  color: var(--text-tertiary);
+  transition: transform var(--motion-fast), color var(--motion-fast);
+}
+.ai-spotlight-title:hover .ai-spotlight-arrow {
+  color: var(--sky-500);
+  transform: translate(2px, -2px);
+}
+
+.ai-spotlight-why {
+  color: var(--text-secondary) !important;
+  font-size: 1rem !important;
+  line-height: 1.65 !important;
+  letter-spacing: -0.008em !important;
+  margin: 0 0 0.8em 0 !important;
+}
+.ai-spotlight-app {
+  color: var(--text-primary) !important;
+  font-size: 0.96rem !important;
+  line-height: 1.62 !important;
+  margin: 0 !important;
+  padding-top: 0.8em !important;
+  border-top: 1px solid var(--hairline) !important;
+}
+.ai-spotlight-app-label {
+  color: var(--sky-500) !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* ─── Tag chips ───────────────────────────────────────── */
+.ai-chips {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5em !important;
+  margin: 0 auto 3rem auto !important;
+}
+.ai-chip {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 0.45em 0.95em !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.005em !important;
+  color: var(--sky-700) !important;
+  background: var(--sky-50) !important;
+  border: 1px solid color-mix(in oklab, var(--sky-200) 60%, transparent) !important;
+  border-radius: var(--radius-pill) !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  transition: all var(--motion-fast) !important;
+}
+.ai-chip:hover {
+  background: var(--sky-500) !important;
+  color: #ffffff !important;
+  border-color: var(--sky-500) !important;
+  transform: translateY(-1px);
+}
+.dark .ai-chip {
+  background: hsla(211, 80%, 60%, 0.14) !important;
+  color: var(--sky-300) !important;
+  border-color: hsla(211, 80%, 55%, 0.22) !important;
+}
+.dark .ai-chip:hover {
+  background: var(--sky-400) !important;
+  color: #0a1220 !important;
+  border-color: var(--sky-400) !important;
+}
+
+/* ─── Body section (요약/통합 인사이트) ──────────────── */
+.ai-home-body {
+  padding-top: 2rem !important;
+  border-top: 1px solid var(--hairline) !important;
+}
+.ai-home-body > h2:first-of-type {
+  margin-top: 0.4em !important;
+}
+
+/* ─── Footer (sources + links) ────────────────────────── */
+.ai-home-footer {
+  margin-top: 4rem !important;
+  padding: 2.5rem 0 1.5rem !important;
+  border-top: 1px solid var(--hairline) !important;
+}
+.ai-home-footer .ai-source-list {
+  color: var(--text-tertiary) !important;
+  font-size: 0.83rem !important;
+  line-height: 1.7 !important;
+  letter-spacing: 0 !important;
+  margin: 0 0 1.6em 0 !important;
+}
+.ai-home-links {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.4em 0.7em !important;
+  align-items: center !important;
+  font-size: 0.9rem !important;
+  margin: 0 !important;
+}
+.ai-home-links a {
+  color: var(--text-secondary) !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  transition: color var(--motion-fast) !important;
+}
+.ai-home-links a:hover { color: var(--sky-500) !important; }
+.ai-dot {
+  color: var(--text-tertiary);
+  user-select: none;
+}
+
+/* 모바일 — 패딩/타이포 축소 */
+@media (max-width: 768px) {
+  .ai-home-hero { padding: 2.6rem 0 2rem !important; }
+  .ai-spotlight { padding: 1.5rem 1.4rem !important; }
+  .ai-cta { width: 100% !important; justify-content: center !important; }
+}
