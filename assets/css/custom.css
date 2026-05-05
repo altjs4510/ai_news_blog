@@ -1452,6 +1452,14 @@ main:has(.ai-knowledge-shell) > .content {
   margin-right: auto !important;
 }
 
+/* Hextra blog/single 레이아웃이 main 직속에 emit하는 자동 헤더 영역
+   (breadcrumb / 거대한 h1 wrapper / date+author 메타)을 숨김.
+   knowledge에는 .ai-knowledge-shell 안의 .ai-post-hero가 hero 역할을
+   대신하므로 위쪽 자동 영역은 그저 중복이고 진입선을 두 번 만들 뿐. */
+main:has(.ai-knowledge-shell) > *:not(.content) {
+  display: none !important;
+}
+
 .ai-knowledge-shell {
   display: grid !important;
   grid-template-columns: 220px 1fr !important;
