@@ -2,6 +2,7 @@
 title: "에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로"
 date: 2026-05-05
 toc: true
+customHero: true
 tags: ["Claude Skills", "에이전트 권한 경계", "HITL 가드레일", "MCP 커넥터", "엔터프라이즈 코딩 에이전트"]
 categories: ["코딩 에이전트", "MCP & 도구 통합"]
 ---

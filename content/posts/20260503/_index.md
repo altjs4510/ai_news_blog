@@ -2,6 +2,7 @@
 title: "2026-05-03 AI 동향 요약"
 date: 2026-05-03
 toc: true
+customHero: true
 ---
 
 {{< callout emoji="📌" >}}
