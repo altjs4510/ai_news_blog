@@ -503,18 +503,18 @@ footer {
    덮어쓴다.
    ============================================================ */
 
-/* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭 + 가운데 정렬.
-   부모 main이 이미 좌우 px-6/px-12를 갖고 있어 패딩은 따로 두지 않는다.
-   외곽 main은 96rem(1536px)까지 넓어졌으므로 실제 사용 가능한 공간을
-   거의 채우도록 1400px까지 확장. */
+/* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭. 외곽 캡을 모두 풀었으니
+   여기서도 1400px 같은 임의 캡을 두지 않고 화면 폭만큼 펼친다.
+   가독성용 좌우 여백은 부모 main의 hx:px-6/hx:md:px-12가 처리. */
 .ai-home-hero,
 .ai-spotlight,
 .ai-chips,
 .ai-home-body,
 .ai-home-footer {
-  max-width: 1400px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  max-width: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* 작은 eyebrow — 위 카테고리 라벨 */
@@ -943,8 +943,9 @@ article.hextra-content {
    spotlight보다 한 단계 가벼운 톤. 인라인 카드 두 개가 가로로.
    ============================================================ */
 .ai-additional {
-  max-width: 1400px !important;
-  margin: 0 auto 2.4rem auto !important;
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 0 2.4rem 0 !important;
 }
 
 .ai-additional .ai-eyebrow.ai-additional > .ai-eyebrow,
