@@ -61,8 +61,8 @@ params:
     displayTitle: true
     displayLogo: false
 
-  page:
-    width: wide
+  # page.width 미설정(default) — Hextra가 우측 sticky TOC를 자동 노출.
+  # 본문 폭은 custom.css의 .ai-home-body(780px)에서 별도로 제한한다.
 
   theme:
     default: system
