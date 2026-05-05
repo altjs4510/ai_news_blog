@@ -503,10 +503,10 @@ footer {
    덮어쓴다.
    ============================================================ */
 
-/* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭. 외곽 캡을 모두 풀었으니
-   여기서도 1400px 같은 임의 캡을 두지 않고 화면 폭만큼 펼친다.
+/* 본문 블록 기본 — 풀폭. 외곽 캡을 모두 풀었으니 임의 캡 없이 화면 폭만큼 펼친다.
    가독성용 좌우 여백은 부모 main의 hx:px-6/hx:md:px-12가 처리.
-   .ai-post-hero는 post 상세 전용 hero — ← POSTS 백링크 + 헤드라인. */
+   .ai-post-hero는 post 상세 전용 hero — ← POSTS 백링크 + 헤드라인.
+   ※ 홈(/) 한정으로 아래 규칙이 1100px로 좁힘 — post 상세는 풀폭 그대로. */
 .ai-home-hero,
 .ai-spotlight,
 .ai-chips,
@@ -517,6 +517,19 @@ footer {
   width: 100% !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+/* 홈 한정으로 컨텐츠 폭 좁히기 — post 상세(.ai-post-hero 보유)는 그대로 풀폭. */
+main:not(:has(.ai-post-hero)) > .content > .ai-home-hero,
+main:not(:has(.ai-post-hero)) > .content > .ai-spotlight,
+main:not(:has(.ai-post-hero)) > .content > .ai-additional,
+main:not(:has(.ai-post-hero)) > .content > .ai-chips,
+main:not(:has(.ai-post-hero)) > .content > .ai-home-body,
+main:not(:has(.ai-post-hero)) > .content > .ai-home-footer {
+  max-width: 1100px !important;
+  width: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* 작은 eyebrow — 위 카테고리 라벨 */
