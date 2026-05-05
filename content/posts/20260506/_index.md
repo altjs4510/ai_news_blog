@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "빅3 금융 버티컬 전쟁과 코딩·창작 에이전트가 같은 주에 폭발했다"
+date: 2026-05-06
+toc: true
+layout: single
+description: "버티컬 합작사·도메인 MCP 커넥터·스킬 생태계가 동시에 굳어지며 '에이전트 위 레이어' 경쟁이 본격화됐다."
+tags: ["Claude Code 스킬", "버티컬 에이전트", "금융 AI 합작사", "에이전틱 터미널", "창작 도구 MCP"]
+categories: ["코딩 에이전트", "MCP & 도구 통합"]
 ---
 
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · DAILY DIGEST</p>
-  <h1 class="ai-headline">빅3 금융 버티컬 전쟁과 코딩·창작 에이전트가 같은 주에 폭발했다</h1>
-  <p class="ai-home-deck">버티컬 합작사·도메인 MCP 커넥터·스킬 생태계가 동시에 굳어지며 '에이전트 위 레이어' 경쟁이 본격화됐다.</p>
-  <p class="ai-meta">2026-05-06 · 매일 자동 발행</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260506/">
-      <span class="ai-cta-label">최신 호 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-    <a class="ai-cta ai-cta-secondary" href="https://altjs4510.github.io/ai_news_blog/knowledge/20260506/">
-      <span class="ai-cta-label">📚 오늘의 학습</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-06 · 일간 요약</p>
+  <h2 class="ai-post-title">빅3 금융 버티컬 전쟁과 코딩·창작 에이전트가 같은 주에 폭발했다</h2>
+  <p class="ai-post-deck">버티컬 합작사·도메인 MCP 커넥터·스킬 생태계가 동시에 굳어지며 '에이전트 위 레이어' 경쟁이 본격화됐다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -186,3 +180,5 @@ Zig 메인테이너들은 **"PR 리뷰는 코드가 아니라 미래 컨트리�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">일간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
