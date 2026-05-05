@@ -10,6 +10,27 @@ categories: ["코딩 에이전트", "MCP & 도구 통합"]
   <h1 class="ai-post-title">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
 </header>
 
+<aside class="ai-spotlight">
+  <p class="ai-eyebrow ai-spotlight-eyebrow">✦ THIS WEEK'S PICK</p>
+  <a class="ai-spotlight-title" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">mattpocock/skills — Skills for Real Engineers (.claude directory 공개)<span class="ai-spotlight-arrow">↗</span></a>
+  <p class="ai-spotlight-why">Claude Code의 skill 패키징 실전 예제를 한 주 만에 3.1만 별로 끌어올린 저장소로, Claude Code plugin/skill/hook 결을 정확히 건드립니다. 에이전트 자율성이 커질수록 검증 가능한 스킬·권한 경계가 핵심이 된다는 이번 주 흐름(Cursor 9초 DB 삭제 사고)과 정확히 맞물립니다.</p>
+  <p class="ai-spotlight-app"><span class="ai-spotlight-app-label">접목 →</span> DCSAI의 `dcs-ai-plugin`(Claude Code plugin — commands/agents/skills/hooks)와 `ff-claude-manager` 자동 업데이트 파이프라인에 곧장 차용 가능합니다. 특히 사내 표준 skill 디렉터리 구조와 hook 패턴을 벤치마킹해 DCSAI agent loop의 HITL 분기에서 위험 작업(DB 변경·삭제)에 대한 skill 단위 가드레일을 추가하는 1차 PoC로 적합합니다.</p>
+</aside>
+
+<section class="ai-additional">
+  <p class="ai-eyebrow">ALSO WORTH READING · 꼭 읽어보세요</p>
+  <div class="ai-pick-list">
+  <article class="ai-pick">
+  <a class="ai-pick-title" href="https://github.com/ComposioHQ/awesome-codex-skills" target="_blank" rel="noopener">ComposioHQ/awesome-codex-skills<span class="ai-pick-arrow">↗</span></a>
+  <p class="ai-pick-summary">Codex CLI/API 자동화용 실전 skill 큐레이션. spotlight의 Claude 측 skill 생태계와 짝지어 읽으면, DCSAI·Team Agent에서 멀티 벤더(Anthropic SDK 중심이지만 Codex 워크플로우 흡수) skill 표준화를 설계할 때 비교 레퍼런스가 됩니다.</p>
+</article>
+  <article class="ai-pick">
+  <a class="ai-pick-title" href="https://www.latent.space/p/ainews-agents-for-everything-else" target="_blank" rel="noopener">AINews — Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work<span class="ai-pick-arrow">↗</span></a>
+  <p class="ai-pick-summary">Uber가 2026년 AI 예산을 4개월 만에 Claude Code에 소진한 사례를 포함해 코딩 에이전트 분업 구도를 정리한 글. Team Agent의 `discovery-core-agent`/`platform-core-agent` 역할 분리 설계와 agent autonomy(A0~A4) 정책을 다듬을 때 외부 벤치마크로 함께 보면 좋습니다.</p>
+</article>
+  </div>
+</section>
+
 {{< callout emoji="🎯" >}}
 **[mattpocock/skills — Skills for Real Engineers (.claude directory 공개)](https://github.com/mattpocock/skills)**
 
