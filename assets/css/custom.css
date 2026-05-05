@@ -715,6 +715,40 @@ main:not(:has(.ai-post-hero)) > .content > .ai-home-footer {
   letter-spacing: 0.01em !important;
 }
 
+/* spotlight pick → 사이트 내 상세(knowledge note)로 점프하는 CTA. */
+.ai-spotlight-cta {
+  margin: 1.2em 0 0 0 !important;
+}
+.ai-spotlight-detail {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.45em !important;
+  background: var(--text-primary) !important;
+  color: var(--surface-page) !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  letter-spacing: -0.005em !important;
+  padding: 0.7em 1.3em !important;
+  border-radius: var(--radius-pill) !important;
+  border: 0 !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: 0 4px 14px rgba(28, 22, 14, 0.12) !important;
+  transition: transform var(--motion-base), box-shadow var(--motion-base), background-color var(--motion-fast) !important;
+}
+.ai-spotlight-detail:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 8px 20px rgba(28, 22, 14, 0.18) !important;
+  background: var(--sky-700) !important;
+  color: var(--surface-page) !important;
+}
+.ai-spotlight-detail-arrow {
+  transition: transform var(--motion-fast) !important;
+}
+.ai-spotlight-detail:hover .ai-spotlight-detail-arrow {
+  transform: translateX(2px) !important;
+}
+
 /* ─── Tag chips ───────────────────────────────────────── */
 .ai-chips {
   display: flex !important;
