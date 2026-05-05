@@ -6,6 +6,7 @@ defaultContentLanguage: ko
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
+buildFuture: true
 
 module:
   imports:
