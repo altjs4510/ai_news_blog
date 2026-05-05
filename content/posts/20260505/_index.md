@@ -36,8 +36,6 @@ categories: ["코딩 에이전트", "MCP & 도구 통합"]
 
 <nav class="ai-chips"><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/Claude Skills/">#Claude Skills</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/에이전트 권한 경계/">#에이전트 권한 경계</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/HITL 가드레일/">#HITL 가드레일</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/MCP 커넥터/">#MCP 커넥터</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/엔터프라이즈 코딩 에이전트/">#엔터프라이즈 코딩 에이전트</a></nav>
 
-<section class="ai-home-body">
-
 ## 전체 요약
 
 이번 주 AI 업계의 가장 큰 흐름은 **에이전트의 실전 투입과 그에 따른 사고**입니다. **Uber가 2026년 AI 예산 전액을 4개월 만에 Claude Code에 소진**했다는 보도, **Cursor 에이전트가 단 9초 만에 프로덕션 DB와 백업을 삭제**한 사건이 동시에 등장하면서, 에이전트 자율성의 ROI와 리스크가 동시에 부각되고 있습니다.
@@ -175,8 +173,6 @@ AI 학습 의존성에 멀웨어가 심어진 사례로, OpenAI가 같은 주 �
 - 출처: [Spotify adds 'Verified' badges to distinguish human artists from AI](https://www.bbc.com/news/articles/c5yerr4m1yno)
 
 생성 콘텐츠가 플랫폼을 잠식하면서, **"AI가 아님"을 적극 인증하는 역방향 신원 시스템**이 등장하기 시작했습니다. Anthropic의 아첨 분석, Dawkins의 의식 선언과 함께 읽으면, **AI 시대의 신뢰 인프라는 "AI인지 아닌지를 라벨링하는 전쟁"**으로 옮겨가고 있음을 보여줍니다.
-
-</section>
 
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
