@@ -5,21 +5,10 @@ tags: ["Claude Skills", "에이전트 권한 경계", "HITL 가드레일", "MCP 
 categories: ["코딩 에이전트", "MCP & 도구 통합"]
 ---
 
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · DAILY DIGEST</p>
-  <h1 class="ai-headline">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
-  <p class="ai-meta">2026-05-05 · 매일 자동 발행</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260505/">
-      <span class="ai-cta-label">최신 호 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-    <a class="ai-cta ai-cta-secondary" href="https://altjs4510.github.io/ai_news_blog/knowledge/20260505/">
-      <span class="ai-cta-label">📚 오늘의 학습</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-05 · 일간 요약</p>
+  <h1 class="ai-post-title">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ THIS WEEK'S PICK</p>
