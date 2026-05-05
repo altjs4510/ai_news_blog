@@ -4,9 +4,9 @@ toc: false
 ---
 
 <section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
+  <p class="ai-eyebrow">AI NEWS · DAILY DIGEST</p>
   <h1 class="ai-headline">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
-  <p class="ai-meta">2026-05-05 · 매주 월요일 자동 발행</p>
+  <p class="ai-meta">2026-05-05 · 매일 자동 발행</p>
   <div class="ai-cta-row">
     <a class="ai-cta" href="posts/20260505/">
       <span class="ai-cta-label">최신 호 전체 보기</span>
@@ -187,5 +187,5 @@ AI 학습 의존성에 멀웨어가 심어진 사례로, OpenAI가 같은 주 �
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <p class="ai-source-list">Anthropic · OpenAI · Google · DeepMind · Simon Willison · Latent Space · LangChain · LlamaIndex · AutoGen · CrewAI · Cursor · Cline · Aider · Karpathy · Lilian Weng · Hamel Husain · TLDR AI · The Rundown · AlphaSignal · Ben's Bites · The Batch · Reddit · Hacker News · Product Hunt · TechCrunch AI · arxiv · HuggingFace Papers · GitHub Trending · Bluesky</p>
-  <p class="ai-home-links"><a href="posts/">📰 주간 요약</a><span class="ai-dot">·</span><a href="knowledge/">📚 학습 노트</a><span class="ai-dot">·</span><a href="tags/">🏷 태그</a><span class="ai-dot">·</span><a href="posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="about/">📓 소개</a></p>
+  <p class="ai-home-links"><a href="posts/">📰 일간 요약</a><span class="ai-dot">·</span><a href="knowledge/">📚 학습 노트</a><span class="ai-dot">·</span><a href="tags/">🏷 태그</a><span class="ai-dot">·</span><a href="posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="about/">📓 소개</a></p>
 </footer>

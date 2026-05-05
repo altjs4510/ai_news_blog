@@ -6,7 +6,7 @@ categories: ["코딩 에이전트", "MCP & 도구 통합"]
 ---
 
 <header class="ai-post-hero">
-  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-05 · 주간 요약</p>
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-05 · 일간 요약</p>
   <h1 class="ai-post-title">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
 </header>
 
