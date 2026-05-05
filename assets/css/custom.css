@@ -1268,11 +1268,19 @@ body .ai-post-title {
   margin: 0.45em 0 0 0;
 }
 
-/* Hextra가 frontmatter title로 자동 만든 main > h1 숨김 — 우리 hero가 대체.
-   :has()로 hero(post-hero=knowledge, home-hero=posts 스냅샷) 또는 카드 그리드가
-   있을 때만. About/일반 페이지는 그대로 보존. */
-main:has(.ai-post-hero) > h1:first-of-type,
-main:has(.ai-home-hero) > h1:first-of-type,
+/* Hextra가 frontmatter title로 자동 만든 자동 h1 + 그 주변 메타 블록 숨김 —
+   우리 hero(.ai-post-hero / .ai-home-hero)가 대체.
+   - default/single.html 패턴: main 직속 자식 <h1>
+   - blog/single.html 패턴: main 직속 <div ... > <h1.hx:text-4xl> ... </div>
+                            그 다음 <div class="hx:mt-4 hx:mb-16 ..."> 메타(날짜·저자) 블록
+   - blog/list.html 패턴: main 직속 <h1.hx:text-4xl> + 자식 카드 list
+   :has()로 hero가 있는 페이지에서만 적용. About/일반 페이지는 그대로 보존. */
+main:has(.ai-post-hero) > h1,
+main:has(.ai-post-hero) > div:has(> h1.hx\:text-4xl),
+main:has(.ai-post-hero) > div.hx\:mt-4.hx\:mb-16,
+main:has(.ai-home-hero) > h1,
+main:has(.ai-home-hero) > div:has(> h1.hx\:text-4xl),
+main:has(.ai-home-hero) > div.hx\:mt-4.hx\:mb-16,
 main:has(> div.hx\:mb-10) > h1:first-of-type {
   display: none;
 }
