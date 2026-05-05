@@ -26,15 +26,14 @@ markup:
 
 menu:
   main:
-    # 메뉴는 의도적으로 단순. Knowledge / Tags는 의미 그룹이 약하거나
-    # Topics와 분류축이 겹쳐 일반 독자에게 결정 부담을 준다.
-    # Knowledge 노트는 post 안 spotlight CTA로, tag는 post 안 chip으로
-    # 자연스럽게 도달한다.
+    # 메뉴는 의도적으로 단순. Posts(주간 요약) + Knowledge(일간 픽 + 학습 노트)
+    # 두 축으로 정리. Topics(/categories)는 해시태그 다중 분류라 클릭 부담이 컸기에 제거.
+    # 카테고리 분류는 /knowledge/ 좌측 사이드바 트리에서 자연스럽게 도달.
     - name: Posts
       pageRef: /posts
       weight: 1
-    - name: Topics
-      pageRef: /categories
+    - name: Knowledge
+      pageRef: /knowledge
       weight: 2
     - name: About
       pageRef: /about
