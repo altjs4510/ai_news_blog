@@ -20,10 +20,11 @@ toc: false
 </section>
 
 <aside class="ai-spotlight">
-  <p class="ai-eyebrow ai-spotlight-eyebrow">✦ THIS WEEK'S PICK</p>
+  <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
   <a class="ai-spotlight-title" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">mattpocock/skills — Skills for Real Engineers (.claude directory 공개)<span class="ai-spotlight-arrow">↗</span></a>
   <p class="ai-spotlight-why">Claude Code의 skill 패키징 실전 예제를 한 주 만에 3.1만 별로 끌어올린 저장소로, Claude Code plugin/skill/hook 결을 정확히 건드립니다. 에이전트 자율성이 커질수록 검증 가능한 스킬·권한 경계가 핵심이 된다는 이번 주 흐름(Cursor 9초 DB 삭제 사고)과 정확히 맞물립니다.</p>
   <p class="ai-spotlight-app"><span class="ai-spotlight-app-label">접목 →</span> DCSAI의 `dcs-ai-plugin`(Claude Code plugin — commands/agents/skills/hooks)와 `ff-claude-manager` 자동 업데이트 파이프라인에 곧장 차용 가능합니다. 특히 사내 표준 skill 디렉터리 구조와 hook 패턴을 벤치마킹해 DCSAI agent loop의 HITL 분기에서 위험 작업(DB 변경·삭제)에 대한 skill 단위 가드레일을 추가하는 1차 PoC로 적합합니다.</p>
+  <p class="ai-spotlight-cta"><a class="ai-spotlight-detail" href="https://altjs4510.github.io/ai_news_blog/knowledge/20260505/">자세히 보기 <span class="ai-spotlight-detail-arrow" aria-hidden="true">→</span></a></p>
 </aside>
 
 <section class="ai-additional">
