@@ -493,13 +493,15 @@ footer {
    덮어쓴다.
    ============================================================ */
 
-/* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭 + 가운데 정렬 */
+/* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭 + 가운데 정렬.
+   부모 main이 이미 좌우 px-6/px-12를 갖고 있어 패딩은 따로 두지 않는다.
+   페이지 전체를 넓게 쓰기 위해 1200px까지 확장. */
 .ai-home-hero,
 .ai-spotlight,
 .ai-chips,
 .ai-home-body,
 .ai-home-footer {
-  max-width: 880px !important;
+  max-width: 1200px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -930,7 +932,7 @@ article.hextra-content {
    spotlight보다 한 단계 가벼운 톤. 인라인 카드 두 개가 가로로.
    ============================================================ */
 .ai-additional {
-  max-width: 880px !important;
+  max-width: 1200px !important;
   margin: 0 auto 2.4rem auto !important;
 }
 
@@ -1173,8 +1175,10 @@ main:has(> div.hx\:mb-10) {
 }
 
 /* Hextra가 frontmatter title로 자동 만든 main > h1 숨김 — 우리 hero가 대체.
-   :has()로 hero 또는 카드 그리드가 있을 때만. About/일반 페이지는 그대로 보존. */
+   :has()로 hero(post-hero=knowledge, home-hero=posts 스냅샷) 또는 카드 그리드가
+   있을 때만. About/일반 페이지는 그대로 보존. */
 main:has(.ai-post-hero) > h1:first-of-type,
+main:has(.ai-home-hero) > h1:first-of-type,
 main:has(> div.hx\:mb-10) > h1:first-of-type {
   display: none !important;
 }
