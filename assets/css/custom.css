@@ -243,6 +243,13 @@ article blockquote, .content blockquote {
   color: var(--text-secondary);
   font-style: normal;
 }
+/* 인용 블록 내부 단락은 기본 단락 마진(1.15em) 너무 넓어 — 타이트하게. */
+article blockquote > p, .content blockquote > p {
+  margin: 0 0 0.35em 0 !important;
+}
+article blockquote > p:last-child, .content blockquote > p:last-child {
+  margin-bottom: 0 !important;
+}
 
 article hr, .content hr {
   border: 0;
