@@ -2,3 +2,30 @@
   {{- $css := . | resources.Minify | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- end -}}
+
+{{/* TEMP debug overlay — 폭 진단용. 확인 후 제거. */}}
+<style>
+#__width_debug{position:fixed;right:8px;bottom:8px;z-index:99999;background:rgba(0,0,0,.85);color:#fff;font:12px/1.4 ui-monospace,monospace;padding:8px 10px;border-radius:6px;pointer-events:none;max-width:280px}
+#__width_debug b{color:#7CF;display:inline-block;min-width:96px}
+</style>
+<script>
+(function(){
+  function q(s){return document.querySelector(s)}
+  function w(el){return el?(el.getBoundingClientRect().width|0)+'px':'n/a'}
+  function update(){
+    var d=document.getElementById('__width_debug');
+    if(!d){d=document.createElement('div');d.id='__width_debug';document.body.appendChild(d)}
+    var cs=getComputedStyle(document.documentElement);
+    d.innerHTML='<b>viewport</b>'+window.innerWidth+'px<br>'
+      +'<b>body</b>'+w(document.body)+'<br>'
+      +'<b>outer</b>'+w(q('.hextra-max-page-width'))+'<br>'
+      +'<b>main</b>'+w(q('main#content'))+'<br>'
+      +'<b>.content</b>'+w(q('main#content > .content'))+'<br>'
+      +'<b>ai-home-hero</b>'+w(q('.ai-home-hero'))+'<br>'
+      +'<b>--page-w</b>'+cs.getPropertyValue('--hextra-max-page-width').trim()+'<br>'
+      +'<b>--content-w</b>'+cs.getPropertyValue('--hextra-max-content-width').trim();
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',update)}else{update()}
+  window.addEventListener('resize',update);
+})();
+</script>
