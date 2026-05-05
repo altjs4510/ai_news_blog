@@ -1358,6 +1358,26 @@ body .ai-post-title {
   margin: 0.45em 0 0 0;
 }
 
+/* ─── Editorial deck — 헤드라인 아래 한 줄 부제 ───
+   Stratechery 스타일: 헤드라인의 함의를 한 단계 풀어서 보여 주는 한 줄.
+   톤은 본문보다 살짝 큰 secondary 잉크. 폰트 weight는 normal로 강조 분리. */
+body .ai-post-deck,
+body .ai-home-hero .ai-home-deck {
+  font-size: clamp(1.05rem, 0.95rem + 0.5vw, 1.25rem);
+  line-height: 1.5;
+  letter-spacing: -0.011em;
+  font-weight: 400;
+  color: var(--text-secondary);
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  margin: 0.7em 0 0 0;
+  max-width: 60ch;
+}
+.dark body .ai-post-deck,
+.dark body .ai-home-hero .ai-home-deck {
+  color: var(--text-secondary);
+}
+
 /* Hextra가 frontmatter title로 자동 만든 자동 h1 + 그 주변 메타 블록 숨김 —
    우리 hero(.ai-post-hero / .ai-home-hero)가 대체.
    - default/single.html 패턴: main 직속 자식 <h1>
@@ -1879,4 +1899,64 @@ body .ai-related-links .ktitle {
 body main:has(.ai-post-hero) > h1,
 body main:has(.ai-headline) > h1 {
   display: none;
+}
+
+/* ============================================================
+   Taxonomy listing — /categories/, /tags/
+   ------------------------------------------------------------
+   Hextra default emits a tailwind grid of plain anchor-with-count
+   cells. Re-skin them as proper cards so Topics/Tags becomes a real
+   navigation surface, not a fine-print list.
+   ============================================================ */
+main > div[class*="hx:grid-cols-1"]:has(> div > a[title]) {
+  gap: 1rem !important;
+  margin-top: 1.4rem !important;
+}
+
+main > div[class*="hx:grid-cols-1"]:has(> div > a[title]) > div.hx\:w-full > a {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 0.7em !important;
+  background: var(--surface-card) !important;
+  border: 1px solid var(--hairline) !important;
+  border-radius: var(--radius-md) !important;
+  padding: 1.05rem 1.2rem !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid var(--hairline) !important;
+  color: var(--text-primary) !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.011em !important;
+  line-height: 1.35 !important;
+  box-shadow: var(--shadow-sm) !important;
+  transition: transform var(--motion-base), box-shadow var(--motion-base), border-color var(--motion-fast), color var(--motion-fast) !important;
+}
+main > div[class*="hx:grid-cols-1"]:has(> div > a[title]) > div.hx\:w-full > a:hover {
+  transform: translateY(-2px) !important;
+  border-color: var(--accent-500) !important;
+  color: var(--accent-700) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+.dark main > div[class*="hx:grid-cols-1"]:has(> div > a[title]) > div.hx\:w-full > a:hover {
+  color: var(--accent-300) !important;
+  border-color: var(--accent-300) !important;
+}
+
+/* count pill */
+main > div[class*="hx:grid-cols-1"]:has(> div > a[title]) > div.hx\:w-full > a > span {
+  flex-shrink: 0 !important;
+  font-size: 0.74rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+  color: var(--text-tertiary) !important;
+  background: var(--surface-muted) !important;
+  border-radius: var(--radius-pill) !important;
+  padding: 0.18em 0.7em !important;
+}
+
+/* taxonomy h1 — center 정렬 유지하되 살짝 여유 */
+main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > h1.hx\:text-center {
+  margin-top: 1rem !important;
+  margin-bottom: 0.4em !important;
 }
