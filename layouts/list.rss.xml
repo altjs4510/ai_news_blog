@@ -1,0 +1,48 @@
+{{- /*
+  Override of Hextra's layouts/list.rss.xml.
+
+  Why we override:
+    The upstream template builds the item list from
+    `site.RegularPages` filtered by Type. Our posts/<DATE>/_index.md
+    files are kind=section (because the daily issue is a directory
+    bundle that owns a sibling raw.md), so they are *not* in
+    `RegularPages` and the feed renders zero items.
+
+  Change:
+    For section feeds (e.g. /posts/index.xml) we use `$.Pages` —
+    direct children of the current section, regardless of kind. That
+    correctly picks up our daily-issue _index.md files. The
+    site-root feed branch is preserved untouched.
+
+  Upstream reference:
+    https://github.com/imfing/hextra/blob/v0.12.2/layouts/list.rss.xml
+*/ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }}{{ if ne .Title .Site.Title }} – {{ .Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <language>{{ . }}</language>{{ end }}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}{{ end }}
+    {{- if not $.Section -}}
+      {{- /* site root feed: keep upstream behaviour */ -}}
+      {{- $sections := .Site.Params.rss.sections | default (slice "blog" "posts") -}}
+      {{- .Store.Set "rssPages" (first 50 (where $.Site.RegularPages "Type" "in" $sections)) -}}
+    {{- else -}}
+      {{- /* section feed: use direct children regardless of kind */ -}}
+      {{- .Store.Set "rssPages" (first 50 $.Pages) -}}
+    {{- end -}}
+    {{ range (.Store.Get "rssPages") }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Summary | html }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>

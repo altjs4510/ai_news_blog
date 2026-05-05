@@ -25,31 +25,29 @@ markup:
 
 menu:
   main:
+    # 메뉴는 의도적으로 단순. Knowledge / Tags는 의미 그룹이 약하거나
+    # Topics와 분류축이 겹쳐 일반 독자에게 결정 부담을 준다.
+    # Knowledge 노트는 post 안 spotlight CTA로, tag는 post 안 chip으로
+    # 자연스럽게 도달한다.
     - name: Posts
       pageRef: /posts
       weight: 1
-    - name: Knowledge
-      pageRef: /knowledge
-      weight: 2
     - name: Topics
       pageRef: /categories
-      weight: 3
-    - name: Tags
-      pageRef: /tags
-      weight: 4
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 5
+      weight: 3
     - name: Search
-      weight: 6
+      weight: 4
       params:
         type: search
     - name: RSS
       url: "/posts/index.xml"
-      weight: 7
+      weight: 5
     - name: GitHub
       url: "https://github.com/altjs4510/ai_news_blog"
-      weight: 8
+      weight: 6
       params:
         icon: github
 
