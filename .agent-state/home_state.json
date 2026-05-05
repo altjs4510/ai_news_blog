@@ -37,6 +37,18 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260506",
+      "display_date": "2026-05-06",
+      "title": "mksglu/context-mode — AI 코딩 에이전트용 컨텍스트 윈도우 최적화",
+      "url": "https://github.com/mksglu/context-mode",
+      "summary": "도구 출력(tool output)을 샌드박싱해 컨텍스트 사용량을 최대 98%까지 줄인다고 주장하는 오픈소스. agent loop에서 tool use 결과가 반복 누적되며 컨텍스트가 폭주하는 문제, 즉 DCSAI Anthropic SDK 직통합 구조의 가장 현실적인 병목을 정조준한다.",
+      "knowledge_url": "/knowledge/20260506/",
+      "categories": [
+        "에이전트 오케스트레이션",
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260505",
       "display_date": "2026-05-05",
       "title": "mattpocock/skills — Skills for Real Engineers (.claude directory 공개)",
