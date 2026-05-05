@@ -1059,7 +1059,7 @@ button[data-mobile-menu] {
 main:has(> div.hx\:mb-10) > h1:first-of-type {
   display: none !important;
 }
-main:has(> div.hx\:mb-10) > div.content > p {
+main:has(> div.hx\:mb-10):not(:has(.ai-home-hero)):not(:has(.ai-post-hero)) > div.content > p {
   display: none !important;
 }
 
@@ -1137,8 +1137,10 @@ main > div.hx\:mb-10 > p:last-of-type {
   margin: 0 !important;
 }
 
-/* 카드 그리드 부모 — 좀 좁게 가운데 정렬 */
-main:has(> div.hx\:mb-10) {
+/* 카드 그리드 부모 — 좀 좁게 가운데 정렬.
+   Post 상세(.ai-home-hero 보유)는 자식 raw.md 카드가 main에 같이
+   emit되므로 이 셀렉터에 매칭되지 않도록 :not()으로 배제. */
+main:has(> div.hx\:mb-10):not(:has(.ai-home-hero)):not(:has(.ai-post-hero)) {
   max-width: 880px !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -1322,8 +1324,9 @@ main > div.hx\:mb-10 > p:nth-of-type(2) a:hover {
   color: var(--sky-700) !important;
 }
 
-/* Section listing wrapper — 좁은 컬럼 가운데 정렬 */
-main:has(> div.hx\:mb-10) {
+/* Section listing wrapper — 좁은 컬럼 가운데 정렬.
+   상세 페이지(.ai-home-hero/.ai-post-hero) 자식 카드 emit과 충돌 회피. */
+main:has(> div.hx\:mb-10):not(:has(.ai-home-hero)):not(:has(.ai-post-hero)) {
   max-width: 760px !important;
   margin-left: auto !important;
   margin-right: auto !important;
