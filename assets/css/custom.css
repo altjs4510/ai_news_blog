@@ -1960,3 +1960,59 @@ main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > h1.hx\:text-center {
   margin-top: 1rem !important;
   margin-bottom: 0.4em !important;
 }
+
+/* ============================================================
+   Taxonomy term page — /categories/<X>/, /tags/<X>/
+   ------------------------------------------------------------
+   Hextra의 term.html은 각 글을 <div><h3><a>...</a></h3><p>날짜</p></div>
+   세 줄짜리 헐벗은 마크업으로 렌더한다. 카드 박스 + 호버 lift로 listing 톤
+   을 /posts/와 비슷하게 정돈.
+   매치 셀렉터:
+     main 직속 자식 <div>이 자식 <div>들을 가지고, 그 안에 h3 + 링크 형태.
+     /categories/, /tags/의 term page 모두 같은 구조.
+   ============================================================ */
+main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > div:not([class]):has(> div > h3 > a) > div {
+  display: block;
+  background: var(--surface-card) !important;
+  border: 1px solid var(--hairline) !important;
+  border-radius: var(--radius-md) !important;
+  padding: 1rem 1.2rem !important;
+  margin: 0 0 0.7rem 0 !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--motion-base), box-shadow var(--motion-base), border-color var(--motion-fast);
+}
+main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > div:not([class]):has(> div > h3 > a) > div:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-500) !important;
+  box-shadow: var(--shadow-md);
+}
+
+/* term card 안 h3 — Hextra default 큰 폰트(text-2xl) 줄여서 listing 톤. */
+main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > div:not([class]):has(> div > h3 > a) > div > h3 {
+  margin: 0 !important;
+}
+main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > div:not([class]):has(> div > h3 > a) > div > h3 > a {
+  font-size: 1.05rem !important;
+  line-height: 1.4 !important;
+  letter-spacing: -0.011em !important;
+  font-weight: 600 !important;
+  margin-top: 0 !important;
+  color: var(--text-primary) !important;
+  border-bottom: 0 !important;
+  transition: color var(--motion-fast);
+}
+main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > div:not([class]):has(> div > h3 > a) > div:hover > h3 > a {
+  color: var(--accent-700);
+}
+.dark main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > div:not([class]):has(> div > h3 > a) > div:hover > h3 > a {
+  color: var(--accent-300);
+}
+
+/* term card 날짜 — opacity-50 회색 → secondary text */
+main:not(:has(.ai-post-hero)):not(:has(.ai-home-hero)) > div:not([class]):has(> div > h3 > a) > div > p {
+  margin: 0.35em 0 0 0 !important;
+  font-size: 0.82rem !important;
+  color: var(--text-tertiary) !important;
+  letter-spacing: 0.005em;
+  opacity: 1 !important;
+}

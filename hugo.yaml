@@ -58,7 +58,11 @@ taxonomies:
   category: categories
 
 params:
-  description: "매주 월요일 자동 발행되는 AI 동향 큐레이션 — Anthropic·OpenAI·Google·DeepMind 공식 블로그, Reddit, Hacker News, Product Hunt, TechCrunch AI, arxiv, HuggingFace Papers, GitHub Trending"
+  # SNS 공유(OG / Twitter card) 폴백용. Hextra의 opengraph.html이
+  # `Site.Params.title`로 og:site_name을 박고, 페이지 level description이
+  # 비면 `Site.Params.description`을 폴백으로 쓴다.
+  title: "AI News Digest"
+  description: "매일 자동 발행되는 AI 동향 큐레이션. Anthropic · OpenAI · Google · DeepMind 공식 블로그, 전문가, 에이전트·툴, 뉴스레터, 커뮤니티, 연구·코드 30+ 소스에서 매일 24시간치 핵심을 정리합니다."
 
   # 홈/태그/저자 등 listing 페이지의 'recent posts' 집합으로 사용할 섹션.
   # posts(주간 요약) + knowledge(학습 노트) 둘 다 메인 섹션으로 인정.

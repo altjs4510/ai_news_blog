@@ -2,3 +2,20 @@
   {{- $css := . | resources.Minify | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- end -}}
+
+{{- /* Twitter card + safety nets for OG meta.
+     Hextra v0.12.2 has no twitter_cards partial; the call in head.html
+     silently fails. We emit a minimal Twitter Card here so previews
+     render correctly on Twitter / X / Threads / LinkedIn. */ -}}
+{{- $desc := "" -}}
+{{- with .Description }}{{ $desc = . }}{{ end -}}
+{{- if not $desc }}{{ if .IsPage }}{{ $desc = .Summary | plainify }}{{ end }}{{ end -}}
+{{- if not $desc }}{{ $desc = site.Params.description }}{{ end -}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title | default site.Title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+
+{{- /* og:site_name fallback — upstream uses site.Params.title, which
+     we now set in hugo.yaml. Keep an explicit emit here so the tag
+     appears even if the params block changes in the future. */ -}}
+<meta property="og:site_name" content="{{ site.Title }}">

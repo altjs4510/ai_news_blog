@@ -2,6 +2,7 @@
 title: "에이전트가 창의·금융·연구 도메인으로 침투하며 안전성 사고와 분업 구도가 동시에 부상"
 date: 2026-05-04
 toc: true
+description: "Cursor의 9초 DB 삭제 사고 이후, 에이전트 권한 경계와 분업 설계가 ROI 논의보다 먼저 와야 한다는 신호가 잇따른 한 호."
 layout: single
 tags: ["MCP 커넥터", "버티컬 에이전트", "HITL 가드레일", "에이전트 안전성", "도메인 분업"]
 categories: ["에이전트 오케스트레이션", "MCP & 도구 통합"]
@@ -10,6 +11,7 @@ categories: ["에이전트 오케스트레이션", "MCP & 도구 통합"]
 <header class="ai-post-hero">
   <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-04 · 주간 요약</p>
   <h2 class="ai-post-title">에이전트가 창의·금융·연구 도메인으로 침투하며 안전성 사고와 분업 구도가 동시에 부상</h2>
+<p class="ai-post-deck">Cursor의 9초 DB 삭제 사고 이후, 에이전트 권한 경계와 분업 설계가 ROI 논의보다 먼저 와야 한다는 신호가 잇따르고 있습니다.</p>
 </header>
 
 {{< callout emoji="🎯" >}}

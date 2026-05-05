@@ -2,6 +2,7 @@
 title: "에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로"
 date: 2026-05-05
 toc: true
+description: "Uber의 4개월 AI 예산 소진 보도와 9초 DB 삭제 사고가 같은 주에 등장 — 자율성 ROI와 권한 가드레일이 동전의 양면이 됐다."
 layout: single
 tags: ["Claude Skills", "에이전트 권한 경계", "HITL 가드레일", "MCP 커넥터", "엔터프라이즈 코딩 에이전트"]
 categories: ["코딩 에이전트", "MCP & 도구 통합"]
@@ -10,6 +11,7 @@ categories: ["코딩 에이전트", "MCP & 도구 통합"]
 <header class="ai-post-hero">
   <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-05 · 일간 요약</p>
   <h2 class="ai-post-title">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h2>
+<p class="ai-post-deck">Uber의 4개월 AI 예산 소진 보도와 9초 DB 삭제 사고가 같은 주에 등장 — 자율성 ROI와 권한 가드레일이 동전의 양면이 됐습니다.</p>
 </header>
 
 <aside class="ai-spotlight">

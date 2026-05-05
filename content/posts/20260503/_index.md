@@ -2,6 +2,7 @@
 title: "2026-05-03 AI 동향 요약"
 date: 2026-05-03
 toc: true
+description: "2026-05-03 AI 동향: 30+ 소스에서 매일 24시간치 핵심을 정리한 일간 큐레이션."
 layout: single
 ---
 
