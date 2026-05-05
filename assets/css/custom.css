@@ -140,11 +140,17 @@ h1, h2, h3, h4, .ai-headline, .ai-spotlight-title {
 
 /* ============================
    가로 폭 — 양옆 여백 축소
-   hugo.yaml(page.width: wide)이 외곽 컨테이너를 늘리고,
-   여기서 본문 prose의 자체 max-width(기본 65ch≈720px) 제한을 풀어
+   Hextra는 <main>에 .hextra-max-content-width 클래스를 박고
+   그 값으로 --hextra-max-content-width(기본 72rem=1152px)를 쓴다.
+   변수 자체를 96rem(1536px)으로 키워 외곽 컨테이너를 넓히고,
+   본문 prose의 자체 max-width(기본 65ch≈720px) 제한도 풀어
    실제 본문이 컨테이너 폭만큼 늘어나도록 한다.
    ============================ */
-main, .hextra-main, [class*="hextra-main"] {
+:root {
+  --hextra-max-content-width: 96rem !important;
+}
+main, .hextra-main, [class*="hextra-main"],
+main.hextra-max-content-width {
   max-width: 100% !important;
 }
 
@@ -495,13 +501,14 @@ footer {
 
 /* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭 + 가운데 정렬.
    부모 main이 이미 좌우 px-6/px-12를 갖고 있어 패딩은 따로 두지 않는다.
-   페이지 전체를 넓게 쓰기 위해 1200px까지 확장. */
+   외곽 main은 96rem(1536px)까지 넓어졌으므로 실제 사용 가능한 공간을
+   거의 채우도록 1400px까지 확장. */
 .ai-home-hero,
 .ai-spotlight,
 .ai-chips,
 .ai-home-body,
 .ai-home-footer {
-  max-width: 1200px !important;
+  max-width: 1400px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -932,7 +939,7 @@ article.hextra-content {
    spotlight보다 한 단계 가벼운 톤. 인라인 카드 두 개가 가로로.
    ============================================================ */
 .ai-additional {
-  max-width: 1200px !important;
+  max-width: 1400px !important;
   margin: 0 auto 2.4rem auto !important;
 }
 
