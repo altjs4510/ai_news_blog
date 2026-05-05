@@ -186,7 +186,14 @@ AI 학습 의존성에 멀웨어가 심어진 사례로, OpenAI가 같은 주 �
 </section>
 
 <footer class="ai-home-footer">
-  <p class="ai-eyebrow">SOURCES</p>
-  <p class="ai-source-list">Anthropic · OpenAI · Google · DeepMind · Simon Willison · Latent Space · LangChain · LlamaIndex · AutoGen · CrewAI · Cursor · Cline · Aider · Karpathy · Lilian Weng · Hamel Husain · TLDR AI · The Rundown · AlphaSignal · Ben's Bites · The Batch · Reddit · Hacker News · Product Hunt · TechCrunch AI · arxiv · HuggingFace Papers · GitHub Trending · Bluesky</p>
-  <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">📰 일간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">📚 학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">🏷 태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">📓 소개</a></p>
+    <p class="ai-eyebrow">SOURCES</p>
+  <div class="ai-source-grid">
+    <p class="ai-source-row"><span class="ai-source-label">공식</span>Anthropic · OpenAI · Google · DeepMind</p>
+    <p class="ai-source-row"><span class="ai-source-label">전문가</span>Simon Willison · Karpathy · Lilian Weng · Hamel Husain · Matt Pocock (AI Hero)</p>
+    <p class="ai-source-row"><span class="ai-source-label">에이전트·툴</span>LangChain · LlamaIndex · AutoGen · CrewAI · Cursor · Cline · Aider</p>
+    <p class="ai-source-row"><span class="ai-source-label">뉴스레터</span>Latent Space · TLDR AI · The Rundown · AlphaSignal · Ben's Bites · The Batch</p>
+    <p class="ai-source-row"><span class="ai-source-label">커뮤니티</span>Reddit · Hacker News · Product Hunt · TechCrunch AI · Bluesky</p>
+    <p class="ai-source-row"><span class="ai-source-label">연구·코드</span>arxiv · HuggingFace Papers · GitHub Trending</p>
+  </div>
+<p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">일간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
