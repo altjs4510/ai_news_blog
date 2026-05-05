@@ -1,7 +1,7 @@
 ---
 title: "2026-05-04 원본 수집 데이터"
 date: 2026-05-04
-_build:
+build:
   list: never
   render: always
 ---
