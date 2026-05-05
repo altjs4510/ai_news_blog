@@ -5,10 +5,21 @@ tags: ["Claude Skills", "에이전트 권한 경계", "HITL 가드레일", "MCP 
 categories: ["코딩 에이전트", "MCP & 도구 통합"]
 ---
 
-<header class="ai-post-hero">
-  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-05 · 일간 요약</p>
-  <h1 class="ai-post-title">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
-</header>
+<section class="ai-home-hero">
+  <p class="ai-eyebrow">AI NEWS · DAILY DIGEST</p>
+  <h1 class="ai-headline">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
+  <p class="ai-meta">2026-05-05 · 매일 자동 발행</p>
+  <div class="ai-cta-row">
+    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260505/">
+      <span class="ai-cta-label">최신 호 전체 보기</span>
+      <span class="ai-cta-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="ai-cta ai-cta-secondary" href="https://altjs4510.github.io/ai_news_blog/knowledge/20260505/">
+      <span class="ai-cta-label">📚 오늘의 학습</span>
+      <span class="ai-cta-arrow" aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ THIS WEEK'S PICK</p>
@@ -31,30 +42,9 @@ categories: ["코딩 에이전트", "MCP & 도구 통합"]
   </div>
 </section>
 
-{{< callout emoji="🎯" >}}
-**[mattpocock/skills — Skills for Real Engineers (.claude directory 공개)](https://github.com/mattpocock/skills)**
+<nav class="ai-chips"><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/Claude Skills/">#Claude Skills</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/에이전트 권한 경계/">#에이전트 권한 경계</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/HITL 가드레일/">#HITL 가드레일</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/MCP 커넥터/">#MCP 커넥터</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/엔터프라이즈 코딩 에이전트/">#엔터프라이즈 코딩 에이전트</a></nav>
 
-Claude Code의 skill 패키징 실전 예제를 한 주 만에 3.1만 별로 끌어올린 저장소로, Claude Code plugin/skill/hook 결을 정확히 건드립니다. 에이전트 자율성이 커질수록 검증 가능한 스킬·권한 경계가 핵심이 된다는 이번 주 흐름(Cursor 9초 DB 삭제 사고)과 정확히 맞물립니다.
-
-**접목 →** DCSAI의 `dcs-ai-plugin`(Claude Code plugin — commands/agents/skills/hooks)와 `ff-claude-manager` 자동 업데이트 파이프라인에 곧장 차용 가능합니다. 특히 사내 표준 skill 디렉터리 구조와 hook 패턴을 벤치마킹해 DCSAI agent loop의 HITL 분기에서 위험 작업(DB 변경·삭제)에 대한 skill 단위 가드레일을 추가하는 1차 PoC로 적합합니다.
-{{< /callout >}}
-
-{{< callout emoji="📖" >}}
-- **[ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)** — Codex CLI/API 자동화용 실전 skill 큐레이션. spotlight의 Claude 측 skill 생태계와 짝지어 읽으면, DCSAI·Team Agent에서 멀티 벤더(Anthropic SDK 중심이지만 Codex 워크플로우 흡수) skill 표준화를 설계할 때 비교 레퍼런스가 됩니다.
-- **[AINews — Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work](https://www.latent.space/p/ainews-agents-for-everything-else)** — Uber가 2026년 AI 예산을 4개월 만에 Claude Code에 소진한 사례를 포함해 코딩 에이전트 분업 구도를 정리한 글. Team Agent의 `discovery-core-agent`/`platform-core-agent` 역할 분리 설계와 agent autonomy(A0~A4) 정책을 다듬을 때 외부 벤치마크로 함께 보면 좋습니다.
-{{< /callout >}}
-
-{{< callout emoji="🏷" >}}
-`Claude Skills` · `에이전트 권한 경계` · `HITL 가드레일` · `MCP 커넥터` · `엔터프라이즈 코딩 에이전트`
-{{< /callout >}}
-
----
-
-{{< callout emoji="📚" >}}
-[학습 노트 열기 →]({{< relref "knowledge/20260505" >}})
-{{< /callout >}}
-
----
+<section class="ai-home-body">
 
 # 전체 요약
 
@@ -194,8 +184,12 @@ AI 학습 의존성에 멀웨어가 심어진 사례로, OpenAI가 같은 주 �
 
 생성 콘텐츠가 플랫폼을 잠식하면서, **"AI가 아님"을 적극 인증하는 역방향 신원 시스템**이 등장하기 시작했습니다. Anthropic의 아첨 분석, Dawkins의 의식 선언과 함께 읽으면, **AI 시대의 신뢰 인프라는 "AI인지 아닌지를 라벨링하는 전쟁"**으로 옮겨가고 있음을 보여줍니다.
 
----
+</section>
 
----
+<footer class="ai-home-footer">
+  <p class="ai-eyebrow">SOURCES</p>
+  <p class="ai-source-list">Anthropic · OpenAI · Google · DeepMind · Simon Willison · Latent Space · LangChain · LlamaIndex · AutoGen · CrewAI · Cursor · Cline · Aider · Karpathy · Lilian Weng · Hamel Husain · TLDR AI · The Rundown · AlphaSignal · Ben's Bites · The Batch · Reddit · Hacker News · Product Hunt · TechCrunch AI · arxiv · HuggingFace Papers · GitHub Trending · Bluesky</p>
+  <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">📰 일간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">📚 학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">🏷 태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">📓 소개</a></p>
+</footer>
 
-📂 [원본 수집 데이터 펼쳐보기](raw)
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>

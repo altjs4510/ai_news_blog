@@ -8,11 +8,11 @@ toc: false
   <h1 class="ai-headline">에이전트 실전 투입 가속과 동시에 터진 9초 DB 삭제 사고 — 스킬·권한 경계가 1차 관심사로</h1>
   <p class="ai-meta">2026-05-05 · 매일 자동 발행</p>
   <div class="ai-cta-row">
-    <a class="ai-cta" href="posts/20260505/">
+    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260505/">
       <span class="ai-cta-label">최신 호 전체 보기</span>
       <span class="ai-cta-arrow" aria-hidden="true">→</span>
     </a>
-    <a class="ai-cta ai-cta-secondary" href="knowledge/20260505/">
+    <a class="ai-cta ai-cta-secondary" href="https://altjs4510.github.io/ai_news_blog/knowledge/20260505/">
       <span class="ai-cta-label">📚 오늘의 학습</span>
       <span class="ai-cta-arrow" aria-hidden="true">→</span>
     </a>
@@ -40,7 +40,7 @@ toc: false
   </div>
 </section>
 
-<nav class="ai-chips"><a class="ai-chip" href="tags/Claude Skills/">#Claude Skills</a><a class="ai-chip" href="tags/에이전트 권한 경계/">#에이전트 권한 경계</a><a class="ai-chip" href="tags/HITL 가드레일/">#HITL 가드레일</a><a class="ai-chip" href="tags/MCP 커넥터/">#MCP 커넥터</a><a class="ai-chip" href="tags/엔터프라이즈 코딩 에이전트/">#엔터프라이즈 코딩 에이전트</a></nav>
+<nav class="ai-chips"><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/Claude Skills/">#Claude Skills</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/에이전트 권한 경계/">#에이전트 권한 경계</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/HITL 가드레일/">#HITL 가드레일</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/MCP 커넥터/">#MCP 커넥터</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/엔터프라이즈 코딩 에이전트/">#엔터프라이즈 코딩 에이전트</a></nav>
 
 <section class="ai-home-body">
 
@@ -187,5 +187,5 @@ AI 학습 의존성에 멀웨어가 심어진 사례로, OpenAI가 같은 주 �
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <p class="ai-source-list">Anthropic · OpenAI · Google · DeepMind · Simon Willison · Latent Space · LangChain · LlamaIndex · AutoGen · CrewAI · Cursor · Cline · Aider · Karpathy · Lilian Weng · Hamel Husain · TLDR AI · The Rundown · AlphaSignal · Ben's Bites · The Batch · Reddit · Hacker News · Product Hunt · TechCrunch AI · arxiv · HuggingFace Papers · GitHub Trending · Bluesky</p>
-  <p class="ai-home-links"><a href="posts/">📰 일간 요약</a><span class="ai-dot">·</span><a href="knowledge/">📚 학습 노트</a><span class="ai-dot">·</span><a href="tags/">🏷 태그</a><span class="ai-dot">·</span><a href="posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="about/">📓 소개</a></p>
+  <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">📰 일간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">📚 학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">🏷 태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">🛰 RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">📓 소개</a></p>
 </footer>
