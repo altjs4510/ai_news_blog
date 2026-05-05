@@ -34,7 +34,7 @@ categories: ["코딩 에이전트", "MCP & 도구 통합"]
   </div>
 </section>
 
-<nav class="ai-chips"><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/Claude Skills/">#Claude Skills</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/에이전트 권한 경계/">#에이전트 권한 경계</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/HITL 가드레일/">#HITL 가드레일</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/MCP 커넥터/">#MCP 커넥터</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/엔터프라이즈 코딩 에이전트/">#엔터프라이즈 코딩 에이전트</a></nav>
+<nav class="ai-chips"><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/claude-skills/">#Claude Skills</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EA%B6%8C%ED%95%9C-%EA%B2%BD%EA%B3%84/">#에이전트 권한 경계</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/hitl-%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC/">#HITL 가드레일</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/mcp-%EC%BB%A4%EB%84%A5%ED%84%B0/">#MCP 커넥터</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/">#엔터프라이즈 코딩 에이전트</a></nav>
 
 ## 전체 요약
 

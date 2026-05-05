@@ -31,27 +31,33 @@ menu:
     - name: Knowledge
       pageRef: /knowledge
       weight: 2
+    - name: Topics
+      pageRef: /categories
+      weight: 3
     - name: Tags
       pageRef: /tags
-      weight: 3
+      weight: 4
     - name: About
       pageRef: /about
-      weight: 4
-    - name: Search
       weight: 5
+    - name: Search
+      weight: 6
       params:
         type: search
     - name: RSS
       url: "/posts/index.xml"
-      weight: 6
+      weight: 7
     - name: GitHub
       url: "https://github.com/altjs4510/ai_news_blog"
-      weight: 7
+      weight: 8
       params:
         icon: github
 
+# tag(자유 키워드, 짧음, 다수) + category(주제 분류, 적은 수, 의미 그룹)을
+# 별도 taxonomy로 운영. /categories/는 메뉴에 'Topics'로 노출된다.
 taxonomies:
   tag: tags
+  category: categories
 
 params:
   description: "매주 월요일 자동 발행되는 AI 동향 큐레이션 — Anthropic·OpenAI·Google·DeepMind 공식 블로그, Reddit, Hacker News, Product Hunt, TechCrunch AI, arxiv, HuggingFace Papers, GitHub Trending"
