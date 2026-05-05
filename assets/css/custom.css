@@ -505,12 +505,14 @@ footer {
 
 /* hero가 prose 컨테이너 폭에 갇히지 않도록 풀폭. 외곽 캡을 모두 풀었으니
    여기서도 1400px 같은 임의 캡을 두지 않고 화면 폭만큼 펼친다.
-   가독성용 좌우 여백은 부모 main의 hx:px-6/hx:md:px-12가 처리. */
+   가독성용 좌우 여백은 부모 main의 hx:px-6/hx:md:px-12가 처리.
+   .ai-post-hero는 post 상세 전용 hero — ← POSTS 백링크 + 헤드라인. */
 .ai-home-hero,
 .ai-spotlight,
 .ai-chips,
 .ai-home-body,
-.ai-home-footer {
+.ai-home-footer,
+.ai-post-hero {
   max-width: none !important;
   width: 100% !important;
   margin-left: 0 !important;
@@ -1160,8 +1162,8 @@ main:has(> div.hx\:mb-10):not(:has(.ai-home-hero)):not(:has(.ai-post-hero)) {
    Hextra가 frontmatter title로 자동 생성하는 main > h1은 숨김.
    ============================================================ */
 .ai-post-hero {
-  max-width: 760px !important;
-  margin: 3rem auto 2.2rem !important;
+  /* 폭은 위 .ai-home-hero 묶음에서 100%로 강제됨. 여기는 시각 톤만. */
+  margin: 3rem 0 2.2rem 0 !important;
   padding: 0 0 1.6rem 0 !important;
   border-bottom: 1px solid var(--hairline) !important;
 }
@@ -1199,12 +1201,7 @@ main:has(> div.hx\:mb-10) > h1:first-of-type {
   display: none !important;
 }
 
-/* Detail 본문 — 좁은 reading column + 큰 본문 폰트 */
-main:has(.ai-post-hero) > .content {
-  max-width: 760px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
+/* Detail 본문 — 큰 본문 폰트만. 폭 캡은 제거 (사용자가 풀폭 선호). */
 main:has(.ai-post-hero) > .content,
 main:has(.ai-post-hero) > .content p,
 main:has(.ai-post-hero) > .content li {
