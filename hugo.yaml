@@ -15,6 +15,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      # 헤딩에 자동 anchor id 생성 — 우측 sticky TOC가 .Fragments.Headings로
+      # 헤딩을 추출할 수 있게 한다. (Hugo 기본은 true지만 명시적으로 박아둠)
+      autoHeadingID: true
+      autoHeadingIDType: github
   highlight:
     noClasses: false
 
