@@ -1009,11 +1009,13 @@ article.hextra-content {
 }
 
 /* ============================================================
-   Hide Hextra docs sidebar globally
-   navbar(Posts/Knowledge/Tags/About) + 우측 TOC + footer 링크로
-   네비게이션은 충분. 좌측 docs 트리는 docs theme 잔재라 제거.
+   Hide Hextra docs sidebar AND right TOC globally
+   navbar(Posts/Knowledge/Tags/About) + footer 링크로 네비게이션 충분.
+   좌측 docs 트리, 우측 TOC 둘 다 docs theme 잔재라 제거 — 비어 있어도
+   xl 이상 화면에서 w-64(256px)를 차지해 본문이 좁아 보이는 원인이었음.
    ============================================================ */
-.hextra-sidebar-container {
+.hextra-sidebar-container,
+nav.hextra-toc {
   display: none !important;
 }
 
