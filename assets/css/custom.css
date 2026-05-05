@@ -1765,3 +1765,20 @@ body .ai-related-links .ktitle {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
+
+/* ============================================================
+   Hextra 자동 h1 중복 방지
+   ------------------------------------------------------------
+   Hextra의 default single layout은 frontmatter `title`을 자동으로
+   <h1 class="hx:text-center ...">로 main 직속 자식에 출력한다.
+   우리 _index.md는 자체 hero(.ai-post-hero / .ai-headline) 안에
+   자체 h1을 박으므로, 해당 페이지에서만 Hextra 자동 h1을 숨겨
+   H1 중복(SEO/접근성)을 막는다.
+
+   :has()는 모든 모던 브라우저(Chrome 105+, Safari 15.4+, Firefox 121+)
+   에서 지원되며 Hextra의 baseline을 충분히 만족.
+   ============================================================ */
+body main:has(.ai-post-hero) > h1,
+body main:has(.ai-headline) > h1 {
+  display: none;
+}
