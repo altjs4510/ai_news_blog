@@ -158,7 +158,7 @@ main.hextra-max-content-width {
   max-width: 100% !important;
 }
 
-article:not(.ai-knowledge-article), .content,
+article, .content,
 .hextra-prose, [class*="hextra-prose"],
 .prose, [class*="prose"] {
   max-width: none !important;
@@ -166,7 +166,7 @@ article:not(.ai-knowledge-article), .content,
 
 /* 모바일/소형 화면은 그대로 */
 @media (max-width: 768px) {
-  article:not(.ai-knowledge-article), .content,
+  article, .content,
   .hextra-prose, [class*="hextra-prose"],
   .prose, [class*="prose"] {
     max-width: 100% !important;
@@ -318,7 +318,10 @@ pre code {
    Tables — Apple System table look
    ============================ */
 article table, .content table {
-  width: 100%;
+  /* 카드 폭이 컨텐츠에 맞도록 — 짧은 표가 본문 폭만큼 부풀어서
+     셀 우측에 빈 영역이 보이는 문제 방지. 너무 긴 표는 본문 폭에서 wrap. */
+  width: max-content;
+  max-width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   margin: 1.5em 0;
