@@ -43,7 +43,7 @@ toc: false
 
 <nav class="ai-chips"><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/mcp-%EC%BB%A4%EB%84%A5%ED%84%B0/">#MCP 커넥터</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/%EB%B2%84%ED%8B%B0%EC%BB%AC-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/">#버티컬 에이전트</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/hitl-%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC/">#HITL 가드레일</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%95%88%EC%A0%84%EC%84%B1/">#에이전트 안전성</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%B6%84%EC%97%85/">#도메인 분업</a></nav>
 
-### 전체 요약
+## 전체 요약
 
 이번 주 AI 생태계는 **에이전트의 실용화**가 가장 큰 흐름으로 부상했습니다. **Anthropic**은 Claude를 창의 작업용 에이전트로 포지셔닝하며 9개의 전문 소프트웨어 커넥터를 출시했고, **OpenAI**는 AWS와의 파트너십과 FedRAMP Moderate 인증 등 인프라·엔터프라이즈 확장에 집중하는 모습입니다. **Google**도 Deep Research Max 등 자율 연구 에이전트로 차별화를 시도하고 있습니다.
 
@@ -53,9 +53,9 @@ toc: false
 
 ---
 
-### 주제별 분석
+## 주제별 분석
 
-#### 1. 에이전트의 전문 도메인 침투 — 창의·금융·연구 영역으로 확장
+### 1. 에이전트의 전문 도메인 침투 — 창의·금융·연구 영역으로 확장
 
 **핵심 인사이트**
 
@@ -73,7 +73,7 @@ Latent Space의 정리처럼 "**Codex는 지식 노동, Claude는 창의 작업*
 - [Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work](https://www.latent.space/p/ainews-agents-for-everything-else)
 - [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
 
-#### 2. 에이전트 안전성의 현실 — 9초 만에 사라진 프로덕션 DB
+### 2. 에이전트 안전성의 현실 — 9초 만에 사라진 프로덕션 DB
 
 **핵심 인사이트**
 
@@ -91,7 +91,7 @@ Latent Space의 정리처럼 "**Codex는 지식 노동, Claude는 창의 작업*
 - [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age)
 - [Our evaluation of OpenAI's GPT-5.5 cyber capabilities](https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/)
 
-#### 3. LLM의 인지 한계 — 아첨, 비결정성, 그리고 의식 논쟁
+### 3. LLM의 인지 한계 — 아첨, 비결정성, 그리고 의식 논쟁
 
 **핵심 인사이트**
 
@@ -109,7 +109,7 @@ Latent Space의 정리처럼 "**Codex는 지식 노동, Claude는 창의 작업*
 - [LLMs vs superlearners (Reddit)](https://www.reddit.com/r/ArtificialInteligence/comments/1sxukn4/are_we_betting_on_the_wrong_kind_of_ai_llms_vs/)
 - [When LLMs Stop Following Steps](http://arxiv.org/abs/2605.00817v1)
 
-#### 4. 인프라 패권과 기업 거버넌스 재편
+### 4. 인프라 패권과 기업 거버넌스 재편
 
 **핵심 인사이트**
 
@@ -127,7 +127,7 @@ Latent Space의 정리처럼 "**Codex는 지식 노동, Claude는 창의 작업*
 - [Google and Pentagon AI deal](https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal)
 - [TLDR AI: AWS + OpenAI](https://tldr.tech/ai/2026-04-29)
 
-#### 5. 개발자 워크플로우의 새 표준 — Skills, MCP, Vibe Coding
+### 5. 개발자 워크플로우의 새 표준 — Skills, MCP, Vibe Coding
 
 **핵심 인사이트**
 
@@ -147,27 +147,27 @@ GitHub Trending 1위인 **mattpocock/skills**가 한 주 만에 34,848개의 별
 
 ---
 
-### 주목할 만한 개별 발견
+## 주목할 만한 개별 발견
 
-#### AI 출신 콘텐츠의 정통성 표시 — Spotify의 'Verified' 배지
+### AI 출신 콘텐츠의 정통성 표시 — Spotify의 'Verified' 배지
 
 - 출처: [Spotify adds 'Verified' badges to distinguish human artists from AI](https://www.bbc.com/news/articles/c5yerr4m1yno)
 
 Spotify가 인간 아티스트를 표시하는 **Verified 배지**를 도입한 것은 플랫폼 차원의 첫 대규모 인증 실험입니다. 같은 주 미국 영화예술과학아카데미가 [AI 생성 배우·각본을 오스카 후보에서 제외](https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/)한 것과 맞물려, **출처 검증(provenance)**이 콘텐츠 산업의 기본 인프라로 자리잡고 있습니다.
 
-#### AI가 의사보다 정확했다 — Harvard 응급실 진단 연구
+### AI가 의사보다 정확했다 — Harvard 응급실 진단 연구
 
 - 출처: [In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors](https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/)
 
 Harvard 연구에서 AI가 응급실 환경에서 두 명의 인간 의사보다 정확한 진단을 내놓았다는 결과는, 의료 AI 도입의 임계점을 자극할 신호입니다. 다만 같은 주 [RAG 챗봇이 의료 백엔드를 노출시킨 사례 연구](http://arxiv.org/abs/2605.00796v1)도 동시에 발표되어, **정확도 향상과 보안·프라이버시 리스크가 한 묶음**임을 상기시킵니다.
 
-#### VibeVoice — 오픈소스 프론티어 음성 AI
+### VibeVoice — 오픈소스 프론티어 음성 AI
 
 - 출처: [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)
 
 Microsoft가 공개한 **VibeVoice**는 폐쇄형 음성 AI 시장에 정면으로 도전하는 오픈소스 프로젝트입니다. ElevenLabs 등이 주도하던 영역에 빅테크가 직접 오픈소스로 진입한 것은, 음성 AI도 **이미지 생성처럼 빠르게 상품화 단계**에 진입했음을 시사합니다.
 
-#### Specsmaxxing — YAML 스펙으로 AI 정신증을 극복하기
+### Specsmaxxing — YAML 스펙으로 AI 정신증을 극복하기
 
 - 출처: [Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML](https://acai.sh/blog/specsmaxxing)
 
