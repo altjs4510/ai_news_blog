@@ -158,7 +158,7 @@ main.hextra-max-content-width {
   max-width: 100% !important;
 }
 
-article, .content,
+article:not(.ai-knowledge-article), .content,
 .hextra-prose, [class*="hextra-prose"],
 .prose, [class*="prose"] {
   max-width: none !important;
@@ -166,7 +166,7 @@ article, .content,
 
 /* 모바일/소형 화면은 그대로 */
 @media (max-width: 768px) {
-  article, .content,
+  article:not(.ai-knowledge-article), .content,
   .hextra-prose, [class*="hextra-prose"],
   .prose, [class*="prose"] {
     max-width: 100% !important;
