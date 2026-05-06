@@ -186,6 +186,12 @@ Microsoft가 공개한 **VibeVoice**는 폐쇄형 음성 AI 시장에 정면으�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260507/">
+    <span class="ai-pick-date">2026-05-07</span>
+    <span class="ai-pick-title-mini">ruvnet/ruflo — Claude 멀티 에이전트 오케스트레이션 플랫폼</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260506/">
     <span class="ai-pick-date">2026-05-06</span>
     <span class="ai-pick-title-mini">mksglu/context-mode — AI 코딩 에이전트용 컨텍스트 윈도우 최적화</span>
