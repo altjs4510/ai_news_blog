@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260508",
+      "display_date": "2026-05-08",
+      "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "Claude Code의 skill·command·hook 패턴을 프로덕션 수준으로 정리한 레포가 3만 스타를 돌파하며 '에이전트 = 스킬 라이브러리 + 런타임' 구도가 굳어지고 있습니다. DCSAI의 `dcs-ai-plugin`(Claude Code plugins · commands/agents/skills/hooks · MCP 클라이언트) 결을 그대로 건드리는 자료입니다.",
+      "knowledge_url": "/knowledge/20260508/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260507",
       "display_date": "2026-05-07",
       "title": "ruvnet/ruflo — Claude 멀티 에이전트 오케스트레이션 플랫폼",

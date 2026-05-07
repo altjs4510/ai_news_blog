@@ -186,6 +186,12 @@ Microsoft가 공개한 **VibeVoice**는 폐쇄형 음성 AI 시장에 정면으�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260508/">
+    <span class="ai-pick-date">2026-05-08</span>
+    <span class="ai-pick-title-mini">addyosmani/agent-skills — Production-grade engineering skill…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260507/">
     <span class="ai-pick-date">2026-05-07</span>
     <span class="ai-pick-title-mini">ruvnet/ruflo — Claude 멀티 에이전트 오케스트레이션 플랫폼</span>
