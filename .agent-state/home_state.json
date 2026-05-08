@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260509",
+      "display_date": "2026-05-09",
+      "title": "How to connect 100 MCP servers without the context window exploding",
+      "url": "",
+      "summary": "GitHub MCP 하나로 50K 토큰이 소모되고 100K 이상에서 Lost in the Middle로 성능이 급락한다는 실측과, 게이트웨이 레이어에서 Semantic Tool Discovery로 의도에 맞는 도구만 사전 필터링하는 패턴을 제시합니다. DCSAI의 자체 MCP host server와 Team Agent의 dcsai KG MCP 직연결 모두를 관통하는 컨텍스트 세금 문제를 정조준합니다.",
+      "knowledge_url": "/knowledge/20260509/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260508",
       "display_date": "2026-05-08",
       "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents",
