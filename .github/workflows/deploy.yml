@@ -81,24 +81,41 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Extract publish date from commit
+      - name: Extract publish date and mode from commit
         if: success()
         id: postmeta
         run: |
           msg=$(git log -1 --pretty=%s)
           date=$(echo "$msg" | grep -oE '[0-9]{8}' | head -1 || true)
+          mode=""
+          if [ -n "$date" ]; then
+            changed=$(git diff-tree --no-commit-id --name-only -r HEAD)
+            if echo "$changed" | grep -q "^content/posts/${date}/"; then
+              mode="weekly"
+            elif echo "$changed" | grep -q "^content/knowledge/${date}\.md$"; then
+              mode="daily"
+            fi
+          fi
           echo "date=$date" >> "$GITHUB_OUTPUT"
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
           echo "msg=$msg" >> "$GITHUB_OUTPUT"
 
       - name: Notify Slack on publish success
-        if: success() && steps.postmeta.outputs.date != ''
+        if: success() && steps.postmeta.outputs.mode != ''
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           DATE: ${{ steps.postmeta.outputs.date }}
+          MODE: ${{ steps.postmeta.outputs.mode }}
         run: |
-          POST_URL="https://altjs4510.github.io/ai_news_blog/posts/${DATE}/"
+          if [ "$MODE" = "weekly" ]; then
+            POST_URL="https://altjs4510.github.io/ai_news_blog/posts/${DATE}/"
+            LABEL="주간 발행"
+          else
+            POST_URL="https://altjs4510.github.io/ai_news_blog/knowledge/${DATE}/"
+            LABEL="일간 발행"
+          fi
           curl -sS -X POST -H 'Content-Type: application/json' \
-            --data "{\"text\":\":white_check_mark: *AI News 발행 완료* (${DATE})\\n${POST_URL}\"}" \
+            --data "{\"text\":\":white_check_mark: *AI News ${LABEL}* (${DATE})\\n${POST_URL}\"}" \
             "$SLACK_WEBHOOK_URL"
 
       - name: Notify Slack on failure
