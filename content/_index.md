@@ -186,6 +186,12 @@ Microsoft가 공개한 **VibeVoice**는 폐쇄형 음성 AI 시장에 정면으�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260510/">
+    <span class="ai-pick-date">2026-05-10</span>
+    <span class="ai-pick-title-mini">addyosmani/agent-skills — Production-grade engineering skill…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260509/">
     <span class="ai-pick-date">2026-05-09</span>
     <span class="ai-pick-title-mini">How to connect 100 MCP servers without the context window ex…</span>

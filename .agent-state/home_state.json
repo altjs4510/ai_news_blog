@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260510",
+      "display_date": "2026-05-10",
+      "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "Claude Code의 skill 패턴을 프로덕션 엔지니어링 관점에서 정리한 저장소로, 하루 2,801 스타로 폭발한 점이 의미심장합니다. DCSAI의 `dcs-ai-plugin`(Claude Code plugins · commands/agents/skills/hooks)이 정확히 같은 결을 다루고 있어, skill 정의 방식·디렉터리 구조·hook 연결 패턴을 그대로 비교 학습할 수 있습니다.",
+      "knowledge_url": "/knowledge/20260510/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260509",
       "display_date": "2026-05-09",
       "title": "How to connect 100 MCP servers without the context window exploding",
