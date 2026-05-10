@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Anthropic–SpaceX 컴퓨팅 동맹과 에이전트 오케스트레이션 도구의 전면 부상"
+date: 2026-05-11
+toc: true
+layout: single
+description: "인프라 재편 한가운데서 Claude Code·MCP 생태계용 오픈소스가 GitHub 상위권을 점령했다."
+tags: ["멀티에이전트 스웜", "Claude Code 통합", "MCP 직연결", "GPT-5.5 라인업", "컴퓨트 재편"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Anthropic–SpaceX 컴퓨팅 동맹과 에이전트 오케스트레이션 도구의 전면 부상</h1>
-  <p class="ai-home-deck">인프라 재편 한가운데서 Claude Code·MCP 생태계용 오픈소스가 GitHub 상위권을 점령했다.</p>
-  <p class="ai-meta">2026-05-11 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260511/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-11 · 주간 요약</p>
+  <h2 class="ai-post-title">Anthropic–SpaceX 컴퓨팅 동맹과 에이전트 오케스트레이션 도구의 전면 부상</h2>
+  <p class="ai-post-deck">인프라 재편 한가운데서 Claude Code·MCP 생태계용 오픈소스가 GitHub 상위권을 점령했다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -187,54 +181,6 @@ Qwen 3.5 9B 기반 로컬 에이전트에 **시간이 지날수록 악화되는 
 
 Google이 Gemini API에 **이벤트 기반 Webhook**을 도입해, 폴링 없이 장시간 작업의 완료 알림을 받을 수 있게 했다. **에이전트 워크플로우의 표준이 동기 호출에서 이벤트-드리븐 아키텍처로 이동**하고 있음을 보여주는 작지만 중요한 변화다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260510/">
-    <span class="ai-pick-date">2026-05-10</span>
-    <span class="ai-pick-title-mini">addyosmani/agent-skills — Production-grade engineering skill…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260509/">
-    <span class="ai-pick-date">2026-05-09</span>
-    <span class="ai-pick-title-mini">How to connect 100 MCP servers without the context window ex…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260508/">
-    <span class="ai-pick-date">2026-05-08</span>
-    <span class="ai-pick-title-mini">addyosmani/agent-skills — Production-grade engineering skill…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260507/">
-    <span class="ai-pick-date">2026-05-07</span>
-    <span class="ai-pick-title-mini">ruvnet/ruflo — Claude 멀티 에이전트 오케스트레이션 플랫폼</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260506/">
-    <span class="ai-pick-date">2026-05-06</span>
-    <span class="ai-pick-title-mini">mksglu/context-mode — AI 코딩 에이전트용 컨텍스트 윈도우 최적화</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260505/">
-    <span class="ai-pick-date">2026-05-05</span>
-    <span class="ai-pick-title-mini">mattpocock/skills — Skills for Real Engineers (.claude direc…</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -247,3 +193,5 @@ Google이 Gemini API에 **이벤트 기반 Webhook**을 도입해, 폴링 없이
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
