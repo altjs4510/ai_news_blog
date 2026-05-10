@@ -25,6 +25,7 @@ toc: false
   <a class="ai-spotlight-title" href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener">ruvnet/ruflo — Claude용 멀티 에이전트 오케스트레이션 플랫폼<span class="ai-spotlight-arrow">↗</span></a>
   <p class="ai-spotlight-why">Claude Code/Codex 네이티브 통합, 스웜 기반 멀티에이전트 코디네이션, RAG 결합을 한 패키지로 묶은 레퍼런스로, Team Agent가 추구하는 `discovery-core-agent`↔`platform-core-agent` 계층형 오케스트레이션과 MCP 직연결 패턴을 그대로 검토할 수 있다.</p>
   <p class="ai-spotlight-app"><span class="ai-spotlight-app-label">접목 →</span> Team Agent의 멀티에이전트 계층(브랜드·크로스브랜드) 설계와 Activity Log/Observer 기반 L1 피드백 루프에 ruflo의 swarm 코디네이션·워크플로 오케스트레이션 구조를 참고해, `brand.yaml` 주입과 BrandScopeInterceptor 위에 얹는 오케스트레이터 레이어 PoC로 활용할 수 있다.</p>
+  <p class="ai-spotlight-cta"><a class="ai-spotlight-detail" href="https://altjs4510.github.io/ai_news_blog/knowledge/20260507/">자세히 보기 <span class="ai-spotlight-detail-arrow" aria-hidden="true">→</span></a></p>
 </aside>
 
 <section class="ai-additional">
