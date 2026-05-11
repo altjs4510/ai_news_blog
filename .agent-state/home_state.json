@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260512",
+      "display_date": "2026-05-12",
+      "title": "agentmemory — Persistent memory for AI coding agents",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "summary": "실측 벤치마크 기반의 코딩 에이전트용 퍼시스턴트 메모리 레이어로, 단발성 tool use를 넘어 세션·프로젝트 축으로 컨텍스트를 누적시키는 패턴을 정면으로 다룹니다. DCSAI agent loop·HITL 분기와 Team Agent의 Activity Log/Observer 설계 모두 '시간축 메모리'가 핵심 결인 만큼 직접적인 참고가 됩니다.",
+      "knowledge_url": "/knowledge/20260512/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260510",
       "display_date": "2026-05-10",
       "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents",
