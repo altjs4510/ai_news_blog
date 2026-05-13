@@ -195,6 +195,12 @@ Google이 Gemini API에 **이벤트 기반 Webhook**을 도입해, 폴링 없이
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260514/">
+    <span class="ai-pick-date">2026-05-14</span>
+    <span class="ai-pick-title-mini">Building a safe, effective sandbox to enable Codex on Window…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260513/">
     <span class="ai-pick-date">2026-05-13</span>
     <span class="ai-pick-title-mini">Thinking Machines' Native Interaction Models — TML-Interacti…</span>
