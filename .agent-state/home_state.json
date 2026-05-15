@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260516",
+      "display_date": "2026-05-16",
+      "title": "STALE — 에이전트가 자기 기억의 유효성을 인지할 수 있는가",
+      "url": "https://huggingface.co/papers/2605.06527",
+      "summary": "단순 장기 메모리 저장이 아니라 '저장된 기억이 더 이상 유효하지 않음을 자각하는 능력'을 정면으로 평가하는 벤치마크로, agent loop가 세션·프로젝트 축으로 컨텍스트를 누적할 때 마주치는 stale memory 문제를 정조준합니다. DCSAI agent loop·HITL 분기와 Team Agent의 Activity Log/Observer 설계 모두 시간축 메모리 무효화 판단이 아직 비어있는 결입니다.",
+      "knowledge_url": "/knowledge/20260516/",
+      "categories": [
+        "모델 & 연구"
+      ]
+    },
+    {
       "date_str": "20260515",
       "display_date": "2026-05-15",
       "title": "Clawdmeter — Claude Code 사용량을 데스크톱 대시보드로",
