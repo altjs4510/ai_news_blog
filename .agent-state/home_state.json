@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260517",
+      "display_date": "2026-05-17",
+      "title": "I gave my LLM 100,000+ tools — Lazy Discovery & Elemm 미들웨어",
+      "url": "",
+      "summary": "117,000개 MCP 도구 환경에서 컨텍스트 윈도우를 늘리지 않고 Lazy Discovery 패턴으로 Gemma 4 E4B(로컬 4B)가 Claude Sonnet 4.6과 거의 동일한 도구 호출 효율(17 vs 19)을 달성한 실증 사례로, MCP host·client 설계의 가장 큰 병목인 'tool list 폭주로 인한 컨텍스트 세금'을 정조준합니다. DCSAI의 자체 구현 MCP host server와 Team Agent의 dcsai KG MCP 직연결 모두에서 핵심 결입니다.",
+      "knowledge_url": "/knowledge/20260517/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260516",
       "display_date": "2026-05-16",
       "title": "STALE — 에이전트가 자기 기억의 유효성을 인지할 수 있는가",

@@ -195,6 +195,12 @@ Google이 Gemini API에 **이벤트 기반 Webhook**을 도입해, 폴링 없이
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260517/">
+    <span class="ai-pick-date">2026-05-17</span>
+    <span class="ai-pick-title-mini">I gave my LLM 100,000+ tools — Lazy Discovery &amp; Elemm 미들…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260516/">
     <span class="ai-pick-date">2026-05-16</span>
     <span class="ai-pick-title-mini">STALE — 에이전트가 자기 기억의 유효성을 인지할 수 있는가</span>
