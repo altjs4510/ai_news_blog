@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Codex·Claude가 직군별 워크플로우로 침투하고, 에이전트 인프라는 메모리·관측성으로 표준화된다"
+date: 2026-05-18
+toc: true
+layout: single
+description: "모델 평준화 구간에서 승부는 워크플로우 패키징과 에이전트 신뢰성 레이어로 옮겨가고 있다."
+tags: ["agent state machine", "agent observability", "MCP host", "HITL agent loop", "enterprise codex"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Codex·Claude가 직군별 워크플로우로 침투하고, 에이전트 인프라는 메모리·관측성으로 표준화된다</h1>
-  <p class="ai-home-deck">모델 평준화 구간에서 승부는 워크플로우 패키징과 에이전트 신뢰성 레이어로 옮겨가고 있다.</p>
-  <p class="ai-meta">2026-05-18 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260518/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-18 · 주간 요약</p>
+  <h2 class="ai-post-title">Codex·Claude가 직군별 워크플로우로 침투하고, 에이전트 인프라는 메모리·관측성으로 표준화된다</h2>
+  <p class="ai-post-deck">모델 평준화 구간에서 승부는 워크플로우 패키징과 에이전트 신뢰성 레이어로 옮겨가고 있다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -181,54 +175,6 @@ GitHub에서 **mattpocock/skills**(주간 18,795 스타)와 **academic-research-
 
 **Cline**이 v3 라인 안정화 버전을 연이어 출시했습니다. **DeepSeek-TUI**(주간 7,543 스타), **9router**(무료 멀티 프로바이더 라우팅) 등과 묶어보면 *"IDE를 떠나 터미널/CLI로 회귀하는 코딩 에이전트"* 가 명확한 트렌드로 굳어지고 있음을 알 수 있습니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260517/">
-    <span class="ai-pick-date">2026-05-17</span>
-    <span class="ai-pick-title-mini">I gave my LLM 100,000+ tools — Lazy Discovery &amp; Elemm 미들…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260516/">
-    <span class="ai-pick-date">2026-05-16</span>
-    <span class="ai-pick-title-mini">STALE — 에이전트가 자기 기억의 유효성을 인지할 수 있는가</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260515/">
-    <span class="ai-pick-date">2026-05-15</span>
-    <span class="ai-pick-title-mini">Clawdmeter — Claude Code 사용량을 데스크톱 대시보드로</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260514/">
-    <span class="ai-pick-date">2026-05-14</span>
-    <span class="ai-pick-title-mini">Introducing Claude for Small Business</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260513/">
-    <span class="ai-pick-date">2026-05-13</span>
-    <span class="ai-pick-title-mini">Thinking Machines' Native Interaction Models — TML-Interacti…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260512/">
-    <span class="ai-pick-date">2026-05-12</span>
-    <span class="ai-pick-title-mini">agentmemory — Persistent memory for AI coding agents</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -241,3 +187,5 @@ GitHub에서 **mattpocock/skills**(주간 18,795 스타)와 **academic-research-
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
