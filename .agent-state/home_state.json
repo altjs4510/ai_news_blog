@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260519",
+      "display_date": "2026-05-19",
+      "title": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "summary": "Stainless는 OpenAI·Google·Cloudflare가 SDK를 자동 생성하는 데 쓰던 핵심 도구로, 이를 Anthropic이 흡수했다는 것은 향후 Anthropic SDK·MCP 스펙의 SDK 자동 생성 파이프라인이 1급 시민으로 강화된다는 신호입니다. DCSAI가 정면으로 의존하는 'Anthropic SDK 직통합 + 자체 MCP host server' 결의 미래 호환성과 직결되는 1차 자료입니다.",
+      "knowledge_url": "/knowledge/20260519/",
+      "categories": [
+        "산업 동향"
+      ]
+    },
+    {
       "date_str": "20260517",
       "display_date": "2026-05-17",
       "title": "I gave my LLM 100,000+ tools — Lazy Discovery & Elemm 미들웨어",

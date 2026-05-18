@@ -185,6 +185,17 @@ GitHub에서 **mattpocock/skills**(주간 18,795 스타)와 **academic-research-
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260519/">
+    <span class="ai-pick-date">2026-05-19</span>
+    <span class="ai-pick-title-mini">Anthropic acquires Stainless</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
