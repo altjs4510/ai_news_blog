@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260520",
+      "display_date": "2026-05-20",
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "summary": "Anthropic이 Managed Agents에 셀프호스팅 샌드박스와 MCP 터널을 추가한 발표로, 외부 MCP 서버를 보안 경계 안쪽으로 끌어들이는 'MCP tunnel' 패턴이 1급 시민으로 등장한 점이 핵심입니다. DCSAI가 자체 구현 중인 MCP host server(OAuth·세션·tool 실행)와 외부 dcsai KG MCP 노출 결을 정확히 건드립니다.",
+      "knowledge_url": "/knowledge/20260520/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260519",
       "display_date": "2026-05-19",
       "title": "Anthropic acquires Stainless",
