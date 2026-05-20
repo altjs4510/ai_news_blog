@@ -188,6 +188,12 @@ GitHub에서 **mattpocock/skills**(주간 18,795 스타)와 **academic-research-
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260521/">
+    <span class="ai-pick-date">2026-05-21</span>
+    <span class="ai-pick-title-mini">colbymchenry/codegraph — Pre-indexed code knowledge graph fo…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260520/">
     <span class="ai-pick-date">2026-05-20</span>
     <span class="ai-pick-title-mini">New in Claude Managed Agents: self-hosted sandboxes and MCP …</span>
