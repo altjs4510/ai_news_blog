@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260522",
+      "display_date": "2026-05-22",
+      "title": "Giving Agents Computers — Ivan Burazin, Daytona",
+      "url": "https://www.latent.space/p/daytona",
+      "summary": "단발성 tool use를 넘어 에이전트에게 '컴퓨터 한 대'를 통째로 부여하는 샌드박스 클라우드 패턴을 정면으로 다루며, MCP host server가 OAuth·세션·tool 실행을 직접 책임지는 DCSAI의 자체 구현 결과 정확히 같은 레이어(에이전트 격리 실행 환경)를 건드립니다.",
+      "knowledge_url": "/knowledge/20260522/",
+      "categories": [
+        "인프라 & 컴퓨트"
+      ]
+    },
+    {
       "date_str": "20260521",
       "display_date": "2026-05-21",
       "title": "colbymchenry/codegraph — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode",

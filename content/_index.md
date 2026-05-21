@@ -188,6 +188,12 @@ GitHub에서 **mattpocock/skills**(주간 18,795 스타)와 **academic-research-
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260522/">
+    <span class="ai-pick-date">2026-05-22</span>
+    <span class="ai-pick-title-mini">Giving Agents Computers — Ivan Burazin, Daytona</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260521/">
     <span class="ai-pick-date">2026-05-21</span>
     <span class="ai-pick-title-mini">colbymchenry/codegraph — Pre-indexed code knowledge graph fo…</span>
