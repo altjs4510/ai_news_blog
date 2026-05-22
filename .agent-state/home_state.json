@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260523",
+      "display_date": "2026-05-23",
+      "title": "colbymchenry/codegraph — 사전 인덱싱된 코드 지식 그래프 MCP",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "하루 3,688 스타로 GitHub Trending 상단에 오른 100% 로컬 코드 지식 그래프로, Claude Code·Codex·Cursor·OpenCode·Hermes에서 토큰과 tool call을 줄이는 것을 정면 목표로 삼습니다. DCSAI의 자체 MCP host server와 dcsai KG MCP 결, 그리고 Team Agent의 'KG 직연결 + tool 폭주 억제' 결을 동시에 건드리는 1차 자료입니다.",
+      "knowledge_url": "/knowledge/20260523/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260522",
       "display_date": "2026-05-22",
       "title": "Giving Agents Computers — Ivan Burazin, Daytona",
