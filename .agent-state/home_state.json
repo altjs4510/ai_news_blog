@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260524",
+      "display_date": "2026-05-24",
+      "title": "colbymchenry/codegraph — Pre-indexed code knowledge graph for coding agents",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "Claude Code·Codex·Cursor·OpenCode 등 멀티 에이전트 호환을 전제로, 코드베이스를 사전 인덱싱한 로컬 지식 그래프로 노출해 '더 적은 토큰, 더 적은 도구 호출'을 실증한 프로젝트입니다. DCSAI가 이미 운영 중인 Neo4j 기반 dcsai KG MCP와 정확히 같은 결(MCP host server에 KG를 1급 도구로 노출)을 건드리며, 하루 2,400+ 별로 이번 윈도우에 새로 폭발한 신규 항목입니다.",
+      "knowledge_url": "/knowledge/20260524/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260523",
       "display_date": "2026-05-23",
       "title": "colbymchenry/codegraph — 사전 인덱싱된 코드 지식 그래프 MCP",
