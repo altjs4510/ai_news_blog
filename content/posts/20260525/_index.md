@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "토큰 경제가 빅테크 예산을 무너뜨리고, Google은 agentic Gemini로 응수하다"
+date: 2026-05-25
+toc: true
+layout: single
+description: "MS의 Anthropic 라이선스 취소와 Salesforce의 '엔지니어 0명·토큰 3억 달러' 구조 전환이 AI 운영 단위경제성을 재정의합니다."
+tags: ["퍼시스턴트 메모리", "토큰 경제", "agentic Gemini", "MCP 터널", "엔터프라이즈 코딩 에이전트"]
+categories: ["코딩 에이전트"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">토큰 경제가 빅테크 예산을 무너뜨리고, Google은 agentic Gemini로 응수하다</h1>
-  <p class="ai-home-deck">MS의 Anthropic 라이선스 취소와 Salesforce의 '엔지니어 0명·토큰 3억 달러' 구조 전환이 AI 운영 단위경제성을 재정의합니다.</p>
-  <p class="ai-meta">2026-05-25 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260525/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-05-25 · 주간 요약</p>
+  <h2 class="ai-post-title">토큰 경제가 빅테크 예산을 무너뜨리고, Google은 agentic Gemini로 응수하다</h2>
+  <p class="ai-post-deck">MS의 Anthropic 라이선스 취소와 Salesforce의 '엔지니어 0명·토큰 3억 달러' 구조 전환이 AI 운영 단위경제성을 재정의합니다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -173,54 +167,6 @@ Anthropic은 Claude Code가 복잡한 GUI 프레임워크 대신 **단순 HTML�
 
 소송 일변도였던 음악 업계가 처음으로 **AI 커버·리믹스를 라이선스 구조 안에 편입**시켰습니다. 이는 "AI 생성물 vs 저작권"의 적대 구도가 **수익 분배 구조**로 전환되는 첫 메이저 사례로, 이미지·영상 영역의 향후 협상 템플릿이 될 가능성이 큽니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260524/">
-    <span class="ai-pick-date">2026-05-24</span>
-    <span class="ai-pick-title-mini">colbymchenry/codegraph — Pre-indexed code knowledge graph fo…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260523/">
-    <span class="ai-pick-date">2026-05-23</span>
-    <span class="ai-pick-title-mini">colbymchenry/codegraph — 사전 인덱싱된 코드 지식 그래프 MCP</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260522/">
-    <span class="ai-pick-date">2026-05-22</span>
-    <span class="ai-pick-title-mini">Giving Agents Computers — Ivan Burazin, Daytona</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260521/">
-    <span class="ai-pick-date">2026-05-21</span>
-    <span class="ai-pick-title-mini">colbymchenry/codegraph — Pre-indexed code knowledge graph fo…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260520/">
-    <span class="ai-pick-date">2026-05-20</span>
-    <span class="ai-pick-title-mini">New in Claude Managed Agents: self-hosted sandboxes and MCP …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260519/">
-    <span class="ai-pick-date">2026-05-19</span>
-    <span class="ai-pick-title-mini">Anthropic acquires Stainless</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -233,3 +179,5 @@ Anthropic은 Claude Code가 복잡한 GUI 프레임워크 대신 **단순 HTML�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
