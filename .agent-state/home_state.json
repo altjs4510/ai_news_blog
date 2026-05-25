@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260526",
+      "display_date": "2026-05-26",
+      "title": "colbymchenry/codegraph — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "summary": "코드를 사전 인덱싱한 지식 그래프로 변환해 Claude Code·Codex·Cursor의 토큰·툴 콜을 줄이는 100% 로컬 도구로, MCP 컨텍스트 세금 문제를 정조준합니다. DCSAI의 자체 MCP host server와 Team Agent의 dcsai KG MCP 직연결 결을, '코드 KG 사전 인덱싱'이라는 새로운 결로 확장하는 자료입니다.",
+      "knowledge_url": "/knowledge/20260526/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260524",
       "display_date": "2026-05-24",
       "title": "colbymchenry/codegraph — Pre-indexed code knowledge graph for coding agents",
