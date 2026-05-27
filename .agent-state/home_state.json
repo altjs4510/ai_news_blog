@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260528",
+      "display_date": "2026-05-28",
+      "title": "Zero Trust for AI agents",
+      "url": "https://claude.com/blog/zero-trust-for-ai-agents",
+      "summary": "Anthropic이 에이전트의 권한·자격증명·tool 실행 경계를 Zero Trust 원칙으로 재설계하는 가이드를 1차 자료로 공개한 발표로, MCP host server가 OAuth·세션·tool 실행을 직접 책임지는 DCSAI 구조의 보안 모델 결을 정조준합니다. 에이전트가 코드와 자격증명을 만지는 주체로 바뀌면서 '사용자 인증'이 아닌 '에이전트 행위 단위 권한'으로 축이 옮겨가는 변곡점입니다.",
+      "knowledge_url": "/knowledge/20260528/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260527",
       "display_date": "2026-05-27",
       "title": "Microsoft Copilot Cowork Exfiltrates Files",
