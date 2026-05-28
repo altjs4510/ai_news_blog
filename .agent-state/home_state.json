@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260529",
+      "display_date": "2026-05-29",
+      "title": "Introducing dynamic workflows in Claude Code",
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "summary": "단일 세션에서 수백 개 병렬 서브에이전트를 실행하고 보고 전 결과를 검증하는 구조로, 장시간 자율 코딩의 신뢰성 문제를 정면으로 다룹니다. DCSAI agent loop의 HITL 분기 설계와 Team Agent의 `discovery-core-agent`/`platform-core-agent` 2계층 멀티에이전트 오케스트레이션 결을 동시에 건드립니다.",
+      "knowledge_url": "/knowledge/20260529/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260528",
       "display_date": "2026-05-28",
       "title": "Building self-improving tax agents with Codex",
@@ -255,18 +266,6 @@
       "categories": [
         "에이전트 오케스트레이션",
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260505",
-      "display_date": "2026-05-05",
-      "title": "mattpocock/skills — Skills for Real Engineers (.claude directory 공개)",
-      "url": "https://github.com/mattpocock/skills",
-      "summary": "",
-      "knowledge_url": "/knowledge/20260505/",
-      "categories": [
-        "코딩 에이전트",
-        "에이전트 오케스트레이션"
       ]
     }
   ]
