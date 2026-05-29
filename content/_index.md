@@ -180,6 +180,12 @@ Anthropic은 Claude Code가 복잡한 GUI 프레임워크 대신 **단순 HTML�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260530/">
+    <span class="ai-pick-date">2026-05-30</span>
+    <span class="ai-pick-title-mini">Leonxlnx/taste-skill — AI에게 좋은 취향을 부여해 generic slop을 막는 Clau…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260529/">
     <span class="ai-pick-date">2026-05-29</span>
     <span class="ai-pick-title-mini">Introducing dynamic workflows in Claude Code</span>

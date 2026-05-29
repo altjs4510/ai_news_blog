@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260530",
+      "display_date": "2026-05-30",
+      "title": "Leonxlnx/taste-skill — AI에게 좋은 취향을 부여해 generic slop을 막는 Claude Code skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "summary": "단발 스타 2,066개로 트렌딩에 진입한 신규 레포로, '에이전트가 생성하는 결과물의 톤·취향·디테일을 명시적 skill로 보정'하는 결을 정면으로 다룹니다. 단순 코드 자동 생성을 넘어 Claude Code plugin/skill/hook 패턴 위에 '품질·취향 가드'를 별도 레이어로 끼우는 새로운 카테고리로, DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)이 다루는 결을 한 단계 끌어올립니다.",
+      "knowledge_url": "/knowledge/20260530/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260529",
       "display_date": "2026-05-29",
       "title": "Introducing dynamic workflows in Claude Code",
@@ -254,18 +265,6 @@
       "knowledge_url": "/knowledge/20260507/",
       "categories": [
         "에이전트 오케스트레이션"
-      ]
-    },
-    {
-      "date_str": "20260506",
-      "display_date": "2026-05-06",
-      "title": "mksglu/context-mode — AI 코딩 에이전트용 컨텍스트 윈도우 최적화",
-      "url": "https://github.com/mksglu/context-mode",
-      "summary": "도구 출력(tool output)을 샌드박싱해 컨텍스트 사용량을 최대 98%까지 줄인다고 주장하는 오픈소스. agent loop에서 tool use 결과가 반복 누적되며 컨텍스트가 폭주하는 문제, 즉 DCSAI Anthropic SDK 직통합 구조의 가장 현실적인 병목을 정조준한다.",
-      "knowledge_url": "/knowledge/20260506/",
-      "categories": [
-        "에이전트 오케스트레이션",
-        "코딩 에이전트"
       ]
     }
   ]
