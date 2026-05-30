@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260531",
+      "display_date": "2026-05-31",
+      "title": "How we contain Claude across products",
+      "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "summary": "Anthropic이 자사 제품 전반에 Claude를 어떻게 '가두는지'를 정리한 1차 문서로, tool 권한 경계·세션 격리·HITL 개입 지점을 운영 관점에서 묶어낸다는 점이 핵심입니다. DCSAI가 자체 구현 중인 MCP host server(OAuth·세션·tool 실행)와 agent loop의 HITL 분기 설계가 정확히 같은 결을 다룹니다.",
+      "knowledge_url": "/knowledge/20260531/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260530",
       "display_date": "2026-05-30",
       "title": "Leonxlnx/taste-skill — AI에게 좋은 취향을 부여해 generic slop을 막는 Claude Code skill",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260508/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260507",
-      "display_date": "2026-05-07",
-      "title": "ruvnet/ruflo — Claude 멀티 에이전트 오케스트레이션 플랫폼",
-      "url": "https://github.com/ruvnet/ruflo",
-      "summary": "Claude Code / Codex 네이티브 통합, RAG, 자기학습 swarm, 엔터프라이즈 아키텍처를 갖춘 멀티 에이전트 오케스트레이터로 — Team Agent가 풀어야 할 `discovery-core-agent`/`platform-core-agent` 2계층 구조, MCP 직연결, Activity Log/Observer 패턴과 정확히 같은 결을 건드린다.",
-      "knowledge_url": "/knowledge/20260507/",
-      "categories": [
-        "에이전트 오케스트레이션"
       ]
     }
   ]
