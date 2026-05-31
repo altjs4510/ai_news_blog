@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Opus 4.8과 65B 펀딩이 가른 진영, 에이전트 보안·청구 거버넌스가 동시에 무너졌다"
+date: 2026-06-01
+toc: true
+layout: single
+description: "모델 경쟁이 자율성·자본 규모로 옮겨가는 사이, OpenClaw 침해와 5억 달러 청구 사고가 운영 공백을 노출했다."
+tags: ["에이전트 보안", "MCP 권한 격리", "Claude Opus 4.8", "청구 거버넌스", "Codex 엔터프라이즈"]
+categories: ["보안 & 거버넌스"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Opus 4.8과 65B 펀딩이 가른 진영, 에이전트 보안·청구 거버넌스가 동시에 무너졌다</h1>
-  <p class="ai-home-deck">모델 경쟁이 자율성·자본 규모로 옮겨가는 사이, OpenClaw 침해와 5억 달러 청구 사고가 운영 공백을 노출했다.</p>
-  <p class="ai-meta">2026-06-01 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260601/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-06-01 · 주간 요약</p>
+  <h2 class="ai-post-title">Opus 4.8과 65B 펀딩이 가른 진영, 에이전트 보안·청구 거버넌스가 동시에 무너졌다</h2>
+  <p class="ai-post-deck">모델 경쟁이 자율성·자본 규모로 옮겨가는 사이, OpenClaw 침해와 5억 달러 청구 사고가 운영 공백을 노출했다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -197,54 +191,6 @@ Reddit에서는 **"인간 뇌는 20W로 처리하는 일을 AI는 핵반응로�
 
 Google은 Anthropic·OpenAI의 코딩·엔터프라이즈 공세에 맞서 **Gemini Omni와 24/7 어시스턴트 Gemini Spark**로 일상·멀티모달 영역을 차별화하고 있습니다. TechCrunch가 Spark를 "실제로 유용하다"고 평가한 점은, **상시 작동 개인 에이전트** 카테고리가 2026년 하반기 주력 전선이 될 가능성을 시사합니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260531/">
-    <span class="ai-pick-date">2026-05-31</span>
-    <span class="ai-pick-title-mini">How we contain Claude across products</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260530/">
-    <span class="ai-pick-date">2026-05-30</span>
-    <span class="ai-pick-title-mini">Leonxlnx/taste-skill — AI에게 좋은 취향을 부여해 generic slop을 막는 Clau…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260529/">
-    <span class="ai-pick-date">2026-05-29</span>
-    <span class="ai-pick-title-mini">Introducing dynamic workflows in Claude Code</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260528/">
-    <span class="ai-pick-date">2026-05-28</span>
-    <span class="ai-pick-title-mini">Building self-improving tax agents with Codex</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260527/">
-    <span class="ai-pick-date">2026-05-27</span>
-    <span class="ai-pick-title-mini">Microsoft Copilot Cowork Exfiltrates Files</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260526/">
-    <span class="ai-pick-date">2026-05-26</span>
-    <span class="ai-pick-title-mini">colbymchenry/codegraph — Pre-indexed code knowledge graph fo…</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -257,3 +203,5 @@ Google은 Anthropic·OpenAI의 코딩·엔터프라이즈 공세에 맞서 **Gem
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
