@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260602",
+      "display_date": "2026-06-02",
+      "title": "revfactory/harness — 도메인별 에이전트 팀과 스킬을 자동 설계하는 메타 스킬",
+      "url": "https://github.com/revfactory/harness",
+      "summary": "도메인을 입력하면 그에 맞는 전문 에이전트 팀 구성과 각 에이전트가 사용할 스킬까지 함께 생성해 주는 '메타 스킬' 패턴으로, Team Agent의 `discovery-core-agent`·`platform-core-agent` 계층 구조와 Claude Code plugin/skill/hook 결을 동시에 정조준합니다. 단순 skills 모음(addyosmani/agent-skills 결)과 달리, 스킬을 '생성하는 스킬'이라는 한 단계 위 추상에 있다는 점이 freshness 측면에서 결정적입니다.",
+      "knowledge_url": "/knowledge/20260602/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260531",
       "display_date": "2026-05-31",
       "title": "How we contain Claude across products",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260509/",
       "categories": [
         "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260508",
-      "display_date": "2026-05-08",
-      "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "summary": "Claude Code의 skill·command·hook 패턴을 프로덕션 수준으로 정리한 레포가 3만 스타를 돌파하며 '에이전트 = 스킬 라이브러리 + 런타임' 구도가 굳어지고 있습니다. DCSAI의 `dcs-ai-plugin`(Claude Code plugins · commands/agents/skills/hooks · MCP 클라이언트) 결을 그대로 건드리는 자료입니다.",
-      "knowledge_url": "/knowledge/20260508/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
