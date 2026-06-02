@@ -204,6 +204,12 @@ Google은 Anthropic·OpenAI의 코딩·엔터프라이즈 공세에 맞서 **Gem
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260603/">
+    <span class="ai-pick-date">2026-06-03</span>
+    <span class="ai-pick-title-mini">How Bad MCP design cost your Agent 5× more tokens</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260602/">
     <span class="ai-pick-date">2026-06-02</span>
     <span class="ai-pick-title-mini">revfactory/harness — 도메인별 에이전트 팀과 스킬을 자동 설계하는 메타 스킬</span>
