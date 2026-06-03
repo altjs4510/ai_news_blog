@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260604",
+      "display_date": "2026-06-04",
+      "title": "chopratejas/headroom — Compress tool outputs before they reach the LLM",
+      "url": "https://github.com/chopratejas/headroom",
+      "summary": "tool 결과·로그·RAG 청크를 LLM 도달 전에 60~95% 압축한다고 주장하며 하루 3,528 스타로 이번 윈도우에 폭발한 신규 항목입니다. 라이브러리·프록시·MCP 서버 3종 형태로 제공돼 DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 agent loop 사이의 '컨텍스트 세금' 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260604/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260603",
       "display_date": "2026-06-03",
       "title": "How Bad MCP design cost your Agent 5× more tokens",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260512/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260510",
-      "display_date": "2026-05-10",
-      "title": "addyosmani/agent-skills — Production-grade engineering skills for AI coding agents",
-      "url": "https://github.com/addyosmani/agent-skills",
-      "summary": "Claude Code의 skill 패턴을 프로덕션 엔지니어링 관점에서 정리한 저장소로, 하루 2,801 스타로 폭발한 점이 의미심장합니다. DCSAI의 `dcs-ai-plugin`(Claude Code plugins · commands/agents/skills/hooks)이 정확히 같은 결을 다루고 있어, skill 정의 방식·디렉터리 구조·hook 연결 패턴을 그대로 비교 학습할 수 있습니다.",
-      "knowledge_url": "/knowledge/20260510/",
-      "categories": [
-        "에이전트 오케스트레이션"
       ]
     }
   ]

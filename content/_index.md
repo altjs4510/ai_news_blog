@@ -204,6 +204,12 @@ Google은 Anthropic·OpenAI의 코딩·엔터프라이즈 공세에 맞서 **Gem
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260604/">
+    <span class="ai-pick-date">2026-06-04</span>
+    <span class="ai-pick-title-mini">chopratejas/headroom — Compress tool outputs before they rea…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260603/">
     <span class="ai-pick-date">2026-06-03</span>
     <span class="ai-pick-title-mini">How Bad MCP design cost your Agent 5× more tokens</span>
