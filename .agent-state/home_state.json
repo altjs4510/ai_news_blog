@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260605",
+      "display_date": "2026-06-05",
+      "title": "chopratejas/headroom — Compress tool outputs, logs, and RAG chunks before they reach the LLM",
+      "url": "https://github.com/chopratejas/headroom",
+      "summary": "도구 출력·로그·RAG 청크를 LLM에 도달하기 전 60~95% 압축하는 라이브러리/프록시/MCP 서버로, 하루 3,139 스타로 트렌딩 1위에 오른 신규 항목입니다. DCSAI의 자체 MCP host server(tool 실행 결과 패스스루)와 agent loop의 컨텍스트 세금 문제, 그리고 Team Agent의 Workflow HTML 파싱 → KG 조회로 누적되는 tool 출력 폭주를 정조준합니다.",
+      "knowledge_url": "/knowledge/20260605/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260604",
       "display_date": "2026-06-04",
       "title": "chopratejas/headroom — Compress tool outputs before they reach the LLM",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260513/",
       "categories": [
         "모델 & 연구"
-      ]
-    },
-    {
-      "date_str": "20260512",
-      "display_date": "2026-05-12",
-      "title": "agentmemory — Persistent memory for AI coding agents",
-      "url": "https://github.com/rohitg00/agentmemory",
-      "summary": "실측 벤치마크 기반의 코딩 에이전트용 퍼시스턴트 메모리 레이어로, 단발성 tool use를 넘어 세션·프로젝트 축으로 컨텍스트를 누적시키는 패턴을 정면으로 다룹니다. DCSAI agent loop·HITL 분기와 Team Agent의 Activity Log/Observer 설계 모두 '시간축 메모리'가 핵심 결인 만큼 직접적인 참고가 됩니다.",
-      "knowledge_url": "/knowledge/20260512/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
