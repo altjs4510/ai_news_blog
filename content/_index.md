@@ -204,6 +204,12 @@ Google은 Anthropic·OpenAI의 코딩·엔터프라이즈 공세에 맞서 **Gem
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260606/">
+    <span class="ai-pick-date">2026-06-06</span>
+    <span class="ai-pick-title-mini">chopratejas/headroom — Compress tool outputs, logs, files, a…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260605/">
     <span class="ai-pick-date">2026-06-05</span>
     <span class="ai-pick-title-mini">chopratejas/headroom — Compress tool outputs, logs, and RAG …</span>

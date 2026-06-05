@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260606",
+      "display_date": "2026-06-06",
+      "title": "chopratejas/headroom — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM",
+      "url": "https://github.com/chopratejas/headroom",
+      "summary": "tool 결과·로그·RAG 청크를 LLM 도달 전에 60~95% 압축하는 라이브러리·프록시·MCP 서버 3종 패키지로, '컨텍스트 세금' 문제를 정조준합니다. DCSAI의 자체 MCP host server(tool 실행 결과 직주입)와 Team Agent의 dcsai KG MCP 직연결 결에서 가장 비싼 구간 — tool 출력이 agent loop 컨텍스트를 잠식하는 지점 — 을 미들웨어 한 겹으로 끊어낼 수 있는 신규 항목입니다.",
+      "knowledge_url": "/knowledge/20260606/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260605",
       "display_date": "2026-06-05",
       "title": "chopratejas/headroom — Compress tool outputs, logs, and RAG chunks before they reach the LLM",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260514/",
       "categories": [
         "산업 동향"
-      ]
-    },
-    {
-      "date_str": "20260513",
-      "display_date": "2026-05-13",
-      "title": "Thinking Machines' Native Interaction Models — TML-Interaction-Small (276B-A12B)",
-      "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
-      "summary": "표준 VAD를 폐기하고 '말하면서 듣는' 네이티브 인터랙션 SOTA를 달성한 모델로, 기존 STT→LLM→TTS 파이프라인 자체를 재설계하려는 시도입니다. DCSAI의 Anthropic SDK 직통합 + HTTP chunked streaming agent loop가 향후 음성 채널을 붙일 때 마주칠 '동시 입출력 + 인터럽션' 설계 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260513/",
-      "categories": [
-        "모델 & 연구"
       ]
     }
   ]
