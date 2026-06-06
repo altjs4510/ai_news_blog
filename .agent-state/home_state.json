@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260607",
+      "display_date": "2026-06-07",
+      "title": "OpenAI Help: Lockdown Mode",
+      "url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+      "summary": "ChatGPT가 외부 콘텐츠로부터 받은 명령을 무력화하는 Lockdown Mode를 Simon Willison이 정리·해설한 자료로, 에이전트가 tool use·MCP·브라우저를 직접 다루기 시작한 시점에 '외부 입력으로부터의 명령 격리'를 사용자 가시 토글로 끌어올린 첫 사례입니다. DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 HITL 분기 설계가 정면으로 다뤄야 할 '신뢰 경계 + 명령 격리' 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260607/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260606",
       "display_date": "2026-06-06",
       "title": "chopratejas/headroom — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260515/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260514",
-      "display_date": "2026-05-14",
-      "title": "Introducing Claude for Small Business",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "summary": "Anthropic이 B2B 결제 고객 수에서 OpenAI를 넘어선 같은 날 SMB 전용 패키지를 발표하며 엔터프라이즈→중소기업으로 채널을 확장한 신호탄입니다. DCSAI가 F&F 사내 챗봇 플랫폼으로서 Anthropic SDK 직통합 + MCP host server 자체 구현 결을 가져가는 만큼, Anthropic이 비-대기업 워크로드에 어떤 기능 셋(권한·관리·요금)을 표준으로 묶는지 직접 비교 학습할 수 있는 1차 자료입니다.",
-      "knowledge_url": "/knowledge/20260514/",
-      "categories": [
-        "산업 동향"
       ]
     }
   ]
