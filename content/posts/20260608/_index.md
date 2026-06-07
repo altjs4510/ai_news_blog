@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Anthropic IPO와 'AI 동결' 이중 행보 속, 토큰·하니스가 산업 의제로"
+date: 2026-06-08
+toc: true
+layout: single
+description: "1조 달러 상장 준비와 동시에 코딩 에이전트의 비용·취향·자율성이 운영 단계의 실전 과제로 굳어진다."
+tags: ["agent harness", "dynamic workflow", "토큰 압축", "Claude Code skills", "Anthropic IPO"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Anthropic IPO와 'AI 동결' 이중 행보 속, 토큰·하니스가 산업 의제로</h1>
-  <p class="ai-home-deck">1조 달러 상장 준비와 동시에 코딩 에이전트의 비용·취향·자율성이 운영 단계의 실전 과제로 굳어진다.</p>
-  <p class="ai-meta">2026-06-08 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260608/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-06-08 · 주간 요약</p>
+  <h2 class="ai-post-title">Anthropic IPO와 'AI 동결' 이중 행보 속, 토큰·하니스가 산업 의제로</h2>
+  <p class="ai-post-deck">1조 달러 상장 준비와 동시에 코딩 에이전트의 비용·취향·자율성이 운영 단계의 실전 과제로 굳어진다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -177,54 +171,6 @@ OpenAI가 **'드리밍'**이라는 메모리 정리 메커니즘을 도입했다
 
 기술 부채와 달리 **인지 부채는 눈에 보이지 않게 복리로 쌓인다**. 자신이 검증할 수 없는 도구로 법률·의학·금융 같은 중대 결정을 내리기 시작할 때, "다시 프롬프트하면 돼"가 회복 전략이 될 수 없다는 경고는 향후 1~2년의 핵심 화두가 될 가능성이 높다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260607/">
-    <span class="ai-pick-date">2026-06-07</span>
-    <span class="ai-pick-title-mini">OpenAI Help: Lockdown Mode</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260606/">
-    <span class="ai-pick-date">2026-06-06</span>
-    <span class="ai-pick-title-mini">chopratejas/headroom — Compress tool outputs, logs, files, a…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260605/">
-    <span class="ai-pick-date">2026-06-05</span>
-    <span class="ai-pick-title-mini">chopratejas/headroom — Compress tool outputs, logs, and RAG …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260604/">
-    <span class="ai-pick-date">2026-06-04</span>
-    <span class="ai-pick-title-mini">chopratejas/headroom — Compress tool outputs before they rea…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260603/">
-    <span class="ai-pick-date">2026-06-03</span>
-    <span class="ai-pick-title-mini">How Bad MCP design cost your Agent 5× more tokens</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260602/">
-    <span class="ai-pick-date">2026-06-02</span>
-    <span class="ai-pick-title-mini">revfactory/harness — 도메인별 에이전트 팀과 스킬을 자동 설계하는 메타 스킬</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -237,3 +183,5 @@ OpenAI가 **'드리밍'**이라는 메모리 정리 메커니즘을 도입했다
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
