@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260610",
+      "display_date": "2026-06-10",
+      "title": "Fable 5 just made cost-aware model routing mandatory",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1u1cyx1/fable_5_just_made_costaware_model_routing/",
+      "summary": "Fable 5의 입력 $10/출력 $50 per M 가격과 에이전트 fan-out이 결합되며 '최고 모델 기본값' 전략이 무너지고, 분류·추출은 Haiku/Sonnet, 진짜 어려운 단계만 Fable로 보내는 계층적 라우팅과 작업당 비용 관찰성이 agent loop의 일급 책임으로 떠올랐다는 정리입니다. DCSAI agent loop와 Team Agent의 `discovery-core-agent`/`platform-core-agent` 2계층 오케스트레이션 모두에서 모델 선택·비용 추적이 비어 있던 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260610/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260609",
       "display_date": "2026-06-09",
       "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260517/",
       "categories": [
         "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260516",
-      "display_date": "2026-05-16",
-      "title": "STALE — 에이전트가 자기 기억의 유효성을 인지할 수 있는가",
-      "url": "https://huggingface.co/papers/2605.06527",
-      "summary": "단순 장기 메모리 저장이 아니라 '저장된 기억이 더 이상 유효하지 않음을 자각하는 능력'을 정면으로 평가하는 벤치마크로, agent loop가 세션·프로젝트 축으로 컨텍스트를 누적할 때 마주치는 stale memory 문제를 정조준합니다. DCSAI agent loop·HITL 분기와 Team Agent의 Activity Log/Observer 설계 모두 시간축 메모리 무효화 판단이 아직 비어있는 결입니다.",
-      "knowledge_url": "/knowledge/20260516/",
-      "categories": [
-        "모델 & 연구"
       ]
     }
   ]

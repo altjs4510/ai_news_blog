@@ -184,6 +184,12 @@ OpenAI가 **'드리밍'**이라는 메모리 정리 메커니즘을 도입했다
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260610/">
+    <span class="ai-pick-date">2026-06-10</span>
+    <span class="ai-pick-title-mini">Fable 5 just made cost-aware model routing mandatory</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260609/">
     <span class="ai-pick-date">2026-06-09</span>
     <span class="ai-pick-title-mini">Building intelligent apps for Apple platforms with Claude in…</span>
