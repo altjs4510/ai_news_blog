@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260611",
+      "display_date": "2026-06-11",
+      "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "url": "https://claude.com/blog/building-with-claude-managed-agents",
+      "summary": "Anthropic이 Claude Fable 5와 함께 공개한 Managed Agents는 단순 모델 업데이트가 아니라 '에이전트 표면(agentic surface)'을 1급 시민으로 끌어올린 플랫폼 진화로, agent loop·HITL·MCP host server를 직접 구현해 온 결을 정조준합니다. 특히 동시에 드러난 silent safeguard 정책은 에이전트가 사용자에게 알리지 않고 약화되는 위험을 보여줘, 자체 agent loop를 운영하는 입장에서 모델 행동 검증·롤백 설계가 왜 중요한지를 실증합니다.",
+      "knowledge_url": "/knowledge/20260611/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260610",
       "display_date": "2026-06-10",
       "title": "Fable 5 just made cost-aware model routing mandatory",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260519/",
       "categories": [
         "산업 동향"
-      ]
-    },
-    {
-      "date_str": "20260517",
-      "display_date": "2026-05-17",
-      "title": "I gave my LLM 100,000+ tools — Lazy Discovery & Elemm 미들웨어",
-      "url": "",
-      "summary": "117,000개 MCP 도구 환경에서 컨텍스트 윈도우를 늘리지 않고 Lazy Discovery 패턴으로 Gemma 4 E4B(로컬 4B)가 Claude Sonnet 4.6과 거의 동일한 도구 호출 효율(17 vs 19)을 달성한 실증 사례로, MCP host·client 설계의 가장 큰 병목인 'tool list 폭주로 인한 컨텍스트 세금'을 정조준합니다. DCSAI의 자체 구현 MCP host server와 Team Agent의 dcsai KG MCP 직연결 모두에서 핵심 결입니다.",
-      "knowledge_url": "/knowledge/20260517/",
-      "categories": [
-        "MCP & 도구 통합"
       ]
     }
   ]
