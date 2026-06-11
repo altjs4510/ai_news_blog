@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260612",
+      "display_date": "2026-06-12",
+      "title": "NVIDIA/SkillSpector — AI 에이전트 스킬용 보안 스캐너",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "summary": "TeamPCP의 npm 96개 패키지 백도어가 `~/.claude/settings.json`과 `.vscode/tasks.json`에 영속화되며 Claude Code 실행마다 재실행되는 사건이 터진 직후, NVIDIA가 '에이전트 스킬 정적 보안 스캐너'라는 새 카테고리를 공개해 GitHub 트렌딩에 진입했습니다. agent skill·plugin·hook의 악성 패턴을 검사하는 결로, DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)과 MCP host server의 tool 권한 경계 설계를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260612/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260611",
       "display_date": "2026-06-11",
       "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260520/",
       "categories": [
         "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260519",
-      "display_date": "2026-05-19",
-      "title": "Anthropic acquires Stainless",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "summary": "Stainless는 OpenAI·Google·Cloudflare가 SDK를 자동 생성하는 데 쓰던 핵심 도구로, 이를 Anthropic이 흡수했다는 것은 향후 Anthropic SDK·MCP 스펙의 SDK 자동 생성 파이프라인이 1급 시민으로 강화된다는 신호입니다. DCSAI가 정면으로 의존하는 'Anthropic SDK 직통합 + 자체 MCP host server' 결의 미래 호환성과 직결되는 1차 자료입니다.",
-      "knowledge_url": "/knowledge/20260519/",
-      "categories": [
-        "산업 동향"
       ]
     }
   ]
