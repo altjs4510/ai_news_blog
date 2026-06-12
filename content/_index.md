@@ -184,6 +184,12 @@ OpenAI가 **'드리밍'**이라는 메모리 정리 메커니즘을 도입했다
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260613/">
+    <span class="ai-pick-date">2026-06-13</span>
+    <span class="ai-pick-title-mini">Fable 5's guardrails got bypassed in 48 hours — 요청 분해·외부 재조립…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260612/">
     <span class="ai-pick-date">2026-06-12</span>
     <span class="ai-pick-title-mini">NVIDIA/SkillSpector — AI 에이전트 스킬용 보안 스캐너</span>

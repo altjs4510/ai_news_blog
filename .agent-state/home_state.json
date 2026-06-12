@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260613",
+      "display_date": "2026-06-13",
+      "title": "Fable 5's guardrails got bypassed in 48 hours — 요청 분해·외부 재조립 우회 분석",
+      "url": "https://www.reddit.com/r/PromptEngineering/comments/1u3q3kv/fable_5s_guardrails_got_bypassed_in_48_hours/",
+      "summary": "1,000시간 레드팀을 거친 Claude Fable 5 분류기 계층이 유니코드 동형문자·장문맥 프레이밍·요청 분해/외부 재조립으로 이틀 만에 뚫린 사례입니다. 핵심 교훈은 분류기가 입력 조각을 '독립적으로' 평가하면 다중 턴 공격에 본질적으로 취약하다는 점으로, 보안·거버넌스 관점에서 agent loop의 HITL 분기와 tool use 경계 설계가 단발 분류기로는 부족하다는 것을 실증합니다.",
+      "knowledge_url": "/knowledge/20260613/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260612",
       "display_date": "2026-06-12",
       "title": "NVIDIA/SkillSpector — AI 에이전트 스킬용 보안 스캐너",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260521/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260520",
-      "display_date": "2026-05-20",
-      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
-      "url": "https://claude.com/blog/claude-managed-agents-updates",
-      "summary": "Anthropic이 Managed Agents에 셀프호스팅 샌드박스와 MCP 터널을 추가한 발표로, 외부 MCP 서버를 보안 경계 안쪽으로 끌어들이는 'MCP tunnel' 패턴이 1급 시민으로 등장한 점이 핵심입니다. DCSAI가 자체 구현 중인 MCP host server(OAuth·세션·tool 실행)와 외부 dcsai KG MCP 노출 결을 정확히 건드립니다.",
-      "knowledge_url": "/knowledge/20260520/",
-      "categories": [
-        "MCP & 도구 통합"
       ]
     }
   ]
