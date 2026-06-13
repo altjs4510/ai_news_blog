@@ -37,6 +37,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260614",
+      "display_date": "2026-06-14",
+      "title": "NVIDIA/SkillSpector — Security scanner for AI agent skills",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "summary": "agent-skills·superpowers 같은 Claude Code skill 생태계가 폭발하자마자 NVIDIA가 직접 skill 취약점·악성 패턴을 스캔하는 도구를 내놓은 것이 결정적입니다. DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)과 자체 MCP host server의 tool 실행 권한 경계 결을 정조준하며, 최근 14일 픽이 다룬 'skill 생성/품질' 결을 '공급망 보안'이라는 새 결로 확장합니다.",
+      "knowledge_url": "/knowledge/20260614/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260613",
       "display_date": "2026-06-13",
       "title": "Fable 5's guardrails got bypassed in 48 hours — 요청 분해·외부 재조립 우회 분석",
@@ -254,17 +265,6 @@
       "knowledge_url": "/knowledge/20260522/",
       "categories": [
         "인프라 & 컴퓨트"
-      ]
-    },
-    {
-      "date_str": "20260521",
-      "display_date": "2026-05-21",
-      "title": "colbymchenry/codegraph — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode",
-      "url": "https://github.com/colbymchenry/codegraph",
-      "summary": "코드베이스를 사전 인덱싱한 로컬 knowledge graph로 Claude Code·Codex·Cursor 모두에 동일한 컨텍스트를 제공해 토큰·tool call을 동시에 줄이는 패턴입니다. DCSAI의 자체 MCP host server와 dcsai KG MCP가 정면으로 다루는 '컨텍스트 세금 절감 + KG 기반 tool 노출' 결을 100% 로컬·다중 에이전트 호환 형태로 풀어냅니다.",
-      "knowledge_url": "/knowledge/20260521/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
