@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Fable 5 셧다운이 연 멀티모델 라우팅 시대, 에이전트 스킬 생태계가 그 빈자리를 메운다"
+date: 2026-06-15
+toc: true
+layout: single
+description: "정부발 모델 차단이 단일 프론티어 의존을 끊어내자, 스킬·압축·보안 스캐너가 운영 레이어로 빠르게 표준화되고 있다."
+tags: ["에이전트 스킬", "모델 라우팅", "컨텍스트 압축", "수출 통제", "스킬 보안"]
+categories: ["MCP & 도구 통합"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Fable 5 셧다운이 연 멀티모델 라우팅 시대, 에이전트 스킬 생태계가 그 빈자리를 메운다</h1>
-  <p class="ai-home-deck">정부발 모델 차단이 단일 프론티어 의존을 끊어내자, 스킬·압축·보안 스캐너가 운영 레이어로 빠르게 표준화되고 있다.</p>
-  <p class="ai-meta">2026-06-15 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260615/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-06-15 · 주간 요약</p>
+  <h2 class="ai-post-title">Fable 5 셧다운이 연 멀티모델 라우팅 시대, 에이전트 스킬 생태계가 그 빈자리를 메운다</h2>
+  <p class="ai-post-deck">정부발 모델 차단이 단일 프론티어 의존을 끊어내자, 스킬·압축·보안 스캐너가 운영 레이어로 빠르게 표준화되고 있다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -175,54 +169,6 @@ C/C++/Rust 확장을 **WebAssembly로 컴파일해 PyPI를 통해 배포**할 �
 
 Meta는 **베이징의 요구로 $2B 규모 Manus 인수가 무산**되는 동시에, 신설 AI 조직 내부에서 엔지니어들의 강한 불만이 외부로 노출됐습니다. 자본·지정학·인재 세 축이 동시에 흔들리는 모습으로, **빅테크의 AI 조직 재편이 단기간에 또 한 차례 일어날 가능성**이 있습니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260614/">
-    <span class="ai-pick-date">2026-06-14</span>
-    <span class="ai-pick-title-mini">NVIDIA/SkillSpector — Security scanner for AI agent skills</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260613/">
-    <span class="ai-pick-date">2026-06-13</span>
-    <span class="ai-pick-title-mini">Fable 5's guardrails got bypassed in 48 hours — 요청 분해·외부 재조립…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260612/">
-    <span class="ai-pick-date">2026-06-12</span>
-    <span class="ai-pick-title-mini">NVIDIA/SkillSpector — AI 에이전트 스킬용 보안 스캐너</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260611/">
-    <span class="ai-pick-date">2026-06-11</span>
-    <span class="ai-pick-title-mini">The evolution of agentic surfaces: building with Claude Mana…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260610/">
-    <span class="ai-pick-date">2026-06-10</span>
-    <span class="ai-pick-title-mini">Fable 5 just made cost-aware model routing mandatory</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260609/">
-    <span class="ai-pick-date">2026-06-09</span>
-    <span class="ai-pick-title-mini">Building intelligent apps for Apple platforms with Claude in…</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -235,3 +181,5 @@ Meta는 **베이징의 요구로 $2B 규모 Manus 인수가 무산**되는 동�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
