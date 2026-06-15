@@ -25,6 +25,7 @@ toc: false
   <a class="ai-spotlight-title" href="https://github.com/Panniantong/Agent-Reach" target="_blank" rel="noopener">Panniantong/Agent-Reach — 외부 API 비용 없이 Twitter·Reddit·YouTube·GitHub를 읽고 검색하는 CLI<span class="ai-spotlight-arrow">↗</span></a>
   <p class="ai-spotlight-why">이번 주 트렌딩에 새로 진입한 항목으로, 에이전트가 외부 소셜·검색 소스를 '하나의 CLI 도구'로 추상화해 호출하게 만드는 결입니다. DCSAI의 자체 MCP host server에 외부 정보 수집 tool을 1급 시민으로 붙이는 결, 그리고 ai_news_agent의 다중 출처 수집 결을 동시에 정조준합니다.</p>
   <p class="ai-spotlight-app"><span class="ai-spotlight-app-label">접목 →</span> ai_news_agent의 Reddit/GitHub/YouTube 수집 파이프라인을 Agent-Reach CLI 한 겹으로 통합하면 출처별 어댑터 코드를 줄이고, 동시에 DCSAI MCP host server에 'external-research' tool로 등록해 agent loop가 HITL 승인 후 외부 검색을 수행하는 워크플로로 확장할 수 있습니다.</p>
+  <p class="ai-spotlight-cta"><a class="ai-spotlight-detail" href="https://altjs4510.github.io/ai_news_blog/posts/20260615/study/">자세히 보기 <span class="ai-spotlight-detail-arrow" aria-hidden="true">→</span></a></p>
 </aside>
 
 <section class="ai-additional">
