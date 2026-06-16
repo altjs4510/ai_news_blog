@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260617",
+      "display_date": "2026-06-17",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "summary": "OpenAI가 모델을 실제 배포 환경처럼 시뮬레이션해 위험 행동을 사전 식별하는 방법론을 공식 공개한 1차 자료로, agent loop·HITL이 '모델이 사고를 친 뒤 사람이 막는' 사후 방어에 머물러 있던 단계에서 '배포 전 행동 예측'이라는 한 단계 위 레이어를 건드린다는 점이 핵심입니다. 최근 14일 보안·거버넌스 픽이 모두 '런타임 격리(Lockdown Mode·Claude 컨테인먼트·Copilot exfiltration)'에 쏠려 있던 것과 명확히 다른 결입니다.",
+      "knowledge_url": "/knowledge/20260617/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260616",
       "display_date": "2026-06-16",
       "title": "Why AI hasn't replaced software engineers, and won't",
@@ -253,17 +264,6 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "summary": "Claude Code·Codex·Cursor·OpenCode 등 멀티 에이전트 호환을 전제로, 코드베이스를 사전 인덱싱한 로컬 지식 그래프로 노출해 '더 적은 토큰, 더 적은 도구 호출'을 실증한 프로젝트입니다. DCSAI가 이미 운영 중인 Neo4j 기반 dcsai KG MCP와 정확히 같은 결(MCP host server에 KG를 1급 도구로 노출)을 건드리며, 하루 2,400+ 별로 이번 윈도우에 새로 폭발한 신규 항목입니다.",
       "knowledge_url": "/knowledge/20260524/",
-      "categories": [
-        "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260523",
-      "display_date": "2026-05-23",
-      "title": "colbymchenry/codegraph — 사전 인덱싱된 코드 지식 그래프 MCP",
-      "url": "https://github.com/colbymchenry/codegraph",
-      "summary": "하루 3,688 스타로 GitHub Trending 상단에 오른 100% 로컬 코드 지식 그래프로, Claude Code·Codex·Cursor·OpenCode·Hermes에서 토큰과 tool call을 줄이는 것을 정면 목표로 삼습니다. DCSAI의 자체 MCP host server와 dcsai KG MCP 결, 그리고 Team Agent의 'KG 직연결 + tool 폭주 억제' 결을 동시에 건드리는 1차 자료입니다.",
-      "knowledge_url": "/knowledge/20260523/",
       "categories": [
         "MCP & 도구 통합"
       ]

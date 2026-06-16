@@ -183,6 +183,12 @@ Meta는 **베이징의 요구로 $2B 규모 Manus 인수가 무산**되는 동�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260617/">
+    <span class="ai-pick-date">2026-06-17</span>
+    <span class="ai-pick-title-mini">Predicting model behavior before release by simulating deplo…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260616/">
     <span class="ai-pick-date">2026-06-16</span>
     <span class="ai-pick-title-mini">Why AI hasn't replaced software engineers, and won't</span>
