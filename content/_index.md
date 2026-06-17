@@ -183,6 +183,12 @@ Meta는 **베이징의 요구로 $2B 규모 Manus 인수가 무산**되는 동�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260618/">
+    <span class="ai-pick-date">2026-06-18</span>
+    <span class="ai-pick-title-mini">DeusData/codebase-memory-mcp — 158개 언어 코드베이스를 밀리초 인덱싱하는 MCP …</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260617/">
     <span class="ai-pick-date">2026-06-17</span>
     <span class="ai-pick-title-mini">Predicting model behavior before release by simulating deplo…</span>
