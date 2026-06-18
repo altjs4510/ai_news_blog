@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260619",
+      "display_date": "2026-06-19",
+      "title": "Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "summary": "Claude Code가 터미널 안에서 생성한 산출물을 artifact로 영속화·재사용하는 구조를 정식 지원하면서, plugin/skill/hook 패턴 위에 '에이전트 출력의 1급 객체화'라는 새 레이어가 추가됐습니다. DCSAI의 Claude Code plugin/skill/hook 결과 agent loop의 tool use 산출물을 어떻게 영속화·재참조할지에 직접 닿는 1차 자료입니다.",
+      "knowledge_url": "/knowledge/20260619/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260618",
       "display_date": "2026-06-18",
       "title": "DeusData/codebase-memory-mcp — 158개 언어 코드베이스를 밀리초 인덱싱하는 MCP 서버",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260527/",
       "categories": [
         "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260526",
-      "display_date": "2026-05-26",
-      "title": "colbymchenry/codegraph — Pre-indexed code knowledge graph for Claude Code, Codex, Cursor",
-      "url": "https://github.com/colbymchenry/codegraph",
-      "summary": "코드를 사전 인덱싱한 지식 그래프로 변환해 Claude Code·Codex·Cursor의 토큰·툴 콜을 줄이는 100% 로컬 도구로, MCP 컨텍스트 세금 문제를 정조준합니다. DCSAI의 자체 MCP host server와 Team Agent의 dcsai KG MCP 직연결 결을, '코드 KG 사전 인덱싱'이라는 새로운 결로 확장하는 자료입니다.",
-      "knowledge_url": "/knowledge/20260526/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
