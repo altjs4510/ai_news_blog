@@ -183,6 +183,12 @@ Meta는 **베이징의 요구로 $2B 규모 Manus 인수가 무산**되는 동�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260620/">
+    <span class="ai-pick-date">2026-06-20</span>
+    <span class="ai-pick-title-mini">zai-org/GLM-5 — From Vibe Coding to Agentic Engineering</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260619/">
     <span class="ai-pick-date">2026-06-19</span>
     <span class="ai-pick-title-mini">Claude Code now supports artifacts</span>

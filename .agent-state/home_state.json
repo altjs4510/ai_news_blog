@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260620",
+      "display_date": "2026-06-20",
+      "title": "zai-org/GLM-5 — From Vibe Coding to Agentic Engineering",
+      "url": "https://github.com/zai-org/GLM-5",
+      "summary": "GLM-5가 vibe check에서 GPT를 넘었다는 평가([Latent Space AINews](https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe))와 함께 'Agentic Engineering'을 표방하며 공개된 신규 오픈 모델 저장소로, agent loop·tool use를 처음부터 에이전트용으로 설계한 결을 정조준합니다. Fable 5 가격 충격 이후 계층적 모델 라우팅이 강제된 흐름(20260610 daily) 위에서, '진짜 어려운 단계'를 폐쇄형이 아닌 오픈 모델로 돌릴 수 있는 첫 현실적 후보라는 점이 freshness·버즈 모두 압도적입니다.",
+      "knowledge_url": "/knowledge/20260620/",
+      "categories": [
+        "모델 & 연구"
+      ]
+    },
+    {
       "date_str": "20260619",
       "display_date": "2026-06-19",
       "title": "Claude Code now supports artifacts",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260528/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260527",
-      "display_date": "2026-05-27",
-      "title": "Microsoft Copilot Cowork Exfiltrates Files",
-      "url": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
-      "summary": "Copilot Cowork가 신뢰된 사용자 권한으로 파일을 외부로 유출시킨 사례 분석으로, 에이전트 tool use·MCP host의 권한 경계와 HITL 분기 설계가 보안 사고와 직결된다는 점을 실증합니다. DCSAI의 자체 MCP host server(OAuth·세션·tool 실행) 권한 모델과 Team Agent의 KG 권한 가드/BrandScopeInterceptor 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260527/",
-      "categories": [
-        "보안 & 거버넌스"
       ]
     }
   ]
