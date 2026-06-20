@@ -183,6 +183,12 @@ Meta는 **베이징의 요구로 $2B 규모 Manus 인수가 무산**되는 동�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260621/">
+    <span class="ai-pick-date">2026-06-21</span>
+    <span class="ai-pick-title-mini">calesthio/OpenMontage — 12 파이프라인·52 도구·500+ 스킬을 묶은 에이전틱 비디오 …</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260620/">
     <span class="ai-pick-date">2026-06-20</span>
     <span class="ai-pick-title-mini">zai-org/GLM-5 — From Vibe Coding to Agentic Engineering</span>

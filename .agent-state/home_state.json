@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260621",
+      "display_date": "2026-06-21",
+      "title": "calesthio/OpenMontage — 12 파이프라인·52 도구·500+ 스킬을 묶은 에이전틱 비디오 프로덕션 시스템",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "summary": "'세계 최초 오픈소스 에이전틱 비디오 프로덕션' 표방으로 하루 677 stars를 기록한 신규 항목으로, 단일 도메인(영상 편집)에 12개 파이프라인·52개 도구·500+ 에이전트 스킬을 묶어 Claude Code 같은 코딩 어시스턴트를 한 번에 '풀 스튜디오'로 변신시키는 결을 정조준합니다. DCSAI `dcs-ai-plugin`의 commands/agents/skills/hooks 4축 구조와 Team Agent의 `discovery-core-agent`/`platform-core-agent` 2계층 오케스트레이션이 다루는 '도메인 특화 에이전트 팀 + 스킬 번들' 패턴을 영상이라는 이질적 모달리티로 확장한 1차 레퍼런스입니다.",
+      "knowledge_url": "/knowledge/20260621/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260620",
       "display_date": "2026-06-20",
       "title": "zai-org/GLM-5 — From Vibe Coding to Agentic Engineering",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260529/",
       "categories": [
         "에이전트 오케스트레이션"
-      ]
-    },
-    {
-      "date_str": "20260528",
-      "display_date": "2026-05-28",
-      "title": "Building self-improving tax agents with Codex",
-      "url": "",
-      "summary": "Codex를 단순 코드 생성기가 아니라 '에이전트가 자기 코드를 수정·개선하는 self-improving 루프'로 운영한 실제 엔터프라이즈 사례로, agent loop와 HITL 분기에서 모델이 산출한 코드의 silent bug를 어떻게 검증·롤백하는지에 대한 구체적 패턴을 제시합니다. DCSAI의 Anthropic SDK 직통합 agent loop · HITL 결과 Team Agent의 Activity Log/Observer 피드백루프(L1) 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260528/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
