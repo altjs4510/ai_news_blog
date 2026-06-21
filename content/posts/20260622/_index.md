@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Anthropic 격동의 한 주 — 서울 진출·제재·인재 영입과 에이전트 OS화 가속"
+date: 2026-06-22
+toc: true
+layout: single
+description: "Skills·Hooks·MCP 권한관리가 한꺼번에 표준화되며 코딩 어시스턴트가 조직 단위 운영체계로 재정의됩니다."
+tags: ["Claude Code steering", "skills hooks rules", "MCP 권한 관리", "에이전트 OS", "Anthropic 서울"]
+categories: ["코딩 에이전트"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Anthropic 격동의 한 주 — 서울 진출·제재·인재 영입과 에이전트 OS화 가속</h1>
-  <p class="ai-home-deck">Skills·Hooks·MCP 권한관리가 한꺼번에 표준화되며 코딩 어시스턴트가 조직 단위 운영체계로 재정의됩니다.</p>
-  <p class="ai-meta">2026-06-22 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260622/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-06-22 · 주간 요약</p>
+  <h2 class="ai-post-title">Anthropic 격동의 한 주 — 서울 진출·제재·인재 영입과 에이전트 OS화 가속</h2>
+  <p class="ai-post-deck">Skills·Hooks·MCP 권한관리가 한꺼번에 표준화되며 코딩 어시스턴트가 조직 단위 운영체계로 재정의됩니다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -183,54 +177,6 @@ IEA가 AI 전력 예측을 두 번 상향하는 와중에, TDK/CEA의 스핀-메
 
 Claude Fable 5·Opus 4.8·ChatGPT 5.5·Gemini 3.5 Flash 등 주요 모델의 **시스템 프롬프트 추정본**을 모은 저장소가 4.4만 stars를 기록 중입니다. 프롬프트 자체가 영업비밀이자 안전장치인 시대에, 그 가시성이 커뮤니티에 의해 강제로 평탄화되는 현상은 향후 모델 차별화 전략에 직접적인 영향을 줄 수밖에 없습니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260621/">
-    <span class="ai-pick-date">2026-06-21</span>
-    <span class="ai-pick-title-mini">calesthio/OpenMontage — 12 파이프라인·52 도구·500+ 스킬을 묶은 에이전틱 비디오 …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260620/">
-    <span class="ai-pick-date">2026-06-20</span>
-    <span class="ai-pick-title-mini">zai-org/GLM-5 — From Vibe Coding to Agentic Engineering</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260619/">
-    <span class="ai-pick-date">2026-06-19</span>
-    <span class="ai-pick-title-mini">Claude Code now supports artifacts</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260618/">
-    <span class="ai-pick-date">2026-06-18</span>
-    <span class="ai-pick-title-mini">DeusData/codebase-memory-mcp — 158개 언어 코드베이스를 밀리초 인덱싱하는 MCP …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260617/">
-    <span class="ai-pick-date">2026-06-17</span>
-    <span class="ai-pick-title-mini">Predicting model behavior before release by simulating deplo…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260616/">
-    <span class="ai-pick-date">2026-06-16</span>
-    <span class="ai-pick-title-mini">Why AI hasn't replaced software engineers, and won't</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -243,3 +189,5 @@ Claude Fable 5·Opus 4.8·ChatGPT 5.5·Gemini 3.5 Flash 등 주요 모델의 **�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
