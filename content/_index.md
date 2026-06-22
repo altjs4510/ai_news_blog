@@ -187,6 +187,17 @@ Claude Fable 5·Opus 4.8·ChatGPT 5.5·Gemini 3.5 Flash 등 주요 모델의 **�
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260623/">
+    <span class="ai-pick-date">2026-06-23</span>
+    <span class="ai-pick-title-mini">bytedance/deer-flow — 샌드박스·메모리·서브에이전트·메시지 게이트웨이를 묶은 long-hor…</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
