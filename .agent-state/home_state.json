@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260625",
+      "display_date": "2026-06-25",
+      "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
+      "url": "https://claude.com/blog/agent-identity-access-model",
+      "summary": "에이전트를 사람과 분리된 1급 주체로 보고 고유 신원·권한·감사 경계를 부여하는 첫 공식 청사진입니다. DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 HITL 분기, 그리고 Team Agent의 BrandScopeInterceptor·KG 권한 가드가 정확히 다뤄야 할 '에이전트 정체성 + tool 권한 경계' 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260625/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260624",
       "display_date": "2026-06-24",
       "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260602/",
       "categories": [
         "에이전트 오케스트레이션"
-      ]
-    },
-    {
-      "date_str": "20260531",
-      "display_date": "2026-05-31",
-      "title": "How we contain Claude across products",
-      "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
-      "summary": "Anthropic이 자사 제품 전반에 Claude를 어떻게 '가두는지'를 정리한 1차 문서로, tool 권한 경계·세션 격리·HITL 개입 지점을 운영 관점에서 묶어낸다는 점이 핵심입니다. DCSAI가 자체 구현 중인 MCP host server(OAuth·세션·tool 실행)와 agent loop의 HITL 분기 설계가 정확히 같은 결을 다룹니다.",
-      "knowledge_url": "/knowledge/20260531/",
-      "categories": [
-        "보안 & 거버넌스"
       ]
     }
   ]
