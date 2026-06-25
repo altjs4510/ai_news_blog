@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260626",
+      "display_date": "2026-06-26",
+      "title": "google-labs-code/design.md — 코딩 에이전트에게 디자인 시스템을 영속적으로 전달하는 포맷 명세",
+      "url": "https://github.com/google-labs-code/design.md",
+      "summary": "Google Labs가 직접 정의한 'DESIGN.md' 포맷은 디자인 시스템(컬러·타이포·컴포넌트 규칙)을 코딩 에이전트가 매 턴 재해석하지 않고 영속적·구조화된 형태로 참조하게 만드는 1차 표준 시도입니다. agents.md/skill 결의 '컨텍스트 세금' 문제를 디자인 레이어에서 끊는다는 점에서, Claude Code plugin/skill/hook과 FSD 기반 프런트엔드 일관성 결을 동시에 정조준합니다. 하루 1,407 스타로 이번 윈도우 최상위 freshness.",
+      "knowledge_url": "/knowledge/20260626/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260625",
       "display_date": "2026-06-25",
       "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260603/",
       "categories": [
         "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260602",
-      "display_date": "2026-06-02",
-      "title": "revfactory/harness — 도메인별 에이전트 팀과 스킬을 자동 설계하는 메타 스킬",
-      "url": "https://github.com/revfactory/harness",
-      "summary": "도메인을 입력하면 그에 맞는 전문 에이전트 팀 구성과 각 에이전트가 사용할 스킬까지 함께 생성해 주는 '메타 스킬' 패턴으로, Team Agent의 `discovery-core-agent`·`platform-core-agent` 계층 구조와 Claude Code plugin/skill/hook 결을 동시에 정조준합니다. 단순 skills 모음(addyosmani/agent-skills 결)과 달리, 스킬을 '생성하는 스킬'이라는 한 단계 위 추상에 있다는 점이 freshness 측면에서 결정적입니다.",
-      "knowledge_url": "/knowledge/20260602/",
-      "categories": [
-        "에이전트 오케스트레이션"
       ]
     }
   ]
