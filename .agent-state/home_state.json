@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260701",
+      "display_date": "2026-07-01",
+      "title": "Google OKF (Open Knowledge Format) — 벤더 중립 에이전트 메모리 표준",
+      "url": "https://www.reddit.com/r/PromptEngineering/comments/1ujq6cm/google_dropped_a_new_open_standard_for_ai_agents/",
+      "summary": "Google이 조용히 공개한 OKF는 `.okf/` 디렉토리에 YAML frontmatter 마크다운으로 시스템 지식을 표현하는 벤더 중립 표준으로, CLAUDE.md/AGENTS.md를 대체하며 지식 그래프 + git 버전 관리 + 에이전트 호환성을 결합합니다. DCSAI의 `dcs-ai-plugin`(commands/agents/skills/hooks)과 자체 MCP host server가 의존해 온 Claude Code 전용 메모리 포맷 결을, '벤더 중립 + KG 친화' 방향으로 한 단계 확장하는 1차 신호입니다.",
+      "knowledge_url": "/knowledge/20260701/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260630",
       "display_date": "2026-06-30",
       "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
@@ -253,17 +264,6 @@
       "url": "https://github.com/chopratejas/headroom",
       "summary": "도구 출력·로그·RAG 청크를 LLM에 도달하기 전 60~95% 압축하는 라이브러리/프록시/MCP 서버로, 하루 3,139 스타로 트렌딩 1위에 오른 신규 항목입니다. DCSAI의 자체 MCP host server(tool 실행 결과 패스스루)와 agent loop의 컨텍스트 세금 문제, 그리고 Team Agent의 Workflow HTML 파싱 → KG 조회로 누적되는 tool 출력 폭주를 정조준합니다.",
       "knowledge_url": "/knowledge/20260605/",
-      "categories": [
-        "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260604",
-      "display_date": "2026-06-04",
-      "title": "chopratejas/headroom — Compress tool outputs before they reach the LLM",
-      "url": "https://github.com/chopratejas/headroom",
-      "summary": "tool 결과·로그·RAG 청크를 LLM 도달 전에 60~95% 압축한다고 주장하며 하루 3,528 스타로 이번 윈도우에 폭발한 신규 항목입니다. 라이브러리·프록시·MCP 서버 3종 형태로 제공돼 DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 agent loop 사이의 '컨텍스트 세금' 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260604/",
       "categories": [
         "MCP & 도구 통합"
       ]
