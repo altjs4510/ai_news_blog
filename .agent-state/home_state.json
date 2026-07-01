@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260702",
+      "display_date": "2026-07-02",
+      "title": "How Cursor deploys AI inside the enterprise (Forward Deployed Engineers)",
+      "url": "https://www.latent.space/p/cursor-forward-deployed-engineers",
+      "summary": "Cursor가 엔터프라이즈 침투를 위해 컨설팅에 가까운 Forward Deployed Engineer 조직을 운영하며 코딩 에이전트를 배포하는 방식을 정면으로 다룬 1차 자료입니다. 단일 모델 성능이 아니라 '조직·워크플로우 어댑테이션'이 실전 배포의 병목이라는 관점은 DCSAI의 사내 챗봇 롤아웃과 Team Agent의 Discovery 시범 운영(5/29~7/31) 결을 그대로 건드립니다.",
+      "knowledge_url": "/knowledge/20260702/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260701",
       "display_date": "2026-07-01",
       "title": "Google OKF (Open Knowledge Format) — 벤더 중립 에이전트 메모리 표준",
@@ -253,17 +264,6 @@
       "url": "https://github.com/chopratejas/headroom",
       "summary": "tool 결과·로그·RAG 청크를 LLM 도달 전에 60~95% 압축하는 라이브러리·프록시·MCP 서버 3종 패키지로, '컨텍스트 세금' 문제를 정조준합니다. DCSAI의 자체 MCP host server(tool 실행 결과 직주입)와 Team Agent의 dcsai KG MCP 직연결 결에서 가장 비싼 구간 — tool 출력이 agent loop 컨텍스트를 잠식하는 지점 — 을 미들웨어 한 겹으로 끊어낼 수 있는 신규 항목입니다.",
       "knowledge_url": "/knowledge/20260606/",
-      "categories": [
-        "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260605",
-      "display_date": "2026-06-05",
-      "title": "chopratejas/headroom — Compress tool outputs, logs, and RAG chunks before they reach the LLM",
-      "url": "https://github.com/chopratejas/headroom",
-      "summary": "도구 출력·로그·RAG 청크를 LLM에 도달하기 전 60~95% 압축하는 라이브러리/프록시/MCP 서버로, 하루 3,139 스타로 트렌딩 1위에 오른 신규 항목입니다. DCSAI의 자체 MCP host server(tool 실행 결과 패스스루)와 agent loop의 컨텍스트 세금 문제, 그리고 Team Agent의 Workflow HTML 파싱 → KG 조회로 누적되는 tool 출력 폭주를 정조준합니다.",
-      "knowledge_url": "/knowledge/20260605/",
       "categories": [
         "MCP & 도구 통합"
       ]

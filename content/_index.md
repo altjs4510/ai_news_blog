@@ -184,6 +184,12 @@ Anthropic이 **3대 하이퍼스케일러 모두에서 Claude Desktop을 동일 
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260702/">
+    <span class="ai-pick-date">2026-07-02</span>
+    <span class="ai-pick-title-mini">How Cursor deploys AI inside the enterprise (Forward Deploye…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260701/">
     <span class="ai-pick-date">2026-07-01</span>
     <span class="ai-pick-title-mini">Google OKF (Open Knowledge Format) — 벤더 중립 에이전트 메모리 표준</span>
