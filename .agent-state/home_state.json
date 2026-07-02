@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260703",
+      "display_date": "2026-07-03",
+      "title": "Giving admins more visibility and control over Claude spend",
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "summary": "Anthropic이 조직 관리자에게 워크스페이스·사용자 단위 사용량 대시보드와 지출 한도·알림을 정식 공개한 1차 자료로, Fable 5 이후 '계층적 모델 라우팅이 강제됐다'는 흐름(20260610 daily) 위에서 이제 조직 관리 레이어가 agent loop의 비용 관찰성에 직접 결합되는 분기점입니다. DCSAI agent loop의 HITL 분기와 MCP host server tool 실행 경계에서 '누가·어떤 브랜드가·어떤 스킬로 얼마 썼는지' 추적 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260703/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260702",
       "display_date": "2026-07-02",
       "title": "How Cursor deploys AI inside the enterprise (Forward Deployed Engineers)",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260607/",
       "categories": [
         "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260606",
-      "display_date": "2026-06-06",
-      "title": "chopratejas/headroom — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM",
-      "url": "https://github.com/chopratejas/headroom",
-      "summary": "tool 결과·로그·RAG 청크를 LLM 도달 전에 60~95% 압축하는 라이브러리·프록시·MCP 서버 3종 패키지로, '컨텍스트 세금' 문제를 정조준합니다. DCSAI의 자체 MCP host server(tool 실행 결과 직주입)와 Team Agent의 dcsai KG MCP 직연결 결에서 가장 비싼 구간 — tool 출력이 agent loop 컨텍스트를 잠식하는 지점 — 을 미들웨어 한 겹으로 끊어낼 수 있는 신규 항목입니다.",
-      "knowledge_url": "/knowledge/20260606/",
-      "categories": [
-        "MCP & 도구 통합"
       ]
     }
   ]
