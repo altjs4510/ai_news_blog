@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260704",
+      "display_date": "2026-07-04",
+      "title": "Cloudflare is about to block AI agents by default on a fifth of the web",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1umfd6q/cloudflare_is_about_to_block_ai_agents_by_default/",
+      "summary": "9월 15일부로 Cloudflare가 웹 트래픽의 약 20%에서 AI 에이전트를 기본 차단하고 Web Bot Auth(공개키 서명 기반 에이전트 신원)를 요구하는 정책은, tool use·MCP·브라우저 자동화를 직접 다루는 agent loop에 신원·서명 계층이라는 새 레이어를 강제합니다. 최근 14일 픽이 '런타임 격리(Lockdown Mode·SkillSpector·Fable 5 우회)'에 쏠렸던 것과 달리, 이번엔 '에이전트가 외부 웹에 나가는 경로 자체가 서명 없이는 막힌다'는 아웃바운드 신뢰 경계 결입니다.",
+      "knowledge_url": "/knowledge/20260704/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260703",
       "display_date": "2026-07-03",
       "title": "Giving admins more visibility and control over Claude spend",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260609/",
       "categories": [
         "산업 동향"
-      ]
-    },
-    {
-      "date_str": "20260607",
-      "display_date": "2026-06-07",
-      "title": "OpenAI Help: Lockdown Mode",
-      "url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
-      "summary": "ChatGPT가 외부 콘텐츠로부터 받은 명령을 무력화하는 Lockdown Mode를 Simon Willison이 정리·해설한 자료로, 에이전트가 tool use·MCP·브라우저를 직접 다루기 시작한 시점에 '외부 입력으로부터의 명령 격리'를 사용자 가시 토글로 끌어올린 첫 사례입니다. DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 HITL 분기 설계가 정면으로 다뤄야 할 '신뢰 경계 + 명령 격리' 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260607/",
-      "categories": [
-        "보안 & 거버넌스"
       ]
     }
   ]

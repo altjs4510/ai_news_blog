@@ -184,6 +184,12 @@ Anthropic이 **3대 하이퍼스케일러 모두에서 Claude Desktop을 동일 
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260704/">
+    <span class="ai-pick-date">2026-07-04</span>
+    <span class="ai-pick-title-mini">Cloudflare is about to block AI agents by default on a fifth…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260703/">
     <span class="ai-pick-date">2026-07-03</span>
     <span class="ai-pick-title-mini">Giving admins more visibility and control over Claude spend</span>
