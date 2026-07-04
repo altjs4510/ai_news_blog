@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260705",
+      "display_date": "2026-07-05",
+      "title": "openai/codex-plugin-cc — Claude Code에서 Codex를 위임 호출하는 공식 플러그인",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "summary": "OpenAI가 경쟁사 IDE 에이전트인 Claude Code의 plugin/skill/hook 표면 위에 자사 Codex를 '서브 에이전트'로 얹은 첫 공식 사례로, 하루 716 stars·누적 24k로 급부상 중입니다. DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)과 agent loop의 tool use 결에 '이종 모델을 서브 에이전트로 위임하는' 새 레퍼런스를 제공합니다.",
+      "knowledge_url": "/knowledge/20260705/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260704",
       "display_date": "2026-07-04",
       "title": "Cloudflare is about to block AI agents by default on a fifth of the web",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260610/",
       "categories": [
         "에이전트 오케스트레이션"
-      ]
-    },
-    {
-      "date_str": "20260609",
-      "display_date": "2026-06-09",
-      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
-      "url": "https://claude.com/blog/claude-for-foundation-models",
-      "summary": "Apple이 Foundation Models 프레임워크에 Claude를 정식 옵션으로 편입하면서 OS 레벨에서 Anthropic SDK 호출 패턴이 표준화되는 신호입니다. DCSAI가 의존하는 Anthropic SDK 직통합·HTTP chunked streaming·tool use 결을 OS 레이어로 확장한 1차 자료로, 모바일/데스크톱 클라이언트가 Claude를 호출하는 방식의 디폴트가 바뀌는 분기점입니다.",
-      "knowledge_url": "/knowledge/20260609/",
-      "categories": [
-        "산업 동향"
       ]
     }
   ]
