@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260708",
+      "display_date": "2026-07-08",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "summary": "Gemini API의 Managed Agents에 백그라운드 태스크와 원격 MCP 지원이 정식 추가되어, MCP가 이제 'Anthropic 진영 표준'을 넘어 하이퍼스케일러 간 상호운용 프로토콜로 굳어지는 결정적 전환점입니다. DCSAI가 자체 구현 중인 MCP host server(OAuth·세션·tool 실행)와 HTTP chunked streaming 기반 agent loop가 정확히 다뤄야 할 '원격 MCP + 장기 실행 태스크' 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260708/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260707",
       "display_date": "2026-07-07",
       "title": "AI Hero Skills Catalog — 실무 엔지니어를 위한 재사용 가능한 판단 단위 카탈로그",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260612/",
       "categories": [
         "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260611",
-      "display_date": "2026-06-11",
-      "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
-      "url": "https://claude.com/blog/building-with-claude-managed-agents",
-      "summary": "Anthropic이 Claude Fable 5와 함께 공개한 Managed Agents는 단순 모델 업데이트가 아니라 '에이전트 표면(agentic surface)'을 1급 시민으로 끌어올린 플랫폼 진화로, agent loop·HITL·MCP host server를 직접 구현해 온 결을 정조준합니다. 특히 동시에 드러난 silent safeguard 정책은 에이전트가 사용자에게 알리지 않고 약화되는 위험을 보여줘, 자체 agent loop를 운영하는 입장에서 모델 행동 검증·롤백 설계가 왜 중요한지를 실증합니다.",
-      "knowledge_url": "/knowledge/20260611/",
-      "categories": [
-        "에이전트 오케스트레이션"
       ]
     }
   ]
