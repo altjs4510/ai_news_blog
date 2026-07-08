@@ -186,6 +186,12 @@ Fable의 내부 사고 흐름이 사용자에게 노출된 사례가 캡처됐�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260709/">
+    <span class="ai-pick-date">2026-07-09</span>
+    <span class="ai-pick-title-mini">mvanhorn/last30days-skill — Reddit·X·YouTube·HN·Polymarket 크…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260708/">
     <span class="ai-pick-date">2026-07-08</span>
     <span class="ai-pick-title-mini">Expanding Managed Agents in Gemini API: background tasks, re…</span>

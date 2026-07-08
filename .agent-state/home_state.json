@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260709",
+      "display_date": "2026-07-09",
+      "title": "mvanhorn/last30days-skill — Reddit·X·YouTube·HN·Polymarket 크로스 리서치 Claude Skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "summary": "단일 스킬 파일이 여러 소셜/시장 데이터 소스를 병렬 조회한 뒤 근거 기반 요약으로 합성하는 구조로, agent-skills·superpowers처럼 '스킬 디렉토리 모음'이 아니라 특정 리서치 워크플로우 자체를 스킬로 패키징한 새 결입니다. Claude Code plugin/skill/hook 4축 중 skill 단독으로 멀티소스 리서치 파이프라인을 완결한다는 점이 핵심입니다.",
+      "knowledge_url": "/knowledge/20260709/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260708",
       "display_date": "2026-07-08",
       "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
@@ -253,17 +264,6 @@
       "url": "https://www.reddit.com/r/PromptEngineering/comments/1u3q3kv/fable_5s_guardrails_got_bypassed_in_48_hours/",
       "summary": "1,000시간 레드팀을 거친 Claude Fable 5 분류기 계층이 유니코드 동형문자·장문맥 프레이밍·요청 분해/외부 재조립으로 이틀 만에 뚫린 사례입니다. 핵심 교훈은 분류기가 입력 조각을 '독립적으로' 평가하면 다중 턴 공격에 본질적으로 취약하다는 점으로, 보안·거버넌스 관점에서 agent loop의 HITL 분기와 tool use 경계 설계가 단발 분류기로는 부족하다는 것을 실증합니다.",
       "knowledge_url": "/knowledge/20260613/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260612",
-      "display_date": "2026-06-12",
-      "title": "NVIDIA/SkillSpector — AI 에이전트 스킬용 보안 스캐너",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "summary": "TeamPCP의 npm 96개 패키지 백도어가 `~/.claude/settings.json`과 `.vscode/tasks.json`에 영속화되며 Claude Code 실행마다 재실행되는 사건이 터진 직후, NVIDIA가 '에이전트 스킬 정적 보안 스캐너'라는 새 카테고리를 공개해 GitHub 트렌딩에 진입했습니다. agent skill·plugin·hook의 악성 패턴을 검사하는 결로, DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)과 MCP host server의 tool 권한 경계 설계를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260612/",
       "categories": [
         "보안 & 거버넌스"
       ]
