@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260710",
+      "display_date": "2026-07-10",
+      "title": "70개 MCP 서버 strace 런타임 감사 — 부팅 시 아웃바운드 호출 서버 적발",
+      "url": "https://www.reddit.com/r/mcp/comments/1us3gv7/we_build_a_model_agnostic_claude_managed_agents/",
+      "summary": "MCP 서버 생태계가 폭발하는 지금, 정적 스캔(SkillSpector 결)을 넘어 strace 기반 런타임 행동 감시로 부팅 시 은밀한 아웃바운드 호출을 잡아내는 첫 커뮤니티 감사 사례입니다. DCSAI가 자체 MCP host server(OAuth·세션·tool 실행)에서 외부 MCP 서버를 등록·실행할 때 필요한 '공급망 신뢰 경계' 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260710/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260709",
       "display_date": "2026-07-09",
       "title": "mvanhorn/last30days-skill — Reddit·X·YouTube·HN·Polymarket 크로스 리서치 Claude Skill",
@@ -253,17 +264,6 @@
       "url": "https://github.com/NVIDIA/SkillSpector",
       "summary": "agent-skills·superpowers 같은 Claude Code skill 생태계가 폭발하자마자 NVIDIA가 직접 skill 취약점·악성 패턴을 스캔하는 도구를 내놓은 것이 결정적입니다. DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)과 자체 MCP host server의 tool 실행 권한 경계 결을 정조준하며, 최근 14일 픽이 다룬 'skill 생성/품질' 결을 '공급망 보안'이라는 새 결로 확장합니다.",
       "knowledge_url": "/knowledge/20260614/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260613",
-      "display_date": "2026-06-13",
-      "title": "Fable 5's guardrails got bypassed in 48 hours — 요청 분해·외부 재조립 우회 분석",
-      "url": "https://www.reddit.com/r/PromptEngineering/comments/1u3q3kv/fable_5s_guardrails_got_bypassed_in_48_hours/",
-      "summary": "1,000시간 레드팀을 거친 Claude Fable 5 분류기 계층이 유니코드 동형문자·장문맥 프레이밍·요청 분해/외부 재조립으로 이틀 만에 뚫린 사례입니다. 핵심 교훈은 분류기가 입력 조각을 '독립적으로' 평가하면 다중 턴 공격에 본질적으로 취약하다는 점으로, 보안·거버넌스 관점에서 agent loop의 HITL 분기와 tool use 경계 설계가 단발 분류기로는 부족하다는 것을 실증합니다.",
-      "knowledge_url": "/knowledge/20260613/",
       "categories": [
         "보안 & 거버넌스"
       ]
