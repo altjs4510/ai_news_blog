@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260711",
+      "display_date": "2026-07-11",
+      "title": "OpenAI says GPT 5.6 is the 'preferred model' for Microsoft Copilot 365",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "summary": "GPT-5.6 출시 자체보다도 Microsoft Copilot 365의 'preferred model' 지정과 결별설이 동시에 흘러나온다는 점이 핵심입니다. 사내 IT가 M365 SSO·Copilot 표준을 이미 깔아둔 조직에서 Anthropic SDK 직통합 기반 사내 챗봇이 어떤 포지션을 가져가야 하는지 — 즉 DCSAI의 Microsoft SSO(NextAuth→Azure AD) 경계와 모델 라우팅 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260711/",
+      "categories": [
+        "산업 동향"
+      ]
+    },
+    {
       "date_str": "20260710",
       "display_date": "2026-07-10",
       "title": "70개 MCP 서버 strace 런타임 감사 — 부팅 시 아웃바운드 호출 서버 적발",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260616/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260614",
-      "display_date": "2026-06-14",
-      "title": "NVIDIA/SkillSpector — Security scanner for AI agent skills",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "summary": "agent-skills·superpowers 같은 Claude Code skill 생태계가 폭발하자마자 NVIDIA가 직접 skill 취약점·악성 패턴을 스캔하는 도구를 내놓은 것이 결정적입니다. DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)과 자체 MCP host server의 tool 실행 권한 경계 결을 정조준하며, 최근 14일 픽이 다룬 'skill 생성/품질' 결을 '공급망 보안'이라는 새 결로 확장합니다.",
-      "knowledge_url": "/knowledge/20260614/",
-      "categories": [
-        "보안 & 거버넌스"
       ]
     }
   ]

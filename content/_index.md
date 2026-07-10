@@ -186,6 +186,12 @@ Fable의 내부 사고 흐름이 사용자에게 노출된 사례가 캡처됐�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260711/">
+    <span class="ai-pick-date">2026-07-11</span>
+    <span class="ai-pick-title-mini">OpenAI says GPT 5.6 is the 'preferred model' for Microsoft C…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260710/">
     <span class="ai-pick-date">2026-07-10</span>
     <span class="ai-pick-title-mini">70개 MCP 서버 strace 런타임 감사 — 부팅 시 아웃바운드 호출 서버 적발</span>
