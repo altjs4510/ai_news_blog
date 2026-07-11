@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260712",
+      "display_date": "2026-07-12",
+      "title": "Do Automated Evals Work?",
+      "url": "https://hamel.dev/",
+      "summary": "Hamel Husain이 자동화된 평가의 실효성에 정면으로 문제를 제기한 신선한 1차 자료로, agent loop·HITL 분기가 '무엇을 통과 기준으로 삼을 것인가'라는 관측성 결을 정조준합니다. 최근 14일 픽이 '배포 전 시뮬레이션(20260617)'과 '자기보고 신뢰성(20260616)' 같은 상위 레이어를 다뤘다면, 이번은 그 아래의 evals 자체가 신뢰 가능한가라는 새 결입니다.",
+      "knowledge_url": "/knowledge/20260712/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260711",
       "display_date": "2026-07-11",
       "title": "OpenAI says GPT 5.6 is the 'preferred model' for Microsoft Copilot 365",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260617/",
       "categories": [
         "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260616",
-      "display_date": "2026-06-16",
-      "title": "Why AI hasn't replaced software engineers, and won't",
-      "url": "https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything",
-      "summary": "모델 성능 평준화 국면에서 '에이전트 자기보고의 신뢰성'과 '컨텍스트 아키텍처'가 실제 결과를 가른다는 커뮤니티 합의를 정면으로 다룹니다. DCSAI agent loop의 HITL 분기 설계 근거와 Team Agent의 Activity Log/Observer 피드백루프(L1)가 왜 필수인지에 대한 1차 레퍼런스로, Skills(턴당 53토큰) vs agents.md(944+토큰) 같은 구체 수치까지 담겨 Claude Code plugin/skill/hook 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260616/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
