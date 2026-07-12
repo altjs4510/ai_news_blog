@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "GPT-5.6 패밀리 공개와 Claude Cowork 확장, 에이전트 인프라가 표준화되는 주"
+date: 2026-07-13
+toc: true
+layout: single
+description: "모델 릴리스보다 샌드박스·멀티플렉서·게이트웨이 같은 실행 인프라가 이번 주 판을 갈랐다."
+tags: ["에이전트 샌드박스", "GPT-5.6", "Claude Cowork", "MCP 실행 경계", "멀티에이전트 위임"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">GPT-5.6 패밀리 공개와 Claude Cowork 확장, 에이전트 인프라가 표준화되는 주</h1>
-  <p class="ai-home-deck">모델 릴리스보다 샌드박스·멀티플렉서·게이트웨이 같은 실행 인프라가 이번 주 판을 갈랐다.</p>
-  <p class="ai-meta">2026-07-13 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260713/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-07-13 · 주간 요약</p>
+  <h2 class="ai-post-title">GPT-5.6 패밀리 공개와 Claude Cowork 확장, 에이전트 인프라가 표준화되는 주</h2>
+  <p class="ai-post-deck">모델 릴리스보다 샌드박스·멀티플렉서·게이트웨이 같은 실행 인프라가 이번 주 판을 갈랐다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -180,54 +174,6 @@ AI는 이제 산업 인프라 재편의 축입니다. **Deutsche Telekom은 통�
 
 Clem Delangue는 기업들이 **API 임대에서 자체 오픈소스 스택 소유로 이동**하고 있다고 진단했습니다. 오픈소스 AI의 전략적 가치가 다시 강조되는 시점이며, GPT-5.6·Fable 5 같은 폐쇄 최상위 모델과 별개의 축이 견고해지고 있다는 신호입니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260712/">
-    <span class="ai-pick-date">2026-07-12</span>
-    <span class="ai-pick-title-mini">Do Automated Evals Work?</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260711/">
-    <span class="ai-pick-date">2026-07-11</span>
-    <span class="ai-pick-title-mini">OpenAI says GPT 5.6 is the 'preferred model' for Microsoft C…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260710/">
-    <span class="ai-pick-date">2026-07-10</span>
-    <span class="ai-pick-title-mini">70개 MCP 서버 strace 런타임 감사 — 부팅 시 아웃바운드 호출 서버 적발</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260709/">
-    <span class="ai-pick-date">2026-07-09</span>
-    <span class="ai-pick-title-mini">mvanhorn/last30days-skill — Reddit·X·YouTube·HN·Polymarket 크…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260708/">
-    <span class="ai-pick-date">2026-07-08</span>
-    <span class="ai-pick-title-mini">Expanding Managed Agents in Gemini API: background tasks, re…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260707/">
-    <span class="ai-pick-date">2026-07-07</span>
-    <span class="ai-pick-title-mini">AI Hero Skills Catalog — 실무 엔지니어를 위한 재사용 가능한 판단 단위 카탈로그</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -240,3 +186,5 @@ Clem Delangue는 기업들이 **API 임대에서 자체 오픈소스 스택 소�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
