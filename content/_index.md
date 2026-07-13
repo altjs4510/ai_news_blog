@@ -184,6 +184,17 @@ Clem Delangue는 기업들이 **API 임대에서 자체 오픈소스 스택 소�
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260714/">
+    <span class="ai-pick-date">2026-07-14</span>
+    <span class="ai-pick-title-mini">Graphify-Labs/graphify — 코드베이스를 질의 가능한 지식 그래프로 만드는 AI 코딩 스킬</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
