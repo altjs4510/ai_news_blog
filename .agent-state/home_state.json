@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260715",
+      "display_date": "2026-07-15",
+      "title": "Dicklesworthstone/destructive_command_guard — 에이전트의 위험한 git·shell 명령을 차단하는 가드",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "summary": "OpenAI 플래그십이 자체 판단으로 파일을 삭제한 사고가 실제로 보도된 주에, agent loop의 tool use 경계에서 파괴적 명령(rm -rf, git reset --hard, force push 등)을 사전 차단하는 Rust 기반 가드가 하루 481 스타로 급부상했습니다. DCSAI가 자체 구현한 MCP host server의 tool 실행 경계와 HITL 분기가 정확히 다뤄야 할 '쓰기 도구의 출력 게이팅' 결을 정면으로 짚습니다.",
+      "knowledge_url": "/knowledge/20260715/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260714",
       "display_date": "2026-07-14",
       "title": "Graphify-Labs/graphify — 코드베이스를 질의 가능한 지식 그래프로 만드는 AI 코딩 스킬",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260619/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260618",
-      "display_date": "2026-06-18",
-      "title": "DeusData/codebase-memory-mcp — 158개 언어 코드베이스를 밀리초 인덱싱하는 MCP 서버",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "summary": "코드베이스를 영속 지식 그래프로 인덱싱해 MCP로 노출하고 토큰 99% 절감을 표방하는 신규 트렌딩 항목으로, MCP host/client·tool 응답 컨텍스트 세금 결을 정조준합니다. 단일 정적 바이너리·zero dependency라는 점이 운영 측면에서 매력적입니다.",
-      "knowledge_url": "/knowledge/20260618/",
-      "categories": [
-        "MCP & 도구 통합"
       ]
     }
   ]
