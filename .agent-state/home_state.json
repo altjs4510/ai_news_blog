@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260716",
+      "display_date": "2026-07-16",
+      "title": "Dicklesworthstone/destructive_command_guard — 에이전트의 위험한 shell/git 명령을 차단하는 Rust 가드",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "summary": "Claude Web Fetch exfiltration 시연·Microsoft AI 취약점 패치 급증과 같은 주에 하루 497 stars로 급부상한, '에이전트가 실행하는 명령 자체를 런타임에서 막는다'는 방어 레이어의 1차 오픈소스 레퍼런스입니다. DCSAI MCP host server의 tool 실행 경계와 HITL 분기, 그리고 Claude Code plugin/hook의 pre-execution 훅 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260716/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260715",
       "display_date": "2026-07-15",
       "title": "Dicklesworthstone/destructive_command_guard — 에이전트의 위험한 git·shell 명령을 차단하는 가드",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260620/",
       "categories": [
         "모델 & 연구"
-      ]
-    },
-    {
-      "date_str": "20260619",
-      "display_date": "2026-06-19",
-      "title": "Claude Code now supports artifacts",
-      "url": "https://claude.com/blog/artifacts-in-claude-code",
-      "summary": "Claude Code가 터미널 안에서 생성한 산출물을 artifact로 영속화·재사용하는 구조를 정식 지원하면서, plugin/skill/hook 패턴 위에 '에이전트 출력의 1급 객체화'라는 새 레이어가 추가됐습니다. DCSAI의 Claude Code plugin/skill/hook 결과 agent loop의 tool use 산출물을 어떻게 영속화·재참조할지에 직접 닿는 1차 자료입니다.",
-      "knowledge_url": "/knowledge/20260619/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
