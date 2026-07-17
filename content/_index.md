@@ -187,6 +187,12 @@ Clem Delangue는 기업들이 **API 임대에서 자체 오픈소스 스택 소�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260718/">
+    <span class="ai-pick-date">2026-07-18</span>
+    <span class="ai-pick-title-mini">tirth8205/code-review-graph — MCP·CLI용 로컬 코드 인텔리전스 그래프</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260717/">
     <span class="ai-pick-date">2026-07-17</span>
     <span class="ai-pick-title-mini">After a year building agent memory, "save everything + RAG i…</span>

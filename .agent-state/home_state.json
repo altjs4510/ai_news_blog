@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260718",
+      "display_date": "2026-07-18",
+      "title": "tirth8205/code-review-graph — MCP·CLI용 로컬 코드 인텔리전스 그래프",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "summary": "대규모 저장소를 지속적 그래프로 인덱싱해 '필요한 것만 읽게' 만드는 로컬 퍼스트 코드 인텔리전스 레이어로, MCP 서버 인터페이스와 CLI를 함께 제공해 컨텍스트 축소를 벤치마크로 검증합니다. DCSAI의 MCP host server(OAuth·세션·tool 실행) 결과 Claude Code plugin/skill의 '컨텍스트 세금' 문제를 그래프 기반 부분 로딩으로 끊는 새 결입니다.",
+      "knowledge_url": "/knowledge/20260718/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260717",
       "display_date": "2026-07-17",
       "title": "After a year building agent memory, \"save everything + RAG it\" is the wrong default",
@@ -253,17 +264,6 @@
       "url": "https://github.com/bytedance/deer-flow",
       "summary": "단발 tool 호출이 아닌 '분 단위~시간 단위' 장기 작업을 위해 sandbox·memory·subagent·message gateway를 한 묶음으로 패키징한 오픈소스 하네스로, 73k stars로 이미 검증된 레퍼런스다. Team Agent의 `discovery-core-agent`/`platform-core-agent` 2계층 오케스트레이션과 DCSAI agent loop의 HITL 분기 설계가 정확히 다뤄야 할 '서브에이전트 간 메시지 게이트웨이·공유 메모리' 결을 정조준한다.",
       "knowledge_url": "/knowledge/20260623/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
-    },
-    {
-      "date_str": "20260621",
-      "display_date": "2026-06-21",
-      "title": "calesthio/OpenMontage — 12 파이프라인·52 도구·500+ 스킬을 묶은 에이전틱 비디오 프로덕션 시스템",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "summary": "'세계 최초 오픈소스 에이전틱 비디오 프로덕션' 표방으로 하루 677 stars를 기록한 신규 항목으로, 단일 도메인(영상 편집)에 12개 파이프라인·52개 도구·500+ 에이전트 스킬을 묶어 Claude Code 같은 코딩 어시스턴트를 한 번에 '풀 스튜디오'로 변신시키는 결을 정조준합니다. DCSAI `dcs-ai-plugin`의 commands/agents/skills/hooks 4축 구조와 Team Agent의 `discovery-core-agent`/`platform-core-agent` 2계층 오케스트레이션이 다루는 '도메인 특화 에이전트 팀 + 스킬 번들' 패턴을 영상이라는 이질적 모달리티로 확장한 1차 레퍼런스입니다.",
-      "knowledge_url": "/knowledge/20260621/",
       "categories": [
         "에이전트 오케스트레이션"
       ]
