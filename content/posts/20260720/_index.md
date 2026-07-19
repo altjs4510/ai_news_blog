@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Skills가 프롬프트를 대체한다 — 재사용 가능한 판단 단위의 부상"
+date: 2026-07-20
+toc: true
+layout: single
+description: "Fable 5·Kimi K3가 프론티어를 다극화하는 사이, 코딩 에이전트의 실전 병목은 '무엇을 어떻게 패키징할 것인가'로 이동했다."
+tags: ["Claude Skills", "Anti-AI-slop", "디자인 시스템", "Claude Fable 5", "컨텍스트 세금"]
+categories: ["코딩 에이전트"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Skills가 프롬프트를 대체한다 — 재사용 가능한 판단 단위의 부상</h1>
-  <p class="ai-home-deck">Fable 5·Kimi K3가 프론티어를 다극화하는 사이, 코딩 에이전트의 실전 병목은 '무엇을 어떻게 패키징할 것인가'로 이동했다.</p>
-  <p class="ai-meta">2026-07-20 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260720/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-07-20 · 주간 요약</p>
+  <h2 class="ai-post-title">Skills가 프롬프트를 대체한다 — 재사용 가능한 판단 단위의 부상</h2>
+  <p class="ai-post-deck">Fable 5·Kimi K3가 프론티어를 다극화하는 사이, 코딩 에이전트의 실전 병목은 '무엇을 어떻게 패키징할 것인가'로 이동했다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -174,54 +168,6 @@ Simon Willison이 발견한 이 사실은 **Anthropic이 배포 성능을 위해
 
 2유로 한도를 걸었는데 단일 요약 프롬프트에 14유로가 청구된 사건은 **에이전트 시대의 과금 UX**가 아직 미성숙함을 드러냅니다. 자율 실행이 늘어날수록 "한도"라는 개념 자체가 신뢰의 최전선이 되며, 이는 CFO 도입 결정의 실질적 병목이 될 가능성이 높습니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260719/">
-    <span class="ai-pick-date">2026-07-19</span>
-    <span class="ai-pick-title-mini">tirth8205/code-review-graph — 로컬 우선 코드 인텔리전스 그래프(MCP·CLI)</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260718/">
-    <span class="ai-pick-date">2026-07-18</span>
-    <span class="ai-pick-title-mini">tirth8205/code-review-graph — MCP·CLI용 로컬 코드 인텔리전스 그래프</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260717/">
-    <span class="ai-pick-date">2026-07-17</span>
-    <span class="ai-pick-title-mini">After a year building agent memory, "save everything + RAG i…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260716/">
-    <span class="ai-pick-date">2026-07-16</span>
-    <span class="ai-pick-title-mini">Dicklesworthstone/destructive_command_guard — 에이전트의 위험한 shel…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260715/">
-    <span class="ai-pick-date">2026-07-15</span>
-    <span class="ai-pick-title-mini">Dicklesworthstone/destructive_command_guard — 에이전트의 위험한 git·…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260714/">
-    <span class="ai-pick-date">2026-07-14</span>
-    <span class="ai-pick-title-mini">Graphify-Labs/graphify — 코드베이스를 질의 가능한 지식 그래프로 만드는 AI 코딩 스킬</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -234,3 +180,5 @@ Simon Willison이 발견한 이 사실은 **Anthropic이 배포 성능을 위해
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
