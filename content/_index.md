@@ -178,6 +178,17 @@ Simon Willison이 발견한 이 사실은 **Anthropic이 배포 성능을 위해
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260721/">
+    <span class="ai-pick-date">2026-07-21</span>
+    <span class="ai-pick-title-mini">tirth8205/code-review-graph — 로컬 우선 코드 인텔리전스 그래프(MCP·CLI)</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">

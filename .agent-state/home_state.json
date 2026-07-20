@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260721",
+      "display_date": "2026-07-21",
+      "title": "tirth8205/code-review-graph — 로컬 우선 코드 인텔리전스 그래프(MCP·CLI)",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "summary": "코드베이스를 영속적인 그래프로 매핑해 AI 코딩 도구가 '필요한 부분만' 읽도록 컨텍스트를 벤치마크된 수준으로 축소하는 로컬 우선 도구입니다. MCP 서버로 노출된다는 점에서 DCSAI가 자체 구현 중인 MCP host server(tool 실행 경계)와 agent loop의 '컨텍스트 세금' 문제를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260721/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260719",
       "display_date": "2026-07-19",
       "title": "tirth8205/code-review-graph — 로컬 우선 코드 인텔리전스 그래프(MCP·CLI)",
@@ -253,17 +264,6 @@
       "url": "https://claude.com/blog/agent-identity-access-model",
       "summary": "에이전트를 사람과 분리된 1급 주체로 보고 고유 신원·권한·감사 경계를 부여하는 첫 공식 청사진입니다. DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 HITL 분기, 그리고 Team Agent의 BrandScopeInterceptor·KG 권한 가드가 정확히 다뤄야 할 '에이전트 정체성 + tool 권한 경계' 결을 정조준합니다.",
       "knowledge_url": "/knowledge/20260625/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
-    },
-    {
-      "date_str": "20260624",
-      "display_date": "2026-06-24",
-      "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
-      "url": "https://claude.com/blog/agent-identity-access-model",
-      "summary": "Anthropic이 처음으로 '에이전트 정체성(agent identity)'을 사람과 별개의 1급 보안 주체로 끌어올린 1차 문서로, 팀 전체가 공유하는 에이전트의 접근 제어·감사·권한 위임 모델을 정조준합니다. DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 HITL 분기, Team Agent의 멀티브랜드 yaml 주입·BrandScopeInterceptor 결을 동시에 건드리는 새 결입니다.",
-      "knowledge_url": "/knowledge/20260624/",
       "categories": [
         "에이전트 오케스트레이션"
       ]
