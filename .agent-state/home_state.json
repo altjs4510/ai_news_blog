@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260722",
+      "display_date": "2026-07-22",
+      "title": "tirth8205/code-review-graph — MCP·CLI용 로컬 우선 코드 인텔리전스 그래프",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "summary": "코드베이스를 영속 그래프로 인덱싱해 AI 코딩 도구가 '중요한 것만' 읽게 만드는 로컬 우선 코드 인텔리전스로, 리뷰·대형 레포 워크플로우에서 벤치마크된 컨텍스트 절감을 제시합니다(하루 1,921 stars 급부상). DCSAI의 MCP host server + Neo4j KG와 agent loop의 '컨텍스트 세금' 결을 정면으로 건드립니다 — 최근 14일 픽이 다룬 MCP 런타임 감사(20260710)·스킬 카탈로그 결과는 명확히 다른 '코드 그래프 인덱싱'이라는 새 결입니다.",
+      "knowledge_url": "/knowledge/20260722/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260721",
       "display_date": "2026-07-21",
       "title": "tirth8205/code-review-graph — 로컬 우선 코드 인텔리전스 그래프(MCP·CLI)",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260626/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260625",
-      "display_date": "2026-06-25",
-      "title": "Agent identity in Claude Tag: a new access model for autonomous, team-wide AI",
-      "url": "https://claude.com/blog/agent-identity-access-model",
-      "summary": "에이전트를 사람과 분리된 1급 주체로 보고 고유 신원·권한·감사 경계를 부여하는 첫 공식 청사진입니다. DCSAI의 자체 MCP host server(OAuth·세션·tool 실행)와 HITL 분기, 그리고 Team Agent의 BrandScopeInterceptor·KG 권한 가드가 정확히 다뤄야 할 '에이전트 정체성 + tool 권한 경계' 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260625/",
-      "categories": [
-        "에이전트 오케스트레이션"
       ]
     }
   ]
