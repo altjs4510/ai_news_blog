@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260723",
+      "display_date": "2026-07-23",
+      "title": "diegosouzapw/OmniRoute — 268+ 프로바이더를 단일 엔드포인트로 묶는 쿼터 인지 자동 폴백 AI 게이트웨이",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "summary": "268개 이상 프로바이더·500개 이상 모델을 하나의 엔드포인트로 묶고 쿼터 소진 시 자동 폴백하는 MIT 게이트웨이로, 하루 1,648스타로 급부상 중입니다. '어떤 모델로 에이전트를 돌릴지'를 추상화하는 라우팅·폴백 레이어라는 점에서 Anthropic SDK 기반 agent loop의 모델 라우팅 결을 정조준합니다.",
+      "knowledge_url": "/knowledge/20260723/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260722",
       "display_date": "2026-07-22",
       "title": "tirth8205/code-review-graph — MCP·CLI용 로컬 우선 코드 인텔리전스 그래프",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260630/",
       "categories": [
         "산업 동향"
-      ]
-    },
-    {
-      "date_str": "20260626",
-      "display_date": "2026-06-26",
-      "title": "google-labs-code/design.md — 코딩 에이전트에게 디자인 시스템을 영속적으로 전달하는 포맷 명세",
-      "url": "https://github.com/google-labs-code/design.md",
-      "summary": "Google Labs가 직접 정의한 'DESIGN.md' 포맷은 디자인 시스템(컬러·타이포·컴포넌트 규칙)을 코딩 에이전트가 매 턴 재해석하지 않고 영속적·구조화된 형태로 참조하게 만드는 1차 표준 시도입니다. agents.md/skill 결의 '컨텍스트 세금' 문제를 디자인 레이어에서 끊는다는 점에서, Claude Code plugin/skill/hook과 FSD 기반 프런트엔드 일관성 결을 동시에 정조준합니다. 하루 1,407 스타로 이번 윈도우 최상위 freshness.",
-      "knowledge_url": "/knowledge/20260626/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
