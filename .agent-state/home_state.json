@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260724",
+      "display_date": "2026-07-24",
+      "title": "diegosouzapw/OmniRoute — 단일 엔드포인트로 278+ 프로바이더·500+ 모델을 잇는 쿼터 인식 AI 게이트웨이",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "summary": "Claude·GPT·Gemini·Kimi 등 500+ 모델을 하나의 엔드포인트로 묶고 쿼터 인식 자동 폴백·토큰 압축(15~95% 절감)·MCP/A2A를 내장한 오픈소스 게이트웨이로, 하루 1,925 스타로 트렌딩 상위에 올랐습니다. DCSAI의 MCP host server와 agent loop가 다뤄야 할 '모델 선택·비용/가용성 최적화·프로바이더 폴백' 결을 정면으로 구현한 레퍼런스입니다.",
+      "knowledge_url": "/knowledge/20260724/",
+      "categories": [
+        "인프라 & 컴퓨트"
+      ]
+    },
+    {
       "date_str": "20260723",
       "display_date": "2026-07-23",
       "title": "diegosouzapw/OmniRoute — 268+ 프로바이더를 단일 엔드포인트로 묶는 쿼터 인지 자동 폴백 AI 게이트웨이",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260701/",
       "categories": [
         "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260630",
-      "display_date": "2026-06-30",
-      "title": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
-      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "summary": "Anthropic이 Bedrock·Google Cloud용 Claude Apps 게이트웨이를 공개하면서, 같은 날 Microsoft Foundry GA까지 마무리해 3대 하이퍼스케일러를 모두 커버하는 첫 프런티어 모델이 됐습니다. 단순 SDK 호출이 아니라 '게이트웨이' 형태로 분배된다는 점이 DCSAI의 Anthropic SDK 직통합·MCP host server·HTTP chunked streaming 결을 정조준합니다 — 사내 IT가 AWS/GCP 표준 IAM·네트워크 경계 안에서 Claude를 호출하라고 요구할 때 곧장 비교 대상이 되는 1차 자료입니다.",
-      "knowledge_url": "/knowledge/20260630/",
-      "categories": [
-        "산업 동향"
       ]
     }
   ]
