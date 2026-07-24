@@ -181,6 +181,12 @@ Simon Willison이 발견한 이 사실은 **Anthropic이 배포 성능을 위해
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260725/">
+    <span class="ai-pick-date">2026-07-25</span>
+    <span class="ai-pick-title-mini">The new rules of context engineering for Claude 5 generation…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260724/">
     <span class="ai-pick-date">2026-07-24</span>
     <span class="ai-pick-title-mini">diegosouzapw/OmniRoute — 단일 엔드포인트로 278+ 프로바이더·500+ 모델을 잇는 쿼터…</span>
