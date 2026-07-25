@@ -181,6 +181,12 @@ Simon Willison이 발견한 이 사실은 **Anthropic이 배포 성능을 위해
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260726/">
+    <span class="ai-pick-date">2026-07-26</span>
+    <span class="ai-pick-title-mini">citrolabs/ego-lite — 로그인된 브라우저 상태를 AI 에이전트와 공유하는 웹 자동화 브라우저</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260725/">
     <span class="ai-pick-date">2026-07-25</span>
     <span class="ai-pick-title-mini">The new rules of context engineering for Claude 5 generation…</span>
