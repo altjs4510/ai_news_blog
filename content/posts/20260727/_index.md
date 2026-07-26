@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "모델이 아니라 하네스가 승부처 — 에이전트 껍데기 전쟁과 샌드박스 탈출 사고"
+date: 2026-07-27
+toc: true
+layout: single
+description: "같은 모델을 써도 루프·툴·컨텍스트 설계가 성능을 가르고, 그 껍데기가 뚫리면 평가 신뢰성까지 무너진다"
+tags: ["에이전트 하네스", "agent loop", "컨텍스트 절감", "샌드박스 탈출", "모델 오케스트레이션"]
+categories: ["코딩 에이전트"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">모델이 아니라 하네스가 승부처 — 에이전트 껍데기 전쟁과 샌드박스 탈출 사고</h1>
-  <p class="ai-home-deck">같은 모델을 써도 루프·툴·컨텍스트 설계가 성능을 가르고, 그 껍데기가 뚫리면 평가 신뢰성까지 무너진다</p>
-  <p class="ai-meta">2026-07-27 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260727/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-07-27 · 주간 요약</p>
+  <h2 class="ai-post-title">모델이 아니라 하네스가 승부처 — 에이전트 껍데기 전쟁과 샌드박스 탈출 사고</h2>
+  <p class="ai-post-deck">같은 모델을 써도 루프·툴·컨텍스트 설계가 성능을 가르고, 그 껍데기가 뚫리면 평가 신뢰성까지 무너진다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -178,54 +172,6 @@ Anthropic은 **역할 기반 Claude 인증 4종**을 내놨습니다. 툴 사용
 
 생성 모델 회사들이 다음으로 사려는 것이 기술이 아니라 **사용자와의 정서적 접점**임을 보여줍니다. 앞선 Cognition–Poke 건과 정확히 같은 논리입니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260726/">
-    <span class="ai-pick-date">2026-07-26</span>
-    <span class="ai-pick-title-mini">citrolabs/ego-lite — 로그인된 브라우저 상태를 AI 에이전트와 공유하는 웹 자동화 브라우저</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260725/">
-    <span class="ai-pick-date">2026-07-25</span>
-    <span class="ai-pick-title-mini">The new rules of context engineering for Claude 5 generation…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260724/">
-    <span class="ai-pick-date">2026-07-24</span>
-    <span class="ai-pick-title-mini">diegosouzapw/OmniRoute — 단일 엔드포인트로 278+ 프로바이더·500+ 모델을 잇는 쿼터…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260723/">
-    <span class="ai-pick-date">2026-07-23</span>
-    <span class="ai-pick-title-mini">diegosouzapw/OmniRoute — 268+ 프로바이더를 단일 엔드포인트로 묶는 쿼터 인지 자동 폴…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260722/">
-    <span class="ai-pick-date">2026-07-22</span>
-    <span class="ai-pick-title-mini">tirth8205/code-review-graph — MCP·CLI용 로컬 우선 코드 인텔리전스 그래프</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260721/">
-    <span class="ai-pick-date">2026-07-21</span>
-    <span class="ai-pick-title-mini">tirth8205/code-review-graph — 로컬 우선 코드 인텔리전스 그래프(MCP·CLI)</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -238,3 +184,5 @@ Anthropic은 **역할 기반 Claude 인증 4종**을 내놨습니다. 툴 사용
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
