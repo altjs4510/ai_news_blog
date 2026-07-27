@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260728",
+      "display_date": "2026-07-28",
+      "title": "alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드리뷰 (하루 980 stars)",
+      "url": "https://github.com/alibaba/open-code-review",
+      "summary": "알리바바 내부 스케일에서 검증된 코드리뷰 도구를 오픈소스로 푼 건데, 핵심은 '전부 LLM에 맡기지 않는다'는 아키텍처입니다 — NPE·thread-safety·XSS·SQL injection 같은 파인튜닝된 룰셋을 결정론적 파이프라인이 먼저 걸러내고, 판단이 필요한 지점만 LLM 에이전트가 라인 단위 코멘트로 처리하며 OpenAI/Anthropic 양쪽 호환입니다. agent loop에서 '어디까지 규칙으로 자르고 어디부터 모델에 넘길 것인가'라는 tool use 경계 설계, 그리고 라인 단위 코멘트라는 구조화된 출력 게이팅 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260728/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260726",
       "display_date": "2026-07-26",
       "title": "citrolabs/ego-lite — 로그인된 브라우저 상태를 AI 에이전트와 공유하는 웹 자동화 브라우저",
@@ -253,17 +264,6 @@
       "url": "https://www.reddit.com/r/AI_Agents/comments/1umfd6q/cloudflare_is_about_to_block_ai_agents_by_default/",
       "summary": "9월 15일부로 Cloudflare가 웹 트래픽의 약 20%에서 AI 에이전트를 기본 차단하고 Web Bot Auth(공개키 서명 기반 에이전트 신원)를 요구하는 정책은, tool use·MCP·브라우저 자동화를 직접 다루는 agent loop에 신원·서명 계층이라는 새 레이어를 강제합니다. 최근 14일 픽이 '런타임 격리(Lockdown Mode·SkillSpector·Fable 5 우회)'에 쏠렸던 것과 달리, 이번엔 '에이전트가 외부 웹에 나가는 경로 자체가 서명 없이는 막힌다'는 아웃바운드 신뢰 경계 결입니다.",
       "knowledge_url": "/knowledge/20260704/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260703",
-      "display_date": "2026-07-03",
-      "title": "Giving admins more visibility and control over Claude spend",
-      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-      "summary": "Anthropic이 조직 관리자에게 워크스페이스·사용자 단위 사용량 대시보드와 지출 한도·알림을 정식 공개한 1차 자료로, Fable 5 이후 '계층적 모델 라우팅이 강제됐다'는 흐름(20260610 daily) 위에서 이제 조직 관리 레이어가 agent loop의 비용 관찰성에 직접 결합되는 분기점입니다. DCSAI agent loop의 HITL 분기와 MCP host server tool 실행 경계에서 '누가·어떤 브랜드가·어떤 스킬로 얼마 썼는지' 추적 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260703/",
       "categories": [
         "보안 & 거버넌스"
       ]
