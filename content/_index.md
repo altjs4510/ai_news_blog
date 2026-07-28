@@ -185,6 +185,12 @@ Anthropic은 **역할 기반 Claude 인증 4종**을 내놨습니다. 툴 사용
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260729/">
+    <span class="ai-pick-date">2026-07-29</span>
+    <span class="ai-pick-title-mini">Bringing MCP 2026-07-28 to Claude</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260728/">
     <span class="ai-pick-date">2026-07-28</span>
     <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드리뷰 …</span>

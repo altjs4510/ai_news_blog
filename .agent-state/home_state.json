@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260729",
+      "display_date": "2026-07-29",
+      "title": "Bringing MCP 2026-07-28 to Claude",
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "summary": "Anthropic이 MCP 2026-07-28 스펙을 Claude 본체에 반영한 1차 공지로, 같은 주 Google의 Managed Agents hooks 추가와 함께 '에이전트 실행 중간에 끼어들 지점'이 표준화되는 흐름의 기준점입니다. DCSAI가 자체 구현 중인 MCP host server(OAuth·세션·tool 실행)와 agent loop의 HITL 분기가 따라가야 할 스펙 버전 경계를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260729/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260728",
       "display_date": "2026-07-28",
       "title": "alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드리뷰 (하루 980 stars)",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260705/",
       "categories": [
         "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260704",
-      "display_date": "2026-07-04",
-      "title": "Cloudflare is about to block AI agents by default on a fifth of the web",
-      "url": "https://www.reddit.com/r/AI_Agents/comments/1umfd6q/cloudflare_is_about_to_block_ai_agents_by_default/",
-      "summary": "9월 15일부로 Cloudflare가 웹 트래픽의 약 20%에서 AI 에이전트를 기본 차단하고 Web Bot Auth(공개키 서명 기반 에이전트 신원)를 요구하는 정책은, tool use·MCP·브라우저 자동화를 직접 다루는 agent loop에 신원·서명 계층이라는 새 레이어를 강제합니다. 최근 14일 픽이 '런타임 격리(Lockdown Mode·SkillSpector·Fable 5 우회)'에 쏠렸던 것과 달리, 이번엔 '에이전트가 외부 웹에 나가는 경로 자체가 서명 없이는 막힌다'는 아웃바운드 신뢰 경계 결입니다.",
-      "knowledge_url": "/knowledge/20260704/",
-      "categories": [
-        "보안 & 거버넌스"
       ]
     }
   ]
