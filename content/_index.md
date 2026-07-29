@@ -185,6 +185,12 @@ Anthropic은 **역할 기반 Claude 인증 4종**을 내놨습니다. 툴 사용
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260730/">
+    <span class="ai-pick-date">2026-07-30</span>
+    <span class="ai-pick-title-mini">Anatomy of a Frontier Lab Agent Intrusion: A Technical Timel…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260729/">
     <span class="ai-pick-date">2026-07-29</span>
     <span class="ai-pick-title-mini">Bringing MCP 2026-07-28 to Claude</span>

@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260730",
+      "display_date": "2026-07-30",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+      "summary": "HuggingFace가 공개한 실제 에이전트 침투 사건의 시간순 기술 해부로, Simon Willison이 \"얼마나 정교했는지 놀랍다\"고 평하며 이번 주 최대 버즈(❤424·🔁108)를 만든 1차 자료입니다. 방어 도구 레포가 아니라 '실제로 어떻게 뚫렸는가'의 포스트모템이라는 점이 다르고, DCSAI가 자체 구현한 MCP host server의 tool 실행 경계·OAuth 세션·HITL 분기가 정확히 어떤 공격 시나리오를 전제해야 하는지를 구체적 타임라인으로 보여줍니다.",
+      "knowledge_url": "/knowledge/20260730/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260729",
       "display_date": "2026-07-29",
       "title": "Bringing MCP 2026-07-28 to Claude",
@@ -253,17 +264,6 @@
       "url": "https://www.aihero.dev/skills-catalog",
       "summary": "단순 스킬 파일 모음이 아니라 handoff(세션 간 컨텍스트 이관), prototype(버릴 코드로 답 찾기), grill-with-docs(빌드 전 문서 정렬), improve-codebase-architecture 같은 '엔지니어 판단'을 캡슐화한 개념 프레임입니다. 최근 14일 픽이 다룬 skill 생태계 결(SkillSpector 공급망 보안·agent-skills 컬렉션)과 명확히 다른 '스킬을 어떻게 설계할 것인가'라는 상위 레이어를 정조준합니다.",
       "knowledge_url": "/knowledge/20260707/",
-      "categories": [
-        "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260705",
-      "display_date": "2026-07-05",
-      "title": "openai/codex-plugin-cc — Claude Code에서 Codex를 위임 호출하는 공식 플러그인",
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "summary": "OpenAI가 경쟁사 IDE 에이전트인 Claude Code의 plugin/skill/hook 표면 위에 자사 Codex를 '서브 에이전트'로 얹은 첫 공식 사례로, 하루 716 stars·누적 24k로 급부상 중입니다. DCSAI `dcs-ai-plugin`(commands/agents/skills/hooks)과 agent loop의 tool use 결에 '이종 모델을 서브 에이전트로 위임하는' 새 레퍼런스를 제공합니다.",
-      "knowledge_url": "/knowledge/20260705/",
       "categories": [
         "코딩 에이전트"
       ]
