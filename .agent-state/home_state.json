@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260731",
+      "display_date": "2026-07-31",
+      "title": "different-ai/openwork — Claude Cowork의 오픈소스 대안(opencode 기반)",
+      "url": "https://github.com/different-ai/openwork",
+      "summary": "하루 916 stars로 이번 윈도우에 급부상한 신규 항목으로, 단일 코딩 에이전트가 아니라 '여러 에이전트가 함께 일하는 작업 공간' 자체를 오픈소스로 재현합니다. 에이전트 실행·상태 노출·작업 단위 분배를 UI 레이어까지 묶는다는 점에서 Team Agent의 멀티에이전트 오케스트레이션과 Activity Log → Observer → UI refresh 피드백루프(L1) 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260731/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260730",
       "display_date": "2026-07-30",
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260708/",
       "categories": [
         "MCP & 도구 통합"
-      ]
-    },
-    {
-      "date_str": "20260707",
-      "display_date": "2026-07-07",
-      "title": "AI Hero Skills Catalog — 실무 엔지니어를 위한 재사용 가능한 판단 단위 카탈로그",
-      "url": "https://www.aihero.dev/skills-catalog",
-      "summary": "단순 스킬 파일 모음이 아니라 handoff(세션 간 컨텍스트 이관), prototype(버릴 코드로 답 찾기), grill-with-docs(빌드 전 문서 정렬), improve-codebase-architecture 같은 '엔지니어 판단'을 캡슐화한 개념 프레임입니다. 최근 14일 픽이 다룬 skill 생태계 결(SkillSpector 공급망 보안·agent-skills 컬렉션)과 명확히 다른 '스킬을 어떻게 설계할 것인가'라는 상위 레이어를 정조준합니다.",
-      "knowledge_url": "/knowledge/20260707/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
