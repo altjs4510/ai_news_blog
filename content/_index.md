@@ -185,6 +185,12 @@ Anthropic은 **역할 기반 Claude 인증 4종**을 내놨습니다. 툴 사용
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260802/">
+    <span class="ai-pick-date">2026-08-02</span>
+    <span class="ai-pick-title-mini">Stateless MCP has recaptured my interest (and inspired mcp-e…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260801/">
     <span class="ai-pick-date">2026-08-01</span>
     <span class="ai-pick-title-mini">different-ai/openwork — Claude Cowork의 오픈소스 대체 에이전트 하네스 (ope…</span>

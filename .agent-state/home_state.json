@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260802",
+      "display_date": "2026-08-02",
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+      "summary": "Simon Willison이 새 stateless MCP 명세로 관심이 되살아났다며 mcp-explorer·datasette-mcp를 며칠 만에 내놨고, Bluesky에서도 75 하트로 반응이 붙었습니다(https://bsky.app/profile/simonwillison.net/post/3mry3ilyu7s2f). 초기 MCP의 stateful 세션 설계가 실무 도입의 병목이었다는 진단이 사후 검증된 셈으로, DCSAI가 자체 구현 중인 MCP host server의 OAuth·세션·tool 실행 경계 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260802/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20260801",
       "display_date": "2026-08-01",
       "title": "different-ai/openwork — Claude Cowork의 오픈소스 대체 에이전트 하네스 (opencode 기반)",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260710/",
       "categories": [
         "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260709",
-      "display_date": "2026-07-09",
-      "title": "mvanhorn/last30days-skill — Reddit·X·YouTube·HN·Polymarket 크로스 리서치 Claude Skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "summary": "단일 스킬 파일이 여러 소셜/시장 데이터 소스를 병렬 조회한 뒤 근거 기반 요약으로 합성하는 구조로, agent-skills·superpowers처럼 '스킬 디렉토리 모음'이 아니라 특정 리서치 워크플로우 자체를 스킬로 패키징한 새 결입니다. Claude Code plugin/skill/hook 4축 중 skill 단독으로 멀티소스 리서치 파이프라인을 완결한다는 점이 핵심입니다.",
-      "knowledge_url": "/knowledge/20260709/",
-      "categories": [
-        "코딩 에이전트"
       ]
     }
   ]
