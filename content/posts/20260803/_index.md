@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "성능이 아니라 설정과 실행 계층 — 프런티어 경쟁의 축이 옮겨간 한 주"
+date: 2026-08-03
+toc: true
+layout: single
+description: "같은 모델도 하네스 설정 하나로 점수가 세 배 갈리고, 트렌딩 상위는 모델이 아닌 에이전트 주변 인프라가 채웠다"
+tags: ["추론 효율", "하네스 설정", "에이전트 안전", "에이전트 인프라", "벤치마크 재현성"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">성능이 아니라 설정과 실행 계층 — 프런티어 경쟁의 축이 옮겨간 한 주</h1>
-  <p class="ai-home-deck">같은 모델도 하네스 설정 하나로 점수가 세 배 갈리고, 트렌딩 상위는 모델이 아닌 에이전트 주변 인프라가 채웠다</p>
-  <p class="ai-meta">2026-08-03 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260803/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-08-03 · 주간 요약</p>
+  <h2 class="ai-post-title">성능이 아니라 설정과 실행 계층 — 프런티어 경쟁의 축이 옮겨간 한 주</h2>
+  <p class="ai-post-deck">같은 모델도 하네스 설정 하나로 점수가 세 배 갈리고, 트렌딩 상위는 모델이 아닌 에이전트 주변 인프라가 채웠다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -199,54 +193,6 @@ Anthropic이 [오픈웨이트 모델에 대한 자사 입장](https://www.anthro
 
 플랫폼도 반응했다. [Snapchat이 완전 AI 생성 Spotlight 콘텐츠에 보상을 주지 않기로](https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/) 한 결정은, **생성 비용이 0에 수렴할 때 유통 플랫폼이 취하는 필연적 방어**다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260802/">
-    <span class="ai-pick-date">2026-08-02</span>
-    <span class="ai-pick-title-mini">Stateless MCP has recaptured my interest (and inspired mcp-e…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260801/">
-    <span class="ai-pick-date">2026-08-01</span>
-    <span class="ai-pick-title-mini">different-ai/openwork — Claude Cowork의 오픈소스 대체 에이전트 하네스 (ope…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260731/">
-    <span class="ai-pick-date">2026-07-31</span>
-    <span class="ai-pick-title-mini">different-ai/openwork — Claude Cowork의 오픈소스 대안(opencode 기반)</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260730/">
-    <span class="ai-pick-date">2026-07-30</span>
-    <span class="ai-pick-title-mini">Anatomy of a Frontier Lab Agent Intrusion: A Technical Timel…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260729/">
-    <span class="ai-pick-date">2026-07-29</span>
-    <span class="ai-pick-title-mini">Bringing MCP 2026-07-28 to Claude</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260728/">
-    <span class="ai-pick-date">2026-07-28</span>
-    <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드리뷰 …</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -259,3 +205,5 @@ Anthropic이 [오픈웨이트 모델에 대한 자사 입장](https://www.anthro
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
