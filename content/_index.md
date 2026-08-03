@@ -203,6 +203,17 @@ Anthropic이 [오픈웨이트 모델에 대한 자사 입장](https://www.anthro
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260804/">
+    <span class="ai-pick-date">2026-08-04</span>
+    <span class="ai-pick-title-mini">esengine/DeepSeek-Reasonix — prefix-cache 안정성을 축으로 설계한 터미널 코…</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">

@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260804",
+      "display_date": "2026-08-04",
+      "title": "esengine/DeepSeek-Reasonix — prefix-cache 안정성을 축으로 설계한 터미널 코딩 에이전트",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "summary": "DeepSeek V4 Flash 공개 직후 며칠 만에 나온 Go 기반 네이티브 코딩 에이전트로 하루 877 스타(누적 29,777)를 기록했는데, 핵심 설계 명제가 '기능'이 아니라 **prefix-cache 안정성 — 켜둔 채로 두라(leave it running)**입니다. 에이전트 비용·지연이 모델 성능이 아니라 캐시 히트율에 지배당한다는 인식을 아키텍처 1급 제약으로 올린 사례로, DCSAI agent loop가 매 턴 컨텍스트를 어떤 순서로 조립하고 어디에 캐시 브레이크포인트를 두느냐(= tool 결과·HITL 개입이 프리픽스를 깨뜨리는 문제)를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260804/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260802",
       "display_date": "2026-08-02",
       "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260711/",
       "categories": [
         "산업 동향"
-      ]
-    },
-    {
-      "date_str": "20260710",
-      "display_date": "2026-07-10",
-      "title": "70개 MCP 서버 strace 런타임 감사 — 부팅 시 아웃바운드 호출 서버 적발",
-      "url": "https://www.reddit.com/r/mcp/comments/1us3gv7/we_build_a_model_agnostic_claude_managed_agents/",
-      "summary": "MCP 서버 생태계가 폭발하는 지금, 정적 스캔(SkillSpector 결)을 넘어 strace 기반 런타임 행동 감시로 부팅 시 은밀한 아웃바운드 호출을 잡아내는 첫 커뮤니티 감사 사례입니다. DCSAI가 자체 MCP host server(OAuth·세션·tool 실행)에서 외부 MCP 서버를 등록·실행할 때 필요한 '공급망 신뢰 경계' 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260710/",
-      "categories": [
-        "보안 & 거버넌스"
       ]
     }
   ]
