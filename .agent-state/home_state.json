@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260805",
+      "display_date": "2026-08-05",
+      "title": "TencentCloud/TencentDB-Agent-Memory — 대화·문서·코드를 4종 자산으로 재사용하는 팀 레벨 에이전트 메모리 허브",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "summary": "하루 1,138 stars로 급부상한 신규 항목으로, 개인 세션 컨텍스트가 아니라 **팀 레벨 메모리 허브**를 표방하며 대화·문서·코드를 Chat Memory / Skill / LLM-Wiki / Code-Graph 네 가지 거버넌스 가능한 자산으로 분해합니다. '무엇을 아는가'를 에이전트 밖 공용 계층으로 빼낸다는 설계라 DCSAI의 Neo4j KG + MCP host server 결과, Team Agent의 크로스 브랜드 `platform-core-agent`가 브랜드별 `discovery-core-agent`와 무엇을 공유하고 무엇을 격리할지의 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260805/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260804",
       "display_date": "2026-08-04",
       "title": "esengine/DeepSeek-Reasonix — prefix-cache 안정성을 축으로 설계한 터미널 코딩 에이전트",
@@ -255,17 +266,6 @@
       "knowledge_url": "/knowledge/20260712/",
       "categories": [
         "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260711",
-      "display_date": "2026-07-11",
-      "title": "OpenAI says GPT 5.6 is the 'preferred model' for Microsoft Copilot 365",
-      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-      "summary": "GPT-5.6 출시 자체보다도 Microsoft Copilot 365의 'preferred model' 지정과 결별설이 동시에 흘러나온다는 점이 핵심입니다. 사내 IT가 M365 SSO·Copilot 표준을 이미 깔아둔 조직에서 Anthropic SDK 직통합 기반 사내 챗봇이 어떤 포지션을 가져가야 하는지 — 즉 DCSAI의 Microsoft SSO(NextAuth→Azure AD) 경계와 모델 라우팅 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260711/",
-      "categories": [
-        "산업 동향"
       ]
     }
   ]

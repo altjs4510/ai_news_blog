@@ -206,6 +206,12 @@ Anthropic이 [오픈웨이트 모델에 대한 자사 입장](https://www.anthro
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260805/">
+    <span class="ai-pick-date">2026-08-05</span>
+    <span class="ai-pick-title-mini">TencentCloud/TencentDB-Agent-Memory — 대화·문서·코드를 4종 자산으로 재사용하…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260804/">
     <span class="ai-pick-date">2026-08-04</span>
     <span class="ai-pick-title-mini">esengine/DeepSeek-Reasonix — prefix-cache 안정성을 축으로 설계한 터미널 코…</span>
