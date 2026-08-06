@@ -268,5 +268,52 @@
         "MCP & 도구 통합"
       ]
     }
-  ]
+  ],
+  "x_trends": {
+    "date_str": "20260806",
+    "items": [
+      {
+        "term": "Anthropic",
+        "url": "https://x.com/NuryVittachi/status/2085178025055031587",
+        "title": "BREAKING: U.S. AI ‘ENTITIES’ CREATED FAKE HUMAN IDENTITIES - UK TECH WATCHDOG  O…",
+        "is_new": true,
+        "count": 4
+      },
+      {
+        "term": "Prime Agent",
+        "url": "https://x.com/Dr_Singularity/status/2085098595372744945",
+        "title": "New AI agent  Scores 95.5% on ARC-AGI-3  The pace is becoming absurd ( and I lov…",
+        "is_new": true,
+        "count": 4
+      },
+      {
+        "term": "OpenAI",
+        "url": "https://x.com/NuryVittachi/status/2085178025055031587",
+        "title": "BREAKING: U.S. AI ‘ENTITIES’ CREATED FAKE HUMAN IDENTITIES - UK TECH WATCHDOG  O…",
+        "is_new": true,
+        "count": 3
+      },
+      {
+        "term": "Meta",
+        "url": "https://x.com/zephyr_z9/status/2085225359302357283",
+        "title": "Meta started a huge LLM price war",
+        "is_new": true,
+        "count": 3
+      },
+      {
+        "term": "ARC-AGI-3",
+        "url": "https://x.com/Dr_Singularity/status/2085098595372744945",
+        "title": "New AI agent  Scores 95.5% on ARC-AGI-3  The pace is becoming absurd ( and I lov…",
+        "is_new": true,
+        "count": 3
+      },
+      {
+        "term": "Agent Memory",
+        "url": "https://x.com/TencentAI_News/status/2085272380759581092",
+        "title": "Introducing Team Memory, same idea as Agent Memory, except your teammates' agent…",
+        "is_new": true,
+        "count": 2
+      }
+    ]
+  }
 }

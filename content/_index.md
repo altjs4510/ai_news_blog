@@ -203,6 +203,47 @@ Anthropic이 [오픈웨이트 모델에 대한 자사 입장](https://www.anthro
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://x.com/NuryVittachi/status/2085178025055031587" target="_blank" rel="noopener">
+    <span class="ai-pick-date">🆕</span>
+    <span class="ai-pick-title-mini">Anthropic</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
+  <a href="https://x.com/Dr_Singularity/status/2085098595372744945" target="_blank" rel="noopener">
+    <span class="ai-pick-date">🆕</span>
+    <span class="ai-pick-title-mini">Prime Agent</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
+  <a href="https://x.com/NuryVittachi/status/2085178025055031587" target="_blank" rel="noopener">
+    <span class="ai-pick-date">🆕</span>
+    <span class="ai-pick-title-mini">OpenAI</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
+  <a href="https://x.com/zephyr_z9/status/2085225359302357283" target="_blank" rel="noopener">
+    <span class="ai-pick-date">🆕</span>
+    <span class="ai-pick-title-mini">Meta</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
+  <a href="https://x.com/Dr_Singularity/status/2085098595372744945" target="_blank" rel="noopener">
+    <span class="ai-pick-date">🆕</span>
+    <span class="ai-pick-title-mini">ARC-AGI-3</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
+  <a href="https://x.com/TencentAI_News/status/2085272380759581092" target="_blank" rel="noopener">
+    <span class="ai-pick-date">🆕</span>
+    <span class="ai-pick-title-mini">Agent Memory</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
