@@ -206,39 +206,39 @@ Anthropic이 [오픈웨이트 모델에 대한 자사 입장](https://www.anthro
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
-  <a href="https://x.com/GoogleCloudTech/status/2085475708143374815" target="_blank" rel="noopener">
+  <a href="https://x.com/akshay_pachaar/status/2085791632457433119" target="_blank" rel="noopener">
     <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Gemini</span>
+    <span class="ai-pick-title-mini">MCP</span>
   </a>
 </li>
       <li class="ai-pick-item">
-  <a href="https://x.com/simplifyinAI/status/2085544336926847403" target="_blank" rel="noopener">
+  <a href="https://x.com/akshay_pachaar/status/2085791632457433119" target="_blank" rel="noopener">
     <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Codex</span>
+    <span class="ai-pick-title-mini">Vercel</span>
   </a>
 </li>
       <li class="ai-pick-item">
-  <a href="https://x.com/teneo_protocol/status/2085770833843167351" target="_blank" rel="noopener">
+  <a href="https://x.com/adamhfry/status/2085878037216940344" target="_blank" rel="noopener">
     <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">DeepSeek</span>
+    <span class="ai-pick-title-mini">ChatGPT</span>
   </a>
 </li>
       <li class="ai-pick-item">
-  <a href="https://x.com/_avichawla/status/2085632663902412985" target="_blank" rel="noopener">
+  <a href="https://x.com/vepsi__/status/2086049414976623061" target="_blank" rel="noopener">
     <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">NVIDIA</span>
+    <span class="ai-pick-title-mini">Gemini 3.5 Pro</span>
   </a>
 </li>
       <li class="ai-pick-item">
-  <a href="https://x.com/simplifyinAI/status/2085544336926847403" target="_blank" rel="noopener">
+  <a href="https://x.com/0xz80/status/2085880774192992579" target="_blank" rel="noopener">
     <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Perplexity</span>
+    <span class="ai-pick-title-mini">deepseek v4 flash</span>
   </a>
 </li>
       <li class="ai-pick-item">
-  <a href="https://x.com/MiniMax_AI/status/2085556856311984150" target="_blank" rel="noopener">
+  <a href="https://x.com/circle/status/2085790934604865916" target="_blank" rel="noopener">
     <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">ComfyUI</span>
+    <span class="ai-pick-title-mini">Shoalresearch</span>
   </a>
 </li>
     </ul>
@@ -246,6 +246,12 @@ Anthropic이 [오픈웨이트 모델에 대한 자사 입장](https://www.anthro
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260809/">
+    <span class="ai-pick-date">2026-08-09</span>
+    <span class="ai-pick-title-mini">PrimeIntellect-ai/prime-agent — 코딩 워크플로우·장기 자율 작업용 self-impr…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260808/">
     <span class="ai-pick-date">2026-08-08</span>
