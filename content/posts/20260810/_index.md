@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "에이전트 자율 실행이 기본값이 된 주 — Claude Code auto mode가 승인 클릭을 걷어냈다"
+date: 2026-08-10
+toc: true
+layout: single
+description: "승인 버튼이 사라진 자리는 통제 레이어가 메운다 — 운영 가이드·자체 컴퓨트·비용 가시성이 같은 주에 붙어 나온 이유"
+tags: ["auto mode 기본값", "HITL 재설계", "에이전트 자율성", "실행 격리 경계", "토큰 비용 가시성"]
+categories: ["코딩 에이전트"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">에이전트 자율 실행이 기본값이 된 주 — Claude Code auto mode가 승인 클릭을 걷어냈다</h1>
-  <p class="ai-home-deck">승인 버튼이 사라진 자리는 통제 레이어가 메운다 — 운영 가이드·자체 컴퓨트·비용 가시성이 같은 주에 붙어 나온 이유</p>
-  <p class="ai-meta">2026-08-10 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260810/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-08-10 · 주간 요약</p>
+  <h2 class="ai-post-title">에이전트 자율 실행이 기본값이 된 주 — Claude Code auto mode가 승인 클릭을 걷어냈다</h2>
+  <p class="ai-post-deck">승인 버튼이 사라진 자리는 통제 레이어가 메운다 — 운영 가이드·자체 컴퓨트·비용 가시성이 같은 주에 붙어 나온 이유</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -177,89 +171,6 @@ Deno 2.9.5가 `deno compile --engine quickjs` 실험 옵션을 추가해, 같은
 
 하버드 역사학자 **Jill Lepore**는 테크 리더들이 SF를 **경고가 아니라 로드맵으로 오독**해왔고, 그 결과가 민주주의 훼손이라고 주장한다. 같은 주 [뉴멕시코 법원이 Meta에 아동 안전 사건으로 추가 5억 6,700만 달러 배상을 명령](https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/)한 것과 나란히 놓으면, 기술 낙관론에 대한 **법정과 학계 양쪽의 청구서**가 동시에 날아들고 있는 그림이다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://x.com/FellMentKE/status/2085023226648994170" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Ling 3.0 Flash</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/OpenAI/status/2085801349866729975" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Astra</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/fchollet/status/2085796727362052241" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">test-time compute</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/kimmonismus/status/2084724306584510839" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Black Forest Labs</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/kimmonismus/status/2084724306584510839" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">FLUX 3</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/InSpatio_AI/status/2084501139861450929" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">QuerySplat</span>
-  </a>
-</li>
-    </ul>
-  </section>
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260809/">
-    <span class="ai-pick-date">2026-08-09</span>
-    <span class="ai-pick-title-mini">PrimeIntellect-ai/prime-agent — 코딩 워크플로우·장기 자율 작업용 self-impr…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260808/">
-    <span class="ai-pick-date">2026-08-08</span>
-    <span class="ai-pick-title-mini">PrimeIntellect-ai/prime-agent — 코딩 워크플로우와 장시간 자율 작업을 위한 자기개선…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260806/">
-    <span class="ai-pick-date">2026-08-06</span>
-    <span class="ai-pick-title-mini">cloudflare/computer — 에이전트에게 컴퓨터를 통째로 주는 엣지 실행 샌드박스</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260805/">
-    <span class="ai-pick-date">2026-08-05</span>
-    <span class="ai-pick-title-mini">TencentCloud/TencentDB-Agent-Memory — 대화·문서·코드를 4종 자산으로 재사용하…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260804/">
-    <span class="ai-pick-date">2026-08-04</span>
-    <span class="ai-pick-title-mini">esengine/DeepSeek-Reasonix — prefix-cache 안정성을 축으로 설계한 터미널 코…</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -272,3 +183,5 @@ Deno 2.9.5가 `deno compile --engine quickjs` 실험 옵션을 추가해, 같은
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
