@@ -180,43 +180,19 @@ Deno 2.9.5가 `deno compile --engine quickjs` 실험 옵션을 추가해, 같은
 </div>
 
 <aside class="ai-home-aside">
-  <section class="ai-week-block">
+  <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
+    <ul class="ai-trend-chips">
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/mark_k/status/2086511493630107847" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Grok</span></a></li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
-  <a href="https://x.com/FellMentKE/status/2085023226648994170" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Ling 3.0 Flash</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/OpenAI/status/2085801349866729975" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Astra</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/fchollet/status/2085796727362052241" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">test-time compute</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/kimmonismus/status/2084724306584510839" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">Black Forest Labs</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/kimmonismus/status/2084724306584510839" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">FLUX 3</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://x.com/InSpatio_AI/status/2084501139861450929" target="_blank" rel="noopener">
-    <span class="ai-pick-date">🆕</span>
-    <span class="ai-pick-title-mini">QuerySplat</span>
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260810/">
+    <span class="ai-pick-date">2026-08-10</span>
+    <span class="ai-pick-title-mini">Auto mode is now the default in Claude Code for Pro, Max, an…</span>
   </a>
 </li>
     </ul>

@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260810",
+      "display_date": "2026-08-10",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "summary": "Anthropic이 코딩 에이전트의 자율 실행을 유료 플랜 전 구간의 기본값으로 올린 1차 공지로, Simon Willison이 곧바로 [별도 글](https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything)로 받으며 이번 주 최대 화제가 됐습니다. 매 tool 호출마다 사람이 승인하던 관문이 사라지면 그 책임을 무엇이 대신 받을지가 남는데, 이는 DCSAI agent loop의 HITL 분기를 '전 호출 승인'에서 '위험도 기반 선택적 개입'으로 재설계해야 하는가라는 질문을 정면으로 던집니다.",
+      "knowledge_url": "/knowledge/20260810/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260809",
       "display_date": "2026-08-09",
       "title": "PrimeIntellect-ai/prime-agent — 코딩 워크플로우·장기 자율 작업용 self-improving RLM 에이전트",
@@ -256,63 +267,17 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260716",
-      "display_date": "2026-07-16",
-      "title": "Dicklesworthstone/destructive_command_guard — 에이전트의 위험한 shell/git 명령을 차단하는 Rust 가드",
-      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "summary": "Claude Web Fetch exfiltration 시연·Microsoft AI 취약점 패치 급증과 같은 주에 하루 497 stars로 급부상한, '에이전트가 실행하는 명령 자체를 런타임에서 막는다'는 방어 레이어의 1차 오픈소스 레퍼런스입니다. DCSAI MCP host server의 tool 실행 경계와 HITL 분기, 그리고 Claude Code plugin/hook의 pre-execution 훅 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260716/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
     }
   ],
   "x_trends": {
     "date_str": "20260810",
     "items": [
       {
-        "term": "Ling 3.0 Flash",
-        "url": "https://x.com/FellMentKE/status/2085023226648994170",
-        "title": "Ling 3.0 Flash is officially open-weighted.  Every serious open-weights release …",
-        "is_new": true,
-        "count": 3
-      },
-      {
-        "term": "Astra",
-        "url": "https://x.com/OpenAI/status/2085801349866729975",
-        "title": "After evaluating one of our upcoming models, Astra, we're treating it as our fir…",
+        "term": "Grok",
+        "url": "https://x.com/mark_k/status/2086511493630107847",
+        "title": "The next hurdle set to fall in AI is writing quality. Both the upcoming  @OpenAI…",
         "is_new": true,
         "count": 2
-      },
-      {
-        "term": "test-time compute",
-        "url": "https://x.com/fchollet/status/2085796727362052241",
-        "title": "In the era of base LLM scaling (2022-2024), I believed the LLM line of research …",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "Black Forest Labs",
-        "url": "https://x.com/kimmonismus/status/2084724306584510839",
-        "title": "Black Forest Labs just announced FLUX 3: a unified multimodal model for image, v…",
-        "is_new": true,
-        "count": 1
-      },
-      {
-        "term": "FLUX 3",
-        "url": "https://x.com/kimmonismus/status/2084724306584510839",
-        "title": "Black Forest Labs just announced FLUX 3: a unified multimodal model for image, v…",
-        "is_new": true,
-        "count": 1
-      },
-      {
-        "term": "QuerySplat",
-        "url": "https://x.com/InSpatio_AI/status/2084501139861450929",
-        "title": "2D is what the camera sees. 3D is what the world is.   Today, we’re proudly open…",
-        "is_new": true,
-        "count": 1
       }
     ]
   }
