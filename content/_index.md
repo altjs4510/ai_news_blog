@@ -183,12 +183,19 @@ Deno 2.9.5가 `deno compile --engine quickjs` 실험 옵션을 추가해, 같은
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/mark_k/status/2086511493630107847" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Grok</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/AMD/status/2086764712574763512" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse Glimmer</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/ns123abc/status/2086764269266231565" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse Spark 1.2</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260811/">
+    <span class="ai-pick-date">2026-08-11</span>
+    <span class="ai-pick-title-mini">PrimeIntellect-ai/prime-agent — 장기 자율 실행을 전제로 설계된 self-impro…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260810/">
     <span class="ai-pick-date">2026-08-10</span>
