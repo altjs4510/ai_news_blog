@@ -180,16 +180,15 @@ Deno 2.9.5가 `deno compile --engine quickjs` 실험 옵션을 추가해, 같은
 </div>
 
 <aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/kimmonismus/status/2086921219601768909" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Riemann hypothesis</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/arena/status/2086979482162966600" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Muse Glimmer</span></a></li>
-    </ul>
-  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260813/">
+    <span class="ai-pick-date">2026-08-13</span>
+    <span class="ai-pick-title-mini">semantica-agi/semantica — 컨텍스트와 책임 추적을 위한 그래프 네이티브 AI 인프라</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260812/">
     <span class="ai-pick-date">2026-08-12</span>
