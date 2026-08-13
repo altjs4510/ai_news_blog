@@ -180,9 +180,21 @@ Deno 2.9.5가 `deno compile --engine quickjs` 실험 옵션을 추가해, 같은
 </div>
 
 <aside class="ai-home-aside">
+  <section class="ai-week-block ai-trend-block">
+    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
+    <ul class="ai-trend-chips">
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/nlp_colloquium/status/2087765973118140542" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">digital watermarks</span></a></li>
+    </ul>
+  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260814/">
+    <span class="ai-pick-date">2026-08-14</span>
+    <span class="ai-pick-title-mini">cathrynlavery/diagram-design — Claude Code용 에디토리얼 다이어그램 29종 …</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260813/">
     <span class="ai-pick-date">2026-08-13</span>

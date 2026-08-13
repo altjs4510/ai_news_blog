@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260814",
+      "display_date": "2026-08-14",
+      "title": "cathrynlavery/diagram-design — Claude Code용 에디토리얼 다이어그램 29종 스킬 팩 (자체완결 HTML+SVG, Mermaid 없음)",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "summary": "하루 4,504 스타로 이번 주 트렌딩 최상단을 찍은 신규 항목으로, 범용 스킬 모음이 아니라 '다이어그램 29종'이라는 극도로 좁은 문제를 자체완결 HTML+SVG 출력 규격으로 못 박은 게 핵심입니다 — 스킬이 프롬프트 조각이 아니라 버전·배포·재사용되는 아티팩트가 됐음을 보여주는 사례로, DCSAI `dcs-ai-plugin`의 Claude Code skills 배포 체계와 '출력 포맷을 스킬이 계약으로 강제한다'는 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260814/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260813",
       "display_date": "2026-08-13",
       "title": "semantica-agi/semantica — 컨텍스트와 책임 추적을 위한 그래프 네이티브 AI 인프라",
@@ -256,21 +267,18 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260721",
-      "display_date": "2026-07-21",
-      "title": "tirth8205/code-review-graph — 로컬 우선 코드 인텔리전스 그래프(MCP·CLI)",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "summary": "코드베이스를 영속적인 그래프로 매핑해 AI 코딩 도구가 '필요한 부분만' 읽도록 컨텍스트를 벤치마크된 수준으로 축소하는 로컬 우선 도구입니다. MCP 서버로 노출된다는 점에서 DCSAI가 자체 구현 중인 MCP host server(tool 실행 경계)와 agent loop의 '컨텍스트 세금' 문제를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260721/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260813",
-    "items": []
+    "date_str": "20260814",
+    "items": [
+      {
+        "term": "digital watermarks",
+        "url": "https://x.com/nlp_colloquium/status/2087765973118140542",
+        "title": "There's a lot of buzz about Anthropic embedding digital watermarks in generated …",
+        "is_new": true,
+        "count": 2
+      }
+    ]
   }
 }
