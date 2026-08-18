@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260819",
+      "display_date": "2026-08-19",
+      "title": "akitaonrails/ai-memory — 코딩 에이전트 CLI 간 장기 기억과 벤더 간 핸드오프를 담당하는 Rust 메모리 레이어",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "summary": "하루 730 stars(누적 2,606)로 이번 윈도우에 새로 급부상한 항목으로, '한 에이전트의 세션 메모리'가 아니라 Claude Code·Codex·Cursor를 오가는 **벤더 간 핸드오프**를 1급 요구사항으로 못 박은 설계입니다. 모델·CLI는 교체 가능하지만 축적된 컨텍스트는 아니라는 전제를 코드로 구현한 사례라, DCSAI agent loop가 매 턴 무엇을 컨텍스트에 실어 보낼지 결정하는 조립 로직과 dcs-ai-plugin(Claude Code plugins) 쪽 컨텍스트 영속성 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260819/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260814",
       "display_date": "2026-08-14",
       "title": "cathrynlavery/diagram-design — Claude Code용 에디토리얼 다이어그램 29종 스킬 팩 (자체완결 HTML+SVG, Mermaid 없음)",
@@ -231,21 +242,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260722",
-      "display_date": "2026-07-22",
-      "title": "tirth8205/code-review-graph — MCP·CLI용 로컬 우선 코드 인텔리전스 그래프",
-      "url": "https://github.com/tirth8205/code-review-graph",
-      "summary": "코드베이스를 영속 그래프로 인덱싱해 AI 코딩 도구가 '중요한 것만' 읽게 만드는 로컬 우선 코드 인텔리전스로, 리뷰·대형 레포 워크플로우에서 벤치마크된 컨텍스트 절감을 제시합니다(하루 1,921 stars 급부상). DCSAI의 MCP host server + Neo4j KG와 agent loop의 '컨텍스트 세금' 결을 정면으로 건드립니다 — 최근 14일 픽이 다룬 MCP 런타임 감사(20260710)·스킬 카탈로그 결과는 명확히 다른 '코드 그래프 인덱싱'이라는 새 결입니다.",
-      "knowledge_url": "/knowledge/20260722/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260817",
+    "date_str": "20260819",
     "items": []
   }
 }

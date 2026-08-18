@@ -23,6 +23,17 @@ toc: false
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260819/">
+    <span class="ai-pick-date">2026-08-19</span>
+    <span class="ai-pick-title-mini">akitaonrails/ai-memory — 코딩 에이전트 CLI 간 장기 기억과 벤더 간 핸드오프를 담당하…</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
