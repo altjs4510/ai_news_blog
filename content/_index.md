@@ -26,6 +26,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260820/">
+    <span class="ai-pick-date">2026-08-20</span>
+    <span class="ai-pick-title-mini">akitaonrails/ai-memory — 코딩 에이전트 CLI의 장기 메모리와 벤더 간 핸드오프 계층</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260819/">
     <span class="ai-pick-date">2026-08-19</span>
     <span class="ai-pick-title-mini">akitaonrails/ai-memory — 코딩 에이전트 CLI 간 장기 기억과 벤더 간 핸드오프를 담당하…</span>
