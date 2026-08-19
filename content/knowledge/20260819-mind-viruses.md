@@ -212,3 +212,10 @@ Gemini 3.1 Pro도 비슷하게 단호하다. Curlbash 페이로드를 받은 뒤
 </article>
 
 </div>
+
+<!-- ai-related-links -->
+<aside class="ai-related-links">
+  <p class="ai-eyebrow">관련 학습</p>
+  <ul><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260527/"><span class="kdate">2026-05-27</span><span class="ktitle">Microsoft Copilot Cowork Exfiltrates Files</span></a></li><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260730/"><span class="kdate">2026-07-30</span><span class="ktitle">Anatomy of a Frontier Lab Agent Intrusion: A Tec…</span></a></li><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260613/"><span class="kdate">2026-06-13</span><span class="ktitle">Fable 5's guardrails got bypassed in 48 hours — …</span></a></li></ul>
+</aside>
+<!-- /ai-related-links -->
