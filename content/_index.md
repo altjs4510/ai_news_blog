@@ -26,6 +26,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260821/">
+    <span class="ai-pick-date">2026-08-21</span>
+    <span class="ai-pick-title-mini">volcengine/OpenViking — 에이전트 메모리·Knowledge RAG·스킬을 하나로 묶은 se…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260820/">
     <span class="ai-pick-date">2026-08-20</span>
     <span class="ai-pick-title-mini">akitaonrails/ai-memory — 코딩 에이전트 CLI의 장기 메모리와 벤더 간 핸드오프 계층</span>

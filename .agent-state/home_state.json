@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260821",
+      "display_date": "2026-08-21",
+      "title": "volcengine/OpenViking — 에이전트 메모리·Knowledge RAG·스킬을 하나로 묶은 self-evolving Context Database",
+      "url": "https://github.com/volcengine/OpenViking",
+      "summary": "하루 955 스타(누적 30,898)로 이번 윈도우 상위에 올라온 신규 항목으로, 흔한 '스킬 디렉토리 공유' 레포와 달리 에이전트 메모리·RAG·스킬을 **세 개의 분리된 레이어가 아니라 하나의 자기진화 컨텍스트 DB**로 통합한다는 설계 명제를 들고 나왔습니다. DCSAI가 Neo4j KG + 자체 MCP host server로 쪼개 들고 있는 '무엇을 아는가'와 'agent loop가 매 턴 무엇을 컨텍스트에 실을까'의 경계를 정면으로 되묻는 결입니다.",
+      "knowledge_url": "/knowledge/20260821/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260820",
       "display_date": "2026-08-20",
       "title": "akitaonrails/ai-memory — 코딩 에이전트 CLI의 장기 메모리와 벤더 간 핸드오프 계층",
@@ -231,21 +242,10 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260724",
-      "display_date": "2026-07-24",
-      "title": "diegosouzapw/OmniRoute — 단일 엔드포인트로 278+ 프로바이더·500+ 모델을 잇는 쿼터 인식 AI 게이트웨이",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "summary": "Claude·GPT·Gemini·Kimi 등 500+ 모델을 하나의 엔드포인트로 묶고 쿼터 인식 자동 폴백·토큰 압축(15~95% 절감)·MCP/A2A를 내장한 오픈소스 게이트웨이로, 하루 1,925 스타로 트렌딩 상위에 올랐습니다. DCSAI의 MCP host server와 agent loop가 다뤄야 할 '모델 선택·비용/가용성 최적화·프로바이더 폴백' 결을 정면으로 구현한 레퍼런스입니다.",
-      "knowledge_url": "/knowledge/20260724/",
-      "categories": [
-        "인프라 & 컴퓨트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260820",
+    "date_str": "20260821",
     "items": []
   }
 }
