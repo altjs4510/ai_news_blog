@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260822",
+      "display_date": "2026-08-22",
+      "title": "mattpocock/skills — Skills for Real Engineers (하루 3,368 stars, 트렌딩 1위급)",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "하루 3,368스타로 이번 윈도우 최상위 신규 급부상 항목인데, 언어가 Shell이라는 점이 핵심입니다 — 프레임워크가 아니라 마크다운 + 셸로 된 '판단의 순서'를 배포하는 형태이고, 같은 주 Latent Space가 다룬 [/wayfinder 스킬](https://www.latent.space/p/wayfinder-skill)이 그 대표 패턴(그린필드·방향 불분명 상황용)으로 함께 공개됐습니다. DCSAI `dcs-ai-plugin`의 Claude Code skills/commands/hooks 구성 결과, agent loop가 '무엇을 할 수 있나'가 아니라 '어떤 순서로 판단하나'를 어디에 담을지를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260822/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260821",
       "display_date": "2026-08-21",
       "title": "volcengine/OpenViking — 에이전트 메모리·Knowledge RAG·스킬을 하나로 묶은 self-evolving Context Database",
@@ -231,21 +242,18 @@
       "categories": [
         "MCP & 도구 통합"
       ]
-    },
-    {
-      "date_str": "20260725",
-      "display_date": "2026-07-25",
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "summary": "Opus 5가 long-running agents를 전면에 내세우며 발표된 같은 날 나온 1차 실무 문서로, 세대 전환 시 기존 프롬프트·컨텍스트 조립 관행 중 무엇을 폐기하고 무엇을 갱신해야 하는지를 직접 규정합니다. DCSAI agent loop가 매 턴 무엇을 컨텍스트에 실어 보낼지 결정하는 조립 로직과, MCP host server가 tool 결과를 되먹이는 경계 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260725/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260821",
-    "items": []
+    "date_str": "20260822",
+    "items": [
+      {
+        "term": "Muse Spark 1.1",
+        "url": "https://x.com/AIatMeta/status/2090505420817494500",
+        "title": "Here are the generated artifacts of Muse Spark 1.1 and 1.2 on the Cat Mesh:  htt…",
+        "is_new": true,
+        "count": 2
+      }
+    ]
   }
 }
