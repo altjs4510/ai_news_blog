@@ -22,15 +22,15 @@ toc: false
 </div>
 
 <aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/AIatMeta/status/2090505420817494500" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse Spark 1.1</span></a></li>
-    </ul>
-  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260823/">
+    <span class="ai-pick-date">2026-08-23</span>
+    <span class="ai-pick-title-mini">The Evolution of the Agent Harness — 하네스가 모델 가중치로 흡수되고, 결국 '…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260822/">
     <span class="ai-pick-date">2026-08-22</span>

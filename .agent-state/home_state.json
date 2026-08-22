@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260823",
+      "display_date": "2026-08-23",
+      "title": "The Evolution of the Agent Harness — 하네스가 모델 가중치로 흡수되고, 결국 '사람의 주의'를 관리하는 인터페이스가 된다",
+      "url": "https://www.latent.space/p/attention-interface",
+      "summary": "이번 윈도우에 새로 올라온 글이면서, 같은 주 Nvidia의 '하네스가 진짜 주인공' 결과와 GitHub 트렌딩 상위(codex·skills·superpowers·ECC)가 전부 하네스 계층으로 쏠린 현상을 하나의 시간축으로 설명합니다. 핵심 주장은 하네스 기능이 계속 모델 가중치로 흡수되므로, 하네스의 잔존 가치가 '모델 제어'가 아니라 '사람의 주의(attention) 관리'로 이동한다는 것 — DCSAI agent loop의 HITL 분기와 HTTP chunked streaming이 결국 무엇을 위한 장치인가를 정면으로 되묻습니다.",
+      "knowledge_url": "/knowledge/20260823/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260822",
       "display_date": "2026-08-22",
       "title": "mattpocock/skills — Skills for Real Engineers (하루 3,368 stars, 트렌딩 1위급)",
@@ -231,29 +242,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260726",
-      "display_date": "2026-07-26",
-      "title": "citrolabs/ego-lite — 로그인된 브라우저 상태를 AI 에이전트와 공유하는 웹 자동화 브라우저",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "summary": "하루 986 stars로 신규 급부상한 항목으로, 에이전트 웹 자동화의 진짜 병목이 속도가 아니라 '이미 로그인된 세션을 사용자 방해 없이 공유하는 것'임을 정면으로 문제 정의했습니다. Codex·Claude Code 같은 코딩 에이전트에 인증된 브라우저 컨텍스트를 그대로 넘긴다는 설계는 DCSAI MCP host server의 tool 실행 경계와 Team Agent의 Workflow HTML 파싱 단계가 공통으로 안고 있는 '인증 세션을 누가 들고 있느냐' 결을 정조준합니다.",
-      "knowledge_url": "/knowledge/20260726/",
-      "categories": [
-        "MCP & 도구 통합"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260822",
-    "items": [
-      {
-        "term": "Muse Spark 1.1",
-        "url": "https://x.com/AIatMeta/status/2090505420817494500",
-        "title": "Here are the generated artifacts of Muse Spark 1.1 and 1.2 on the Cat Mesh:  htt…",
-        "is_new": true,
-        "count": 2
-      }
-    ]
+    "date_str": "20260823",
+    "items": []
   }
 }
