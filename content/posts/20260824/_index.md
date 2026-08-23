@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "에이전트가 데모를 벗어나 운영에 들어가고, 그 밑에 메모리·컨텍스트 계층이 상품으로 깔린다"
+date: 2026-08-24
+toc: true
+layout: single
+description: "온콜·업무 시스템에 붙기 시작한 에이전트는 모델 성능이 아니라 '무엇을 기억하고 무엇을 감사할 수 있나'로 승부가 갈린다"
+tags: ["프로덕션 에이전트", "Skills API", "에이전트 메모리 계층", "CI/CD 온콜 자동화", "감사 가능성"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">에이전트가 데모를 벗어나 운영에 들어가고, 그 밑에 메모리·컨텍스트 계층이 상품으로 깔린다</h1>
-  <p class="ai-home-deck">온콜·업무 시스템에 붙기 시작한 에이전트는 모델 성능이 아니라 '무엇을 기억하고 무엇을 감사할 수 있나'로 승부가 갈린다</p>
-  <p class="ai-meta">2026-08-24 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260824/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-08-24 · 주간 요약</p>
+  <h2 class="ai-post-title">에이전트가 데모를 벗어나 운영에 들어가고, 그 밑에 메모리·컨텍스트 계층이 상품으로 깔린다</h2>
+  <p class="ai-post-deck">온콜·업무 시스템에 붙기 시작한 에이전트는 모델 성능이 아니라 '무엇을 기억하고 무엇을 감사할 수 있나'로 승부가 갈린다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -178,56 +172,6 @@ Anthropic의 computer use 스택과 정확히 맞물린다는 점이 흥미롭�
 
 취약 계층 보호 프레임으로 이 문제를 좁혀온 논의에 정면으로 반박한다는 점이 [핵심](https://bsky.app/profile/emilymbender.bsky.social/post/3mtjncuvak22t)이다. 에이전트에 신뢰를 부여하는 UI를 설계하는 쪽이라면 읽어둘 만한 반대편 관점이다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/yume_arasaki/status/2089501369480937536" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Qwen 3.8</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/fchollet/status/2090838046937645398" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">ARC-AGI-3</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/0xCodez/status/2091331341212082196" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">GrokBot</span></a></li>
-    </ul>
-  </section>
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260823/">
-    <span class="ai-pick-date">2026-08-23</span>
-    <span class="ai-pick-title-mini">The Evolution of the Agent Harness — 하네스가 모델 가중치로 흡수되고, 결국 '…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260822/">
-    <span class="ai-pick-date">2026-08-22</span>
-    <span class="ai-pick-title-mini">mattpocock/skills — Skills for Real Engineers (하루 3,368 star…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260821/">
-    <span class="ai-pick-date">2026-08-21</span>
-    <span class="ai-pick-title-mini">volcengine/OpenViking — 에이전트 메모리·Knowledge RAG·스킬을 하나로 묶은 se…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260820/">
-    <span class="ai-pick-date">2026-08-20</span>
-    <span class="ai-pick-title-mini">akitaonrails/ai-memory — 코딩 에이전트 CLI의 장기 메모리와 벤더 간 핸드오프 계층</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260819/">
-    <span class="ai-pick-date">2026-08-19</span>
-    <span class="ai-pick-title-mini">akitaonrails/ai-memory — 코딩 에이전트 CLI 간 장기 기억과 벤더 간 핸드오프를 담당하…</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -240,3 +184,5 @@ Anthropic의 computer use 스택과 정확히 맞물린다는 점이 흥미롭�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
