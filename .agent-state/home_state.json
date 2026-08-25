@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260826",
+      "display_date": "2026-08-26",
+      "title": "apache/maka — 도구 호출·권한 결정·종료 이벤트를 append-only 로그로 남기는 로컬 우선 에이전트 워크스페이스",
+      "url": "https://github.com/apache/maka",
+      "summary": "하루 538스타(총 3,235)로 이번 윈도우에 급부상한 Apache 인큐베이팅 신규 항목으로, 에이전트 '실행 기록'을 부가 기능이 아니라 1급 데이터 모델로 올린 드문 레퍼런스입니다. 모델 메시지·tool call·tool result에 더해 **permission decision(권한 결정)과 termination event까지 같은 append-only 로그에 넣는다**는 설계라, DCSAI agent loop의 HITL 분기가 '승인했다/거부했다'를 어떤 레코드로 남겨야 재현·감사 가능한지, 그리고 Team Agent의 Activity Log → Observer 피드백루프(L1)가 어떤 이벤트 스키마 위에 서야 하는지를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260826/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260823",
       "display_date": "2026-08-23",
       "title": "The Evolution of the Agent Harness — 하네스가 모델 가중치로 흡수되고, 결국 '사람의 주의'를 관리하는 인터페이스가 된다",
@@ -256,40 +267,22 @@
       "categories": [
         "MCP & 도구 통합"
       ]
-    },
-    {
-      "date_str": "20260728",
-      "display_date": "2026-07-28",
-      "title": "alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드리뷰 (하루 980 stars)",
-      "url": "https://github.com/alibaba/open-code-review",
-      "summary": "알리바바 내부 스케일에서 검증된 코드리뷰 도구를 오픈소스로 푼 건데, 핵심은 '전부 LLM에 맡기지 않는다'는 아키텍처입니다 — NPE·thread-safety·XSS·SQL injection 같은 파인튜닝된 룰셋을 결정론적 파이프라인이 먼저 걸러내고, 판단이 필요한 지점만 LLM 에이전트가 라인 단위 코멘트로 처리하며 OpenAI/Anthropic 양쪽 호환입니다. agent loop에서 '어디까지 규칙으로 자르고 어디부터 모델에 넘길 것인가'라는 tool use 경계 설계, 그리고 라인 단위 코멘트라는 구조화된 출력 게이팅 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260728/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260824",
+    "date_str": "20260826",
     "items": [
       {
-        "term": "Qwen 3.8",
-        "url": "https://x.com/yume_arasaki/status/2089501369480937536",
-        "title": "The floor dropped out. Again...  Qwen 3.8 27B dense runs on an 8GB laptop GPU, a…",
-        "is_new": true,
+        "term": "Fable 5",
+        "url": "https://x.com/DanDr1s/status/2092224815440560184",
+        "title": "Claude Fable 5 takes the #1 spot on a new benchmark.   Fable 5: 6.9  GPT-5.6 Sol…",
+        "is_new": false,
         "count": 2
       },
       {
-        "term": "ARC-AGI-3",
-        "url": "https://x.com/fchollet/status/2090838046937645398",
-        "title": "This is very nice work from NVIDIA. Like all high-performing approaches on ARC-A…",
-        "is_new": false,
-        "count": 3
-      },
-      {
-        "term": "GrokBot",
-        "url": "https://x.com/0xCodez/status/2091331341212082196",
-        "title": "Elon Musk:  \"in 6-12 months GrokBot will be #1 tool for building agentic systems…",
+        "term": "GPT-5.6 Sol",
+        "url": "https://x.com/DanDr1s/status/2092224815440560184",
+        "title": "Claude Fable 5 takes the #1 spot on a new benchmark.   Fable 5: 6.9  GPT-5.6 Sol…",
         "is_new": false,
         "count": 2
       }

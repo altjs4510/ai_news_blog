@@ -184,9 +184,19 @@ Anthropic의 computer use 스택과 정확히 맞물린다는 점이 흥미롭�
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/yume_arasaki/status/2089501369480937536" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Qwen 3.8</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/fchollet/status/2090838046937645398" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">ARC-AGI-3</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/0xCodez/status/2091331341212082196" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">GrokBot</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/DanDr1s/status/2092224815440560184" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Fable 5</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/DanDr1s/status/2092224815440560184" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">GPT-5.6 Sol</span></a></li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260826/">
+    <span class="ai-pick-date">2026-08-26</span>
+    <span class="ai-pick-title-mini">apache/maka — 도구 호출·권한 결정·종료 이벤트를 append-only 로그로 남기는 로컬 우선 …</span>
+  </a>
+</li>
     </ul>
   </section>
   <section class="ai-week-block">
