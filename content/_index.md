@@ -184,13 +184,18 @@ Anthropic의 computer use 스택과 정확히 맞물린다는 점이 흥미롭�
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/DanDr1s/status/2092224815440560184" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Fable 5</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/DanDr1s/status/2092224815440560184" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">GPT-5.6 Sol</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/jun_song/status/2092618958600057181" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Ox Alpha</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260827/">
+    <span class="ai-pick-date">2026-08-27</span>
+    <span class="ai-pick-title-mini">Claude in Chrome is generally available</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260826/">
     <span class="ai-pick-date">2026-08-26</span>
