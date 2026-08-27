@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260828",
+      "display_date": "2026-08-28",
+      "title": "Google ADK for Python v2.8.0 — RemoteA2aAgent 네이티브 task 모드 + ADK_MAX_LLM_CALLS 호출 상한",
+      "url": "https://github.com/google/adk-python/releases/tag/v2.8.0",
+      "summary": "원격 에이전트 위임을 A2A의 네이티브 task 모드로 1급 지원하면서 동시에 `ADK_MAX_LLM_CALLS` 환경변수로 루프당 LLM 호출 상한을 환경 레벨에서 강제한 릴리스로, '에이전트를 더 자율적으로'가 아니라 '위임 경계와 폭주 방지선을 런타임 설정으로 못 박는' 방향입니다 — Team Agent의 멀티에이전트 오케스트레이션(`platform-core-agent` ↔ `discovery-core-agent` 위임)과 DCSAI agent loop의 턴/HITL 분기 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260828/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260827",
       "display_date": "2026-08-27",
       "title": "Claude in Chrome is generally available",
@@ -256,28 +267,17 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260730",
-      "display_date": "2026-07-30",
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
-      "summary": "HuggingFace가 공개한 실제 에이전트 침투 사건의 시간순 기술 해부로, Simon Willison이 \"얼마나 정교했는지 놀랍다\"고 평하며 이번 주 최대 버즈(❤424·🔁108)를 만든 1차 자료입니다. 방어 도구 레포가 아니라 '실제로 어떻게 뚫렸는가'의 포스트모템이라는 점이 다르고, DCSAI가 자체 구현한 MCP host server의 tool 실행 경계·OAuth 세션·HITL 분기가 정확히 어떤 공격 시나리오를 전제해야 하는지를 구체적 타임라인으로 보여줍니다.",
-      "knowledge_url": "/knowledge/20260730/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260827",
+    "date_str": "20260828",
     "items": [
       {
-        "term": "Ox Alpha",
-        "url": "https://x.com/jun_song/status/2092618958600057181",
-        "title": "GLM-5.3-Flash was Ox Alpha, and the weights are open now.  Download it right now",
+        "term": "Vera",
+        "url": "https://x.com/nvidia/status/2092960847408583120",
+        "title": "NVIDIA Vera is heading to  @awscloud .   NVIDIA’s Ian Buck hand-delivered AWS’s …",
         "is_new": false,
-        "count": 3
+        "count": 4
       }
     ]
   }
