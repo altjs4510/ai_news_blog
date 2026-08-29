@@ -181,15 +181,15 @@ Anthropic의 computer use 스택과 정확히 맞물린다는 점이 흥미롭�
 </div>
 
 <aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/AnthropicAI/status/2093038426140651791" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Model Hardware Standard</span></a></li>
-    </ul>
-  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260830/">
+    <span class="ai-pick-date">2026-08-30</span>
+    <span class="ai-pick-title-mini">[AINews] OpenAI shuts off Cursor — 프론티어 모델 공급 차단과 '모델 복원력(mo…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260829/">
     <span class="ai-pick-date">2026-08-29</span>

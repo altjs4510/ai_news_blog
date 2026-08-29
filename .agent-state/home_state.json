@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260830",
+      "display_date": "2026-08-30",
+      "title": "[AINews] OpenAI shuts off Cursor — 프론티어 모델 공급 차단과 '모델 복원력(model resiliency)'",
+      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+      "summary": "AI 제품의 핵심 부품인 프론티어 모델이 정치적·경쟁적 이유로 언제든 끊길 수 있다는 걸 대중적으로 증명한 첫 사례로, hardmaru는 이를 두고 여러 기반 모델이 오프라인이 돼도 자동 라우팅으로 정상 동작하는 '모델 복원력'이 앞으로의 기본 요구사항이라고 짚었습니다(https://bsky.app/profile/hardmaru.bsky.social/post/3mu7oaexpsc2p). 단일 벤더 SDK를 하드코딩한 구조가 곧바로 서비스 중단으로 이어진다는 점에서, DCSAI가 Anthropic SDK를 직통합한 agent loop와 HTTP chunked streaming 경로가 벤더 단일 의존이라는 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260830/",
+      "categories": [
+        "산업 동향"
+      ]
+    },
+    {
       "date_str": "20260829",
       "display_date": "2026-08-29",
       "title": "cursor/plugins — 플러그인 명세(specification)와 공식 플러그인을 함께 공개",
@@ -256,29 +267,10 @@
       "categories": [
         "MCP & 도구 통합"
       ]
-    },
-    {
-      "date_str": "20260801",
-      "display_date": "2026-08-01",
-      "title": "different-ai/openwork — Claude Cowork의 오픈소스 대체 에이전트 하네스 (opencode 기반)",
-      "url": "https://github.com/different-ai/openwork",
-      "summary": "하루 796스타(총 19,322)로 이번 주 트렌딩 최상위를 찍은 신규 항목으로, 신규 모델이 아니라 '모델을 감싸는 실행 계층'이 경쟁 축이 됐음을 보여주는 대표 사례입니다. Claude Cowork가 폐쇄적으로 제공하던 멀티태스크 에이전트 워크스페이스(작업 분배·병렬 세션·툴 실행 경계)를 오픈소스로 뜯어볼 수 있다는 점에서, DCSAI가 자체 구현 중인 agent loop·HITL 분기·MCP host server의 tool 실행 경계 설계를 남의 구현체로 대조 검증할 수 있는 1차 레퍼런스입니다.",
-      "knowledge_url": "/knowledge/20260801/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260829",
-    "items": [
-      {
-        "term": "Model Hardware Standard",
-        "url": "https://x.com/AnthropicAI/status/2093038426140651791",
-        "title": "Today, we're kicking off the first phase of the research preview for Model Hardw…",
-        "is_new": true,
-        "count": 3
-      }
-    ]
+    "date_str": "20260830",
+    "items": []
   }
 }
