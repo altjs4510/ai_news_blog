@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "모델 공급이 정치로 끊긴 주 — 코딩 툴의 생존 요건이 된 '모델 복원력'"
+date: 2026-08-31
+toc: true
+layout: single
+description: "단일 벤더 SDK를 하드코딩한 제품은 계약 한 줄로 멈춘다는 게 이번 주 실증됐고, 대안은 라우팅·페일오버 계층이다"
+tags: ["모델 복원력", "멀티 프로바이더 라우팅", "벤더 종속 리스크", "에이전트 스킬 축적", "에이전트 브라우저"]
+categories: ["인프라 & 컴퓨트"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">모델 공급이 정치로 끊긴 주 — 코딩 툴의 생존 요건이 된 '모델 복원력'</h1>
-  <p class="ai-home-deck">단일 벤더 SDK를 하드코딩한 제품은 계약 한 줄로 멈춘다는 게 이번 주 실증됐고, 대안은 라우팅·페일오버 계층이다</p>
-  <p class="ai-meta">2026-08-31 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260831/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-08-31 · 주간 요약</p>
+  <h2 class="ai-post-title">모델 공급이 정치로 끊긴 주 — 코딩 툴의 생존 요건이 된 '모델 복원력'</h2>
+  <p class="ai-post-deck">단일 벤더 SDK를 하드코딩한 제품은 계약 한 줄로 멈춘다는 게 이번 주 실증됐고, 대안은 라우팅·페일오버 계층이다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -183,57 +177,6 @@ Product Hunt에서는 **oMLX**가 **Mac LLM 서버로 에이전트 대기 시간
 
 **Simon Willison**의 **LLM 클리셰 하이라이터가 38개 패턴까지 늘었다**는 소식도 같은 결이다. AI 산출물의 특징적 문체를 탐지하는 도구가 커뮤니티에서 491 좋아요를 받는 건, 생성물에 대한 **감별 욕구**가 그만큼 커졌다는 뜻이다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/RohOnChain/status/2091962773517578679" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Grok Bot</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/perplexity_ai/status/2093410587338575936" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">GLM 5.3</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/AndrewYNg/status/2093388974194872781" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">agentic coding</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/UnrealEngine/status/2093053059580760305" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">MCP</span></a></li>
-    </ul>
-  </section>
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260830/">
-    <span class="ai-pick-date">2026-08-30</span>
-    <span class="ai-pick-title-mini">[AINews] OpenAI shuts off Cursor — 프론티어 모델 공급 차단과 '모델 복원력(mo…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260829/">
-    <span class="ai-pick-date">2026-08-29</span>
-    <span class="ai-pick-title-mini">cursor/plugins — 플러그인 명세(specification)와 공식 플러그인을 함께 공개</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260828/">
-    <span class="ai-pick-date">2026-08-28</span>
-    <span class="ai-pick-title-mini">Google ADK for Python v2.8.0 — RemoteA2aAgent 네이티브 task 모드 +…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260827/">
-    <span class="ai-pick-date">2026-08-27</span>
-    <span class="ai-pick-title-mini">Claude in Chrome is generally available</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260826/">
-    <span class="ai-pick-date">2026-08-26</span>
-    <span class="ai-pick-title-mini">apache/maka — 도구 호출·권한 결정·종료 이벤트를 append-only 로그로 남기는 로컬 우선 …</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -246,3 +189,5 @@ Product Hunt에서는 **oMLX**가 **Mac LLM 서버로 에이전트 대기 시간
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
