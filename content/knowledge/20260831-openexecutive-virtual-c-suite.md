@@ -49,3 +49,10 @@ CSO(전략·경쟁분석·M&A), CFO(재무모델링·펀드레이징), CHRO(채�
 </article>
 
 </div>
+
+<!-- ai-related-links -->
+<aside class="ai-related-links">
+  <p class="ai-eyebrow">관련 학습</p>
+  <ul><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260705/"><span class="kdate">2026-07-05</span><span class="ktitle">openai/codex-plugin-cc — Claude Code에서 Codex를 위임…</span></a></li><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260602/"><span class="kdate">2026-06-02</span><span class="ktitle">revfactory/harness — 도메인별 에이전트 팀과 스킬을 자동 설계하는 메타…</span></a></li><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260623/"><span class="kdate">2026-06-23</span><span class="ktitle">bytedance/deer-flow — 샌드박스·메모리·서브에이전트·메시지 게이트웨이를…</span></a></li></ul>
+</aside>
+<!-- /ai-related-links -->
