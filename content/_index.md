@@ -186,13 +186,15 @@ Product Hunt에서는 **oMLX**가 **Mac LLM 서버로 에이전트 대기 시간
 </div>
 
 <aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/RohOnChain/status/2091962773517578679" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Grok Bot</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/perplexity_ai/status/2093410587338575936" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">GLM 5.3</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/AndrewYNg/status/2093388974194872781" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">agentic coding</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/UnrealEngine/status/2093053059580760305" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">MCP</span></a></li>
+  <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260901/">
+    <span class="ai-pick-date">2026-09-01</span>
+    <span class="ai-pick-title-mini">affaan-m/ECC — 스킬·본능·메모리·보안을 묶은 에이전트 하네스 성능 최적화 시스템</span>
+  </a>
+</li>
     </ul>
   </section>
   <section class="ai-week-block">

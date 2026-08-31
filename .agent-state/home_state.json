@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260901",
+      "display_date": "2026-09-01",
+      "title": "affaan-m/ECC — 스킬·본능·메모리·보안을 묶은 에이전트 하네스 성능 최적화 시스템",
+      "url": "https://github.com/affaan-m/ECC",
+      "summary": "하루 548 스타로 이번 윈도우에 올라온 항목인데, 흔한 '스킬 디렉토리 공유' 레포와 달리 스스로를 **harness performance optimization system**으로 규정하고 skills·instincts·memory·security를 하나의 실행 계층으로 묶습니다. 모델을 바꾸는 게 아니라 모델 주변 컨텍스트 조립·안전 경계를 최적화한다는 명제라, DCSAI agent loop가 매 턴 무엇을 컨텍스트에 실을지 결정하는 조립 로직과 MCP host server의 tool 실행 경계·HITL 분기 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260901/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260830",
       "display_date": "2026-08-30",
       "title": "[AINews] OpenAI shuts off Cursor — 프론티어 모델 공급 차단과 '모델 복원력(model resiliency)'",
@@ -256,50 +267,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260802",
-      "display_date": "2026-08-02",
-      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
-      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
-      "summary": "Simon Willison이 새 stateless MCP 명세로 관심이 되살아났다며 mcp-explorer·datasette-mcp를 며칠 만에 내놨고, Bluesky에서도 75 하트로 반응이 붙었습니다(https://bsky.app/profile/simonwillison.net/post/3mry3ilyu7s2f). 초기 MCP의 stateful 세션 설계가 실무 도입의 병목이었다는 진단이 사후 검증된 셈으로, DCSAI가 자체 구현 중인 MCP host server의 OAuth·세션·tool 실행 경계 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260802/",
-      "categories": [
-        "MCP & 도구 통합"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260831",
-    "items": [
-      {
-        "term": "Grok Bot",
-        "url": "https://x.com/RohOnChain/status/2091962773517578679",
-        "title": "this is most dangerous thing on internet today  MIT quants open sourced the enti…",
-        "is_new": true,
-        "count": 3
-      },
-      {
-        "term": "GLM 5.3",
-        "url": "https://x.com/perplexity_ai/status/2093410587338575936",
-        "title": "GLM 5.3 is now available in Perplexity Computer.  Built for long-context, multim…",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "agentic coding",
-        "url": "https://x.com/AndrewYNg/status/2093388974194872781",
-        "title": "How have software engineering fundamentals changed with agentic coding? Here is …",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "MCP",
-        "url": "https://x.com/UnrealEngine/status/2093053059580760305",
-        "title": "City Sample just got a major update  The new level was built entirely in Unreal …",
-        "is_new": false,
-        "count": 3
-      }
-    ]
+    "date_str": "20260901",
+    "items": []
   }
 }
