@@ -190,6 +190,12 @@ Product Hunt에서는 **oMLX**가 **Mac LLM 서버로 에이전트 대기 시간
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260902/">
+    <span class="ai-pick-date">2026-09-02</span>
+    <span class="ai-pick-title-mini">AIR raises $50M to help companies vet the skills and add-ons…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260901/">
     <span class="ai-pick-date">2026-09-01</span>
     <span class="ai-pick-title-mini">affaan-m/ECC — 스킬·본능·메모리·보안을 묶은 에이전트 하네스 성능 최적화 시스템</span>
