@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260903",
+      "display_date": "2026-09-03",
+      "title": "pacifio/atlas — 여러 코딩 에이전트의 변경을 한곳에서 추적·질의하는 '에이전트용 소스 컨트롤' (Rust, 하루 895 stars)",
+      "url": "https://github.com/pacifio/atlas",
+      "summary": "이번 윈도우에 새로 급부상한 신규 항목(누적 2,756 중 하루 895)이면서, 흔한 '스킬 디렉토리 공유' 결이 아니라 **여러 에이전트가 동시에 코드를 고칠 때 누가 무엇을 왜 바꿨는지**를 1급 구조로 올린 설계입니다. DCSAI agent loop의 HITL 분기가 '매 tool 호출 승인'에서 '사후 검증'으로 이동할 때 반드시 필요한 변경 추적 계층이자, Team Agent의 Activity Log → Observer 피드백루프가 코드 레벨에서 어떤 단위로 기록돼야 하는지의 레퍼런스입니다.",
+      "knowledge_url": "/knowledge/20260903/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260902",
       "display_date": "2026-09-02",
       "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
@@ -256,21 +267,32 @@
       "categories": [
         "인프라 & 컴퓨트"
       ]
-    },
-    {
-      "date_str": "20260805",
-      "display_date": "2026-08-05",
-      "title": "TencentCloud/TencentDB-Agent-Memory — 대화·문서·코드를 4종 자산으로 재사용하는 팀 레벨 에이전트 메모리 허브",
-      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-      "summary": "하루 1,138 stars로 급부상한 신규 항목으로, 개인 세션 컨텍스트가 아니라 **팀 레벨 메모리 허브**를 표방하며 대화·문서·코드를 Chat Memory / Skill / LLM-Wiki / Code-Graph 네 가지 거버넌스 가능한 자산으로 분해합니다. '무엇을 아는가'를 에이전트 밖 공용 계층으로 빼낸다는 설계라 DCSAI의 Neo4j KG + MCP host server 결과, Team Agent의 크로스 브랜드 `platform-core-agent`가 브랜드별 `discovery-core-agent`와 무엇을 공유하고 무엇을 격리할지의 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260805/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260902",
-    "items": []
+    "date_str": "20260903",
+    "items": [
+      {
+        "term": "Claude Fable 5.1",
+        "url": "https://x.com/perplexity_ai/status/2094865042873467261",
+        "title": "Claude Fable 5.1 is now available in Perplexity Computer for Pro and Max subscri…",
+        "is_new": true,
+        "count": 2
+      },
+      {
+        "term": "Gemini 3.8 Flash",
+        "url": "https://x.com/GoogleAI/status/2095175759606231439",
+        "title": "We’re introducing Gemini 3.8 Flash  built to tackle complex agentic and multi-st…",
+        "is_new": true,
+        "count": 2
+      },
+      {
+        "term": "Astra",
+        "url": "https://x.com/OpenAI/status/2094885578173260259",
+        "title": "As we prepare to release Astra, we’re focused on making increasingly capable AI …",
+        "is_new": false,
+        "count": 3
+      }
+    ]
   }
 }
