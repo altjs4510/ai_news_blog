@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260904",
+      "display_date": "2026-09-04",
+      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+      "url": "https://huggingface.co/papers/2609.01437",
+      "summary": "이번 윈도우에 새로 올라온 논문으로, GitHub 트렌딩을 도배한 '사람이 손으로 쓴 스킬 번들' 흐름을 정면으로 뒤집어 하네스 자체를 LLM이 생성·진화시킬 수 있는지를 묻습니다. DCSAI가 직접 구현한 agent loop와 `dcs-ai-plugin`의 Claude Code skills/hooks 구성이 '사람이 계속 손으로 유지보수해야 하는 자산'인지, 아니면 평가 신호를 받아 자동 갱신될 수 있는 자산인지를 되묻는 결입니다.",
+      "knowledge_url": "/knowledge/20260904/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260903",
       "display_date": "2026-09-03",
       "title": "pacifio/atlas — 여러 코딩 에이전트의 변경을 한곳에서 추적·질의하는 '에이전트용 소스 컨트롤' (Rust, 하루 895 stars)",
@@ -256,42 +267,31 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260806",
-      "display_date": "2026-08-06",
-      "title": "cloudflare/computer — 에이전트에게 컴퓨터를 통째로 주는 엣지 실행 샌드박스",
-      "url": "https://github.com/cloudflare/computer",
-      "summary": "엣지 사업자가 에이전트 실행 환경 자체를 자사 네트워크 위 상품으로 올린 첫 대형 레퍼런스로, 하루 796스타(총 2,363)로 이번 주 신규 급부상 1군입니다. '툴을 하나씩 노출한다'가 아니라 '샌드박스된 컴퓨터를 통째로 넘긴다'는 설계라 DCSAI가 자체 구현 중인 MCP host server의 tool 실행 경계와 HITL 분기가 어디까지 세분화되어야 하는지를 정면으로 되묻습니다.",
-      "knowledge_url": "/knowledge/20260806/",
-      "categories": [
-        "인프라 & 컴퓨트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260903",
+    "date_str": "20260904",
     "items": [
       {
-        "term": "Claude Fable 5.1",
-        "url": "https://x.com/perplexity_ai/status/2094865042873467261",
-        "title": "Claude Fable 5.1 is now available in Perplexity Computer for Pro and Max subscri…",
+        "term": "Muse Spark 1.3",
+        "url": "https://x.com/alexandr_wang/status/2095232916276260884",
+        "title": "1/ today we’re releasing muse spark 1.3—available in muse code & the meta model …",
         "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "Gemini 3.8 Flash",
-        "url": "https://x.com/GoogleAI/status/2095175759606231439",
-        "title": "We’re introducing Gemini 3.8 Flash  built to tackle complex agentic and multi-st…",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "Astra",
-        "url": "https://x.com/OpenAI/status/2094885578173260259",
-        "title": "As we prepare to release Astra, we’re focused on making increasingly capable AI …",
-        "is_new": false,
         "count": 3
+      },
+      {
+        "term": "Meta Model API",
+        "url": "https://x.com/alexandr_wang/status/2095232916276260884",
+        "title": "1/ today we’re releasing muse spark 1.3—available in muse code & the meta model …",
+        "is_new": true,
+        "count": 2
+      },
+      {
+        "term": "Muse Code",
+        "url": "https://x.com/alexandr_wang/status/2095232916276260884",
+        "title": "1/ today we’re releasing muse spark 1.3—available in muse code & the meta model …",
+        "is_new": true,
+        "count": 2
       }
     ]
   }

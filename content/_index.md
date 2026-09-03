@@ -189,14 +189,20 @@ Product Hunt에서는 **oMLX**가 **Mac LLM 서버로 에이전트 대기 시간
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/perplexity_ai/status/2094865042873467261" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Claude Fable 5.1</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/GoogleAI/status/2095175759606231439" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Gemini 3.8 Flash</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/OpenAI/status/2094885578173260259" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Astra</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alexandr_wang/status/2095232916276260884" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse Spark 1.3</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alexandr_wang/status/2095232916276260884" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Meta Model API</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alexandr_wang/status/2095232916276260884" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse Code</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260904/">
+    <span class="ai-pick-date">2026-09-04</span>
+    <span class="ai-pick-title-mini">HarnessDev: Can LLMs Create and Evolve Their Own Agent Harne…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260903/">
     <span class="ai-pick-date">2026-09-03</span>
