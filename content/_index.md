@@ -189,14 +189,18 @@ Product Hunt에서는 **oMLX**가 **Mac LLM 서버로 에이전트 대기 시간
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alexandr_wang/status/2095232916276260884" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse Spark 1.3</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alexandr_wang/status/2095232916276260884" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Meta Model API</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alexandr_wang/status/2095232916276260884" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse Code</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alishbaimran_/status/2095634686106276143" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">GPT-6 Astra</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260905/">
+    <span class="ai-pick-date">2026-09-05</span>
+    <span class="ai-pick-title-mini">magnitudedev/magnitude — 하드웨어에 맞는 최적 로컬 모델을 띄워 이미 쓰는 에이전트에 그…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260904/">
     <span class="ai-pick-date">2026-09-04</span>

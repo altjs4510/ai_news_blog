@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260905",
+      "display_date": "2026-09-05",
+      "title": "magnitudedev/magnitude — 하드웨어에 맞는 최적 로컬 모델을 띄워 이미 쓰는 에이전트에 그대로 꽂는 오픈소스 추론 서버",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "summary": "이번 윈도우에 새로 올라온 항목(하루 395스타, 누적 2,283)으로, 트렌딩을 도배한 '스킬 디렉토리 공유' 결과 명확히 다른 층위 — 스킬·프롬프트가 아니라 **에이전트 아래 추론 백엔드를 교체 가능한 계층으로 분리**한다는 설계 명제입니다. Claude Code·Codex·Cline·Hermes 등 기존 에이전트에 어댑터 없이 꽂힌다는 점에서, DCSAI가 Anthropic SDK 직통합으로 들고 있는 agent loop와 MCP host server의 tool 실행 경계가 '어느 모델 엔드포인트를 물고 있는가'에 얼마나 묶여 있는지를 정면으로 되묻습니다.",
+      "knowledge_url": "/knowledge/20260905/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260904",
       "display_date": "2026-09-04",
       "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
@@ -256,42 +267,17 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260808",
-      "display_date": "2026-08-08",
-      "title": "PrimeIntellect-ai/prime-agent — 코딩 워크플로우와 장시간 자율 작업을 위한 자기개선 RLM 에이전트",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "summary": "총 5,949 스타 중 하루 2,271개가 몰린 이번 윈도우 최상위 신규 항목으로, 스킬 카탈로그류가 도배한 트렌딩에서 유일하게 '실행 구조' 자체를 건드립니다. 한 번의 tool call이 아니라 long-running 자율 루프에서 스스로 궤도를 수정하는 설계라, DCSAI agent loop의 턴 경계·컨텍스트 재조립과 Team Agent의 agent autonomy(A0~A4)·decision levels(D0~D5) 결을 정면으로 조준합니다.",
-      "knowledge_url": "/knowledge/20260808/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260904",
+    "date_str": "20260905",
     "items": [
       {
-        "term": "Muse Spark 1.3",
-        "url": "https://x.com/alexandr_wang/status/2095232916276260884",
-        "title": "1/ today we’re releasing muse spark 1.3—available in muse code & the meta model …",
+        "term": "GPT-6 Astra",
+        "url": "https://x.com/alishbaimran_/status/2095634686106276143",
+        "title": "GPT-6 Astra is the first model launch I’ve contributed to since joining OpenAI! …",
         "is_new": true,
-        "count": 3
-      },
-      {
-        "term": "Meta Model API",
-        "url": "https://x.com/alexandr_wang/status/2095232916276260884",
-        "title": "1/ today we’re releasing muse spark 1.3—available in muse code & the meta model …",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "Muse Code",
-        "url": "https://x.com/alexandr_wang/status/2095232916276260884",
-        "title": "1/ today we’re releasing muse spark 1.3—available in muse code & the meta model …",
-        "is_new": true,
-        "count": 2
+        "count": 6
       }
     ]
   }
