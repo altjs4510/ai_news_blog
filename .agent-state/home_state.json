@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260906",
+      "display_date": "2026-09-06",
+      "title": "DietrichGebert/ponytail — 에이전트를 '방에서 가장 게으른 시니어 개발자'처럼 생각하게 만드는 하니스",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "summary": "하루 2,813 스타로 이번 윈도우 트렌딩 최상단에 새로 올라온 항목인데, 명제가 기존 스킬·하니스 레포와 정반대입니다 — '에이전트가 무엇을 더 할 수 있게 하나'가 아니라 '언제 아무것도 하지 않기로 결정하나(The best code is the code you never wrote)'를 1급 설계 목표로 놓았습니다. DCSAI agent loop가 매 턴 tool을 호출할지 말지 판단하는 지점과 HITL 분기의 개입 기준을 '위험도'가 아니라 '필요성'으로 다시 묻는 결입니다.",
+      "knowledge_url": "/knowledge/20260906/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260905",
       "display_date": "2026-09-05",
       "title": "magnitudedev/magnitude — 하드웨어에 맞는 최적 로컬 모델을 띄워 이미 쓰는 에이전트에 그대로 꽂는 오픈소스 추론 서버",
@@ -256,28 +267,24 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260809",
-      "display_date": "2026-08-09",
-      "title": "PrimeIntellect-ai/prime-agent — 코딩 워크플로우·장기 자율 작업용 self-improving RLM 에이전트",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "summary": "하루 2,483 스타로 트렌딩 1위에 올라온 신규 항목으로, 같은 주 HuggingFace Papers 상위를 채운 agentic RL(자기 증류·하네스 최적화) 연구를 실제 TypeScript 코딩 에이전트 제품으로 내린 첫 레퍼런스입니다. '한 턴을 잘 도는 모델'이 아니라 '장기 실행 루프를 스스로 개선한다'는 설계라, DCSAI agent loop의 턴 구성·tool use 경계와 HITL 분기가 장기 작업에서 어떤 상태를 들고 가야 하는지 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260809/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260905",
+    "date_str": "20260906",
     "items": [
       {
-        "term": "GPT-6 Astra",
-        "url": "https://x.com/alishbaimran_/status/2095634686106276143",
-        "title": "GPT-6 Astra is the first model launch I’ve contributed to since joining OpenAI! …",
+        "term": "agentic CAD",
+        "url": "https://x.com/adamdotnew/status/2096053889141489669",
+        "title": "GPT-6 Astra is the new SOTA in agentic CAD.  A true step change in what AI can d…",
         "is_new": true,
-        "count": 6
+        "count": 2
+      },
+      {
+        "term": "GPT-6 Astra",
+        "url": "https://x.com/adamdotnew/status/2096053889141489669",
+        "title": "GPT-6 Astra is the new SOTA in agentic CAD.  A true step change in what AI can d…",
+        "is_new": false,
+        "count": 4
       }
     ]
   }

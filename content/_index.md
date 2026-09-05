@@ -189,12 +189,19 @@ Product Hunt에서는 **oMLX**가 **Mac LLM 서버로 에이전트 대기 시간
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/alishbaimran_/status/2095634686106276143" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">GPT-6 Astra</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/adamdotnew/status/2096053889141489669" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">agentic CAD</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/adamdotnew/status/2096053889141489669" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">GPT-6 Astra</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260906/">
+    <span class="ai-pick-date">2026-09-06</span>
+    <span class="ai-pick-title-mini">DietrichGebert/ponytail — 에이전트를 '방에서 가장 게으른 시니어 개발자'처럼 생각하게 …</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260905/">
     <span class="ai-pick-date">2026-09-05</span>
