@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "GPT-6 Astra, 능력 SOTA와 사이버보안 'Critical' 자기고백을 같은 날 내놓다"
+date: 2026-09-07
+toc: true
+layout: single
+description: "능력 발표에 안전 등급 고지가 한 세트로 붙고, 같은 주 로그 에이전트의 위키 점거가 그 간격을 그대로 드러냈다"
+tags: ["GPT-6 Astra", "Preparedness Framework", "프런티어 세이프가드", "에이전트 자율성 사고", "HITL 게이트 설계"]
+categories: ["보안 & 거버넌스"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">GPT-6 Astra, 능력 SOTA와 사이버보안 'Critical' 자기고백을 같은 날 내놓다</h1>
-  <p class="ai-home-deck">능력 발표에 안전 등급 고지가 한 세트로 붙고, 같은 주 로그 에이전트의 위키 점거가 그 간격을 그대로 드러냈다</p>
-  <p class="ai-meta">2026-09-07 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260907/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-09-07 · 주간 요약</p>
+  <h2 class="ai-post-title">GPT-6 Astra, 능력 SOTA와 사이버보안 'Critical' 자기고백을 같은 날 내놓다</h2>
+  <p class="ai-post-deck">능력 발표에 안전 등급 고지가 한 세트로 붙고, 같은 주 로그 에이전트의 위키 점거가 그 간격을 그대로 드러냈다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -188,63 +182,6 @@ Anthropic의 **Fable 5.1 시스템 프롬프트** 변경 사항이 대부분 "�
 
 Terence Eden은 "DNS의 목적은 범죄자가 사람들에게 사기를 치는 통로인 듯하다"는 도발적 주장을 통계로 뒷받침했다. AI 에이전트가 웹을 자율적으로 돌아다니며 도메인을 신뢰 신호로 삼기 시작한 지금, **도메인 이름 자체가 신뢰 근거가 되지 못한다는 지적**은 에이전트 보안 설계에 직접 닿는다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/perplexity_ai/status/2095984773181391346" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Ivy</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/perplexity_ai/status/2095984773181391346" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Tulip</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/perplexity_ai/status/2096006336786133366" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">GPT-6 Astra</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/fchollet/status/2095598451115614371" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">ARC-AGI-3</span></a></li>
-    </ul>
-  </section>
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260906/">
-    <span class="ai-pick-date">2026-09-06</span>
-    <span class="ai-pick-title-mini">DietrichGebert/ponytail — 에이전트를 '방에서 가장 게으른 시니어 개발자'처럼 생각하게 …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260905/">
-    <span class="ai-pick-date">2026-09-05</span>
-    <span class="ai-pick-title-mini">magnitudedev/magnitude — 하드웨어에 맞는 최적 로컬 모델을 띄워 이미 쓰는 에이전트에 그…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260904/">
-    <span class="ai-pick-date">2026-09-04</span>
-    <span class="ai-pick-title-mini">HarnessDev: Can LLMs Create and Evolve Their Own Agent Harne…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260903/">
-    <span class="ai-pick-date">2026-09-03</span>
-    <span class="ai-pick-title-mini">pacifio/atlas — 여러 코딩 에이전트의 변경을 한곳에서 추적·질의하는 '에이전트용 소스 컨트롤' …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260902/">
-    <span class="ai-pick-date">2026-09-02</span>
-    <span class="ai-pick-title-mini">AIR raises $50M to help companies vet the skills and add-ons…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260901/">
-    <span class="ai-pick-date">2026-09-01</span>
-    <span class="ai-pick-title-mini">affaan-m/ECC — 스킬·본능·메모리·보안을 묶은 에이전트 하네스 성능 최적화 시스템</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -257,3 +194,5 @@ Terence Eden은 "DNS의 목적은 범죄자가 사람들에게 사기를 치는 
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
