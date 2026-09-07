@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260908",
+      "display_date": "2026-09-08",
+      "title": "bytedance/deer-flow — 샌드박스·메모리·서브에이전트·메시지 게이트웨이를 묶은 long-horizon SuperAgent 하네스",
+      "url": "https://github.com/bytedance/deer-flow",
+      "summary": "몇 분에서 몇 시간까지 이어지는 장기 작업을 1급 요구사항으로 놓고, 스킬·메모리·서브에이전트·**메시지 게이트웨이**를 한 런타임 안에 함께 배치한 드문 오픈 구현체입니다(누적 81,763 stars, 이번 윈도우 188 stars today). 특히 '서브에이전트 간 메시지를 게이트웨이가 중계한다'는 설계는 Team Agent의 `platform-core-agent` ↔ `discovery-core-agent` 위임 경계와 DCSAI agent loop의 턴 유지·HITL 분기가 공통으로 안고 있는 '누가 무엇을 누구에게 넘기는가'를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260908/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20260906",
       "display_date": "2026-09-06",
       "title": "DietrichGebert/ponytail — 에이전트를 '방에서 가장 게으른 시니어 개발자'처럼 생각하게 만드는 하니스",
@@ -256,49 +267,17 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260810",
-      "display_date": "2026-08-10",
-      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
-      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
-      "summary": "Anthropic이 코딩 에이전트의 자율 실행을 유료 플랜 전 구간의 기본값으로 올린 1차 공지로, Simon Willison이 곧바로 [별도 글](https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything)로 받으며 이번 주 최대 화제가 됐습니다. 매 tool 호출마다 사람이 승인하던 관문이 사라지면 그 책임을 무엇이 대신 받을지가 남는데, 이는 DCSAI agent loop의 HITL 분기를 '전 호출 승인'에서 '위험도 기반 선택적 개입'으로 재설계해야 하는가라는 질문을 정면으로 던집니다.",
-      "knowledge_url": "/knowledge/20260810/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260907",
+    "date_str": "20260908",
     "items": [
       {
-        "term": "Ivy",
-        "url": "https://x.com/perplexity_ai/status/2095984773181391346",
-        "title": "Ivy is the HTTP gateway.  It handles CPU-side request prep: parsing, tokenizatio…",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "Tulip",
-        "url": "https://x.com/perplexity_ai/status/2095984773181391346",
-        "title": "Ivy is the HTTP gateway.  It handles CPU-side request prep: parsing, tokenizatio…",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "GPT-6 Astra",
-        "url": "https://x.com/perplexity_ai/status/2096006336786133366",
-        "title": "GPT-6 Astra is now available in Perplexity Computer for Pro and Max subscribers.",
+        "term": "Astra",
+        "url": "https://x.com/reach_vb/status/2096684874346254615",
+        "title": "Astra/ LLM tip: prompt “make sure each word in this text justifies its existence…",
         "is_new": false,
-        "count": 6
-      },
-      {
-        "term": "ARC-AGI-3",
-        "url": "https://x.com/fchollet/status/2095598451115614371",
-        "title": "GPT-6 Astra represents a step-function change in model capability for interactiv…",
-        "is_new": false,
-        "count": 2
+        "count": 3
       }
     ]
   }
