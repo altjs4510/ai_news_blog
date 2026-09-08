@@ -194,12 +194,18 @@ Terence Eden은 "DNS의 목적은 범죄자가 사람들에게 사기를 치는 
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/reach_vb/status/2096684874346254615" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Astra</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/kylejeong/status/2097077446663372966" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">GPT-6 Astra</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260909/">
+    <span class="ai-pick-date">2026-09-09</span>
+    <span class="ai-pick-title-mini">Reducing cost and improving performance with Claude Platform</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260908/">
     <span class="ai-pick-date">2026-09-08</span>
