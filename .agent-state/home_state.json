@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260910",
+      "display_date": "2026-09-10",
+      "title": "vastsa/PI-Desktop — Electron + Rust 호스트 코어 + 에이전트 하네스 + 사용자 설치형 플러그인의 로컬 우선 코딩 에이전트 데스크톱",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "summary": "누적 1,566스타 중 하루 393스타가 몰린 이번 윈도우 신규 항목으로, 최근 반복된 '스킬 디렉토리 공유' 결이 아니라 **에이전트를 로컬에서 실행하는 호스트 프로세스 자체**를 제품 경계로 잡은 드문 레퍼런스입니다 — Electron UI / Rust 호스트 코어 / 하네스 / 사용자 설치형 플러그인을 네 개 계층으로 분리한 설계라, DCSAI가 자체 구현 중인 MCP host server의 tool 실행 경계와 `ff-claude-manager`(Tauri 2 tray)의 plugin·MCP 자동 업데이트 결을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20260910/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260909",
       "display_date": "2026-09-09",
       "title": "Reducing cost and improving performance with Claude Platform",
@@ -256,27 +267,16 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260812",
-      "display_date": "2026-08-12",
-      "title": "semantica-agi/semantica — 컨텍스트와 '책임 추적 가능한(accountable)' AI 시스템을 위한 그래프 네이티브 인프라",
-      "url": "https://github.com/semantica-agi/semantica",
-      "summary": "총 4,728스타 중 하루 884스타가 몰린 신규 급부상 항목으로, 이번 주 담론(Anthropic 텍스트 워터마킹, Spotify AI 프로필 라벨링, Claude 에이전트의 헬스장 침입)이 공통으로 요구하는 '무엇을 근거로 무엇을 했는지 되짚을 수 있는 구조'를 벡터 검색이 아니라 그래프를 백본으로 답합니다. DCSAI의 Neo4j 지식그래프와 MCP host server의 tool 실행 경계, 그리고 agent loop가 매 턴 무엇을 컨텍스트에 실을지 조립하는 로직 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260812/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260909",
+    "date_str": "20260910",
     "items": [
       {
-        "term": "GPT-6 Astra",
-        "url": "https://x.com/kylejeong/status/2097077446663372966",
-        "title": "GPT-6 Astra broke the internet with its ability to use blender and generate 3D w…",
-        "is_new": false,
+        "term": "Muse",
+        "url": "https://x.com/finkd/status/2097402101332590646",
+        "title": "Introducing Muse, the personal agent that understands your goals and works 24/7 …",
+        "is_new": true,
         "count": 2
       }
     ]
