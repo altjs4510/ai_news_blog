@@ -96,3 +96,10 @@ categories: ["산업 동향"]
 </article>
 
 </div>
+
+<!-- ai-related-links -->
+<aside class="ai-related-links">
+  <p class="ai-eyebrow">관련 학습</p>
+  <ul><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260530/"><span class="kdate">2026-05-30</span><span class="ktitle">Leonxlnx/taste-skill — AI에게 좋은 취향을 부여해 generic s…</span></a></li><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260717/"><span class="kdate">2026-07-17</span><span class="ktitle">After a year building agent memory, 'save everyt…</span></a></li><li><a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260707/"><span class="kdate">2026-07-07</span><span class="ktitle">AI Hero Skills Catalog — 실무 엔지니어를 위한 재사용 가능한 판단 …</span></a></li></ul>
+</aside>
+<!-- /ai-related-links -->
