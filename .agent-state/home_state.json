@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260911",
+      "display_date": "2026-09-11",
+      "title": "Now everyone can put data to work — ChatGPT Work의 Data agent",
+      "url": "https://openai.com/index/put-data-to-work",
+      "summary": "ChatGPT Work의 Data agent는 회사 데이터 연결, 자연어로 인사이트 도출, 인터랙티브 대시보드 생성을 하나의 에이전트 흐름으로 묶었습니다. SQL이나 BI 도구에 익숙하지 않은 현업을 직접 겨냥한 OpenAI 공식 발표로, 사내 데이터 챗봇이 범용 벤더 제품과 정면으로 경쟁하게 됐다는 신호입니다. DCSAI가 Snowflake 분석계, Neo4j KG, agent loop로 구현한 '자연어 질의 → 데이터 조회 → 결과 제시' 경로와 겹칩니다.",
+      "knowledge_url": "/knowledge/20260911/",
+      "categories": [
+        "응용 사례"
+      ]
+    },
+    {
       "date_str": "20260910",
       "display_date": "2026-09-10",
       "title": "vastsa/PI-Desktop — Electron + Rust 호스트 코어 + 에이전트 하네스 + 사용자 설치형 플러그인의 로컬 우선 코딩 에이전트 데스크톱",
@@ -256,27 +267,23 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260813",
-      "display_date": "2026-08-13",
-      "title": "semantica-agi/semantica — 컨텍스트와 책임 추적을 위한 그래프 네이티브 AI 인프라",
-      "url": "https://github.com/semantica-agi/semantica",
-      "summary": "누적 5,564스타 규모의 신규 저장소가 하루 834스타로 급등했는데, 문제 정의가 'LLM을 더 잘 쓰자'가 아니라 **병렬 에이전트가 늘어날 때 필연적으로 터지는 컨텍스트 공유 + accountability(누가 무엇을 왜 했는지 추적)를 그래프로 1급 구조로 올린다**는 점입니다. 같은 주 Orca·paperclip·Macro가 모두 '다수 에이전트 운영 표면'을 제품 카테고리로 밀어붙이는 흐름([OpenAI의 엔터프라이즈 실행 단계 글](https://openai.com/index/how-enterprises-put-ai-to-work)과 같은 방향)에서, DCSAI의 Neo4j KG·MCP host server tool 실행 경계와 Team Agent의 Activity Log → Observer 피드백루프가 공통으로 안고 있는 '에이전트 행위의 감사 가능성' 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260813/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260910",
+    "date_str": "20260911",
     "items": [
       {
-        "term": "Muse",
-        "url": "https://x.com/finkd/status/2097402101332590646",
-        "title": "Introducing Muse, the personal agent that understands your goals and works 24/7 …",
+        "term": "DeepSeek-V4.1-Flash",
+        "url": "https://x.com/zizhpan/status/2097936029844222128",
+        "title": "DeepSeek-V4.1-Flash is now publicly available on App, Web, and API. Our first fl…",
         "is_new": true,
+        "count": 2
+      },
+      {
+        "term": "Astra",
+        "url": "https://x.com/emollick/status/2097765662965846210",
+        "title": "Open weights models are further from the frontier than we have seen in some time…",
+        "is_new": false,
         "count": 2
       }
     ]

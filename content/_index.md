@@ -194,12 +194,19 @@ Terence Eden은 "DNS의 목적은 범죄자가 사람들에게 사기를 치는 
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/finkd/status/2097402101332590646" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Muse</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/zizhpan/status/2097936029844222128" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">DeepSeek-V4.1-Flash</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/emollick/status/2097765662965846210" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Astra</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260911/">
+    <span class="ai-pick-date">2026-09-11</span>
+    <span class="ai-pick-title-mini">Now everyone can put data to work — ChatGPT Work의 Data agent</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260910/">
     <span class="ai-pick-date">2026-09-10</span>
