@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260912",
+      "display_date": "2026-09-12",
+      "title": "Quoting Boris Cherny — \"Claude가 쓴 프로덕션 코드는 사람이 쓴 코드보다 더 높은 기준을 통과해야 한다\"",
+      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
+      "summary": "이번 윈도우에 새로 나온 발언입니다. Anthropic의 Boris Cherny는 사내에서 Claude가 쓴 코드에 '많은 lint 규칙' 등 여러 겹의 장치를 두고, 사람 코드보다 더 엄격하게 검증한다고 밝혔습니다. 같은 날 Cline Desktop이 PR·CI 상태를 입력창에 붙이고, Datasette가 다중 모델 감사로 보안 패치를 낸 것과 같은 흐름입니다. 에이전트 산출물을 사람이 한 줄씩 승인하지 않고, 기계적 게이트로 먼저 거르는 쪽입니다. Claude Code plugin/hook 배포 체계와 agent loop의 HITL 분기(어디까지 자동 검증하고, 어디부터 사람이 승인하나)에 바로 닿습니다.",
+      "knowledge_url": "/knowledge/20260912/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260911",
       "display_date": "2026-09-11",
       "title": "Now everyone can put data to work — ChatGPT Work의 Data agent",
@@ -256,33 +267,22 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260814",
-      "display_date": "2026-08-14",
-      "title": "cathrynlavery/diagram-design — Claude Code용 에디토리얼 다이어그램 29종 스킬 팩 (자체완결 HTML+SVG, Mermaid 없음)",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "summary": "하루 4,504 스타로 이번 주 트렌딩 최상단을 찍은 신규 항목으로, 범용 스킬 모음이 아니라 '다이어그램 29종'이라는 극도로 좁은 문제를 자체완결 HTML+SVG 출력 규격으로 못 박은 게 핵심입니다 — 스킬이 프롬프트 조각이 아니라 버전·배포·재사용되는 아티팩트가 됐음을 보여주는 사례로, DCSAI `dcs-ai-plugin`의 Claude Code skills 배포 체계와 '출력 포맷을 스킬이 계약으로 강제한다'는 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260814/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260911",
+    "date_str": "20260912",
     "items": [
       {
-        "term": "DeepSeek-V4.1-Flash",
-        "url": "https://x.com/zizhpan/status/2097936029844222128",
-        "title": "DeepSeek-V4.1-Flash is now publicly available on App, Web, and API. Our first fl…",
+        "term": "Agentic AI",
+        "url": "https://x.com/sleepagotchi/status/2098411240020472023",
+        "title": "Sleep fact of the day ↓ Snoring can happen when airflow is partially blocked dur…",
         "is_new": true,
         "count": 2
       },
       {
         "term": "Astra",
-        "url": "https://x.com/emollick/status/2097765662965846210",
-        "title": "Open weights models are further from the frontier than we have seen in some time…",
+        "url": "https://x.com/shimabu_it/status/2098209876472434943",
+        "title": "A bunch of people are starting to leave Astra  I wonder what all that \"AGI!!\" hy…",
         "is_new": false,
         "count": 2
       }
