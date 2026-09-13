@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "GPT-6 Astra 출시와 Agents API 공개, 경쟁의 중심이 모델에서 에이전트 하네스로"
+date: 2026-09-14
+toc: true
+layout: single
+description: "모델 성능이 비슷해지면서 에이전트를 오래 돌리고, 스스로 검증하고, 컨텍스트를 줄이는 실행 계층이 제품의 차이를 만들고 있습니다"
+tags: ["GPT-6 Astra", "Agents API", "에이전트 하네스", "에이전트 스킬", "프론티어 속도 조절"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">GPT-6 Astra 출시와 Agents API 공개, 경쟁의 중심이 모델에서 에이전트 하네스로</h1>
-  <p class="ai-home-deck">모델 성능이 비슷해지면서 에이전트를 오래 돌리고, 스스로 검증하고, 컨텍스트를 줄이는 실행 계층이 제품의 차이를 만들고 있습니다</p>
-  <p class="ai-meta">2026-09-14 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260914/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-09-14 · 주간 요약</p>
+  <h2 class="ai-post-title">GPT-6 Astra 출시와 Agents API 공개, 경쟁의 중심이 모델에서 에이전트 하네스로</h2>
+  <p class="ai-post-deck">모델 성능이 비슷해지면서 에이전트를 오래 돌리고, 스스로 검증하고, 컨텍스트를 줄이는 실행 계층이 제품의 차이를 만들고 있습니다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -177,61 +171,6 @@ Simon Willison은 온라인 대화에 붙여넣은 LLM 답변을 "허풍쟁이�
 
 창업 2년 차인 **Mecka AI**가 Series A 발표 몇 달 만에 **Sequoia** 주도로 기업가치 약 5억 달러 라운드를 앞두고 있습니다. 텍스트 데이터가 고갈되면서 **로봇 학습 데이터**가 다음 희소 자원으로 떠오르고 있습니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/cgtwts/status/2096711922943132116" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">AGI</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/PolymarketMoney/status/2097302741714600221" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">agentic AI</span></a></li>
-    </ul>
-  </section>
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260913/">
-    <span class="ai-pick-date">2026-09-13</span>
-    <span class="ai-pick-title-mini">OpenAI agents attacked RubyGems back in May: OpenAI 에이전트 스웜의…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260912/">
-    <span class="ai-pick-date">2026-09-12</span>
-    <span class="ai-pick-title-mini">Quoting Boris Cherny — "Claude가 쓴 프로덕션 코드는 사람이 쓴 코드보다 더 높은 기…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260911/">
-    <span class="ai-pick-date">2026-09-11</span>
-    <span class="ai-pick-title-mini">Now everyone can put data to work — ChatGPT Work의 Data agent</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260910/">
-    <span class="ai-pick-date">2026-09-10</span>
-    <span class="ai-pick-title-mini">vastsa/PI-Desktop — Electron + Rust 호스트 코어 + 에이전트 하네스 + 사용자 …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260909/">
-    <span class="ai-pick-date">2026-09-09</span>
-    <span class="ai-pick-title-mini">Reducing cost and improving performance with Claude Platform</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260908/">
-    <span class="ai-pick-date">2026-09-08</span>
-    <span class="ai-pick-title-mini">bytedance/deer-flow — 샌드박스·메모리·서브에이전트·메시지 게이트웨이를 묶은 long-hor…</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -244,3 +183,5 @@ Simon Willison은 온라인 대화에 붙여넣은 LLM 답변을 "허풍쟁이�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
