@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260916",
+      "display_date": "2026-09-16",
+      "title": "alibaba/open-code-review — 결정론적 파이프라인과 LLM Agent를 섞은 하이브리드 코드 리뷰 도구 (Go, 하루 2,751 stars)",
+      "url": "https://github.com/alibaba/open-code-review",
+      "summary": "하루 2,751 스타로 이번 윈도우 GitHub Trending 1위에 새로 오른 항목입니다. 리뷰를 LLM에 통째로 맡기지 않습니다. 결정론적 파이프라인과 내장 룰셋(NPE, thread-safety, XSS, SQL injection)이 먼저 걸러내고, 그다음 LLM Agent가 줄 단위로 코멘트를 다는 구조를 Alibaba 규모에서 검증했다고 내세웁니다. 같은 날 CoT 모니터링이 플랜 인젝션에 뚫린다는 논문이 나온 상황이라 '모델의 판단을 무엇으로 받쳐 줄 것인가'가 핵심 질문이 됐는데, 이 도구는 agent loop의 HITL 분기와 Claude Code plugin hook의 검증 설계에 바로 닿습니다.",
+      "knowledge_url": "/knowledge/20260916/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20260915",
       "display_date": "2026-09-15",
       "title": "alibaba/open-code-review — 결정적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드 리뷰 도구 (하루 1,796 stars)",
@@ -256,27 +267,23 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260821",
-      "display_date": "2026-08-21",
-      "title": "volcengine/OpenViking — 에이전트 메모리·Knowledge RAG·스킬을 하나로 묶은 self-evolving Context Database",
-      "url": "https://github.com/volcengine/OpenViking",
-      "summary": "하루 955 스타(누적 30,898)로 이번 윈도우 상위에 올라온 신규 항목으로, 흔한 '스킬 디렉토리 공유' 레포와 달리 에이전트 메모리·RAG·스킬을 **세 개의 분리된 레이어가 아니라 하나의 자기진화 컨텍스트 DB**로 통합한다는 설계 명제를 들고 나왔습니다. DCSAI가 Neo4j KG + 자체 MCP host server로 쪼개 들고 있는 '무엇을 아는가'와 'agent loop가 매 턴 무엇을 컨텍스트에 실을까'의 경계를 정면으로 되묻는 결입니다.",
-      "knowledge_url": "/knowledge/20260821/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260915",
+    "date_str": "20260916",
     "items": [
       {
-        "term": "termix_ai",
-        "url": "https://x.com/just_johnny4/status/2099359508757688700",
-        "title": "The AI agent economy starts becoming more interesting when you can actually see …",
-        "is_new": false,
+        "term": "agenticscredit",
+        "url": "https://x.com/sheikhakash69/status/2099888752818827457",
+        "title": "AI trading agents can trade, but getting access to capital is still a big proble…",
+        "is_new": true,
+        "count": 2
+      },
+      {
+        "term": "AI Evals",
+        "url": "https://x.com/suraj_sharma14/status/2099747542556655945",
+        "title": "Over the next 5 years, the highest paid tech roles will be:  Agentic AI Engineer…",
+        "is_new": true,
         "count": 2
       }
     ]
