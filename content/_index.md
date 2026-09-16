@@ -180,16 +180,15 @@ Simon Willison은 온라인 대화에 붙여넣은 LLM 답변을 "허풍쟁이�
 </div>
 
 <aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/sheikhakash69/status/2099888752818827457" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">agenticscredit</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/suraj_sharma14/status/2099747542556655945" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">AI Evals</span></a></li>
-    </ul>
-  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260917/">
+    <span class="ai-pick-date">2026-09-17</span>
+    <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260916/">
     <span class="ai-pick-date">2026-09-16</span>
