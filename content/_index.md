@@ -184,6 +184,12 @@ Simon Willison은 온라인 대화에 붙여넣은 LLM 답변을 "허풍쟁이�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260918/">
+    <span class="ai-pick-date">2026-09-18</span>
+    <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드 리뷰…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260917/">
     <span class="ai-pick-date">2026-09-17</span>
     <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드…</span>

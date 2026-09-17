@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20260918",
+      "display_date": "2026-09-18",
+      "title": "alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드 리뷰 (하루 3,290 stars)",
+      "url": "https://github.com/alibaba/open-code-review",
+      "summary": "이번 윈도우 트렌딩 최상단에 올라온 항목인데, 최근 트렌딩을 도배한 '스킬 번들 공유' 결과 정면으로 다릅니다 — LLM에 전부 맡기지 않고 **NPE·스레드 안전성·XSS·SQL 인젝션 같은 판정 가능한 룰은 결정론적 파이프라인으로 먼저 걸러내고, 판단이 필요한 구간만 에이전트에게 넘기는** 역할 분담을 아키텍처 1급으로 올렸습니다(알리바바 프로덕션 규모 검증, OpenAI·Anthropic 호환). DCSAI agent loop가 '매 턴 모델에게 무엇을 물을 것인가'를 결정하는 지점, 그리고 HITL 분기가 '사람이 승인할 것'과 '기계가 확정할 것'을 가르는 경계를 그대로 건드리는 결입니다.",
+      "knowledge_url": "/knowledge/20260918/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20260917",
       "display_date": "2026-09-17",
       "title": "alibaba/open-code-review — 결정론적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드 리뷰 도구 (하루 3,215 stars)",
@@ -256,21 +267,10 @@
       "categories": [
         "보안 & 거버넌스"
       ]
-    },
-    {
-      "date_str": "20260823",
-      "display_date": "2026-08-23",
-      "title": "The Evolution of the Agent Harness — 하네스가 모델 가중치로 흡수되고, 결국 '사람의 주의'를 관리하는 인터페이스가 된다",
-      "url": "https://www.latent.space/p/attention-interface",
-      "summary": "이번 윈도우에 새로 올라온 글이면서, 같은 주 Nvidia의 '하네스가 진짜 주인공' 결과와 GitHub 트렌딩 상위(codex·skills·superpowers·ECC)가 전부 하네스 계층으로 쏠린 현상을 하나의 시간축으로 설명합니다. 핵심 주장은 하네스 기능이 계속 모델 가중치로 흡수되므로, 하네스의 잔존 가치가 '모델 제어'가 아니라 '사람의 주의(attention) 관리'로 이동한다는 것 — DCSAI agent loop의 HITL 분기와 HTTP chunked streaming이 결국 무엇을 위한 장치인가를 정면으로 되묻습니다.",
-      "knowledge_url": "/knowledge/20260823/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20260917",
+    "date_str": "20260918",
     "items": []
   }
 }
