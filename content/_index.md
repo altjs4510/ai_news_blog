@@ -180,9 +180,22 @@ Simon Willison은 온라인 대화에 붙여넣은 LLM 답변을 "허풍쟁이�
 </div>
 
 <aside class="ai-home-aside">
+  <section class="ai-week-block ai-trend-block">
+    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
+    <ul class="ai-trend-chips">
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/Alibaba_Qwen/status/2100785962414702599" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Qwen3.8-Omni-Flash</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/akshay_pachaar/status/2100659094625636526" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">MCP</span></a></li>
+    </ul>
+  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260919/">
+    <span class="ai-pick-date">2026-09-19</span>
+    <span class="ai-pick-title-mini">cloudflare/security-audit-skill — 다단계 보안 감사를 '독립 검증된 머신리더블 f…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260918/">
     <span class="ai-pick-date">2026-09-18</span>
