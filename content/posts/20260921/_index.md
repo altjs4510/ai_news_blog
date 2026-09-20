@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "모델이 아니라 껍데기 — 하네스·컨텍스트·지식층이 에이전트 성능을 가른 한 주"
+date: 2026-09-21
+toc: true
+layout: single
+description: "같은 모델로도 결과가 갈리자, 컨텍스트 조립과 문서 지식층이 교체 가능한 인프라 계층으로 떨어져 나오기 시작했다"
+tags: ["에이전트 하네스", "컨텍스트 최적화", "RAG 지식 플랫폼", "자가 유지 Wiki", "에이전트 검증 게이트"]
+categories: ["에이전트 오케스트레이션"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">모델이 아니라 껍데기 — 하네스·컨텍스트·지식층이 에이전트 성능을 가른 한 주</h1>
-  <p class="ai-home-deck">같은 모델로도 결과가 갈리자, 컨텍스트 조립과 문서 지식층이 교체 가능한 인프라 계층으로 떨어져 나오기 시작했다</p>
-  <p class="ai-meta">2026-09-21 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260921/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-09-21 · 주간 요약</p>
+  <h2 class="ai-post-title">모델이 아니라 껍데기 — 하네스·컨텍스트·지식층이 에이전트 성능을 가른 한 주</h2>
+  <p class="ai-post-deck">같은 모델로도 결과가 갈리자, 컨텍스트 조립과 문서 지식층이 교체 가능한 인프라 계층으로 떨어져 나오기 시작했다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -178,62 +172,6 @@ HN에 올라온 [Skillsync (YC W26)](https://news.ycombinator.com/item?id=497430
 
 생성 품질이 아니라 **생성 흔적**이 문제라는 신호다. [Simon Willison이 던진 일침](https://bsky.app/profile/simonwillison.net/post/3mvsv535dyk25)—"LLM에 아무 흥미도 못 느끼는 컴퓨터 과학자는 방금 문을 연 쥬라기 공원에 흥미 없는 유전학자 같다"—과 나란히 놓으면, 기술에 대한 태도가 여전히 양극단에 걸쳐 있음이 드러난다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/Mahaximus_/status/2099512757343182989" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Graph Engineering</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/NielsRogge/status/2100239244501430438" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Qwen2.5-RLCD</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/rasbt/status/2101672304358948992" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Jev</span></a></li>
-    </ul>
-  </section>
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260920/">
-    <span class="ai-pick-date">2026-09-20</span>
-    <span class="ai-pick-title-mini">Claude Code 2.1.277 — CLAUDE.md가 없으면 AGENTS.md를 읽는다 (Thariq …</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260919/">
-    <span class="ai-pick-date">2026-09-19</span>
-    <span class="ai-pick-title-mini">cloudflare/security-audit-skill — 다단계 보안 감사를 '독립 검증된 머신리더블 f…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260918/">
-    <span class="ai-pick-date">2026-09-18</span>
-    <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드 리뷰…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260917/">
-    <span class="ai-pick-date">2026-09-17</span>
-    <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260916/">
-    <span class="ai-pick-date">2026-09-16</span>
-    <span class="ai-pick-title-mini">alibaba/open-code-review — 결정론적 파이프라인과 LLM Agent를 섞은 하이브리드 코…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260915/">
-    <span class="ai-pick-date">2026-09-15</span>
-    <span class="ai-pick-title-mini">alibaba/open-code-review — 결정적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드 …</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -246,3 +184,5 @@ HN에 올라온 [Skillsync (YC W26)](https://news.ycombinator.com/item?id=497430
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
