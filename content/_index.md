@@ -186,6 +186,20 @@ Anthropic은 **Claude**가 **CRISPR와 비슷한 반복 구조**를 가진 새�
 
 </div>
 
+<aside class="ai-home-aside">
+  <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260929/">
+    <span class="ai-pick-date">2026-09-29</span>
+    <span class="ai-pick-title-mini">vectorize-io/hindsight — Hindsight: Agent Memory That Learns</span>
+  </a>
+</li>
+    </ul>
+  </section>
+</aside>
+
 </div>
 
 <footer class="ai-home-footer">
