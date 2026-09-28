@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "Opus 5.5·GPT-6 Sol/Luna가 같은 날 출시, 경쟁은 플러그인·마켓플레이스 생태계로 이동"
+date: 2026-09-28
+toc: true
+layout: single
+description: "모델 성능 차이가 좁혀지면서 에이전트를 어디서 유통하고 어떤 계약으로 확장하는지가 벤더 선택 기준이 되고 있습니다"
+tags: ["Claude Marketplace", "플러그인 생태계", "Claude Opus 5.5", "GPT-6 Sol·Luna", "에이전트 메모리"]
+categories: ["MCP & 도구 통합"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">Opus 5.5·GPT-6 Sol/Luna가 같은 날 출시, 경쟁은 플러그인·마켓플레이스 생태계로 이동</h1>
-  <p class="ai-home-deck">모델 성능 차이가 좁혀지면서 에이전트를 어디서 유통하고 어떤 계약으로 확장하는지가 벤더 선택 기준이 되고 있습니다</p>
-  <p class="ai-meta">2026-09-28 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20260928/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-09-28 · 주간 요약</p>
+  <h2 class="ai-post-title">Opus 5.5·GPT-6 Sol/Luna가 같은 날 출시, 경쟁은 플러그인·마켓플레이스 생태계로 이동</h2>
+  <p class="ai-post-deck">모델 성능 차이가 좁혀지면서 에이전트를 어디서 유통하고 어떤 계약으로 확장하는지가 벤더 선택 기준이 되고 있습니다</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -184,10 +178,6 @@ Anthropic은 **Claude**가 **CRISPR와 비슷한 반복 구조**를 가진 새�
 
 **Simon Willison**은 **Jev**와 함께 떠오르는 **"시스템 1" 결정 모델** 범주에 대한 노트를 공유했습니다. 여기서 시스템 1은 깊은 추론 없이 빠르게 판단하는 방식을 뜻합니다. Product Hunt에 오른 **Harness Router**도 Jev 기반이어서, 빠른 라우팅·판단 전용 모델이 별도 계층으로 자리 잡고 있음을 보여줍니다.
 
-</div>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -200,3 +190,5 @@ Anthropic은 **Claude**가 **CRISPR와 비슷한 반복 구조**를 가진 새�
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
