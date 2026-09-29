@@ -44,8 +44,6 @@ toc: false
 
 <nav class="ai-chips"><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/claude-marketplace/">#Claude Marketplace</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%83%9D%ED%83%9C%EA%B3%84/">#플러그인 생태계</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/claude-opus-5.5/">#Claude Opus 5.5</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/gpt-6-sol%C2%B7luna/">#GPT-6 Sol·Luna</a><a class="ai-chip" href="https://altjs4510.github.io/ai_news_blog/tags/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EB%A9%94%EB%AA%A8%EB%A6%AC/">#에이전트 메모리</a></nav>
 
-[F&F Policy Active]
-
 ### 전체 요약
 
 이번 주에는 **Anthropic**과 **OpenAI**가 같은 날 새 프런티어 모델을 내놓았습니다. 긴 코딩 세션을 겨냥한 **Claude Opus 5.5**와, 성능과 비용의 균형을 달리한 **GPT-6 Sol·Luna**입니다. 모델 경쟁의 기준이 벤치마크 점수보다 **실제 업무에 드는 비용과 사용할 수 있는 컨텍스트 길이**로 옮겨가고 있습니다.
