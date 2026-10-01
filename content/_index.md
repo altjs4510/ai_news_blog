@@ -189,6 +189,12 @@ Anthropic은 **Claude**가 **CRISPR와 비슷한 반복 구조**를 가진 새�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261002/">
+    <span class="ai-pick-date">2026-10-02</span>
+    <span class="ai-pick-title-mini">NVIDIA/OpenShell — 자율 AI 에이전트를 위한 안전하고 프라이빗한 런타임 (Rust, 하루 2…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261001/">
     <span class="ai-pick-date">2026-10-01</span>
     <span class="ai-pick-title-mini">NVIDIA/OpenShell</span>
