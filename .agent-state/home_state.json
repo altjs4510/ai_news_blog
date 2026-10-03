@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261004",
+      "display_date": "2026-10-04",
+      "title": "Apple says it's tightening macOS 'Full Disk Access' controls due to new risks from AI agents",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "summary": "이번 윈도우에 새로 나온 소식으로, Apple이 AI 에이전트의 파일·메시지·메일·브라우징 기록 접근을 위험 요인으로 지목하며 macOS Full Disk Access에 새 통제 장치를 추가하겠다고 밝혔습니다. 최근 반복된 '스킬 번들' 결과 달리 에이전트의 tool 실행 경계를 OS가 직접 좁히는 변화여서, MCP host server의 tool 실행 권한과 Claude Code plugin/hook이 로컬에서 닿는 범위에 직접 영향을 줍니다.",
+      "knowledge_url": "/knowledge/20261004/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20261003",
       "display_date": "2026-10-03",
       "title": "NVIDIA/OpenShell — 자율 AI 에이전트를 위한 안전하고 프라이빗한 런타임 (Rust, 하루 584 stars)",
@@ -256,21 +267,10 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260903",
-      "display_date": "2026-09-03",
-      "title": "pacifio/atlas — 여러 코딩 에이전트의 변경을 한곳에서 추적·질의하는 '에이전트용 소스 컨트롤' (Rust, 하루 895 stars)",
-      "url": "https://github.com/pacifio/atlas",
-      "summary": "이번 윈도우에 새로 급부상한 신규 항목(누적 2,756 중 하루 895)이면서, 흔한 '스킬 디렉토리 공유' 결이 아니라 **여러 에이전트가 동시에 코드를 고칠 때 누가 무엇을 왜 바꿨는지**를 1급 구조로 올린 설계입니다. DCSAI agent loop의 HITL 분기가 '매 tool 호출 승인'에서 '사후 검증'으로 이동할 때 반드시 필요한 변경 추적 계층이자, Team Agent의 Activity Log → Observer 피드백루프가 코드 레벨에서 어떤 단위로 기록돼야 하는지의 레퍼런스입니다.",
-      "knowledge_url": "/knowledge/20260903/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261003",
+    "date_str": "20261004",
     "items": []
   }
 }
