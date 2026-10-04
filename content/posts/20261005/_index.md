@@ -1,24 +1,18 @@
 ---
-title: "AI News Digest"
-toc: false
+title: "OpenAI가 DevDay에서 GPT-6 Astra·Sol·dots를 쏟아낸 주, Anthropic은 Claude Code mods와 기업 통제로 하네스에 집중했습니다"
+date: 2026-10-05
+toc: true
+layout: single
+description: "모델 가격이 5분의 1로 내려가자 경쟁의 무게가 에이전트를 고쳐 쓰고, 통제하고, 예산을 묶는 계층으로 옮겨 가고 있습니다."
+tags: ["Claude Code mods", "OpenAI DevDay 2026", "GPT-6.1 Sol", "에이전트 통제", "하드 예산 상한"]
+categories: ["코딩 에이전트"]
 ---
 
-<div class="ai-home-grid">
-
-<div class="ai-home-main">
-
-<section class="ai-home-hero">
-  <p class="ai-eyebrow">AI NEWS · WEEKLY DIGEST</p>
-  <h1 class="ai-headline">OpenAI가 DevDay에서 GPT-6 Astra·Sol·dots를 쏟아낸 주, Anthropic은 Claude Code mods와 기업 통제로 하네스에 집중했습니다</h1>
-  <p class="ai-home-deck">모델 가격이 5분의 1로 내려가자 경쟁의 무게가 에이전트를 고쳐 쓰고, 통제하고, 예산을 묶는 계층으로 옮겨 가고 있습니다.</p>
-  <p class="ai-meta">2026-10-05 · 주간 요약 (매주 월요일) · 일간 픽 매일 갱신</p>
-  <div class="ai-cta-row">
-    <a class="ai-cta" href="https://altjs4510.github.io/ai_news_blog/posts/20261005/">
-      <span class="ai-cta-label">이번 주 전체 보기</span>
-      <span class="ai-cta-arrow" aria-hidden="true">→</span>
-    </a>
-  </div>
-</section>
+<header class="ai-post-hero">
+  <p class="ai-eyebrow"><a class="ai-back" href="../">POSTS</a> · 2026-10-05 · 주간 요약</p>
+  <h2 class="ai-post-title">OpenAI가 DevDay에서 GPT-6 Astra·Sol·dots를 쏟아낸 주, Anthropic은 Claude Code mods와 기업 통제로 하네스에 집중했습니다</h2>
+  <p class="ai-post-deck">모델 가격이 5분의 1로 내려가자 경쟁의 무게가 에이전트를 고쳐 쓰고, 통제하고, 예산을 묶는 계층으로 옮겨 가고 있습니다.</p>
+</header>
 
 <aside class="ai-spotlight">
   <p class="ai-eyebrow ai-spotlight-eyebrow">✦ TODAY'S PICK</p>
@@ -179,54 +173,6 @@ GitHub Trending 상위는 에이전트 자체가 아니라 **에이전트를 굴
 
 이산 확산 언어 모델은 양방향 추론과 전역 제약 충족이 필요한 과제에서 자기회귀 생성의 대안으로 꼽힙니다. 이 논문은 그 모델들이 공유하는 구조적 한계를 지적하며 **계층적 연속 확산** 방식을 제안합니다.
 
-</div>
-
-<aside class="ai-home-aside">
-  <section class="ai-week-block">
-    <p class="ai-eyebrow">LAST WEEK</p>
-    <ul class="ai-pick-mini-list">
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261004/">
-    <span class="ai-pick-date">2026-10-04</span>
-    <span class="ai-pick-title-mini">Apple says it's tightening macOS 'Full Disk Access' controls…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261003/">
-    <span class="ai-pick-date">2026-10-03</span>
-    <span class="ai-pick-title-mini">NVIDIA/OpenShell — 자율 AI 에이전트를 위한 안전하고 프라이빗한 런타임 (Rust, 하루 5…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261002/">
-    <span class="ai-pick-date">2026-10-02</span>
-    <span class="ai-pick-title-mini">NVIDIA/OpenShell — 자율 AI 에이전트를 위한 안전하고 프라이빗한 런타임 (Rust, 하루 2…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261001/">
-    <span class="ai-pick-date">2026-10-01</span>
-    <span class="ai-pick-title-mini">NVIDIA/OpenShell</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260930/">
-    <span class="ai-pick-date">2026-09-30</span>
-    <span class="ai-pick-title-mini">Agents you can coach: how Asana builds human-agent teams wit…</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20260929/">
-    <span class="ai-pick-date">2026-09-29</span>
-    <span class="ai-pick-title-mini">vectorize-io/hindsight — Hindsight: Agent Memory That Learns</span>
-  </a>
-</li>
-    </ul>
-  </section>
-</aside>
-
-</div>
-
 <footer class="ai-home-footer">
   <p class="ai-eyebrow">SOURCES</p>
   <div class="ai-source-grid">
@@ -239,3 +185,5 @@ GitHub Trending 상위는 에이전트 자체가 아니라 **에이전트를 굴
   </div>
   <p class="ai-home-links"><a href="https://altjs4510.github.io/ai_news_blog/posts/">주간 요약</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/knowledge/">학습 노트</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/tags/">태그</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/posts/index.xml">RSS</a><span class="ai-dot">·</span><a href="https://altjs4510.github.io/ai_news_blog/about/">소개</a></p>
 </footer>
+
+<p class="ai-post-raw"><a href="raw">📂 원본 수집 데이터 펼쳐보기 →</a></p>
