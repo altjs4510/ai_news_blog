@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261006",
+      "display_date": "2026-10-06",
+      "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+      "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+      "summary": "최근 14일 픽에 없던 이번 윈도우 신규 Anthropic 공식 사례입니다. 최근 픽은 스킬 번들과 코드 리뷰 도구에 몰려 있었는데, 이 글은 결이 다릅니다. CX 업계가 쌓은 도메인 노하우를 Claude Agent SDK 위의 '에이전트 빌더'로 제품화한 사례라서, 같은 날 트렌딩한 cloudflare-os·Skills v1.3과 함께 '도메인 지식을 에이전트 환경에 녹이는 능력'이 차별화 포인트라는 흐름을 1차 벤더 문서로 보여줍니다. Anthropic SDK 기반 agent loop와 tool use, 그리고 도메인별 설정을 주입하는 구조(멀티브랜드 yaml 주입)를 직접 건드립니다.",
+      "knowledge_url": "/knowledge/20261006/",
+      "categories": [
+        "응용 사례"
+      ]
+    },
+    {
       "date_str": "20261004",
       "display_date": "2026-10-04",
       "title": "Apple says it's tightening macOS 'Full Disk Access' controls due to new risks from AI agents",
@@ -256,21 +267,10 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20260904",
-      "display_date": "2026-09-04",
-      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
-      "url": "https://huggingface.co/papers/2609.01437",
-      "summary": "이번 윈도우에 새로 올라온 논문으로, GitHub 트렌딩을 도배한 '사람이 손으로 쓴 스킬 번들' 흐름을 정면으로 뒤집어 하네스 자체를 LLM이 생성·진화시킬 수 있는지를 묻습니다. DCSAI가 직접 구현한 agent loop와 `dcs-ai-plugin`의 Claude Code skills/hooks 구성이 '사람이 계속 손으로 유지보수해야 하는 자산'인지, 아니면 평가 신호를 받아 자동 갱신될 수 있는 자산인지를 되묻는 결입니다.",
-      "knowledge_url": "/knowledge/20260904/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261005",
+    "date_str": "20261006",
     "items": []
   }
 }

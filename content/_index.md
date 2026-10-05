@@ -183,6 +183,17 @@ GitHub Trending 상위는 에이전트 자체가 아니라 **에이전트를 굴
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261006/">
+    <span class="ai-pick-date">2026-10-06</span>
+    <span class="ai-pick-title-mini">How Cresta turned CX expertise into an agent builder on the …</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
