@@ -186,6 +186,12 @@ GitHub Trending 상위는 에이전트 자체가 아니라 **에이전트를 굴
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261007/">
+    <span class="ai-pick-date">2026-10-07</span>
+    <span class="ai-pick-title-mini">morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 리버스 엔지니어링</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261006/">
     <span class="ai-pick-date">2026-10-06</span>
     <span class="ai-pick-title-mini">How Cresta turned CX expertise into an agent builder on the …</span>
