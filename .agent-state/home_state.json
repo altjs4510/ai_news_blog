@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261013",
+      "display_date": "2026-10-13",
+      "title": "morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 리버스 엔지니어링 (TypeScript, 하루 45,495 stars)",
+      "url": "https://github.com/morluto/rea",
+      "summary": "최근 14일 픽에 없던 새 저장소입니다. 하루 45,495개, 누적 145,356개의 스타를 받아 이번 윈도우 트렌딩 1위입니다. 2위의 20배가 넘는 격차입니다. 에이전트를 코드를 쓰는 데 그치지 않고 기존 소프트웨어의 동작을 관찰하고 해부하는 데 쓰는 사례로, 최근 반복된 런타임·코드 리뷰 결과는 다른 흐름입니다. 이 과정이 agent loop 안에서 tool use와 관찰을 어떻게 반복하는지 살펴볼 만합니다.",
+      "knowledge_url": "/knowledge/20261013/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20261011",
       "display_date": "2026-10-11",
       "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
@@ -256,21 +267,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260911",
-      "display_date": "2026-09-11",
-      "title": "Now everyone can put data to work — ChatGPT Work의 Data agent",
-      "url": "https://openai.com/index/put-data-to-work",
-      "summary": "ChatGPT Work의 Data agent는 회사 데이터 연결, 자연어로 인사이트 도출, 인터랙티브 대시보드 생성을 하나의 에이전트 흐름으로 묶었습니다. SQL이나 BI 도구에 익숙하지 않은 현업을 직접 겨냥한 OpenAI 공식 발표로, 사내 데이터 챗봇이 범용 벤더 제품과 정면으로 경쟁하게 됐다는 신호입니다. DCSAI가 Snowflake 분석계, Neo4j KG, agent loop로 구현한 '자연어 질의 → 데이터 조회 → 결과 제시' 경로와 겹칩니다.",
-      "knowledge_url": "/knowledge/20260911/",
-      "categories": [
-        "응용 사례"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261012",
+    "date_str": "20261013",
     "items": []
   }
 }
