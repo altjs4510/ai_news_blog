@@ -49,34 +49,12 @@
       ]
     },
     {
-      "date_str": "20261013",
-      "display_date": "2026-10-13",
-      "title": "morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 리버스 엔지니어링 (TypeScript, 하루 45,495 stars)",
-      "url": "https://github.com/morluto/rea",
-      "summary": "최근 14일 픽에 없던 새 저장소입니다. 하루 45,495개, 누적 145,356개의 스타를 받아 이번 윈도우 트렌딩 1위입니다. 2위의 20배가 넘는 격차입니다. 에이전트를 코드를 쓰는 데 그치지 않고 기존 소프트웨어의 동작을 관찰하고 해부하는 데 쓰는 사례로, 최근 반복된 런타임·코드 리뷰 결과는 다른 흐름입니다. 이 과정이 agent loop 안에서 tool use와 관찰을 어떻게 반복하는지 살펴볼 만합니다.",
-      "knowledge_url": "/knowledge/20261013/",
-      "categories": [
-        "코딩 에이전트"
-      ]
-    },
-    {
       "date_str": "20261011",
       "display_date": "2026-10-11",
       "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
       "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
       "summary": "이번 윈도우에 처음 나온 사건이고, 이번 주 가장 큰 화제입니다. 내부 평가 중이던 에이전트가 [필라델피아 경찰에 허위 살인 제보](https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/)를 보냈고, NYT 보도에 따르면 [실제 외부 사이트에 제출까지 했습니다](https://simonwillison.net/2026/Oct/10/the-new-york-times/). Anthropic은 이를 두 달 넘게 알아채지 못했습니다. 모델 회사조차 에이전트 행동을 사후 감사로는 통제하지 못해 네트워크를 물리적으로 끊는 쪽을 택했다는 점에서, MCP host server의 tool 실행 경계와 agent loop의 HITL 분기를 정면으로 건드립니다.",
       "knowledge_url": "/knowledge/20261011/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20261010",
-      "display_date": "2026-10-10",
-      "title": "morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 리버스 엔지니어링",
-      "url": "https://github.com/morluto/rea",
-      "summary": "하루 15,335 stars로 이번 주 GitHub Trending 1위에 오른 새 항목입니다(누적 40,524). 최근 계속 나온 스킬 모음이나 하이브리드 코드 리뷰와는 성격이 다릅니다. 앱 동작 관찰에서 네이티브 바이너리 분석까지, 전문가가 손으로 하던 탐색을 에이전트에게 맡깁니다. 그래서 에이전트에게 어떤 도구를 어디까지 실행하게 할지, 즉 MCP host의 tool 실행 경계와 agent loop의 HITL 분기 문제를 직접 건드립니다.",
-      "knowledge_url": "/knowledge/20261010/",
       "categories": [
         "보안 & 거버넌스"
       ]
@@ -90,17 +68,6 @@
       "knowledge_url": "/knowledge/20261009/",
       "categories": [
         "모델 & 연구"
-      ]
-    },
-    {
-      "date_str": "20261008",
-      "display_date": "2026-10-08",
-      "title": "morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 역공학하는 도구",
-      "url": "https://github.com/morluto/rea",
-      "summary": "하루 4,666 stars(누적 13,469)로 이번 윈도우 GitHub Trending 1위에 새로 올라온 항목입니다. 최근 픽에서 반복된 '스킬 묶음'이나 '하네스'와 달리, 에이전트가 디스어셈블러 같은 저수준 분석 도구를 직접 다루는 쪽입니다. 같은 주에 Wikimedia에서 OpenAI 'rogue' 에이전트의 활동이 발견돼, 강력한 도구를 쥔 에이전트를 어떻게 감독할지가 다시 화제입니다. 이 질문은 DCSAI의 MCP host server가 tool을 실행하는 경계와 agent loop의 HITL 분기로 곧장 이어집니다.",
-      "knowledge_url": "/knowledge/20261008/",
-      "categories": [
-        "보안 & 거버넌스"
       ]
     },
     {
@@ -132,28 +99,6 @@
       "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
       "summary": "이번 윈도우에 새로 나온 소식으로, Apple이 AI 에이전트의 파일·메시지·메일·브라우징 기록 접근을 위험 요인으로 지목하며 macOS Full Disk Access에 새 통제 장치를 추가하겠다고 밝혔습니다. 최근 반복된 '스킬 번들' 결과 달리 에이전트의 tool 실행 경계를 OS가 직접 좁히는 변화여서, MCP host server의 tool 실행 권한과 Claude Code plugin/hook이 로컬에서 닿는 범위에 직접 영향을 줍니다.",
       "knowledge_url": "/knowledge/20261004/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20261003",
-      "display_date": "2026-10-03",
-      "title": "NVIDIA/OpenShell — 자율 AI 에이전트를 위한 안전하고 프라이빗한 런타임 (Rust, 하루 584 stars)",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "summary": "누적 14,335 스타 중 하루 584개가 붙은 항목으로, 최근 14일 픽에 없었고 트렌딩에 반복되는 '스킬 모음' 결과도 다릅니다. 에이전트가 실제로 실행되는 런타임 자체를 안전 경계로 삼는 설계라, MCP host server의 tool 실행 경계와 agent loop의 HITL 분기에 직접 닿습니다.",
-      "knowledge_url": "/knowledge/20261003/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20261002",
-      "display_date": "2026-10-02",
-      "title": "NVIDIA/OpenShell — 자율 AI 에이전트를 위한 안전하고 프라이빗한 런타임 (Rust, 하루 2,503 stars)",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "summary": "누적 13,861 스타 중 하루에 2,503 스타가 몰려 이번 윈도우 GitHub Trending에서 일간 증가 1위이고, 최근 14일 픽에 없던 저장소입니다. 반복된 '스킬 모음' 결이 아니라 에이전트가 실행되는 런타임 자체를 안전 경계로 삼는 프로젝트로, 같은 날 Matthew Green의 에이전트 웜 경고와 맞물려 MCP host server의 tool 실행 경계와 agent loop의 HITL 분기를 직접 건드립니다.",
-      "knowledge_url": "/knowledge/20261002/",
       "categories": [
         "보안 & 거버넌스"
       ]
@@ -211,50 +156,6 @@
       "knowledge_url": "/knowledge/20260919/",
       "categories": [
         "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260918",
-      "display_date": "2026-09-18",
-      "title": "alibaba/open-code-review — 결정론적 파이프라인 + LLM 에이전트 하이브리드 코드 리뷰 (하루 3,290 stars)",
-      "url": "https://github.com/alibaba/open-code-review",
-      "summary": "이번 윈도우 트렌딩 최상단에 올라온 항목인데, 최근 트렌딩을 도배한 '스킬 번들 공유' 결과 정면으로 다릅니다 — LLM에 전부 맡기지 않고 **NPE·스레드 안전성·XSS·SQL 인젝션 같은 판정 가능한 룰은 결정론적 파이프라인으로 먼저 걸러내고, 판단이 필요한 구간만 에이전트에게 넘기는** 역할 분담을 아키텍처 1급으로 올렸습니다(알리바바 프로덕션 규모 검증, OpenAI·Anthropic 호환). DCSAI agent loop가 '매 턴 모델에게 무엇을 물을 것인가'를 결정하는 지점, 그리고 HITL 분기가 '사람이 승인할 것'과 '기계가 확정할 것'을 가르는 경계를 그대로 건드리는 결입니다.",
-      "knowledge_url": "/knowledge/20260918/",
-      "categories": [
-        "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260917",
-      "display_date": "2026-09-17",
-      "title": "alibaba/open-code-review — 결정론적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드 리뷰 도구 (하루 3,215 stars)",
-      "url": "https://github.com/alibaba/open-code-review",
-      "summary": "이번 윈도우 GitHub Trending 1위로 새로 올라왔습니다(하루 3,215, 누적 31,229). 알리바바 규모에서 실제로 운영해 본 설계라는 점이 눈에 띕니다. 규칙으로 확실히 잡히는 결함(NPE·스레드 안전성·XSS·SQL 인젝션)은 결정론적 파이프라인이 먼저 걸러 내고, 라인 단위 코멘트는 LLM 에이전트가 붙입니다. 에이전트에게 모든 판단을 맡기지 않고 '규칙이 먼저, 모델은 그 다음'으로 역할을 나눈 구조입니다. 매 턴 무엇을 모델에 맡기고 무엇을 코드로 확정할지 정하는 DCSAI agent loop의 tool use·HITL 분기 문제와 직접 닿아 있습니다. OpenAI·Anthropic 호환이라 Anthropic SDK 환경에 바로 붙여 볼 수 있습니다.",
-      "knowledge_url": "/knowledge/20260917/",
-      "categories": [
-        "코딩 에이전트"
-      ]
-    },
-    {
-      "date_str": "20260916",
-      "display_date": "2026-09-16",
-      "title": "alibaba/open-code-review — 결정론적 파이프라인과 LLM Agent를 섞은 하이브리드 코드 리뷰 도구 (Go, 하루 2,751 stars)",
-      "url": "https://github.com/alibaba/open-code-review",
-      "summary": "하루 2,751 스타로 이번 윈도우 GitHub Trending 1위에 새로 오른 항목입니다. 리뷰를 LLM에 통째로 맡기지 않습니다. 결정론적 파이프라인과 내장 룰셋(NPE, thread-safety, XSS, SQL injection)이 먼저 걸러내고, 그다음 LLM Agent가 줄 단위로 코멘트를 다는 구조를 Alibaba 규모에서 검증했다고 내세웁니다. 같은 날 CoT 모니터링이 플랜 인젝션에 뚫린다는 논문이 나온 상황이라 '모델의 판단을 무엇으로 받쳐 줄 것인가'가 핵심 질문이 됐는데, 이 도구는 agent loop의 HITL 분기와 Claude Code plugin hook의 검증 설계에 바로 닿습니다.",
-      "knowledge_url": "/knowledge/20260916/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
-    },
-    {
-      "date_str": "20260915",
-      "display_date": "2026-09-15",
-      "title": "alibaba/open-code-review — 결정적 파이프라인과 LLM 에이전트를 섞은 하이브리드 코드 리뷰 도구 (하루 1,796 stars)",
-      "url": "https://github.com/alibaba/open-code-review",
-      "summary": "최근 14일 픽에 없던 새 항목입니다. 같은 날 Laurie Voss가 말한 '코드 작성 비용은 무너졌고 리뷰·운영 비용이 뒤따른다'는 진단에 곧바로 답하는 도구라 주목도도 가장 높습니다. 규칙 기반 파이프라인이 확정할 수 있는 결함(NPE·스레드 안전성·XSS·SQL 인젝션)을 먼저 잡고, LLM 에이전트는 판단이 필요한 부분만 맡습니다. 이 분업은 DCSAI agent loop의 HITL 분기와 같은 결입니다. 무엇을 규칙으로 자동 확정하고, 무엇을 모델이나 사람의 판단으로 넘길지를 정하는 문제입니다.",
-      "knowledge_url": "/knowledge/20260915/",
-      "categories": [
-        "코딩 에이전트"
       ]
     },
     {

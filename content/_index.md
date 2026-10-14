@@ -190,12 +190,6 @@ TechCrunch **Equity**는 데이터센터 건설 **모라토리엄**이 확산되
     <span class="ai-pick-title-mini">How Anthropic's Dynamic Workflows Coordinate Claude Agents</span>
   </a>
 </li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261013/">
-    <span class="ai-pick-date">2026-10-13</span>
-    <span class="ai-pick-title-mini">morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 리버스 엔지니어링 (TypeScript…</span>
-  </a>
-</li>
     </ul>
   </section>
   <section class="ai-week-block">
@@ -208,21 +202,9 @@ TechCrunch **Equity**는 데이터센터 건설 **모라토리엄**이 확산되
   </a>
 </li>
       <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261010/">
-    <span class="ai-pick-date">2026-10-10</span>
-    <span class="ai-pick-title-mini">morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 리버스 엔지니어링</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261009/">
     <span class="ai-pick-date">2026-10-09</span>
     <span class="ai-pick-title-mini">Claude Haiku 5.5 (Simon Willison의 출시 노트와 가격 분석)</span>
-  </a>
-</li>
-      <li class="ai-pick-item">
-  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261008/">
-    <span class="ai-pick-date">2026-10-08</span>
-    <span class="ai-pick-title-mini">morluto/rea — 앱 동작부터 네이티브 바이너리까지 에이전트로 역공학하는 도구</span>
   </a>
 </li>
       <li class="ai-pick-item">
