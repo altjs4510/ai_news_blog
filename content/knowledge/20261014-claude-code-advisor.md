@@ -148,7 +148,18 @@ Anthropic 블로그가 밝힌 자체 평가 결과입니다(당시 모델 기준
 
 ## 🔍 SNS에서 도는 "Sonnet·Haiku·Opus 3단 구성" 글과 비교
 
-최근 X에서 `claude --model sonnet --advisor opus` 를 소개하는 바이럴 글이 돌았는데, 공식 문서와 대조하면 이렇습니다.
+### 원문
+
+- **출처:** [@thedelost (delost) 의 X 게시물](https://x.com/thedelost/status/2110109013652193621) — 2026-10-13, 35초 세로 영상 첨부
+- **글의 요지**
+  - "Anthropic이 공유한 Claude Code 최고의 팁"이라며 `claude --model sonnet --advisor opus` 로 실행하라고 소개
+  - 역할 분담: **Sonnet 5.5** 가 메인 세션을 맡아 코드 작성, **Haiku 5.5** 가 파일·문서를 병렬 탐색, **Opus 5.5** 는 큰 결정용 어드바이저로 대기
+  - Opus는 **계획 확정 전 / 같은 에러 두 번 / 완료 선언 전** 세 시점에만 개입한다고 설명 — "Sonnet builds. Haiku explores. Opus reviews."
+  - Haiku 서브에이전트 3종(search: 레포 구조 파악, grep: 호출 지점 찾기, docs: API 레퍼런스)과, 사소한 분기(어느 파일·어느 도구·재시도 여부)를 밀리초 단위로 처리한다는 "JEV" 계층을 포함한 전체 구조도를 제시
+  - 이 구조로 설정을 재구성하게 하는 Claude Code용 프롬프트를 함께 공유(변경은 모두 diff로 먼저 보여주고 승인 전엔 수정하지 말 것)
+  - 첨부 영상은 위 구조를 대시보드처럼 보여주는 화면(Opus 대기 패널, JEV 분기 카운터, Haiku 서브에이전트 진행 바, 세션 로그)
+
+### 공식 문서와 대조하면
 
 | 바이럴 글의 주장 | 실제 |
 |---|---|
