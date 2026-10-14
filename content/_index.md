@@ -181,6 +181,12 @@ TechCrunch **Equity**는 데이터센터 건설 **모라토리엄**이 확산되
 </div>
 
 <aside class="ai-home-aside">
+  <section class="ai-week-block ai-trend-block">
+    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
+    <ul class="ai-trend-chips">
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/GoogleDeepMind/status/2110039274922131792" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Gemini 4 Argon</span></a></li>
+    </ul>
+  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">

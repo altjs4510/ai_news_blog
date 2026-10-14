@@ -172,6 +172,14 @@
   ],
   "x_trends": {
     "date_str": "20261014",
-    "items": []
+    "items": [
+      {
+        "term": "Gemini 4 Argon",
+        "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+        "title": "Gemini 4 Argon is now globally available.  Built to solve your hardest problems …",
+        "is_new": true,
+        "count": 3
+      }
+    ]
   }
 }
