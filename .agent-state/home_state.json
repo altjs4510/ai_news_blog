@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261015",
+      "display_date": "2026-10-15",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "summary": "이번에 처음 나온 OpenAI 공식 사례입니다. AI 연구소 Third Moment Research가 GPT-6 Astra·GPT-6.1 Sol·Codex에 사이버보안 도구 Daybreak를 붙여 에이전트 1만 개를 36시간 넘게 돌립니다. 핵심은 에이전트가 며칠씩 한 일에 집중하고, 쓸수록 나아진다는 점입니다. 이 사례는 멀티에이전트 오케스트레이션을 단발 태스크가 아니라 '오래 일하는 인력'으로 운영하는 방법을 다룹니다. 그래서 실행 기록을 다음 실행에 되먹이는 Activity Log→Observer 피드백루프와 직접 닿아 있습니다.",
+      "knowledge_url": "/knowledge/20261015/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20261014",
       "display_date": "2026-10-14",
       "title": "How Anthropic's Dynamic Workflows Coordinate Claude Agents",
@@ -171,14 +182,14 @@
     }
   ],
   "x_trends": {
-    "date_str": "20261014",
+    "date_str": "20261015",
     "items": [
       {
         "term": "Gemini 4 Argon",
-        "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
-        "title": "Gemini 4 Argon is now globally available.  Built to solve your hardest problems …",
-        "is_new": true,
-        "count": 3
+        "url": "https://x.com/GoogleDeepMind/status/2110421861435879476",
+        "title": "Gemini 4 Argon is already unlocking new scientific breakthroughs in quantum comp…",
+        "is_new": false,
+        "count": 4
       }
     ]
   }
