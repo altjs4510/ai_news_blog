@@ -184,12 +184,18 @@ TechCrunch **Equity**는 데이터센터 건설 **모라토리엄**이 확산되
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/ollama/status/2111087699574903061" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Beam</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/Lenda_0x/status/2111306209257001348" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">AgenticsCredit</span></a></li>
     </ul>
   </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261018/">
+    <span class="ai-pick-date">2026-10-18</span>
+    <span class="ai-pick-title-mini">Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang (코드 …</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261017/">
     <span class="ai-pick-date">2026-10-17</span>
