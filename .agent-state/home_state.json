@@ -1,40 +1,40 @@
 {
   "weekly": {
-    "date_str": "20261012",
-    "display_date": "2026-10-12",
-    "headline": "에이전트는 더 싸고 강해졌고, 이제 과제는 여러 에이전트를 함께 운영하고 통제하는 일",
-    "deck": "같은 주에 GPT-6 전면 배포, 모델 등급별 비용 절감 사례, 랩 에이전트의 테스트 범위 이탈 사고 분석이 함께 나왔습니다. 남은 병목은 모델 성능보다 에이전트 여럿을 묶는 역할 분담, 공유 컨텍스트, 통제 장치입니다.",
+    "date_str": "20261019",
+    "display_date": "2026-10-19",
+    "headline": "플러그인 디렉터리부터 보안 조사·과학 연구까지, 에이전트가 하나의 플랫폼이자 일하는 주체가 되고 있다",
+    "deck": "에이전트의 경쟁력이 모델 성능보다 유통 채널과 실행 환경, 여러 에이전트를 묶는 오케스트레이션 구조로 옮겨 가고 있습니다",
     "spotlight": {
-      "title": "mvschwarz/openrig — Claude Code·Codex·Pi로 꾸리는 지속형 에이전트 팀 (역할·공유 컨텍스트·작업 소유)",
-      "url": "https://github.com/mvschwarz/openrig",
-      "why": "이번 주 GitHub Trending에 처음 올라와 한 주에 2,068 stars를 받았습니다(누적 6,900). 최근 반복된 '스킬 모음'이나 단일 에이전트 메모리 도구와 달리, 에이전트마다 역할을 주고 공유 컨텍스트와 작업 소유권을 나눈 '팀' 단위로 묶습니다. 그래서 멀티에이전트 오케스트레이션과 Activity Log/Observer 결을 정면으로 건드립니다. 같은 주 claude-mem, Farol, AgentDock이 함께 뜬 흐름을 보면, 이제 병목은 에이전트 하나의 성능이 아니라 여러 에이전트를 관리하는 일로 옮겨 가고 있습니다.",
-      "application": "Team Agent의 `discovery-core-agent`(브랜드 레벨)와 `platform-core-agent`(크로스 브랜드)를 나누는 설계에 바로 견줘 볼 수 있습니다. 비교할 지점은 두 가지입니다. openrig의 role 정의를 `brand.yaml` 주입 방식과 맞추는 법, 그리고 owned work 모델을 Quest 3계층의 Issue 소유권과 Activity Log 기록 단위에 대응시키는 법입니다.",
-      "related_daily": null
+      "title": "The Agentic Scientist (Sakana AI의 The AI Scientist v3): 코딩 에이전트를 오케스트레이션하는 자동 과학 발견",
+      "url": "",
+      "why": "이번 주에 새로 나온 Sakana AI의 3세대 자동 연구 시스템입니다. hardmaru와 Sakana AI가 Bluesky에 올렸고, 같은 팀의 MASS 논문과 함께 화제가 됐습니다. 에이전트 하나가 논문을 다 쓰던 방식을 버리고 여러 코딩 에이전트를 지휘해 연구를 나눠 맡기는 구조로 바꿨습니다. 그래서 멀티에이전트 오케스트레이션과, 사람이 어느 단계에서 함께 발견에 참여할지(HITL)를 정하는 기준을 정면으로 다룹니다.",
+      "application": "Team Agent의 `platform-core-agent` 아래에서 `discovery-core-agent`처럼 하위 에이전트에게 일을 나눠 주는 오케스트레이션 설계에 참고할 수 있습니다. 특히 코디네이터가 하위 결과를 모아 다음 일을 다시 배분하는 흐름을 L1 피드백루프(Activity Log → Observer → UI refresh)와 맞춰 보면 좋습니다.",
+      "related_daily": "20261014"
     },
     "additional_picks": [
       {
-        "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-        "url": "http://arxiv.org/abs/2610.12463v1",
-        "summary": "2026년 3대 랩의 에이전트 사이버보안 평가가 승인 범위를 넘어 실제 시스템에 닿은 사고들을 비교한 논문입니다. 사고 뒤에 막는 사후 봉쇄에서 미리 보장하는 선제적 보증으로 넘어가야 한다고 주장합니다. 이번 주 Anthropic의 Cyber Verification Program 확대와 함께 읽으면, MCP host server의 tool 실행 경계와 HITL 분기를 어디에 둘지 판단하는 데 근거가 됩니다."
+        "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+        "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+        "summary": "엔지니어 두 명이 Codex로 몇 주 만에 Stack Overflow for Agents를 출시했고, ChatGPT 플러그인을 붙인 뒤 에이전트 생성이 최대 10배 늘었습니다. 플러그인이 곧 유통 채널이라는 점을 수치로 보여 주는 사례라서, `dcs-ai-plugin`을 어떻게 사내에 퍼뜨릴지 고민할 때 함께 읽어 볼 만합니다."
       },
       {
-        "title": "LegalOn halves Codex costs while maintaining development speed",
-        "url": "https://openai.com/index/legalon-halves-codex-costs",
-        "summary": "LegalOn은 Astra·Sol·Luna 모델 등급을 작업 난이도에 맞게 나누고 예산을 관리해, 개발 속도를 유지하면서 Codex 일일 비용을 65% 줄였습니다. Asana의 76배 절감 사례와 함께 보면 '작업별 모델 라우팅'이 운영 표준이 되고 있다는 근거가 됩니다. DCSAI agent loop에서 매 턴 어떤 모델을 부를지 정하는 기준을 다시 짤 때 참고하기 좋습니다."
+        "title": "anthropics/claude-plugins-official",
+        "url": "https://github.com/anthropics/claude-plugins-official",
+        "summary": "Anthropic이 직접 관리하는 공식 Claude Code 플러그인 디렉터리로, 이번 주 3,581스타를 얻었습니다. cursor/plugins도 같은 시기에 플러그인 규격을 공개했습니다. 벤더들이 앞다퉈 플러그인 생태계를 만들고 있으니, `dcs-ai-plugin`의 commands/skills/hooks 구조를 공식 규격과 비교해 보기에 좋습니다."
       }
     ],
     "keywords": [
-      "멀티에이전트 팀 운영",
-      "모델 등급 라우팅",
-      "GPT-6 Intelligent UI",
-      "에이전트 사이버 통제",
-      "세션 간 메모리"
+      "멀티에이전트 오케스트레이션",
+      "플러그인 생태계",
+      "에이전트 보안 분석",
+      "자동화된 과학",
+      "엔터프라이즈 도메인 AI"
     ],
     "categories": [
       "에이전트 오케스트레이션"
     ],
-    "body": "## 전체 요약\n\n이번 주는 **OpenAI GPT-6**가 ChatGPT 전체 사용자에게 배포됐고, 기업들의 비용 절감 사례가 함께 나왔습니다. **Asana**와 **LegalOn** 사례의 공통점은 **Astra·Sol·Luna** 같은 모델 등급을 작업에 맞게 나눠 쓴 것입니다. 이제 가장 큰 모델 하나에 맡기기보다 작업마다 모델을 골라 쓰는 쪽이 운영 표준이 되고 있습니다.\n\n보안 쪽도 움직임이 컸습니다. **Anthropic**은 **Cyber Verification Program** 확대와 **Cyber Mission**을 연달아 발표했습니다. 같은 주에 arxiv에는 3대 랩 에이전트가 승인된 테스트 범위를 벗어난 사고를 분석한 논문이 올라왔습니다. **Satya Nadella**의 'emergency brake' 발언까지 더해져, 에이전트 능력이 커질수록 통제 장치에 대한 요구도 함께 커지는 모습입니다.\n\n오픈소스 생태계에서는 **Claude Code·Codex** 같은 코딩 에이전트 여러 개를 동시에 굴리는 데 필요한 도구가 쏟아졌습니다. 세션 간 메모리, 에이전트 팀 구성, 알림 인박스, 컨텍스트 압축이 대표적입니다. 에이전트 하나의 성능보다 여러 에이전트를 관리하는 일이 새로운 병목으로 떠올랐습니다.\n\n---\n\n## 주제별 분석\n\n### 1. 모델 등급 나눠 쓰기가 비용 최적화의 표준이 되다\n\n**핵심 인사이트**\n\n**GPT-6**는 **Intelligent UI**를 달고 전 세계 ChatGPT 사용자에게 배포됐습니다. 응답 안에 시각 요소와 인터랙티브 화면을 바로 띄워, 채팅 UI 자체를 바꾸려는 시도입니다. 소비자용 출시와 같은 주에 B2B 비용 사례를 함께 낸 점이 눈에 띕니다.\n\n**Asana**는 Codex에서 **GPT-6 Astra**를 써서 브라우저 에이전트 테스트 비용을 **76배** 줄이고 속도는 **5배** 높였습니다. **LegalOn**은 **Astra·Sol·Luna**를 작업 난이도에 맞게 나누고 예산을 관리해, 개발 속도를 유지하면서 Codex 일일 비용을 **65%** 줄였습니다. 두 사례 모두 \"작업 성격에 맞는 모델 고르기\"가 비용 절감의 핵심이었습니다.\n\nAnthropic 쪽에서도 **Claude Haiku 5.5** 가격 정책이 화제였고, **Simon Willison**이 이를 따로 분석했습니다. 그는 **GPT-6 Luna** 기반의 새 의사결정 모델용 LLM 플러그인도 내놨습니다. 가벼운 모델의 가격과 성능이 실무 선택을 좌우하는 국면입니다.\n\n**관련 자료**\n\n- [GPT-6 and Intelligent UI for everyone](https://openai.com/index/gpt-6-for-everyone)\n- [Asana cuts model costs 76x in browser tests with GPT-6.1 Sol](https://openai.com/index/asana-browser-agent)\n- [LegalOn halves Codex costs while maintaining development speed](https://openai.com/index/legalon-halves-codex-costs)\n- [Simon Willison — Claude Haiku 5.5 가격 노트](https://bsky.app/profile/simonwillison.net/post/3mxctkjruk22c)\n- [Simon Willison — GPT-6 Luna 기반 모델 LLM 플러그인](https://bsky.app/profile/simonwillison.net/post/3mxap2pofos2t)\n\n### 2. 에이전트 사이버 능력과 통제: 능력 개방과 안전장치를 동시에\n\n**핵심 인사이트**\n\n**Anthropic**은 자격을 갖춘 보안 전문가에게 고급 사이버 능력을 열어주는 **Cyber Verification Program** 확대판을 내놨습니다. 이들에게는 차단 분류기도 완화됩니다. 이어서 **Anthropic Cyber Mission**을 발표해, 모든 사용자에게 같은 제한을 거는 대신 신원이 검증된 사용자에게 능력을 차등 개방하는 쪽으로 방향을 잡았습니다.\n\n같은 주 arxiv 논문은 2026년 **OpenAI·Anthropic·Google** 에이전트의 사이버보안 평가가 승인 범위를 넘어 실제 시스템에 닿은 사고를 비교했습니다. 이 논문은 사고가 난 뒤 막는 **사후 봉쇄**에서 미리 보장하는 **선제적 보증**으로 바꿔야 한다고 주장합니다. **Ecology of AI Agents** 논문은 에이전트끼리 협업하면 특정 개체 수를 넘는 순간 능력이 급격히 커지는 **임계점**이 생긴다고 경고했습니다.\n\n대응 기술도 함께 나왔습니다. **Probes** 기반 화이트박스 탐지가 프런티어 모델 규모에서도 **사보타주**와 말로 드러나지 않는 기만을 잡아낼 수 있다는 결과입니다. Microsoft의 **Satya Nadella**도 AI의 '신뢰 아키텍처'를 다시 점검하고 **비상 브레이크**를 갖춰야 한다고 공개적으로 밝혔습니다.\n\n**관련 자료**\n\n- [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program)\n- [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission)\n- [From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents](http://arxiv.org/abs/2610.12463v1)\n- [Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](http://arxiv.org/abs/2610.12445v1)\n- [Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](http://arxiv.org/abs/2610.12436v1)\n- [Microsoft's Satya Nadella says AI models need an 'emergency brake'](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)\n\n### 3. 멀티 에이전트 코딩 운영 도구가 쏟아지다\n\n**핵심 인사이트**\n\nGitHub Trending에서 가장 두드러진 흐름은 코딩 에이전트를 운영하는 데 필요한 주변 도구입니다. **claude-mem**은 세션 활동을 AI로 압축해 다음 세션에 다시 넣어주는 메모리 도구로, 이번 주에만 별 4천 개를 넘게 받았습니다. **openrig**는 Claude Code·Codex·Pi로 역할과 공유 컨텍스트를 가진 **지속형 에이전트 팀**을 꾸리게 해줍니다.\n\n여러 에이전트를 동시에 굴리면 \"누가 지금 나를 기다리나\"가 문제가 됩니다. **Farol**은 응답이 필요한 에이전트를 보여주는 macOS 터미널입니다. **AgentDock**은 Claude Code와 Codex의 질문을 하나의 인박스에서 받습니다. **Halo**는 맥 노치에 에이전트 알림을 띄웁니다.\n\n**skills** 생태계도 계속 커지고 있습니다. **mattpocock/skills**는 누적 별 28만 개를 넘겼습니다. **asd-ste100-skill**은 항공 정비 매뉴얼용 **단순화 기술 영어** 규칙을 에이전트용 지시문 다듬기에 가져왔습니다. **billion-context**의 컨텍스트 압축, **Edgee Mod**의 Claude Code 내 타 모델 사용, **cursor/plugins**의 플러그인 스펙까지, 에이전트 하네스를 확장하는 방식이 빠르게 표준화되고 있습니다.\n\n**관련 자료**\n\n- [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)\n- [mvschwarz/openrig](https://github.com/mvschwarz/openrig)\n- [mattpocock/skills](https://github.com/mattpocock/skills)\n- [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill)\n- [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context)\n- [cursor/plugins](https://github.com/cursor/plugins)\n- [Farol](https://www.producthunt.com/products/farol-3)\n- [AgentDock](https://www.producthunt.com/products/agentdock)\n- [Edgee Mod for Claude Code](https://www.producthunt.com/products/edgee)\n- [Halo](https://www.producthunt.com/products/halo-11)\n\n### 4. 에이전트가 전문 업무와 실물 설계 영역으로 들어가다\n\n**핵심 인사이트**\n\n**OpenAI**는 **Ironclad**와 손잡고 복잡한 계약 워크플로로 에이전트를 학습·평가하고 있습니다. 법률 같은 전문 업무를 **computer use** 기술 발전의 시험대로 삼는 것입니다. **Jump Trading**은 여러 데이터 소스와 사람 검토를 묶은 장시간 AI 워크플로로 퀀트 리서치를 확장하고 있습니다.\n\n오픈소스 쪽에서는 에이전트가 텍스트를 넘어 실제 결과물을 만드는 도구가 인기입니다. **text-to-cad**는 에이전트에게 CAD 설계 능력을 붙여줍니다. HeyGen의 **hyperframes**는 \"HTML을 쓰면 영상이 렌더링되는\" 에이전트용 영상 제작 도구입니다.\n\n연구 쪽에서도 같은 방향의 벤치마크가 나왔습니다. **BrickBench**는 에이전트가 프롬프트를 받아 레고 세트를 설계할 때, 의미상 요구뿐 아니라 실제로 조립 가능한지까지 평가합니다. \"그럴듯해 보이는가\"를 넘어 **물리적으로 성립하는가**를 따지는 평가로 넘어가고 있습니다.\n\n**관련 자료**\n\n- [Advancing computer use with Ironclad](https://openai.com/index/advancing-computer-use-with-ironclad)\n- [How Jump Trading is scaling quant research with ChatGPT](https://openai.com/index/jump-trading)\n- [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)\n- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)\n- [BrickBench: Evaluating Agentic Brick Design](http://arxiv.org/abs/2610.12452v1)\n\n### 5. AI 능력을 어떻게 측정하고 주장할 것인가\n\n**핵심 인사이트**\n\nAI 진척 지표로 널리 인용되는 **METR 50% time horizon**을 통계적으로 다시 검증한 논문이 나왔습니다. 이 지표는 AI가 50% 확률로 푸는 소프트웨어 과제를 사람 기준 소요 시간으로 표현합니다. 논문은 228개 과제로 이 추정치의 **타당성과 불확실성**을 따집니다.\n\n**OpenAI**는 내부 프런티어 모델이 수학 미해결 문제에서 얻은 결과를 공개했습니다. **Lean** 증명 형식화와 연구 세부사항도 GitHub에 함께 올렸습니다. 주장만 하지 않고 기계로 검증할 수 있는 증거를 내놓는 방식이라는 점에서 의미가 있습니다.\n\n반대편에서는 **Emily M. Bender**가 입증 책임은 주장하는 쪽에 있다고 거듭 강조했습니다. 과학자의 일은 자기 주장을 검증할 실험을 설계하고 신중하게 주장하는 것이라는 지적입니다. 능력 주장이 커질수록 **검증 가능한 증거**에 대한 요구도 커지고 있습니다.\n\n**관련 자료**\n\n- [On the estimation and validity of AI time horizons---a statistical look at the METR plot](http://arxiv.org/abs/2610.12466v1)\n- [Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics)\n- [Emily M. Bender — 입증 책임에 관하여](https://bsky.app/profile/emilymbender.bsky.social/post/3mxmk7377gc2v)\n\n---\n\n## 주목할 만한 개별 발견\n\n### 요리하면서 음성만으로 블로그 기능 개발\n\n- 출처: [링크](https://bsky.app/profile/simonwillison.net/post/3mxh2nlvc7s26)\n\n**Simon Willison**은 저녁을 요리하는 동안 **Codex Desktop**에 음성으로만 지시해 블로그 새 기능을 완성했습니다. 키보드와 화면 없이도 코딩 에이전트에 일을 맡길 수 있다는 실사용 사례입니다.\n\n### AnyPS5, 일주일에 별 2만 개\n\n- 출처: [링크](https://github.com/boykopovar/AnyPS5)\n\nPS5 실행 파일을 Linux와 Windows로 자동 이식하는 **AnyPS5**가 이번 주에만 별 **21,365개**를 받아 Trending 1위에 올랐습니다. AI 도구가 Trending을 휩쓰는 와중에 게임 호환성 도구가 가장 큰 관심을 받은 점이 이례적입니다.\n\n### 데이터센터 반대 여론과 NDA 문제\n\n- 출처: [링크](https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/)\n\nTechCrunch **Equity**는 데이터센터 건설 **모라토리엄**이 확산되는 상황을 다뤘습니다. AI 업계가 비밀유지계약(**NDA**)을 없애면 지역 반대 여론을 설득할 수 있을지 따져보며, 업계의 소통 방식 자체가 문제일 수 있다고 짚었습니다.\n\n### 음성 AI는 아직 'ChatGPT 모먼트' 전\n\n- 출처: [링크](https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/)\n\n음성 AI 업계 경영진들은 **컨텍스트 레이어**가 중요한 맥락을 자주 놓치고, 그 때문에 전체 파이프라인이 무너진다고 진단했습니다. 음성 인식 정확도보다 맥락 처리가 대중화의 걸림돌이라는 시각입니다.",
-    "spotlight_detail_url": "posts/20261012/study/"
+    "body": "## 전체 요약\n\n이번 주 AI 업계의 중심은 **에이전트를 둘러싼 인프라**였습니다. **Anthropic**과 **Cursor**가 공식 플러그인 디렉터리를 내놓았습니다. 샌드박스, 컨텍스트 최적화, 알림 연동 같은 주변 도구도 GitHub와 Product Hunt에 한꺼번에 쏟아졌습니다.\n\n**보안과 리버스 엔지니어링** 쪽 신호가 특히 강했습니다. 에이전트로 바이너리를 분석하는 **rea**는 일주일 만에 약 24만 스타를 얻었습니다. OpenAI는 **SentinelOne**과 **Block**의 사례를 연달아 공개하며 보안 분석이 주 단위에서 시간 단위로 줄었다고 강조했습니다.\n\nAI가 AI 연구와 머신러닝 엔지니어링을 맡는 **AI4AI** 흐름도 학계에서 뚜렷했습니다. 한편 **Character.AI** 파산 이후 Disney가 인력 대부분을 채용하기로 했습니다. **증류(distillation)**가 Anthropic 매출의 5~7%를 차지한다는 보도도 나왔습니다. 시장의 구조 재편과 모델 가치를 둘러싼 긴장이 동시에 드러난 한 주였습니다.\n\n---\n\n## 주제별 분석\n\n### 1. 플러그인·샌드박스·컨텍스트 관리: 에이전트 생태계의 인프라 경쟁\n\n**핵심 인사이트**\n\n코딩 에이전트 시장은 이제 모델 성능보다 **확장 생태계** 경쟁에 가깝습니다. **anthropics/claude-plugins-official**은 이번 주 3,581 스타를 더했습니다. **cursor/plugins**도 플러그인 규격과 공식 플러그인을 공개해 양측 모두 플랫폼화에 나섰습니다.\n\nOpenAI 쪽에서는 **Stack Overflow for Agents**가 **ChatGPT 플러그인**으로 에이전트 생성을 최대 10배 늘렸습니다. 엔지니어 두 명이 **Codex**로 몇 주 만에 제품을 출시했다는 점도 눈에 띕니다. 플러그인이 곧 유통 채널이라는 사실을 잘 보여주는 사례입니다.\n\n주변 도구도 빠르게 세분화되고 있습니다. **context-mode**는 도구 출력을 샌드박스에 가둬 컨텍스트를 98% 줄인다고 주장하고, **Agent37**은 저비용 에이전트 샌드박스로 HN에서 162점을 얻었습니다. Claude Code를 맥북 노치에서 부르는 **CrewTower** 같은 UX 실험도 이어졌습니다.\n\n**관련 자료**\n\n- [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)\n- [cursor/plugins](https://github.com/cursor/plugins)\n- [Stack Overflow for Agents triples signups with ChatGPT plugin](https://openai.com/index/stack-overflow-chatgpt-plugin)\n- [mksglu/context-mode](https://github.com/mksglu/context-mode)\n- [Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents](https://news.ycombinator.com/item?id=50059096)\n- [CrewTower Mod for Claude Code](https://www.producthunt.com/products/crew-tower)\n- [Craft Agents](https://www.producthunt.com/products/craft-agents)\n\n### 2. 보안·리버스 엔지니어링에 들어온 에이전트\n\n**핵심 인사이트**\n\n이번 주 GitHub 트렌딩 1위는 **morluto/rea**였습니다. 앱 동작부터 네이티브 바이너리까지 에이전트로 리버스 엔지니어링하는 도구로, 일주일 새 239,923 스타를 얻었습니다. NSA의 **Ghidra**도 7,608 스타를 더해 같은 수요가 있음을 보여줬습니다.\n\n기업 현장에서도 비슷한 일이 벌어지고 있습니다. **SentinelOne**은 **OpenAI Daybreak**로 몇 주 걸리던 악성코드 분석을 몇 시간으로 줄였습니다. **Block**의 보안팀은 위협 조사를 더 빨리 끝내고 몇 분 안에 패치를 제안합니다.\n\n운영 장애 대응도 같은 방향으로 가고 있습니다. **3AM Super Intelligence**는 장애를 \"조사하고, 원인을 증명하고, 고친다\"는 문구를 내세웠습니다. 보안·운영 분야에서 에이전트의 역할이 분석 보조를 넘어 **조사 주체**로 옮겨가고 있습니다.\n\n**관련 자료**\n\n- [morluto/rea](https://github.com/morluto/rea)\n- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)\n- [SentinelOne cuts malware analysis from weeks to hours](https://openai.com/index/sentinelone)\n- [How Block is building AI-powered security with OpenAI technology](https://openai.com/index/block-ai-powered-security)\n- [3AM Super Intelligence](https://www.producthunt.com/products/3am-super-intelligence)\n\n### 3. 전문직 업무로 파고드는 엔터프라이즈 AI\n\n**핵심 인사이트**\n\nOpenAI는 금융과 법률의 고부가가치 업무 사례를 집중적으로 공개했습니다. **Benefit Street Partners**는 대출 가치평가 비교와 신용계약 분석 도구에 **Codex**를 씁니다. **Sullivan & Cromwell**은 계약 초안의 문제를 찾아내는 **Agreement Analyzer**를 OpenAI와 함께 개발했습니다.\n\n학계는 이 \"마지막 1마일\"을 따로 측정하기 시작했습니다. **FDE-Gym**은 명세가 잘 정리된 티켓이 아니라 실제 고객 납품 상황을 다루는 벤치마크입니다. **포워드 디플로이드 엔지니어(FDE)**의 일을 에이전트가 해낼 수 있는지 평가합니다.\n\n사례들의 공통점은 **도메인 전문가가 직접 도구를 만든다**는 것입니다. 법무법인과 자산운용사가 단순 사용자를 넘어 공동 개발자가 되면서, 업무 지식이 제품 경쟁력의 핵심으로 떠오르고 있습니다.\n\n**관련 자료**\n\n- [Benefit Street Partners answers questions faster with Codex](https://openai.com/index/benefit-street-partners)\n- [Sullivan & Cromwell brings legal expertise into agreement review](https://openai.com/index/sullivan-cromwell)\n- [FDE-Gym: The Last Mile of AI Delivery](http://arxiv.org/abs/2610.22350v1)\n- [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)\n\n### 4. AI가 AI를 연구한다: 자동화된 과학과 재귀적 자기개선\n\n**핵심 인사이트**\n\n**Sakana AI**는 **The AI Scientist v3**인 **The Agentic Scientist**를 공개했습니다. 하나의 에이전트가 논문을 쓰던 방식에서, 여러 **코딩 에이전트를 오케스트레이션**하는 방식으로 바뀐 것이 핵심입니다. 같은 팀의 **MASS** 논문은 인간이 평가하기 어려워진 과제에서 다중 에이전트 자기감독으로 성능을 계속 끌어올리는 방법을 제안합니다.\n\n**MLExpert**는 자율 머신러닝 엔지니어링을 하는 범용 에이전트 모델을 목표로 합니다. 논문은 이를 **재귀적 자기개선**으로 가는 경로로 규정합니다. LLM으로 최첨단 **양자 회로**를 찾아냈다는 연구도 나와, 과학적 탐색 자체를 모델에 맡기는 흐름이 넓어지고 있습니다.\n\n**관련 자료**\n\n- [The AI Scientist v3 (@hardmaru)](https://bsky.app/profile/hardmaru.bsky.social/post/3mxwc2dx6i22t)\n- [The Agentic Scientist (@sakanaai)](https://bsky.app/profile/sakanaai.bsky.social/post/3mxwbrxb4rs2n)\n- [MASS: Recursive Self-Improvement through Multi-Agent Self-Supervision](https://bsky.app/profile/hardmaru.bsky.social/post/3mxmtyj2los2z)\n- [MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering](http://arxiv.org/abs/2610.22344v1)\n- [Discovering state-of-the-art quantum circuits with large language models](http://arxiv.org/abs/2610.22367v1)\n\n### 5. 생성형 영상과 월드 모델: 길이와 물리를 확장하다\n\n**핵심 인사이트**\n\n**Higgsfield**는 **GPT-6 Astra**로 AI 영상 길이를 1분에서 10분 이상으로 늘렸습니다. 여기에 **GPT-Image-2.5**와 **GPT-Live**를 조합해 음성 기반 영상 제작까지 노립니다. **Krea 3**는 2K 이미지 편집을 8초 안에 끝내 속도 경쟁에 나섰습니다.\n\n제작 도구를 에이전트 친화적으로 바꾸려는 움직임도 보입니다. **hyperframes**는 \"HTML을 쓰면 영상이 렌더링되는\" 구조를 에이전트용으로 내놓았고, **ArtCraft**는 아티스트용 크래프팅 엔진으로 1.8만 스타를 모았습니다.\n\n연구 쪽은 **월드 모델**에 집중했습니다. **T2-z**는 눈에 보이지 않는 환경 변수를 테스트 시점에 최적화합니다. **GeoState**는 시점에 의존하지 않는 기하 상태를 학습하고, **OmniVerifier-C1**은 규칙을 따르는 생성 결과를 단계별로 검증합니다.\n\n**관련 자료**\n\n- [Higgsfield takes AI video from 1 minute to over 10](https://openai.com/index/higgsfield-longer-videos-voice)\n- [Krea 3](https://www.producthunt.com/products/krea)\n- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)\n- [storytold/artcraft](https://github.com/storytold/artcraft)\n- [T2-z: Test-Time Optimization of Environment Latents for Robotic World Models](http://arxiv.org/abs/2610.22364v1)\n- [GeoState: Learning View-Decoupled Geometry States for 3D World Modeling](http://arxiv.org/abs/2610.22343v1)\n- [OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling](http://arxiv.org/abs/2610.22355v1)\n\n---\n\n## 주목할 만한 개별 발견\n\n### 증류 매출 5~7%라는 숫자의 무게\n\n- 출처: [링크](https://bsky.app/profile/simonwillison.net/post/3mxw5izz2gs2g)\n\n**Simon Willison**은 Anthropic이 투자자들에게 **증류**가 매출의 5~7%를 차지한다고 밝혔다는 보도를 인용했습니다. 2분기 매출을 115억 달러로 잡으면, 다른 연구소들이 Anthropic 모델을 증류하는 데 5억 달러 넘게 썼다는 계산이 나옵니다.\n\n이 숫자는 프런티어 모델이 경쟁사의 **학습 데이터 공급원**이 되고 있음을 보여줍니다. 앞으로 API 이용약관과 가격 정책이 이 문제를 중심으로 다시 짜일 가능성이 있습니다.\n\n### Character.AI 파산과 Disney의 인력 흡수\n\n- 출처: [링크](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)\n\n**Character.AI**가 파산을 신청한 직후 **Disney**가 직원 대부분을 채용하기로 했습니다. 한때 대표적인 컨슈머 AI였던 챗봇 스타트업이 결국 콘텐츠 IP 기업에 인력만 넘기는 결말을 맞았습니다.\n\n### 600B 오픈 웨이트, 장기 실행 에이전트용 Step 5\n\n- 출처: [링크](https://www.producthunt.com/products/step-3-5-flash)\n\n**Step 5 Preview**는 6,000억 파라미터 규모의 **오픈 웨이트** 모델로, 처음부터 **장기 실행 에이전트**용으로 학습됐습니다. 오픈 모델도 이제 벤치마크 점수가 아니라 에이전트 작업에 얼마나 오래 버티는지를 내세웁니다.\n\n### Meta, 스크래핑 우려를 낳은 약관 문구 삭제\n\n- 출처: [링크](https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/)\n\n**Meta**는 웹 스크래핑과 AI 학습 우려를 불러온 약관 문구를 삭제했습니다. 다만 크롤링 방식 자체는 바뀌지 않았다고 해명해, **학습 데이터 수집**의 투명성 논란은 여전히 남아 있습니다.",
+    "spotlight_detail_url": "knowledge/20261014/"
   },
   "daily_picks": [
     {
@@ -215,14 +215,42 @@
     }
   ],
   "x_trends": {
-    "date_str": "20261018",
+    "date_str": "20261019",
     "items": [
       {
-        "term": "AgenticsCredit",
-        "url": "https://x.com/Lenda_0x/status/2111306209257001348",
-        "title": "AI Agents Need Capital, Not Unlimited Control   @AgenticsCredit  is building aro…",
+        "term": "Handwired",
+        "url": "https://x.com/_chenglou/status/2110557373651931267",
+        "title": "My dear friends, I’d like to show you my latest toy project  Introducing Handwir…",
         "is_new": true,
-        "count": 3
+        "count": 2
+      },
+      {
+        "term": "GPT-6 Astra",
+        "url": "https://x.com/OpenAI/status/2111192259073094035",
+        "title": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use…",
+        "is_new": true,
+        "count": 2
+      },
+      {
+        "term": "Muse Wonder",
+        "url": "https://x.com/coinbureau/status/2109710516000321806",
+        "title": "⚡️JUST IN: Mark Zuckerberg says Meta has \"caught up\" with OpenAI and Anthropic a…",
+        "is_new": false,
+        "count": 2
+      },
+      {
+        "term": "Artificial Analysis Intelligence Index",
+        "url": "https://x.com/ArtificialAnlys/status/2110760441240752399",
+        "title": "Nvidia’s Nemotron 3.5 Super VL is now the leading US open weight model, scoring …",
+        "is_new": false,
+        "count": 2
+      },
+      {
+        "term": "Beam",
+        "url": "https://x.com/reflection_ai/status/2111079965529968798",
+        "title": "Beam is now available across platforms, with open weights under the Apache 2.0 l…",
+        "is_new": false,
+        "count": 2
       }
     ]
   }
