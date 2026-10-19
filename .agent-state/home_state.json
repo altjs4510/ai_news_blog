@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261020",
+      "display_date": "2026-10-20",
+      "title": "Satya Nadella — 모델을 내부자 위험으로 보는 원칙에 따라 Project Perception 확장",
+      "url": "https://x.com/satyanadella/status/2112168320946634932",
+      "summary": "Microsoft CEO는 모델을 내부자 위험(insider risk)으로 봐야 한다고 썼고, 이번에 그 원칙을 Project Perception 확장으로 실제 제품에 적용했다고 밝혔습니다. 이 게시물은 이번 윈도우에 처음 나왔고 소셜 버즈에서 인게이지먼트가 가장 높았습니다(❤ 984 · 🔁 227 · 💬 154). 보안 통제를 모델 프롬프트나 정렬이 아니라 모델 바깥에 둔다는 원칙이라, MCP host server의 tool 실행 경계와 agent loop의 HITL 분기를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261020/",
+      "categories": [
+        "보안 & 거버넌스"
+      ]
+    },
+    {
       "date_str": "20261018",
       "display_date": "2026-10-18",
       "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang (코드 리뷰 재정의)",
@@ -215,40 +226,19 @@
     }
   ],
   "x_trends": {
-    "date_str": "20261019",
+    "date_str": "20261020",
     "items": [
       {
-        "term": "Handwired",
-        "url": "https://x.com/_chenglou/status/2110557373651931267",
-        "title": "My dear friends, I’d like to show you my latest toy project  Introducing Handwir…",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "GPT-6 Astra",
-        "url": "https://x.com/OpenAI/status/2111192259073094035",
-        "title": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use…",
-        "is_new": true,
-        "count": 2
-      },
-      {
-        "term": "Muse Wonder",
-        "url": "https://x.com/coinbureau/status/2109710516000321806",
-        "title": "⚡️JUST IN: Mark Zuckerberg says Meta has \"caught up\" with OpenAI and Anthropic a…",
+        "term": "DeepSeek V4.1 Flash 1017",
+        "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
+        "title": "DeepSeek V4.1 Flash 1017 scores 45 on the Artificial Analysis Intelligence Index…",
         "is_new": false,
         "count": 2
       },
       {
-        "term": "Artificial Analysis Intelligence Index",
-        "url": "https://x.com/ArtificialAnlys/status/2110760441240752399",
-        "title": "Nvidia’s Nemotron 3.5 Super VL is now the leading US open weight model, scoring …",
-        "is_new": false,
-        "count": 2
-      },
-      {
-        "term": "Beam",
-        "url": "https://x.com/reflection_ai/status/2111079965529968798",
-        "title": "Beam is now available across platforms, with open weights under the Apache 2.0 l…",
+        "term": "Gemini 4 Argon",
+        "url": "https://x.com/GeminiApp/status/2112214581443498261",
+        "title": "Our team built a playable 3D Wizard Chess game from scratch with Gemini 4 Argon …",
         "is_new": false,
         "count": 2
       }

@@ -183,11 +183,19 @@ OpenAI는 금융과 법률의 고부가가치 업무 사례를 집중적으로 �
   <section class="ai-week-block ai-trend-block">
     <p class="ai-eyebrow">🔥 X 화제 키워드</p>
     <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/_chenglou/status/2110557373651931267" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">Handwired</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--new" href="https://x.com/OpenAI/status/2111192259073094035" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">NEW</span><span class="ai-trend-chip-term">GPT-6 Astra</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/coinbureau/status/2109710516000321806" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Muse Wonder</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/ArtificialAnlys/status/2110760441240752399" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Artificial Analysis Intelligence Index</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/reflection_ai/status/2111079965529968798" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Beam</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/ArtificialAnlys/status/2112218661432000694" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">DeepSeek V4.1 Flash 1017</span></a></li>
+      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/GeminiApp/status/2112214581443498261" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Gemini 4 Argon</span></a></li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261020/">
+    <span class="ai-pick-date">2026-10-20</span>
+    <span class="ai-pick-title-mini">Satya Nadella — 모델을 내부자 위험으로 보는 원칙에 따라 Project Perception 확장</span>
+  </a>
+</li>
     </ul>
   </section>
   <section class="ai-week-block">
