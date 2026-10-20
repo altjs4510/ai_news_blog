@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261021",
+      "display_date": "2026-10-21",
+      "title": "cloudflare/security-audit-skill — 독립 검증된 기계 판독형 결과를 내는 다단계 보안 감사 코딩 에이전트 스킬",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "summary": "이번 윈도우에 새로 나온 저장소로, GitHub Trending에서 하루 1,680스타를 받았습니다(누적 33,653). 대형 인프라 기업이 직접 배포한 에이전트 스킬이라 버즈가 큽니다. 최근 반복된 '스킬 모음 디렉토리'가 아니라 감사 하나를 여러 단계로 나누고, 각 결과를 독립적으로 검증해 기계가 읽는 형식으로 내놓는 단일 스킬입니다. 그래서 Claude Code plugin/skill 설계와, agent loop에서 사람 승인 대신 자동 검증에 맡길 범위를 정하는 HITL 분기를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261021/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20261020",
       "display_date": "2026-10-20",
       "title": "Satya Nadella — 모델을 내부자 위험으로 보는 원칙에 따라 Project Perception 확장",
@@ -226,22 +237,7 @@
     }
   ],
   "x_trends": {
-    "date_str": "20261020",
-    "items": [
-      {
-        "term": "DeepSeek V4.1 Flash 1017",
-        "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
-        "title": "DeepSeek V4.1 Flash 1017 scores 45 on the Artificial Analysis Intelligence Index…",
-        "is_new": false,
-        "count": 2
-      },
-      {
-        "term": "Gemini 4 Argon",
-        "url": "https://x.com/GeminiApp/status/2112214581443498261",
-        "title": "Our team built a playable 3D Wizard Chess game from scratch with Gemini 4 Argon …",
-        "is_new": false,
-        "count": 2
-      }
-    ]
+    "date_str": "20261021",
+    "items": []
   }
 }

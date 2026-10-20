@@ -180,16 +180,15 @@ OpenAI는 금융과 법률의 고부가가치 업무 사례를 집중적으로 �
 </div>
 
 <aside class="ai-home-aside">
-  <section class="ai-week-block ai-trend-block">
-    <p class="ai-eyebrow">🔥 X 화제 키워드</p>
-    <ul class="ai-trend-chips">
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/ArtificialAnlys/status/2112218661432000694" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">DeepSeek V4.1 Flash 1017</span></a></li>
-      <li><a class="ai-trend-chip ai-trend-chip--rising" href="https://x.com/GeminiApp/status/2112214581443498261" target="_blank" rel="noopener"><span class="ai-trend-chip-badge">↑</span><span class="ai-trend-chip-term">Gemini 4 Argon</span></a></li>
-    </ul>
-  </section>
   <section class="ai-week-block">
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261021/">
+    <span class="ai-pick-date">2026-10-21</span>
+    <span class="ai-pick-title-mini">cloudflare/security-audit-skill — 독립 검증된 기계 판독형 결과를 내는 다단계 보…</span>
+  </a>
+</li>
       <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261020/">
     <span class="ai-pick-date">2026-10-20</span>
