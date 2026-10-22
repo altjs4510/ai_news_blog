@@ -184,6 +184,12 @@ OpenAI는 금융과 법률의 고부가가치 업무 사례를 집중적으로 �
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261023/">
+    <span class="ai-pick-date">2026-10-23</span>
+    <span class="ai-pick-title-mini">Claude Duet app is Anthropic's bet on agents</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261022/">
     <span class="ai-pick-date">2026-10-22</span>
     <span class="ai-pick-title-mini">Claude Mods: Flipping the Harness Inside Out</span>
