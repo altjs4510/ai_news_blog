@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261024",
+      "display_date": "2026-10-24",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "summary": "Anthropic이 Agent Skills 표준을 '개방적이고 커뮤니티 주도적이며 벤더 중립적으로' 유지하겠다며 Agentic AI Foundation에 기증했습니다. 이번 윈도우에 처음 나온 1차 발표이고, 같은 주 GitHub Trending 상위권을 스킬·플러그인 저장소가 채운 흐름의 출발점입니다. 최근 픽이 개별 스킬 저장소였다면, 이 소식은 SKILL.md 포맷 자체의 관리 주체가 바뀌는 일입니다. 그래서 Claude Code plugin/skill 설계를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261024/",
+      "categories": [
+        "MCP & 도구 통합"
+      ]
+    },
+    {
       "date_str": "20261023",
       "display_date": "2026-10-23",
       "title": "Claude Duet app is Anthropic's bet on agents",
@@ -259,7 +270,7 @@
     }
   ],
   "x_trends": {
-    "date_str": "20261023",
+    "date_str": "20261024",
     "items": []
   }
 }
