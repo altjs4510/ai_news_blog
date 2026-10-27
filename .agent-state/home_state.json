@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261028",
+      "display_date": "2026-10-28",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "summary": "이번 윈도우에 처음 나온 OpenAI 공식 사례입니다. Greptile은 GPT-6 Astra로 실제 사용자 워크플로를 실행해 버그를 잡고, Daybreak로 보안을 강화하고, Codex로 재작업을 줄입니다. 코드 리뷰를 diff를 읽는 일에서 '실제로 돌려 보고 확인하는 일'로 넓힌 사례입니다. 그래서 agent loop의 HITL 분기, 즉 어디까지 자동 실행 검증에 맡기고 어디서 사람 승인을 받을지를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261028/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20261027",
       "display_date": "2026-10-27",
       "title": "nightly-labs/openbot — Codex·Claude·Grok을 상주 팀원처럼 운영하는 로컬 우선 데스크톱 워크스페이스",
@@ -256,21 +267,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20260919",
-      "display_date": "2026-09-19",
-      "title": "cloudflare/security-audit-skill — 다단계 보안 감사를 '독립 검증된 머신리더블 findings'로 뱉는 코딩 에이전트 스킬",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "summary": "하루 3,019스타로 이번 윈도우 트렌딩 1위에 새로 올라온 항목인데, 흔한 '스킬 디렉토리 공유' 결과 결정적으로 다른 지점은 **LLM이 낸 발견을 같은 LLM이 아닌 독립 검증 단계가 다시 통과시키고, 결과를 사람이 읽는 산문이 아니라 기계가 읽는 구조화 findings로 강제**한다는 설계입니다. 같은 주에 터진 [ZCode의 Git 히스토리 무단 업로드](https://tokenstead.ai/guides/zcode-silent-git-history-upload)·[compaction 요약을 통한 자가 프롬프트 인젝션](https://simonwillison.net/2026/Sep/17/compaction-summaries/)·[Rust 생태계 표적 공격](https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/)이 전부 '에이전트 출력을 무엇으로 믿을 것인가'를 묻는다는 점에서, DCSAI agent loop의 HITL 분기와 `dcs-ai-plugin`이 배포하는 Claude Code skills/hooks 결을 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20260919/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261027",
+    "date_str": "20261028",
     "items": []
   }
 }
