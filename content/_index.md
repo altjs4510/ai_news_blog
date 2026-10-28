@@ -188,6 +188,12 @@ IT 티켓을 잘못 자동 라우팅하면 사람이 직접 분류하는 것보�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261029/">
+    <span class="ai-pick-date">2026-10-29</span>
+    <span class="ai-pick-title-mini">How Anthropic ships Claude with Claude: Separating the Brain…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261028/">
     <span class="ai-pick-date">2026-10-28</span>
     <span class="ai-pick-title-mini">Greptile takes bug detection beyond code review with GPT-6 A…</span>
