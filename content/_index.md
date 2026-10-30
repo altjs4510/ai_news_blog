@@ -188,6 +188,12 @@ IT 티켓을 잘못 자동 라우팅하면 사람이 직접 분류하는 것보�
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261031/">
+    <span class="ai-pick-date">2026-10-31</span>
+    <span class="ai-pick-title-mini">CopilotKit/OpenBot — AI 동료마다 전용 컴퓨터를 주고 모든 행동을 실행 전 결정·실행 후 …</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261030/">
     <span class="ai-pick-date">2026-10-30</span>
     <span class="ai-pick-title-mini">How we detect frontier model misalignment</span>
