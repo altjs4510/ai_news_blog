@@ -180,6 +180,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261104/">
+    <span class="ai-pick-date">2026-11-04</span>
+    <span class="ai-pick-title-mini">Qwen 3.8 27B on my laptop can interpret model weights, too</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261103/">
     <span class="ai-pick-date">2026-11-03</span>
     <span class="ai-pick-title-mini">vercel-labs/agent-desktop — 픽셀 대신 OS 접근성 트리로 앱 UI를 읽어 데스크톱을 …</span>
