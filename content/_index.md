@@ -180,6 +180,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261105/">
+    <span class="ai-pick-date">2026-11-05</span>
+    <span class="ai-pick-title-mini">NVIDIA/auto-ontology — 데이터 위에 그래프 기반 의미 추론 레이어를 세워 결정적 쿼리 생성…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261104/">
     <span class="ai-pick-date">2026-11-04</span>
     <span class="ai-pick-title-mini">Qwen 3.8 27B on my laptop can interpret model weights, too</span>
