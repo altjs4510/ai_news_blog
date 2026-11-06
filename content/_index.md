@@ -180,6 +180,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261107/">
+    <span class="ai-pick-date">2026-11-07</span>
+    <span class="ai-pick-title-mini">Hermes Agent v0.23.0 — The Hearth Release</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261106/">
     <span class="ai-pick-date">2026-11-06</span>
     <span class="ai-pick-title-mini">Cline desktop-nightly-20261104233655: feat(core): delegate U…</span>
