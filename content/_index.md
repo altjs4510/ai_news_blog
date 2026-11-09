@@ -23,6 +23,17 @@ toc: false
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261110/">
+    <span class="ai-pick-date">2026-11-10</span>
+    <span class="ai-pick-title-mini">meta/astryx — 직접 바꿔 쓸 수 있고 에이전트가 바로 쓸 수 있는(agent ready) 오픈소스…</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
