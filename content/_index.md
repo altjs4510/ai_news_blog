@@ -26,6 +26,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261112/">
+    <span class="ai-pick-date">2026-11-12</span>
+    <span class="ai-pick-title-mini">shadcn/improve — 가장 강한 모델로 코드베이스를 감사해 계획을 쓰고, 더 싼 모델이 그 계획을 …</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261111/">
     <span class="ai-pick-date">2026-11-11</span>
     <span class="ai-pick-title-mini">Quoting Prompting Claude Fable 5.2</span>

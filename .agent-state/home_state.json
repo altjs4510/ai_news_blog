@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261112",
+      "display_date": "2026-11-12",
+      "title": "shadcn/improve — 가장 강한 모델로 코드베이스를 감사해 계획을 쓰고, 더 싼 모델이 그 계획을 실행하게 하는 도구",
+      "url": "https://github.com/shadcn/improve",
+      "summary": "이번 윈도우 GitHub Trending에서 하루 333스타를 받았습니다(누적 10,645). 최근 14일 픽에 없던 '모델 계층 분업(planner/executor 분리)' 계열이고, shadcn이 만든 도구라 주목도도 높습니다. 고가 모델은 판단과 계획만, 저가 모델은 실행만 맡기는 구조입니다. 그래서 agent loop에서 '계획 산출물'을 사람이 승인하는 HITL 분기를 어디에 둘지를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261112/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20261111",
       "display_date": "2026-11-11",
       "title": "Quoting Prompting Claude Fable 5.2",
@@ -231,21 +242,10 @@
       "categories": [
         "MCP & 도구 통합"
       ]
-    },
-    {
-      "date_str": "20261016",
-      "display_date": "2026-10-16",
-      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-      "url": "https://www.latent.space/p/crossing-the-threshold",
-      "summary": "이번 윈도우에 처음 나온 AI Engineer New York 세션입니다. OpenAI·Anthropic과 금융사들이 같은 자리에서 에이전트에게 쓸모 있는 자율성을 주는 방법과 중요한 결정을 사람 통제 아래 두는 방법을 다뤘습니다. 최근 픽은 오케스트레이션 구조와 사고 사례에 몰려 있었고, 이 글은 '어디까지 맡기고 어디서 멈출지'를 정하는 기준을 다룹니다. 그래서 agent autonomy 단계와 HITL 분기를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20261016/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261111",
+    "date_str": "20261112",
     "items": []
   }
 }
