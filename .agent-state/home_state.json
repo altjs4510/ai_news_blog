@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261113",
+      "display_date": "2026-11-13",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "summary": "Google이 Jev와 OpenAI에 이어 decision model 시장에 들어왔고, Latent Space가 이날을 'D-Day(Decision Models Day)'라고 부를 만큼 이번 주 가장 큰 화제입니다. Simon Willison에 따르면 이 API는 Jev와 같은 세 가지 질문 유형을 지원할 만큼 구조가 거의 같아서, 이 분야의 API 형태가 사실상 표준으로 굳어가고 있습니다. 에이전트가 '진행할지 멈출지'를 빠르고 싸게 판단하는 계층이라서 agent loop의 HITL 분기를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261113/",
+      "categories": [
+        "모델 & 연구"
+      ]
+    },
+    {
       "date_str": "20261112",
       "display_date": "2026-11-12",
       "title": "shadcn/improve — 가장 강한 모델로 코드베이스를 감사해 계획을 쓰고, 더 싼 모델이 그 계획을 실행하게 하는 도구",
@@ -231,21 +242,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20261017",
-      "display_date": "2026-10-17",
-      "title": "mksglu/context-mode — 코딩 에이전트용 컨텍스트 윈도우 최적화",
-      "url": "https://github.com/mksglu/context-mode",
-      "summary": "최근 14일 픽에 없던 저장소로, 이번 윈도우 GitHub Trending에서 하루 449스타를 받았습니다(누적 30,124). 최근 픽은 오케스트레이션과 보안에 몰려 있었고, 이 도구는 결이 다릅니다. 도구 출력을 샌드박스에 가둬 컨텍스트에 실리는 양을 98% 줄이고, 세션 메모리를 유지하며, MCP와 hook으로 17개 플랫폼의 라우팅을 강제한다고 내세웁니다. 그래서 agent loop가 매 턴 tool use 결과 중 무엇을 컨텍스트에 싣는지, 그리고 Claude Code plugin/hook을 어떻게 설계하는지를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20261017/",
-      "categories": [
-        "MCP & 도구 통합"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261112",
+    "date_str": "20261113",
     "items": []
   }
 }
