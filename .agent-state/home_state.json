@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261115",
+      "display_date": "2026-11-15",
+      "title": "GoogleChrome/modern-web-guidance-src — 코딩 에이전트에 최신 웹 모범 사례를 주입하는 도구",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "summary": "Google Chrome 팀이 만든 이 저장소는 이번 윈도우 GitHub Trending에서 하루 1,225스타를 받아 증가 폭 1위를 기록했습니다(누적 5,690). 최근 14일 픽에 없던 결로, 모델이 학습 시점 이후의 웹 표준을 모르는 지식 컷오프 문제를 외부 지식으로 메웁니다. 그래서 Claude Code plugin/skill로 지식을 배포하는 설계 문제를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261115/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20261114",
       "display_date": "2026-11-14",
       "title": "Introducing ChatGPT Wallet",
@@ -231,21 +242,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20261020",
-      "display_date": "2026-10-20",
-      "title": "Satya Nadella — 모델을 내부자 위험으로 보는 원칙에 따라 Project Perception 확장",
-      "url": "https://x.com/satyanadella/status/2112168320946634932",
-      "summary": "Microsoft CEO는 모델을 내부자 위험(insider risk)으로 봐야 한다고 썼고, 이번에 그 원칙을 Project Perception 확장으로 실제 제품에 적용했다고 밝혔습니다. 이 게시물은 이번 윈도우에 처음 나왔고 소셜 버즈에서 인게이지먼트가 가장 높았습니다(❤ 984 · 🔁 227 · 💬 154). 보안 통제를 모델 프롬프트나 정렬이 아니라 모델 바깥에 둔다는 원칙이라, MCP host server의 tool 실행 경계와 agent loop의 HITL 분기를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20261020/",
-      "categories": [
-        "보안 & 거버넌스"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261114",
+    "date_str": "20261115",
     "items": []
   }
 }

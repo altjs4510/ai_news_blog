@@ -26,6 +26,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261115/">
+    <span class="ai-pick-date">2026-11-15</span>
+    <span class="ai-pick-title-mini">GoogleChrome/modern-web-guidance-src — 코딩 에이전트에 최신 웹 모범 사례를 …</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261114/">
     <span class="ai-pick-date">2026-11-14</span>
     <span class="ai-pick-title-mini">Introducing ChatGPT Wallet</span>
