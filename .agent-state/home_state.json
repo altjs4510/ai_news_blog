@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261117",
+      "display_date": "2026-11-17",
+      "title": "NVIDIA/SkillEvaluator — AI 에이전트 스킬·플러그인을 품질 게이트, 의미 중복 탐지, 합성 평가셋, 실제 에이전트 평가로 검증하는 다층 프레임워크",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "summary": "이번 주 GitHub Trending에 새로 올라와 하루 953스타를 받았습니다(누적 2,453). 누적 대비 하루 증가 폭이 가장 크고, 최근 14일 픽에 없던 '스킬 품질 검증' 계열입니다. stitch-skills나 claude-trading-skills처럼 스킬 라이브러리가 빠르게 늘어나는 가운데 '이 스킬이 실제로 에이전트 행동을 좋게 바꾸는가'를 측정하는 첫 본격 도구입니다. 그래서 Claude Code plugin/skill 설계와 배포 품질 관리를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261117/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20261115",
       "display_date": "2026-11-15",
       "title": "GoogleChrome/modern-web-guidance-src — 코딩 에이전트에 최신 웹 모범 사례를 주입하는 도구",
@@ -256,21 +267,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20261021",
-      "display_date": "2026-10-21",
-      "title": "cloudflare/security-audit-skill — 독립 검증된 기계 판독형 결과를 내는 다단계 보안 감사 코딩 에이전트 스킬",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "summary": "이번 윈도우에 새로 나온 저장소로, GitHub Trending에서 하루 1,680스타를 받았습니다(누적 33,653). 대형 인프라 기업이 직접 배포한 에이전트 스킬이라 버즈가 큽니다. 최근 반복된 '스킬 모음 디렉토리'가 아니라 감사 하나를 여러 단계로 나누고, 각 결과를 독립적으로 검증해 기계가 읽는 형식으로 내놓는 단일 스킬입니다. 그래서 Claude Code plugin/skill 설계와, agent loop에서 사람 승인 대신 자동 검증에 맡길 범위를 정하는 HITL 분기를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20261021/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261116",
+    "date_str": "20261117",
     "items": []
   }
 }

@@ -183,6 +183,17 @@ toc: false
 
 <aside class="ai-home-aside">
   <section class="ai-week-block">
+    <p class="ai-eyebrow">THIS WEEK</p>
+    <ul class="ai-pick-mini-list">
+      <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261117/">
+    <span class="ai-pick-date">2026-11-17</span>
+    <span class="ai-pick-title-mini">NVIDIA/SkillEvaluator — AI 에이전트 스킬·플러그인을 품질 게이트, 의미 중복 탐지, 합…</span>
+  </a>
+</li>
+    </ul>
+  </section>
+  <section class="ai-week-block">
     <p class="ai-eyebrow">LAST WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
