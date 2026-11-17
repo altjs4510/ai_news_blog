@@ -186,6 +186,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261118/">
+    <span class="ai-pick-date">2026-11-18</span>
+    <span class="ai-pick-title-mini">Tencent/LoopForge — CodeBuddy·Codex·Claude Code를 스크립트와 사람 승인…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261117/">
     <span class="ai-pick-date">2026-11-17</span>
     <span class="ai-pick-title-mini">NVIDIA/SkillEvaluator — AI 에이전트 스킬·플러그인을 품질 게이트, 의미 중복 탐지, 합…</span>
