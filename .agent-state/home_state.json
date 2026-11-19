@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261120",
+      "display_date": "2026-11-20",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "summary": "OpenAI가 이번 윈도우(11/19)에 새로 공개한 글로, Codex 기반 워크플로가 ChatGPT의 성능 문제를 찾아내고 수정까지 하는 사내 시스템 'Performance Factory'를 소개합니다. 최근 14일 픽에 없던 '운영 성능 자동화' 계열이고, 실제 대규모 서비스에서 쓰이는 코딩 에이전트 사례입니다. 에이전트가 문제를 찾아 수정안을 내고 사람이 반영을 승인하는 구조라서 agent loop의 HITL 분기를 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261120/",
+      "categories": [
+        "코딩 에이전트"
+      ]
+    },
+    {
       "date_str": "20261119",
       "display_date": "2026-11-19",
       "title": "External sandboxes for coding agents",
@@ -256,21 +267,10 @@
       "categories": [
         "에이전트 오케스트레이션"
       ]
-    },
-    {
-      "date_str": "20261024",
-      "display_date": "2026-10-24",
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-      "summary": "Anthropic이 Agent Skills 표준을 '개방적이고 커뮤니티 주도적이며 벤더 중립적으로' 유지하겠다며 Agentic AI Foundation에 기증했습니다. 이번 윈도우에 처음 나온 1차 발표이고, 같은 주 GitHub Trending 상위권을 스킬·플러그인 저장소가 채운 흐름의 출발점입니다. 최근 픽이 개별 스킬 저장소였다면, 이 소식은 SKILL.md 포맷 자체의 관리 주체가 바뀌는 일입니다. 그래서 Claude Code plugin/skill 설계를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20261024/",
-      "categories": [
-        "MCP & 도구 통합"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261119",
+    "date_str": "20261120",
     "items": []
   }
 }

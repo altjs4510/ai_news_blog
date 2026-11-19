@@ -186,6 +186,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261120/">
+    <span class="ai-pick-date">2026-11-20</span>
+    <span class="ai-pick-title-mini">How OpenAI’s Performance Factory keeps ChatGPT fast</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261119/">
     <span class="ai-pick-date">2026-11-19</span>
     <span class="ai-pick-title-mini">External sandboxes for coding agents</span>
