@@ -38,6 +38,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261121",
+      "display_date": "2026-11-21",
+      "title": "Google ADK v2.15.0 — 느린 도구에도 응답성 유지, 다중 실행 신뢰성·부분 tool-call 정확도 측정",
+      "url": "https://github.com/google/adk-python/releases/tag/v2.15.0",
+      "summary": "이번 윈도우(11/19)에 나온 릴리스입니다. 느린 도구나 세션 저장소 때문에 음성 스트림과 에이전트 턴이 멈추지 않게 하고, 같은 작업을 여러 번 돌렸을 때의 신뢰성과 tool call의 부분 정확도를 측정하는 기능을 넣었습니다. 최근 14일 픽은 스킬·샌드박스·오케스트레이션 위주였는데, 이 릴리스는 '에이전트 신뢰성 측정'이라는 새로운 결입니다. 이번 주 Reddit에서 화제가 된 '얼마나 안전하게 맡길 수 있나' 흐름과도 맞닿아 있으며, agent loop의 tool use 품질과 streaming 응답성을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261121/",
+      "categories": [
+        "에이전트 오케스트레이션"
+      ]
+    },
+    {
       "date_str": "20261120",
       "display_date": "2026-11-20",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
@@ -256,21 +267,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20261027",
-      "display_date": "2026-10-27",
-      "title": "nightly-labs/openbot — Codex·Claude·Grok을 상주 팀원처럼 운영하는 로컬 우선 데스크톱 워크스페이스",
-      "url": "https://github.com/nightly-labs/openbot",
-      "summary": "이번 윈도우 GitHub Trending에 새로 올라온 저장소로, 하루 312스타를 받았습니다(누적 1,298). 최근 픽에 반복된 '스킬 패키지'와는 결이 다릅니다. 에이전트마다 전용 워크스페이스와 태스크 큐를 따로 주고, 파일 공유·브라우저 제어·에이전트 간 협업까지 한 화면에서 운영합니다. 그래서 멀티에이전트 오케스트레이션과 작업 상태를 쌓아 보여 주는 Activity Log/Observer 구조를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20261027/",
-      "categories": [
-        "에이전트 오케스트레이션"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261120",
+    "date_str": "20261121",
     "items": []
   }
 }

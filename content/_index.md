@@ -186,6 +186,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261121/">
+    <span class="ai-pick-date">2026-11-21</span>
+    <span class="ai-pick-title-mini">Google ADK v2.15.0 — 느린 도구에도 응답성 유지, 다중 실행 신뢰성·부분 tool-call …</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261120/">
     <span class="ai-pick-date">2026-11-20</span>
     <span class="ai-pick-title-mini">How OpenAI’s Performance Factory keeps ChatGPT fast</span>
