@@ -13,6 +13,17 @@
   },
   "daily_picks": [
     {
+      "date_str": "20261124",
+      "display_date": "2026-11-24",
+      "title": "A more tailored Google Search that’s uniquely yours (Personal Intelligence)",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "summary": "Google이 이번 윈도우(11/23)에 공식 블로그로 발표했습니다. 발표 이미지에 따르면 Gmail·Drive·Photos·Calendar·Wallet 같은 개인 앱 데이터를 Search의 'Personal Intelligence'에 연결해 답을 개인화합니다. 최근 14일 픽은 스킬·샌드박스·오케스트레이션 위주였고, 이 발표는 '사용자 소유 데이터를 연결해 답하는 검색'이라는 새로운 결입니다. 어느 데이터 소스를 연결하고 어떤 권한 범위 안에서 꺼내 쓸지의 문제라서 MCP host server의 tool 실행 경계와 RAG·KG 검색을 정면으로 건드립니다.",
+      "knowledge_url": "/knowledge/20261124/",
+      "categories": [
+        "응용 사례"
+      ]
+    },
+    {
       "date_str": "20261121",
       "display_date": "2026-11-21",
       "title": "Google ADK v2.15.0 — 느린 도구에도 응답성 유지, 다중 실행 신뢰성·부분 tool-call 정확도 측정",
@@ -231,21 +242,10 @@
       "categories": [
         "코딩 에이전트"
       ]
-    },
-    {
-      "date_str": "20261028",
-      "display_date": "2026-10-28",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "summary": "이번 윈도우에 처음 나온 OpenAI 공식 사례입니다. Greptile은 GPT-6 Astra로 실제 사용자 워크플로를 실행해 버그를 잡고, Daybreak로 보안을 강화하고, Codex로 재작업을 줄입니다. 코드 리뷰를 diff를 읽는 일에서 '실제로 돌려 보고 확인하는 일'로 넓힌 사례입니다. 그래서 agent loop의 HITL 분기, 즉 어디까지 자동 실행 검증에 맡기고 어디서 사람 승인을 받을지를 정면으로 건드립니다.",
-      "knowledge_url": "/knowledge/20261028/",
-      "categories": [
-        "코딩 에이전트"
-      ]
     }
   ],
   "x_trends": {
-    "date_str": "20261123",
+    "date_str": "20261124",
     "items": []
   }
 }
