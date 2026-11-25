@@ -26,6 +26,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261126/">
+    <span class="ai-pick-date">2026-11-26</span>
+    <span class="ai-pick-title-mini">Three LLM inflection points in twelve months</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261125/">
     <span class="ai-pick-date">2026-11-25</span>
     <span class="ai-pick-title-mini">Anthropic launches Claude Ship, letting AI agents review, fi…</span>
