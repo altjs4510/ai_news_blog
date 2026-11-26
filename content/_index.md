@@ -26,6 +26,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261127/">
+    <span class="ai-pick-date">2026-11-27</span>
+    <span class="ai-pick-title-mini">Claude-Mem Cloud Sync — 기기를 바꿔도 코딩 에이전트 메모리를 이어 쓰게 하는 동기화</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261126/">
     <span class="ai-pick-date">2026-11-26</span>
     <span class="ai-pick-title-mini">Three LLM inflection points in twelve months</span>
