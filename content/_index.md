@@ -26,6 +26,12 @@ toc: false
     <p class="ai-eyebrow">THIS WEEK</p>
     <ul class="ai-pick-mini-list">
       <li class="ai-pick-item">
+  <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261129/">
+    <span class="ai-pick-date">2026-11-29</span>
+    <span class="ai-pick-title-mini">Code-driven AI illustrations are more useful than images fro…</span>
+  </a>
+</li>
+      <li class="ai-pick-item">
   <a href="https://altjs4510.github.io/ai_news_blog/knowledge/20261128/">
     <span class="ai-pick-date">2026-11-28</span>
     <span class="ai-pick-title-mini">How Clay Builds GTM Agents — Jeff Barg, Head of AI</span>
